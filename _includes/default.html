@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class="overflow-x-hidden">
+    <title>Chain4Travel - {{ title }}</title>
+    <meta name="description" content="Chain4Travel is the facilitator of the Camino consortium blockchain, a new disruptive approach to trade touristic products B2B and B2C.">
+
+    <meta charset="UTF-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css?v={% version %}"/>
+    <script src="/js/alpine.js?v={% version %}"></script>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://chain4travel.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Chain4Travel - Connecting the new world of travel">
+    <meta property="og:description" content="Chain4Travel is the facilitator of the Camino consortium blockchain, a new disruptive approach to trade touristic products B2B and B2C.">
+    <meta property="og:image" content="https://chain4travel.com/images/social.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="chain4travel.com">
+    <meta property="twitter:url" content="https://chain4travel.com/">
+    <meta name="twitter:title" content="Chain4Travel - Connecting the new world of travel">
+    <meta name="twitter:description" content="Chain4Travel is the facilitator of the Camino consortium blockchain, a new disruptive approach to trade touristic products B2B and B2C.">
+    <meta name="twitter:image" content="ttps://chain4travel.com/images/social.png">
+      
+    
+</head>
+<body class="bg-gray-900 text-gray-100 overflow-x-hidden">
+    {% include "header.html" %}
+    {{ content | safe }}
+    {% include "footer.html" %}
+</body>
+</html>
