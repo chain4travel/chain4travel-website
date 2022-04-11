@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Ralf Usbeck",
+        "slug": "ralfusbeck",
+        "position": "CEO",
+        "text": "Ralf Usbeck is the founder and CEO of Peakwork AG. Customers of his leading technologies include international travel companies & global Internet giants such as Google and Facebook. In 2013, Ralf Usbeck received an international award as 'Serial Innovator of Travel Technology' at the World Travel Market in London. He is also the founder of TravelTainment (sold to Amadeus in 2006), Vtours, and Weekend.com."
+    },
+    {
+        "name": "Thomas Stirnimann",
+        "slug": "thomasstirnimann",
+        "position": "COO",
+        "text": "Thomas Stirnimann is the chairman and owner of Alpha Golf Travel AG and a board member at Hotelplan Holding AG. Until December 2020, he was the CEO of the Hotelplan Group for eight years. Before that, he worked for more than 20 years at Kuoni Travel Holding AG, responsible for the markets in Switzerland, Scandinavia, and Greece. Thomas was responsible for Travelhouse, and he is the founder of Edelweiss Airways."
+    },
+    {
+        "name": "Pablo Castillo",
+        "slug": "pablocastillo",
+        "position": "CTO",
+        "text": "Pablo Castillo, CIO and Executive Board member Hotelplan Group 2014 to 2021, has vast and proven experience delivering complex projects across all European markets with a strong business focus. He started his career in tourism over 20 years selling trips for Kuoni and has held various positions in Data & Content Management, eCommerce, Project & Innovation Program management."
+    },
+    {
+        "name": "Alexander Koch",
+        "slug": "alexanderkoch",
+        "position": "Head of Technology",
+        "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio mollitia autem nisi tempora alias nihil iure necessitatibus deserunt modi? Veniam doloremque assumenda delectus obcaecati minima error velit perferendis ratione unde."
+    },
+    {
+        "name": "Daniel Poerschke",
+        "slug": "danielpoerschke",
+        "position": "Head of Product",
+        "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio mollitia autem nisi tempora alias nihil iure necessitatibus deserunt modi? Veniam doloremque assumenda delectus obcaecati minima error velit perferendis ratione unde."
+    },
+    {
+        "name": "Vincent Usbeck",
+        "slug": "vincentusbeck",
+        "position": "Head of Sales & Marketing",
+        "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio mollitia autem nisi tempora alias nihil iure necessitatibus deserunt modi? Veniam doloremque assumenda delectus obcaecati minima error velit perferendis ratione unde."
+    }
+]
