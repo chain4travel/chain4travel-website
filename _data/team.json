@@ -20,19 +20,16 @@
     {
         "name": "Alexander Koch",
         "slug": "alexanderkoch",
-        "position": "Head of Technology",
-        "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio mollitia autem nisi tempora alias nihil iure necessitatibus deserunt modi? Veniam doloremque assumenda delectus obcaecati minima error velit perferendis ratione unde."
+        "position": "Head of Technology"
     },
     {
         "name": "Daniel Poerschke",
         "slug": "danielpoerschke",
-        "position": "Head of Product",
-        "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio mollitia autem nisi tempora alias nihil iure necessitatibus deserunt modi? Veniam doloremque assumenda delectus obcaecati minima error velit perferendis ratione unde."
+        "position": "Head of Product"
     },
     {
         "name": "Vincent Usbeck",
         "slug": "vincentusbeck",
-        "position": "Head of Sales & Marketing",
-        "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio mollitia autem nisi tempora alias nihil iure necessitatibus deserunt modi? Veniam doloremque assumenda delectus obcaecati minima error velit perferendis ratione unde."
+        "position": "Head of Sales & Marketing"
     }
 ]

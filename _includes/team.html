@@ -16,7 +16,9 @@
             <h2 class="font-bold text-gray-50 text-xl">{{ member.name }}</h2>
             <div class="mt-1 text-xs uppercase">{{ member.position }}</div>
             <p class="my-2 text-sm line-clamp-3">{{ member.text }}</p>
-            <span class="text-primary cursor-pointer hover:opacity-70" @click="{{membeer.slub}}Modal = true">Read more</span>
+            {% if member.text %}
+              <span class="text-primary cursor-pointer hover:opacity-70" @click="{{membeer.slub}}Modal = true">Read more</span>
+            {% endif %}
           </div>
           <!-- Team Modal -->
           <div x-transition x-show="{{membeer.slub}}Modal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
