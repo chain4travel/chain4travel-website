@@ -12,6 +12,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addPassthroughCopy('images')
+  eleventyConfig.addPassthroughCopy('static')
   
   eleventyConfig.addPassthroughCopy('favicon.ico')
   eleventyConfig.addPassthroughCopy('favicon-16x16.png')

@@ -18,6 +18,12 @@
         "text": "Pablo Castillo, CIO and Executive Board member Hotelplan Group 2014 to 2021, has vast and proven experience delivering complex projects across all European markets with a strong business focus. He started his career in tourism over 20 years selling trips for Kuoni and has held various positions in Data & Content Management, eCommerce, Project & Innovation Program management."
     },
     {
+        "name": "Anke Hsu",
+        "slug": "ankehsu",
+        "position": "Head of Business Development & Growth",
+        "text": "With more than 25 years of experience in the travel industry, Anke Hsu has worked in various leadership positions for the Lufthansa Group, flights.com, Sabre Corporation, FTI Group, and InteRES GmbH (a subsidiary of TUI) at locations in Germany, France, Switzerland, the USA, and Brazil. In addition to her position as Head of Business Development and Growth at Chain4Travel, she is an external doctoral blockchain researcher at the University of Zurich, ranked as one of the top blockchain universities worldwide."
+    },
+    {
         "name": "Alexander Koch",
         "slug": "alexanderkoch",
         "position": "Head of Technology"
@@ -25,7 +31,7 @@
     {
         "name": "Daniel Poerschke",
         "slug": "danielpoerschke",
-        "position": "Head of Product"
+        "position": "Managing Director"
     },
     {
         "name": "Vincent Usbeck",
