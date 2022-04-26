@@ -11,12 +11,20 @@ html {
   margin-top: -200px;
 }
 
+.termsfeed-com---nb-simple {
+  max-width: 560px !important;
+}
+
+.termsfeed-com---nb .cc-nb-main-container {
+  padding: 2rem !important;
+}
+
 .termsfeed-com---palette-dark .cc-nb-okagree,
 .termsfeed-com---palette-dark .cc-cp-foot-save {
-  background-color: #30e8bf;
-  color: #fff;
+  background-color: #30e8bf !important;
+  color: #fff !important;
 }
 
 .termsfeed-com---palette-dark .cc-nb-reject {
-  background-color: #aaa;
+  background-color: #aaa !important;
 }
