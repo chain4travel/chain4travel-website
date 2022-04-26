@@ -3,39 +3,46 @@
         "name": "Ralf Usbeck",
         "slug": "ralfusbeck",
         "position": "CEO",
+        "linkedin": "https://www.linkedin.com/in/ralf-usbeck-650646235/",
         "text": "Ralf Usbeck is the founder and CEO of Peakwork AG. Customers of his leading technologies include international travel companies & global Internet giants such as Google and Facebook. In 2013, Ralf Usbeck received an international award as 'Serial Innovator of Travel Technology' at the World Travel Market in London. He is also the founder of TravelTainment (sold to Amadeus in 2006), Vtours, and Weekend.com."
     },
     {
         "name": "Thomas Stirnimann",
         "slug": "thomasstirnimann",
         "position": "COO",
+        "linkedin": "https://www.linkedin.com/in/thomas-stirnimann-7759a9109/",
         "text": "Thomas Stirnimann is the chairman and owner of Alpha Golf Travel AG and a board member at Hotelplan Holding AG. Until December 2020, he was the CEO of the Hotelplan Group for eight years. Before that, he worked for more than 20 years at Kuoni Travel Holding AG, responsible for the markets in Switzerland, Scandinavia, and Greece. Thomas was responsible for Travelhouse, and he is the founder of Edelweiss Airways."
     },
     {
         "name": "Pablo Castillo",
         "slug": "pablocastillo",
         "position": "CTO",
+        "linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
         "text": "Pablo Castillo, CIO and Executive Board member Hotelplan Group 2014 to 2021, has vast and proven experience delivering complex projects across all European markets with a strong business focus. He started his career in tourism over 20 years selling trips for Kuoni and has held various positions in Data & Content Management, eCommerce, Project & Innovation Program management."
     },
     {
         "name": "Anke Hsu",
         "slug": "ankehsu",
         "position": "Head of Business Development",
+        "linkedin": "https://www.linkedin.com/in/anke-hsu/",
         "text": "With more than 25 years of experience in the travel industry, Anke Hsu has worked in various leadership positions for the Lufthansa Group, flights.com, Sabre Corporation, FTI Group, and InteRES GmbH (a subsidiary of TUI) at locations in Germany, France, Switzerland, the USA, and Brazil. In addition to her position as Head of Business Development and Growth at Chain4Travel, she is an external doctoral blockchain researcher at the University of Zurich, ranked as one of the top blockchain universities worldwide."
     },
     {
         "name": "Alexander Koch",
         "slug": "alexanderkoch",
-        "position": "Head of Technology"
+        "position": "Head of Technology",
+        "linkedin": "https://www.linkedin.com/in/alexander-koch-tech-enthusiast/"
     },
     {
         "name": "Daniel Poerschke",
         "slug": "danielpoerschke",
-        "position": "Managing Director"
+        "position": "Managing Director",
+        "linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/"
     },
     {
         "name": "Vincent Usbeck",
         "slug": "vincentusbeck",
-        "position": "Head of Sales & Marketing"
+        "position": "Head of Sales & Marketing",
+        "linkedin": "https://www.linkedin.com/in/vincentusbeck"
     }
 ]
