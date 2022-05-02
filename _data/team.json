@@ -31,13 +31,15 @@
         "name": "Alexander Koch",
         "slug": "alexanderkoch",
         "position": "Head of Technology",
-        "linkedin": "https://www.linkedin.com/in/alexander-koch-tech-enthusiast/"
+        "linkedin": "https://www.linkedin.com/in/alexander-koch-tech-enthusiast/",
+        "text": "Alexander Koch is a technology enthusiast and expert in high-performance computing. After studying and working at the Computing Center of RWTH Aachen University, he started his career in the travel industry in 2010 as a software engineer at Peakwork, where he was instrumental in driving player technology together with Markus Pfau. Striving to broaden and deepen his knowledge, Alex is a key driver for strategic projects, innovations and new technologies."
     },
     {
         "name": "Daniel Poerschke",
         "slug": "danielpoerschke",
         "position": "Managing Director",
-        "linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/"
+        "linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/",
+        "text": "As Managing Director and Head of Product at Chain4Travel, Daniel supports the creation of a decentralized infrastructure for the travel industry. Daniel is a tech enthusiast with a background in the hospitality industry. He studied International Management (Dipl. BWL) and Computer Science (M. Sc.) and started his career in the hospitality industry as Food & Beverage Manager and Sales Manager before diving into Travel Tech at Peakwork, taking on the roles of Technical Project Manager and Product Owner at Peakwork. There, he helped launching the Rail-Package-Player and utilizing innovative A.I. to manage non-bookable-content."
     },
     {
         "name": "Vincent Usbeck",
