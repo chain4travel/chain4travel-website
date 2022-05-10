@@ -1,4 +1,4 @@
-<section class="overflow-hidden">
+<section class="overflow-hidden" x-data="{ LightPaperModal: false }">
     <div class="container mx-auto flex py-12 md:py-24 md:mt-12 md:flex-row flex-col items-center">
         <div class="lg:flex-grow md:w-1/2 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 class="lg:text-7xl text-3xl mb-8 font-bold text-gray-50">
@@ -11,7 +11,7 @@
                 Chain4Travel provides the KYC process and the application suite for the Camino platform to ensure a fast, stable and secure environment for all travel enthusiasts while taking advantage of all blockchain-associated features.
             </p>
             <div class="flex justify-center">
-                <a href="mailto:hello@chain4travel.com" class="font-semibold mr-4 inline-flex text-dark bg-secondary py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-lg lg:text-lg">Request Litepaper</a>
+                <span @click="LightPaperModal = true" class="cursor-pointer font-semibold mr-4 inline-flex text-dark bg-secondary py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-lg lg:text-lg">Request Litepaper</span>
                 <a href="/about" class="font-semibold inline-flex text-secondary border border-secondary bg-gray-900 py-2 px-6 focus:outline-none hover:bg-secondary hover:text-gray-50 rounded-lg lg:text-lg">Learn more</a>
             </div>
         </div>
@@ -20,4 +20,36 @@
             <div class="z-0 bg-gradient-to-tl from-primary via-gray-900 to-secondary animate-pulse opacity-30 blur-2xl rounded-full lg:w-[32rem] md:w-[20rem] lg:h-[32rem] md:h-[20rem] w-[32rem] h-[8rem] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
         </div>
     </div>
+
+    <!-- Lightpaper Modal -->
+    <div x-transition x-show="LightPaperModal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
+        <div class="max-w-xl mx-auto p-4 rounded overflow-y-auto">
+            <div class="bg-gray-800 rounded-2xl p-8 shadow-lg" @click.away="LightPaperModal = false">
+                <h2 class="font-bold text-gray-50 text-3xl">Request lightpaper</h2>
+                
+          <form name="c4t-contact" method="POST" action="/contact-success" data-netlify="true" netlify-honeypot="bot-field" class="">
+            <p class="hidden">
+              <label>
+                Don't fill this out if you're human: <input name="bot-field" />
+              </label>
+            </p>
+            <p class="mt-4">
+              <label class="">Your Email:
+                <input required placeholder="Your email address ...'" type="email" name="email" class="placeholder-gray-500 bg-gray-800 border border-gray-700 rounded block w-full mt-1 focus:ring-2 text-gray-50 focus:ring-offset-gray-900 focus:ring-secondary" />
+              </labe
+            <p class="mt-4">
+              <div class="flex items-center">
+                <input required type="checkbox" name="agreement" id="agreement" class="appearance-none bg-gray-900 border border-gray-500 rounded">
+                <label for="agreement" class="ml-4 text-gray-400">I agree to the privacy policy and I consent to being contacted by Chain4Travel via email. I agree to the storage of my transmitted data for the required period of time.</label>
+              </div>
+            </p>
+            <p>
+              <button class="w-full flex-shrink-0 text-gray-900 bg-secondary border-0 py-2 px-8 focus:outline-none hover:bg-secondary/75 rounded text-lg mt-8" type="submit">Send</button>
+            </p>
+          </form>
+                <span class="inline-block text-center cursor-pointer border border-gray-700 hover:bg-gray-700 py-3 px-5 rounded transition-colors" @click="LightPaperModal = false">Close</span>
+            </div>
+        </div>
+    </div>
 </section>
+
