@@ -11,10 +11,10 @@
           <div class="px-2 py-6 rounded-lg h-full flex flex-col items-center">
             <div class="relative">
               <img class="mx-auto rounded-full w-28 h-28 mb-4 relative z-10 border-4 border-gray-900/25" src="./images/{{member.slug}}.png" alt="{{memeber.name}} - Image">
-              <div class="animate-pulse z-0 bg-gradient-to-tl from-primary via-gray-900 to-secondary blur-lg rounded-full w-24 h-24 absolute top-2 left-1/2 -translate-x-1/2"></div>
+              <div class="animate-pulse z-0 bg-gradient-to-tl from-primary via-gray-900 to-secondary blur-lg rounded-full w-32 h-32 absolute top-0 left-1/2 -translate-x-1/2"></div>
             </div>
             <h2 class="font-bold text-gray-50 text-xl">{{ member.name }}</h2>
-            <div class="mt-1 text-xs uppercase">{{ member.position }}</div>
+            <div class="mt-1 text-xs uppercase font-bold text-secondary">{{ member.position }}</div>
             <a class="mt-2 text-gray-400" href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="w-6 h-6" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Zm1 2v14h14V5H5Zm2.5 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm-1 1h2v7.5h-2V10Zm5.5.4a3 3 0 0 1 2-.9c2 0 3.5 1.7 3.5 3.8v4.2h-2v-4.3a1.7 1.7 0 0 0-3.5 0v4.3h-2V10h2v.4Z"/>
