@@ -1,4 +1,4 @@
-<section class="overflow-hidden" x-data="{ LightPaperModal: false }">
+<section class="overflow-hidden" x-data="{ LitePaperModal: false }">
     <div class="container mx-auto flex py-12 md:py-24 md:mt-12 md:flex-row flex-col items-center">
         <div class="lg:flex-grow md:w-1/2 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 class="lg:text-7xl text-3xl mb-8 font-bold text-gray-50">
@@ -11,7 +11,7 @@
                 Chain4Travel provides the KYC process and the application suite for the Camino platform to ensure a fast, stable and secure environment for all travel enthusiasts while taking advantage of all blockchain-associated features.
             </p>
             <div class="flex justify-center">
-                <span @click="LightPaperModal = true" class="cursor-pointer font-semibold mr-4 inline-flex text-dark bg-secondary py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-lg lg:text-lg">Request Litepaper</span>
+                <span @click="LitePaperModal = true" class="cursor-pointer font-semibold mr-4 inline-flex text-dark bg-secondary py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-lg lg:text-lg">Request Litepaper</span>
                 <a href="/about" class="font-semibold inline-flex text-secondary border border-secondary bg-gray-900 py-2 px-6 focus:outline-none hover:bg-secondary hover:text-gray-900 rounded-lg lg:text-lg">Learn more</a>
             </div>
         </div>
@@ -21,22 +21,20 @@
         </div>
     </div>
 
-    <!-- Lightpaper Modal -->
-    <div x-transition x-show="LightPaperModal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
+    <!-- Litepaper Modal -->
+    <div x-transition x-show="LitePaperModal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
         <div class="max-w-xl mx-auto p-4 rounded overflow-y-auto">
-            <div class="bg-gray-800 rounded-2xl p-8 shadow-lg" @click.away="LightPaperModal = false">
-            <h2 class="font-bold text-gray-50 text-3xl">Request lightpaper</h2>
+            <div class="bg-gray-800 rounded-2xl p-8 shadow-lg" @click.away="LitePaperModal = false">
+            <h2 class="font-bold text-gray-50 text-3xl">Request Litepaper</h2>
                 
-          <form name="c4t-lightpaper" method="POST" action="/lightpaper-success" data-netlify="true" netlify-honeypot="bot-field" class="">
+          <form name="c4t-litepaper" method="POST" action="/litepaper-success" data-netlify="true" netlify-honeypot="bot-field" class="">
             <p class="hidden">
               <label>
                 Don't fill this out if you're human: <input name="bot-field" />
               </label>
             </p>
             <p class="mt-4">
-              <label class="">Your Email:
-                <input required placeholder="Your email address ..." type="email" name="email" class="placeholder-gray-500 bg-gray-800 border border-gray-700 rounded block w-full mt-1 focus:ring-2 text-gray-50 focus:ring-offset-gray-900 focus:ring-secondary" />
-              </label>
+              <input required placeholder="Your email address ..." type="email" name="email" class="placeholder-gray-500 bg-gray-800 border border-gray-700 rounded block w-full mt-1 focus:ring-2 text-gray-50 focus:ring-offset-gray-900 focus:ring-secondary" />
             <p class="mt-4">
               <div class="flex items-start">
                 <input required type="checkbox" name="agreement" id="agreement" class="appearance-none bg-gray-900 border border-gray-500 rounded mt-1">
@@ -44,7 +42,7 @@
               </div>
             </p>
             <p class="mt-8 flex">
-              <span class="mr-auto inline-block cursor-pointer border border-gray-700 hover:bg-gray-700 py-3 px-5 rounded transition-colors" @click="LightPaperModal = false">Close</span>
+              <span class="mr-auto inline-block cursor-pointer border border-gray-700 hover:bg-gray-700 py-3 px-5 rounded transition-colors" @click="LitePaperModal = false">Close</span>
               <button class="text-gray-900 bg-secondary border border-secondary ml-2 py-3 px-5 focus:outline-none hover:bg-secondary/75 rounded transition-colors" type="submit">Send</button>
             </p>
           </form>
