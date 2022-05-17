@@ -1,0 +1,6 @@
+{% for supporter in supporter %}
+    <div class="bg-gray-400 inline-block rounded-lg">
+        <img class="" src="../images/supporter/{{supporter.slug}}.png" alt="">
+    </div>
+    {{ supporter.name }}
+{% endfor %}
