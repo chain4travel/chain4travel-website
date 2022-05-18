@@ -10,8 +10,183 @@
         "url": "https://www.aerticket.de/en"
     },
     {
+        "name": "Alpitour",
+        "slug": "alpitour",
+        "url": "https://www.alpitour.it/"
+    },
+    {
+        "name": "Avra Tours",
+        "slug": "avratours",
+        "url": "https://www.avratours.gr/"
+    },
+    {
         "name": "Axis Data",
         "slug": "axis",
         "url": "https://axisdata.net/"
+    },
+    {
+        "name": "BD4",
+        "slug": "bd4",
+        "url": "https://bd4.ai/"
+    },
+    {
+        "name": "Beyond Bookings",
+        "slug": "beyondbookings",
+        "url": "https://beyond-bookings.com/"
+    },
+    {
+        "name": "Condor",
+        "slug": "condor",
+        "url": "https://www.condor.com/eu"
+    },
+    {
+        "name": "DER Touristik",
+        "slug": "der",
+        "url": "https://www.dertouristik.com/en/?lang=EN&rdeLocaleAttr=EN"
+    },
+    {
+        "name": "Eurowings",
+        "slug": "eurowings",
+        "url": "https://www.eurowings.com/en.html"
+    },
+    {
+        "name": "Eurowings Holidays",
+        "slug": "eurowingsholidays",
+        "url": "https://holidays.eurowings.com/de-de"
+    },
+    {
+        "name": "Falkensteiner",
+        "slug": "falkensteiner",
+        "url": "https://www.falkensteiner.com/en"
+    },
+    {
+        "name": "FTI",
+        "slug": "fti",
+        "url": "https://www.fti.de/"
+    },
+    {
+        "name": "Giata",
+        "slug": "giata",
+        "url": "https://www.giata.com/en/"
+    },
+    {
+        "name": "hlx.com",
+        "slug": "hlx",
+        "url": "https://www.hlx.com/de-de"
+    },
+    {
+        "name": "Holiday Pirates",
+        "slug": "holidaypirates",
+        "url": "https://www.holidaypirates.com/"
+    },
+    {
+        "name": "Holidaycheck",
+        "slug": "holidaycheck",
+        "url": "https://www.holidaycheck.de/"
+    },
+    {
+        "name": "Holidays AG",
+        "slug": "holidaysag",
+        "url": "https://holidays.ch/"
+    },
+    {
+        "name": "Hotelplan",
+        "slug": "hotelplan",
+        "url": "https://www.hotelplan.ch/"
+    },
+    {
+        "name": "Hürzeler Bike Holiday",
+        "slug": "huerzeler",
+        "url": "https://www.huerzeler.com/en"
+    },
+    {
+        "name": "Invia",
+        "slug": "invia",
+        "url": "https://www.invia.de/en/"
+    },
+    {
+        "name": "IT-Square",
+        "slug": "tsquare",
+        "url": "https://itsquare.de/"
+    },
+    {
+        "name": "Lufthansa City Center",
+        "slug": "lcc",
+        "url": "https://lufthansa-city-center.com/en/"
+    },
+    {
+        "name": "Lufthansa Holidays",
+        "slug": "lufthansaholidays",
+        "url": "https://www.lufthansaholidays.com/en-de"
+    },
+    {
+        "name": "MTS Globe",
+        "slug": "mtsglobe",
+        "url": "https://mtsglobe.com/"
+    },
+    {
+        "name": "Netmatch",
+        "slug": "netmatch",
+        "url": "https://www.netmatch.nl/"
+    },
+    {
+        "name": "Orchestra",
+        "slug": "orchestra",
+        "url": "https://www.orchestra.eu/en/"
+    },
+    {
+        "name": "OTS",
+        "slug": "ots",
+        "url": "https://otsglobe.com/"
+    },
+    {
+        "name": "Peakwork",
+        "slug": "peakwork",
+        "url": "https://peakwork.com/"
+    },
+    {
+        "name": "PRODYNA",
+        "slug": "prodyna",
+        "url": "https://www.prodyna.com/"
+    },
+    {
+        "name": "Riversoft",
+        "slug": "riversoft",
+        "url": "https://www.riversoft.com.tw/"
+    },
+    {
+        "name": "Sabre",
+        "slug": "sabre",
+        "url": "https://www.sabre.com/"
+    },
+    {
+        "name": "Sugartrends",
+        "slug": "sugartrends",
+        "url": "https://www.sugartrends.com/en"
+    },
+    {
+        "name": "Sunweb Group",
+        "slug": "sunweb",
+        "url": "https://www.sunweb.de/"
+    },
+    {
+        "name": "Traffics",
+        "slug": "traffics",
+        "url": "https://www.traffics.de/"
+    },
+    {
+        "name": "TUI",
+        "slug": "tui",
+        "url": "https://www.tui.com/"
+    },
+    {
+        "name": "Xeni",
+        "slug": "xeni",
+        "url": "https://www.xeni.com/"
     }
 ]
+
+
+
+
+

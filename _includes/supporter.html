@@ -1,6 +1,10 @@
-{% for supporter in supporter %}
-    <div class="bg-gray-400 inline-block rounded-lg">
-        <img class="" src="../images/supporter/{{supporter.slug}}.png" alt="">
+<div class="container mx-auto px-4">
+    <div class="grid grid-cols-12 gap-4">
+        {% for supporter in supporter %}
+            <a href="{{supporter.url}}" class="bg-gray-900 hover:bg-gray-800 transition-colors group inline-flex flex-col items-center rounded-lg col-span-2 p-4">
+                <img class="opacity-50 group-hover:opacity-100 transition-all" src="../images/supporter/{{supporter.slug}}.png" alt="">
+                <div class="hidden">{{supporter.name}}</div>
+            </a>
+        {% endfor %}
     </div>
-    {{ supporter.name }}
-{% endfor %}
+</div>
