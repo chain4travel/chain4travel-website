@@ -1,0 +1,13 @@
+<section class="text-gray-50 buzzwords-bg">
+    <div class="container py-16 md:py-32 xl:py-64">
+      <h2 class="text-2xl lg:text-5xl mb-12 font-extrabold text-gray-50 text-center">No limits for use-cases</h2>
+      <div class="flex flex-wrap -mx-4 justify-center">
+        {% for buzzword in buzzwords %}
+            <div class="relative m-4">
+                <div class="bg-gray-900 border border-gray-500 py-2 px-4 md:py-3 md:px-5 rounded-lg relative z-10 md:text-2xl">{{ buzzword.title }}</div>
+                <div class="absolute z-0 -inset-1 bg-gradient-to-tl rounded-xl from-primary via-gray-900 to-secondary blur"></div>
+            </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
