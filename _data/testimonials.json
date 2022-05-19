@@ -22,5 +22,17 @@
         "person": "Boris Raoul",
         "slug": "borisraoul",
         "company": "CEO Invia Group"
+    },
+    {
+        "text": "Chain4travel brings a real innovation which we haven't seen in the travel industry for a long time. The new technology will open up new possibilities to the travel industry, some of which we are already actively developing at Lufthansa Holidays on the Camino network.",
+        "person": "Karlheinz Kögel",
+        "slug": "karlheinzkooegel",
+        "company": ""
+    },
+    {
+        "text": "From the new technology and the associated network, we hope for a dynamic and innovative implementation of sales and production processes.",
+        "person": "Ralph Schiller",
+        "slug": "ralphschiller",
+        "company": "CEO FTI Group"
     }
 ]
