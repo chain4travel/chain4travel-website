@@ -17,7 +17,7 @@
             </svg>
           </div>
           <!-- Mobile menu -->
-          <nav x-show="menuOpen" x-transition @click.away="menuOpen = false" class="p-8 pt-20 fixed top-0 left-0 right-0 bg-gray-900 border-b-2 border-gray-700 z-50 flex flex-col items-center text-base justify-center">
+          <nav x-show="menuOpen" x-transition.duration.250ms @click.away="menuOpen = false" class="p-8 pt-20 fixed top-0 left-0 right-0 bg-gray-900 border-b-2 border-gray-700 z-50 flex flex-col items-center text-base justify-center">
 
             <div class="w-12 h-12 flex items-center justify-center absolute top-4 right-4" @click="menuOpen = !menuOpen" tabindex="0">
               <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
