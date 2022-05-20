@@ -2,10 +2,10 @@
     <h2 class="sm:text-6xl text-4xl font-bold text-gray-50 text-center my-8">Meet the team & advisors</h2>
     <div class="flex items-center justify-center my-8 md:my-12">
         {% for member in team %}
-            <img class="rounded-full w-20 h-20 -mx-2 border-4 border-dark" src="../images/{{member.slug}}.png" alt="{{memeber.name}} - Image">
+            <img class="transform transition-all hover:scale-150 rounded-full w-20 h-20 -mx-2 border-4 border-dark" src="../images/{{member.slug}}.png" alt="{{memeber.name}} - Image">
         {% endfor %}
         {% for advisor in advisors %}
-            <img class="rounded-full w-20 h-20 -mx-2 border-4 border-dark" src="../images/{{advisor.slug}}.png" alt="{{memeber.name}} - Image">
+            <img class="transform transition-all hover:scale-150 rounded-full w-20 h-20 -mx-2 border-4 border-dark" src="../images/{{advisor.slug}}.png" alt="{{memeber.name}} - Image">
         {% endfor %}
     </div>
     <a href="/team" class="cursor-pointer font-semibold mt-4 md:mt-8 inline-flex text-dark bg-secondary py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-lg">Learn more about the team</a>
