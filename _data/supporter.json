@@ -178,6 +178,26 @@
         "name": "TUI",
         "slug": "tui",
         "url": "https://www.tui.com/"
+    },
+    {
+        "name": "Xeni",
+        "slug": "xeni",
+        "url": "https://www.xeni.com/"
+    },
+    {
+        "name": "Gerrit Halfmann Design",
+        "slug": "gerrithalfmann",
+        "url": "https://www.gerrithalfmann.com/"
+    },
+    {
+        "name": "Beereal",
+        "slug": "beereal",
+        "url": "https://beerealit.com/"
+    },
+    {
+        "name": "Netactica",
+        "slug": "netactica",
+        "url": "https://www.netactica.com/"
     }
 ]
 
