@@ -1,5 +1,9 @@
 <section class="text-gray-600" x-data="{ tab: 'tabjanvalentin' }">
     <div class="container py-16 pt-0">
+
+    <h2 class="text-center text-2xl lg:text-4xl mb-8 font-bold text-gray-50">
+      Learn what industry experts have to say about Chain4Travel:
+    </h2>
   
     <div class="flex items-center lg:items-start md:justify-start flex-nowrap overflow-x-auto">
       {% for testimonial in testimonials %}
@@ -26,10 +30,10 @@
           </svg>
           <p class="leading-relaxed text-gray-400">{{ testimonial.text }}</p>
           {% if testimonial.text2 %}
-            <p class="text-sm leading-relaxed mt-4 text-gray-400">{{ testimonial.text2 }}</p>
+            <p class="leading-relaxed mt-4 text-gray-400">{{ testimonial.text2 }}</p>
           {% endif %}
           {% if testimonial.text3 %}
-            <p class="text-sm leading-relaxed mt-4 text-gray-400">{{ testimonial.text3 }}</p>
+            <p class="leading-relaxed mt-4 text-gray-400">{{ testimonial.text3 }}</p>
           {% endif %}
           <p class="lg:hidden text-green-50 mt-4">
             <span class="font-bold">{{ testimonial.person }}</span> - {{ testimonial.company }}
