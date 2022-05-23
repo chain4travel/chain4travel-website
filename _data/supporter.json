@@ -30,6 +30,11 @@
         "url": "https://bd4.ai/"
     },
     {
+        "name": "Beereal",
+        "slug": "beereal",
+        "url": "https://beerealit.com/"
+    },
+    {
         "name": "Beyond Bookings",
         "slug": "beyondbookings",
         "url": "https://beyond-bookings.com/"
@@ -63,6 +68,11 @@
         "name": "FTI",
         "slug": "fti",
         "url": "https://www.fti.de/"
+    },
+    {
+        "name": "Gerrit Halfmann Design",
+        "slug": "gerrithalfmann",
+        "url": "https://gerrithalfmann.com/"
     },
     {
         "name": "Giata",
@@ -125,6 +135,11 @@
         "url": "https://mtsglobe.com/"
     },
     {
+        "name": "Netactica",
+        "slug": "netactica",
+        "url": "https://www.netactica.com/"
+    },
+    {
         "name": "Netmatch",
         "slug": "netmatch",
         "url": "https://www.netmatch.nl/"
@@ -183,21 +198,6 @@
         "name": "Xeni",
         "slug": "xeni",
         "url": "https://www.xeni.com/"
-    },
-    {
-        "name": "Gerrit Halfmann Design",
-        "slug": "gerrithalfmann",
-        "url": "https://gerrithalfmann.com/"
-    },
-    {
-        "name": "Beereal",
-        "slug": "beereal",
-        "url": "https://beerealit.com/"
-    },
-    {
-        "name": "Netactica",
-        "slug": "netactica",
-        "url": "https://www.netactica.com/"
     }
 ]
 
