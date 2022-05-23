@@ -1,39 +1,15 @@
 [
     {
-        "text": "The deeper we have delved into Chain4Travel, the more convinced we have become that this project may change travel forever, redesigning the industry's backbone to meet the expectations of the next generations. The Chain4Travel vision, the team and the network are the necessary ingredients to implement operationally and economically scalable new business models for the industry.",
-        "person": "Jan Valentin",
-        "slug": "janvalentin",
-        "company": "Managing Partner Ennea Capital Partners"
-    },
-    {
         "text": "Blockchains have enormous potential to materially change our business model by making transactions along the value chain more secure, efficient and traceable. Camino as the first blockchain platform for travel offers vast possibilities to enhance processes, products and services in the travel industry. Eurowings will be one of the first movers, currently exploring first use cases in inflight shopping, customer loyalty, digital marketing and sales together with our partners Chain4Travel and Peakwork.",
         "person": "Jens Bischof",
         "slug": "jensbischof",
         "company": "CEO Eurowings"
     },
     {
-        "text": "At TUI, we were early adopters of blockchain technology and have already developed initial applications in the hotel sector. Chain4Travel offers new opportunities for our distribution and travel production - thanks to its technology and network. Bringing the travel industry together with blockchain technology is the right approach to drive innovation in the industry and keep transaction costs low.",
-        "person": "Frank Rosenberger",
-        "slug": "frankrosenberger",
-        "company": "Group CIO & CEO Future Markets TUI Group"
-    },
-    {
-        "text": "We are happy to finally have Camino as a good blockchain platform for our specific purposes. We will immediately start to develop user loyalty programs based on Camino. We are looking forward to all the new opportunities which the blockchain technology offers to us and our users.",
-        "person": "Boris Raoul",
-        "slug": "borisraoul",
-        "company": "CEO Invia Group"
-    },
-    {
-        "text": "Chain4travel brings a real innovation which we haven't seen in the travel industry for a long time. The new technology will open up new possibilities to the travel industry, some of which we are already actively developing at Lufthansa Holidays on the Camino network.",
-        "person": "Karlheinz Kögel",
-        "slug": "karlheinzkooegel",
-        "company": "CEO Lufthansa Holidays"
-    },
-    {
-        "text": "From the new technology and the associated network, we hope for a dynamic and innovative implementation of sales and production processes.",
-        "person": "Ralph Schiller",
-        "slug": "ralphschiller",
-        "company": "CEO FTI Group"
+        "text": "Once you understand how blockchain works and the new possibilities it offers in IT, production and sales, you will be thrilled. I am already looking forward to the first concrete implementations in our company.",
+        "person": "Ingo Burmester",
+        "slug": "ingoburmester",
+        "company": "CEO DER Touristik Central Europe"
     },
     {
         "text": "Leading the field in digital crisis communication whilst streamlining and structuring the flow of information between source and the travelling customer. Our task at A3M is to provide the travelling public with punctual, accurate, in- depth and time critical information and this at a very high frequency. A task we are mastering daily in close cooperation with our tour operators, travel retailers, OBEs and corporate customers. Today's solutions are however limited, both technically and economically posing challenges to serve customer demands going forward. This is one reason why blockchain is so important for A3M`s future business model.",
@@ -42,5 +18,79 @@
         "person": "Tom Dillon",
         "slug": "thomasdillon",
         "company": "CEO A3M Global Monitoring GmbH"
+    },
+    {
+        "text": "From the new technology and the associated network, we hope for a dynamic and innovative implementation of sales and production processes.",
+        "person": "Sören Hartmann",
+        "slug": "soerenhartmann",
+        "company": "CEO DER Touristik Group"
+    },
+    {
+        "text": "From the moment we learned about Camino and the way blockchain technology can be used to empower the travel community, Netmatch directly started to rethink the status quo. Camino wil change the way business is done. We are now implementing the first use cases for our prefered clients to accellarete their growth. C4T is our valued partner, strong supporter and source of inspiration.",
+        "person": "Eric van der Hout",
+        "slug": "ericvanderhout",
+        "company": "CEO Netmatch BV"
+    },
+    {
+        "text": "Web 3.0 has been talked about for some time, but it has been hard to find approaches that will make a difference. Chain4travel has assembled a network and a team that can bring a real difference to the industry. A new operating system for travel is intriguing and presents a new opportunity for participants at all stages of the travel chain to find and create new value. This is an exciting moment.",
+        "person": "Andrew Owen-Jones",
+        "slug": "andrewowenjones",
+        "company": "CEO BD4"
+    },
+    {
+        "text": "Chain4travel brings a real innovation which we haven't seen in the travel industry for a long time. The new technology will open up new possibilities to the travel industry, some of which we are already actively developing at Lufthansa Holidays on the Camino network.",
+        "person": "Karlheinz Kögel",
+        "slug": "karlheinzkooegel",
+        "company": "CEO Lufthansa Holidays"
+    },
+    {
+        "text": "We at GIATA are excited to launch the first groundbreaking hotel and room type mapping solutions on Camino. It will unify the process and provide certified access to hotel data, such as descriptions, health and safety, covid information and facts. It will revolutionize the way to deal with hotel content.",
+        "person": "Andreas Posmeck",
+        "slug": "andreasposmeck",
+        "company": "CEO GIATA GmbH"
+    },
+    {
+        "text": "We are happy to finally have Camino as a good blockchain platform for our specific purposes. We will immediately start to develop user loyalty programs based on Camino. We are looking forward to all the new opportunities which the blockchain technology offers to us and our users.",
+        "person": "Boris Raoul",
+        "slug": "borisraoul",
+        "company": "CEO Invia Group"
+    },
+    {
+        "text": "At TUI, we were early adopters of blockchain technology and have already developed initial applications in the hotel sector. Chain4Travel offers new opportunities for our distribution and travel production - thanks to its technology and network. Bringing the travel industry together with blockchain technology is the right approach to drive innovation in the industry and keep transaction costs low.",
+        "person": "Frank Rosenberger",
+        "slug": "frankrosenberger",
+        "company": "Group CIO & CEO Future Markets TUI Group"
+    },
+    {
+        "text": "Alpitour recognizes blockchain as one of the technologies to be watched closely as part of its approach to systematic innovation, and has experimented successfully with the first hotel NFT booking in the world and other initiatives around loyalty and collaborative sourcing in destination.",
+        "text2": "Chain4Travel brings us together with other key industry players to implement a novel mechanism to transact, which enables new distribution models and traceability of the entire travel journey, combining traveler’s control over her personal data with proof-of-booking and proof-of-stay.",
+        "text3": "This independent and industry-backed blockchain has the potential to unlock access to touristic assets, fostering the creation of new business models that benefit the consortium members and the travel ecosystem at large.",
+        "person": "Michele Ruberl",
+        "slug": "micheleruberl",
+        "company": "Senior IT Leader Alpitour"
+    },
+    {
+        "text": "As an earlystage investor of C4T, we have embraced the opportunities of Blockchain technology at day one. We think that in a couple of years, blockchain technology will be the core of our transactional business and that both clients from a demand and distribution side will exponentially benefit from that kind of technology being an exceptional part of their daily business. We are currently developing on voucher and trading solutions and happy to see it live in the next months.",
+        "person": "Manuel Saballus",
+        "slug": "manuelsaballus",
+        "company": "Vice President Commercial Peakwork"
+    },
+    {
+        "text": "Everyone should be interested in the blockchain because it is mankind's most important invention since the internet. It will significantly change our lives, thoughts and actions. A unique opportunity for all those who want to promote new services and innovations for their customers.",
+        "person": "Salim Sahi",
+        "slug": "salimsahi",
+        "company": "CEO Traffics GmbH"
+    },
+    {
+        "text": "With Camino, Chain4Travel delivers a completely new approach to process structuring in tourism. We at FTI are very excited about the first dApps and benefits of a blockchain-based data protection approach. Both production and distribution of travel products are being fundamentally rethought here, great to be a part of it.",
+        "person": "Ralph Schiller",
+        "slug": "ralphschiller",
+        "company": "CEO FTI Group"
+    },
+    {
+        "text": "The deeper we have delved into Chain4Travel, the more convinced we have become that this project may change travel forever, redesigning the industry's backbone to meet the expectations of the next generations. The Chain4Travel vision, the team and the network are the necessary ingredients to implement operationally and economically scalable new business models for the industry.",
+        "person": "Jan Valentin",
+        "slug": "janvalentin",
+        "company": "Managing Partner Ennea Capital Partners"
     }
 ]
