@@ -1,10 +1,10 @@
 <div class="container pb-16 md:pb-32 flex flex-col items-center overflow-hidden">
     <h2 class="sm:text-6xl text-4xl font-bold text-gray-50 text-center my-8">Meet our supporters</h2>
-    <div class="flex flex-wrap justify-center my-8 md:my-12">
+    <div class="flex flex-wrap justify-center my-8 md:my-12 -mx-4">
         {% for member in testimonials %}
-            <a href="/supporter#testimonials" class="w-2/12 flex flex-col items-center m-4 text-center">
+            <a href="/supporter#testimonials" class="lg:w-1/6 md:w-1/4 w-1/2 p-4 text-center">
                 <img
-                class="transform transition-all hover:scale-125 rounded-full w-16 h-16 sm:w-20 sm:h-20"
+                class="block mx-auto transform transition-all hover:scale-125 rounded-full w-16 h-16 sm:w-20 sm:h-20"
                 src="../images/{{member.slug}}.png"
                 alt="{{member.name}} - Image" />
                 <div class="text-sm whitespace-normal mt-2">{{member.person}}</div>
