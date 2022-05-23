@@ -5,17 +5,17 @@
       Learn what industry experts have to say about Chain4Travel:
     </h2>
   
-    <div class="flex items-center lg:items-start md:justify-start flex-nowrap overflow-x-auto">
+    <div class="lg:grid lg:gap-1 lg:grid-cols-12 flex items-center lg:items-start justify-start  overflow-x-auto">
       {% for testimonial in testimonials %}
         <a
           href="#"
-          class="flex flex-col justify-center items-center flex-1 rounded-lg p-4 px-4 md:px-2"
+          class="lg:col-span-2 flex flex-col justify-center items-center flex-1 rounded-lg p-4 px-4 md:px-2"
           :class="{ 'bg-gray-800 text-gray-50' : tab === 'tab{{testimonial.slug}}' }"
           @click.prevent="tab = 'tab{{testimonial.slug}}'"
           >
           <img alt="testimonial" src="../images/{{ testimonial.slug }}.png" class="w-12 md:w-16 h-12 md:h-16 rounded-full flex-shrink-0 mb-4 object-cover object-center">
           <div class="">
-            <div class="text-current text-center text-xs md:text-sm whitespace-nowrap text-gray-200">{{ testimonial.person }}</div>
+            <div class="text-current text-center text-xs md:text-base whitespace-nowrap text-gray-200">{{ testimonial.person }}</div>
             <div class="text-gray-300 text-xs text-center mt-2 hidden lg:block">{{ testimonial.company }}</div>
           </div>
         </a>

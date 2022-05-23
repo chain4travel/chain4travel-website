@@ -1,11 +1,11 @@
 <div class="container py-16 md:py-32 flex flex-col items-center overflow-hidden">
     <h2 class="sm:text-6xl text-4xl font-bold text-gray-50 text-center my-8">Meet the team & advisors</h2>
-    <div class="flex items-center justify-center my-8 md:my-12">
+    <div class="flex flex-wrap items-center justify-center my-8 md:my-12 lg:px-32">
         {% for member in team %}
-            <img class="transform transition-all hover:scale-150 rounded-full w-12 h-12 md:w-20 md:h-20 -mx-3.5 md:-mx-2 border-2 md:border-4 border-dark" src="../images/{{member.slug}}.png" alt="{{memeber.name}} - Image">
+            <img class="transform transition-all hover:scale-150 rounded-full m-2 w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 border-2 md:border-4 border-dark" src="../images/{{member.slug}}.png" alt="{{memeber.name}} - Image">
         {% endfor %}
         {% for advisor in advisors %}
-            <img class="transform transition-all hover:scale-150 rounded-full w-12 h-12 md:w-20 md:h-20 -mx-3.5 md:-mx-2 border-2 md:border-4 border-dark" src="../images/{{advisor.slug}}.png" alt="{{memeber.name}} - Image">
+            <img class="transform transition-all hover:scale-150 rounded-full m-2 w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 border-2 md:border-4 border-dark" src="../images/{{advisor.slug}}.png" alt="{{memeber.name}} - Image">
         {% endfor %}
     </div>
     <a href="/team" class="cursor-pointer font-semibold mt-4 md:mt-8 inline-flex text-dark bg-secondary py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-lg">Learn more about the team</a>
