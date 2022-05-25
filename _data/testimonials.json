@@ -1,6 +1,6 @@
 [
     {
-        "text": "Blockchains have enormous potential to materially change our business model by making transactions along the value chain more secure, efficient and traceable. Camino as the first blockchain platform for travel offers vast possibilities to enhance processes, products and services in the travel industry. Eurowings will be one of the first movers, currently exploring first use cases in inflight shopping, customer loyalty, digital marketing and sales together with our partners Chain4Travel and Peakwork.",
+        "text": "Blockchains have enormous potential to materially change our business model by making transactions along the value chain more secure, efficient and traceable. Camino, as the first blockchain platform for travel, offers vast possibilities to enhance processes, products and services in the travel industry. Eurowings will be one of the first movers, currently exploring first use cases in inflight shopping, customer loyalty, digital marketing and sales together with our partners Chain4Travel and Peakwork.",
         "person": "Jens Bischof",
         "slug": "jensbischof",
         "company": "CEO Eurowings"
@@ -38,7 +38,7 @@
         "company": "CEO BD4"
     },
     {
-        "text": "Chain4travel brings a real innovation which we haven't seen in the travel industry for a long time. The new technology will open up new possibilities to the travel industry, some of which we are already actively developing at Lufthansa Holidays on the Camino network.",
+        "text": "Chain4travel brings a real innovation that we haven't seen in the travel industry for a long time. The new technology will open up new possibilities to the travel industry, some of which we are already actively developing at Lufthansa Holidays on the Camino network.",
         "person": "Karlheinz Kögel",
         "slug": "karlheinzkooegel",
         "company": "CEO Lufthansa Holidays"
@@ -50,7 +50,13 @@
         "company": "CEO GIATA GmbH"
     },
     {
-        "text": "We are happy to finally have Camino as a good blockchain platform for our specific purposes. We will immediately start to develop user loyalty programs based on Camino. We are looking forward to all the new opportunities which the blockchain technology offers to us and our users.",
+        "text": "We will develop interesting and new possibilities for the business travel segment. The focus here is on-demand bundling. Furthermore, we will implement solutions that enable the trading of products within the business travel community.",
+        "person": "Markus Orth",
+        "slug": "markusorth",
+        "company": "CEO Lufthansa City Center"
+    },
+    {
+        "text": "We are happy to finally have Camino as a good blockchain platform for our specific purposes. We will immediately start to develop user loyalty programs based on Camino. We are looking forward to all the new opportunities that blockchain technology offers to our users and us.",
         "person": "Boris Raoul",
         "slug": "borisraoul",
         "company": "CEO Invia Group"
@@ -82,7 +88,7 @@
         "company": "CEO Traffics GmbH"
     },
     {
-        "text": "With Camino, Chain4Travel delivers a completely new approach to process structuring in tourism. We at FTI are very excited about the first dApps and benefits of a blockchain-based data protection approach. Both production and distribution of travel products are being fundamentally rethought here, great to be a part of it.",
+        "text": "With Camino, Chain4Travel delivers a completely new approach to process structuring in tourism. We at FTI are very excited about the first dApps and benefits of a blockchain-based data protection approach. Both production and distribution of travel products are being fundamentally rethought here; great to be a part of it.",
         "person": "Ralph Schiller",
         "slug": "ralphschiller",
         "company": "CEO FTI Group"
