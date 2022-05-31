@@ -19,6 +19,12 @@ html {
   @apply placeholder-gray-500 bg-gray-800 border border-gray-700 rounded-lg block w-full mt-1 focus:ring-2 text-gray-50 focus:ring-offset-gray-900 focus:ring-secondary
 }
 
+#mc_embed_signup .mce_inline_error {
+  background: none !important;
+  color: #DC2626 !important;
+  font-size: 14px;
+}
+
 .termsfeed-com---nb-simple {
   max-width: 560px !important;
 }
