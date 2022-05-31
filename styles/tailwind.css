@@ -11,6 +11,14 @@ html {
   margin-top: -200px;
 }
 
+#mc_embed_signup input.button {
+  @apply font-semibold mr-4 inline-flex text-dark bg-secondary py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-lg md:text-lg h-auto font-sans;
+}
+
+#mc_embed_signup div.mc-field-group input {
+  @apply placeholder-gray-500 bg-gray-800 border border-gray-700 rounded-lg block w-full mt-1 focus:ring-2 text-gray-50 focus:ring-offset-gray-900 focus:ring-secondary
+}
+
 .termsfeed-com---nb-simple {
   max-width: 560px !important;
 }

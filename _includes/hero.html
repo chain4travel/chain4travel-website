@@ -1,7 +1,7 @@
 <section class="overflow-hidden" x-data="{ LitePaperModal: false }">
     <div class="container mx-auto flex py-12 md:py-32 xl:py-36 md:mt-12 md:flex-row flex-col items-center">
         <div class="md:w-1/2 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="md:text-7xl text-3xl mb-8 font-bold text-gray-50">
+            <h1 class="2xl:text-7xl xl:text-6xl sm:text-5xl text-3xl mb-8 font-bold text-gray-50">
                 Connecting the <span class="text-primary">new world</span> of travel.
             </h1>
             <p class="mb-8 text-muted md:text-lg">
@@ -22,32 +22,33 @@
 
     <!-- Litepaper Modal -->
     <div x-transition x-show="LitePaperModal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
-        <div class="max-w-xl mx-auto p-4 rounded overflow-y-auto">
+        <div class="mx-auto p-4 rounded overflow-y-auto">
             <div class="bg-gray-800 rounded-2xl p-8 shadow-lg" @click.away="LitePaperModal = false">
-            <h2 class="font-bold text-gray-50 text-3xl">Request Litepaper</h2>
-                
-          <form name="c4t-litepaper" method="POST" action="/litepaper-success" data-netlify="true" netlify-honeypot="bot-field" class="">
-            <p class="hidden">
-              <label>
-                Don't fill this out if you're human: <input name="bot-field" />
-              </label>
-            </p>
-            <p class="mt-4">
-              <input required placeholder="Your email address ..." type="email" name="email" class="placeholder-gray-500 bg-gray-800 border border-gray-700 rounded block w-full mt-1 focus:ring-2 text-gray-50 focus:ring-offset-gray-900 focus:ring-secondary" />
-            <p class="mt-4">
-              <div class="flex items-start text-base">
-                <input required type="checkbox" name="LPagreement" id="LPagreement" class="mt-2 rounded w-6 h-6 bg-dark border-secondary text-secondary focus:ring-secondary focus:ring-offset-dark cursor-pointer">
-                <label for="LPagreement" class="ml-4 text-gray-400 cursor-pointer hover:text-gray-300">I agree to the <a class="underline" href="/data-privacy">privacy policy</a> and I consent to being contacted by Chain4Travel via email. I agree to the storage of my transmitted data for the required period of time.</label>
-              </div>
-            </p>
-            <p class="mt-8 flex">
-              <span class="mr-auto inline-block cursor-pointer border border-gray-700 hover:bg-gray-700 py-3 px-5 rounded transition-colors" @click="LitePaperModal = false">Close</span>
-              <button class="text-gray-900 bg-secondary font-semibold border border-secondary ml-2 py-3 px-5 focus:outline-none hover:bg-secondary/75 rounded transition-colors" type="submit">Send</button>
-            </p>
-          </form>
-                
+                <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup" class="w-80 md:w-[400px]">
+                <form action="https://chain4travel.us14.list-manage.com/subscribe/post?u=832e18c74a36b3076b9b0db29&amp;id=4e6761c670" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    <h2 class="font-bold text-gray-50 text-3xl mb-4">Request Litepaper</h2>
+                <div class="mc-field-group">
+                    <label for="mce-EMAIL" class="text-base">Email Address <span class="asterisk">*</span></label>
+                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                </div>
+                <div class="indicates-required text-sm my-2 text-gray-400"><span class="asterisk">*</span> indicates required</div>
+                <div hidden="true"><input type="hidden" name="tags" value="7388025"></div>
+                    <div id="mce-responses" class="clear mb-4">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response text-green-500 mt-2 font-bold" id="mce-success-response" style="display:none"></div>
+                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_832e18c74a36b3076b9b0db29_4e6761c670" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+                </div>
+                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                <!--End mc_embed_signup-->
             </div>
         </div>
     </div>
+    
 </section>
 
