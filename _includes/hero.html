@@ -1,7 +1,7 @@
 <section class="overflow-hidden" x-data="{ LitePaperModal: false }">
     <div class="container mx-auto flex py-12 md:py-32 xl:py-36 md:mt-12 md:flex-row flex-col items-center">
         <div class="md:w-1/2 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="md:text-7xl text-3xl mb-8 font-bold text-gray-50">
+            <h1 class="2xl:text-7xl xl:text-6xl sm:text-5xl text-3xl mb-8 font-bold text-gray-50">
                 Connecting the <span class="text-primary">new world</span> of travel.
             </h1>
             <p class="mb-8 text-muted md:text-lg">
@@ -20,34 +20,7 @@
         </div>
     </div>
 
-    <!-- Litepaper Modal -->
-    <div x-transition x-show="LitePaperModal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
-        <div class="max-w-xl mx-auto p-4 rounded overflow-y-auto">
-            <div class="bg-gray-800 rounded-2xl p-8 shadow-lg" @click.away="LitePaperModal = false">
-            <h2 class="font-bold text-gray-50 text-3xl">Request Litepaper</h2>
-                
-          <form name="c4t-litepaper" method="POST" action="/litepaper-success" data-netlify="true" netlify-honeypot="bot-field" class="">
-            <p class="hidden">
-              <label>
-                Don't fill this out if you're human: <input name="bot-field" />
-              </label>
-            </p>
-            <p class="mt-4">
-              <input required placeholder="Your email address ..." type="email" name="email" class="placeholder-gray-500 bg-gray-800 border border-gray-700 rounded block w-full mt-1 focus:ring-2 text-gray-50 focus:ring-offset-gray-900 focus:ring-secondary" />
-            <p class="mt-4">
-              <div class="flex items-start text-base">
-                <input required type="checkbox" name="LPagreement" id="LPagreement" class="mt-2 rounded w-6 h-6 bg-dark border-secondary text-secondary focus:ring-secondary focus:ring-offset-dark cursor-pointer">
-                <label for="LPagreement" class="ml-4 text-gray-400 cursor-pointer hover:text-gray-300">I agree to the <a class="underline" href="/data-privacy">privacy policy</a> and I consent to being contacted by Chain4Travel via email. I agree to the storage of my transmitted data for the required period of time.</label>
-              </div>
-            </p>
-            <p class="mt-8 flex">
-              <span class="mr-auto inline-block cursor-pointer border border-gray-700 hover:bg-gray-700 py-3 px-5 rounded transition-colors" @click="LitePaperModal = false">Close</span>
-              <button class="text-gray-900 bg-secondary font-semibold border border-secondary ml-2 py-3 px-5 focus:outline-none hover:bg-secondary/75 rounded transition-colors" type="submit">Send</button>
-            </p>
-          </form>
-                
-            </div>
-        </div>
-    </div>
+    {% include "litepaper-modal.html" %}
+
 </section>
 
