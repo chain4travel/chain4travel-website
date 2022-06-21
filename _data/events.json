@@ -1,6 +1,7 @@
 [
   {
-    "date": "22.06 - Munich",
+    "date": "22.06",
+    "location": "Munich",
     "title": "Innovation Conference",
     "slug": "innovation-conference",
     "link": "https://apaleo.com/de/high-5-innovation-conference",
@@ -8,7 +9,8 @@
     "category": "Upcoming"
   },
   {
-    "date": "27.-29.06 - Amsterdam",
+    "date": "27.-29.06",
+    "location": "Amsterdam",
     "title": "Phocuswright Europe",
     "slug": "phocuswright-europe",
     "link": "https://www.phocuswrighteurope.com",
@@ -16,7 +18,8 @@
     "category": "Upcoming"
   },
   {
-    "date": "15.-16.07- Brooklyn",
+    "date": "15.-16.07",
+    "location": "Brooklyn",
     "title": "Avalanche House",
     "slug": "avalanche-house",
     "link": "",
@@ -24,7 +27,8 @@
     "category": "Upcoming"
   },
   {
-    "date": "14.-17.07 - Phoenix, Arizona",
+    "date": "14.-17.07",
+    "location": "Phoenix, Arizona",
     "title": "Phocuswright Conference",
     "slug": "phocuswright-conference",
     "link": "https://www.phocuswrighteurope.com",
@@ -32,7 +36,8 @@
     "category": "Upcoming"
   },
   {
-    "date": "4.-6.10 - Amsterdam",
+    "date": "4.-6.10",
+    "location": "Amsterdam",
     "title": "World Aviation Festival",
     "slug": "world-aviation-festival",
     "link": "https://www.phocuswrighteurope.com",
@@ -40,7 +45,8 @@
     "category": "Upcoming"
   },
   {
-    "date": "11.-12.05 - Munich",
+    "date": "11.-12.05",
+    "location": "Munich",
     "title": "HSMA",
     "slug": "hsma",
     "link": "https://www.hsma.de/de",
@@ -48,7 +54,8 @@
     "category": "Past Events"
   },
   {
-    "date": "9.-12. Jun - Austin, Texas",
+    "date": "9.-12. Jun",
+    "location": "Austin, Texas",
     "title": "Consensus (by CoinDesk)",
     "slug": "consensus",
     "link": "https://www.coindesk.com/consensus2022",
@@ -56,7 +63,8 @@
     "category": "Past Events"
   },
   {
-    "date": "1.-2.06 - Berlin",
+    "date": "1.-2.06",
+    "location": "Berlin",
     "title": "VIR Online Innovation Days",
     "slug": "vir-online-innovation-days",
     "link": "",
