@@ -15,17 +15,22 @@ title: News & Events
 
 <section class="container">
   <h2 class="font-bold text-xl mb-8">Latest press and news articles:</h2>
-  {% for news in news %}
-    <a href="{{news.link}}" target="_blank" rel="noopener noreferrer" class="text-sm group flex items-center p-4 border-b border-gray-700 hover:bg-gray-800">
-      {% if news.icon %}
-        <img src="{{news.icon}}" width="24" height="24" alt="" class="rounded flex-shrink-0 mr-4 bg-gray-800 border-0 outline-0">
-      {% endif %}
-      {% if news.icon === "" %}
-        <div class="w-6 h-6 bg-gray-800 mr-4 rounded"></div>
-      {% endif %}
-      <span class="">{{news.title}} <small class="text-gray-400">( {{news.category}} )</small></span>
-    </a>
-  {% endfor %}
+  <div class="grid grid-cols-12 gap-4">
+    {% for news in news %}
+      <a href="{{news.link}}" target="_blank" rel="noopener noreferrer" class="col-span-6 md:col-span-3 text-sm group flex items-start rounded p-4 bg-gray-800 hover:bg-gray-700">
+        {% if news.icon %}
+          <img src="{{news.icon}}" alt="" class="rounded flex-shrink-0 mr-4 bg-gray-800 border-0 outline-0 w-4 md:w-6 h-4 md:h-6">
+        {% endif %}
+        {% if news.icon === "" %}
+          <div class="w-4 md:w-6 h-4 md:h-6 bg-gray-600 mr-4 rounded flex-shrink-0"></div>
+        {% endif %}
+        <div class="font-bold">
+          <div class="line-clamp-2">{{news.title}}</div>
+          <div class="text-gray-400 font-normal mt-2 text-xs">{{news.category}}</div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
 </section>
 
 <section class="container mt-16 md:mt-32">
