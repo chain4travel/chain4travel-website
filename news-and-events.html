@@ -20,15 +20,12 @@ title: News & Events
     {% for news in news %}
       <a href="{{news.link}}" target="_blank" rel="noopener noreferrer" class="col-span-6 md:col-span-3 text-sm group flex items-start rounded p-4 bg-gray-800 hover:bg-gray-700">
         {% if news.icon %}
-          <img src="{{news.icon}}" alt="" class="rounded flex-shrink-0 mr-4 bg-gray-800 border-0 outline-0 w-4 md:w-6 h-4 md:h-6">
+          <img src="{{news.icon}}" alt="" class="rounded flex-shrink-0 mr-4 bg-gray-800 border-0 outline-0 w-6 h-6">
         {% endif %}
         {% if news.icon === "" %}
-          <svg class="w-4 md:w-6 h-4 md:h-6 flex-shrink-0 mr-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+          <svg class="w-6 h-6 flex-shrink-0 mr-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
         {% endif %}
-        <div class="font-bold">
-          <div class="line-clamp-2">{{news.title}}</div>
-          <div class="text-gray-400 font-normal mt-2 text-xs">{{news.category}}</div>
-        </div>
+        <div class="font-bold line-clamp-3">{{news.title}}</div>
       </a>
     {% endfor %}
   </div>
@@ -46,13 +43,7 @@ title: News & Events
             <svg class="w-4 h-4 flex-shrink-0 ml-2 hidden group-hover:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
           </a>
           <p class="text-sm text-secondary mt-1">{{ event.date }}</p>
-          <p class="text-sm text-gray-400 my-4">{{ event.description }}</p>
-          {% if event.link %}
-          <a class="text-primary text-sm flex items-center hover:underline" href="{{ event.link }}" target="_blank" rel="noopener noreferrer">
-            {{ event.link }}
-            <svg class="flex-shrink-0 w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-          </a>
-          {% endif %}
+          <p class="text-sm text-gray-400 mt-4">{{ event.description }}</p>
         </div>
       {% endif %}
     {% endfor %}
@@ -65,13 +56,7 @@ title: News & Events
         <div class="p-4 md:p-8 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-6">
           <h3 class="text-2xl font-bold">{{ event.title }}</h3>
           <p class="text-sm text-secondary mt-1">{{ event.date }}</p>
-          <p class="text-sm text-gray-400 my-4">{{ event.description }}</p>
-          {% if event.link %}
-          <a class="text-primary text-sm flex items-center hover:underline" href="{{ event.link }}" target="_blank" rel="noopener noreferrer">
-            {{ event.link }}
-            <svg class="flex-shrink-0 w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-          </a>
-          {% endif %}
+          <p class="text-sm text-gray-400 mt-4">{{ event.description }}</p>
         </div>
       {% endif %}
     {% endfor %}
