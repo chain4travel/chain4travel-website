@@ -11,7 +11,7 @@
 
         <div x-data="{ menuOpen: false }" class="ml-auto">
           <!-- Mobile trigger -->
-          <div class="w-12 h-12 flex md:hidden items-center justify-center" @click="menuOpen = !menuOpen" tabindex="0">
+          <div class="w-12 h-12 flex lg:hidden items-center justify-center" @click="menuOpen = !menuOpen" tabindex="0">
             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
               <path fill="currentColor" d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
             </svg>
@@ -34,17 +34,17 @@
             <a @click="menuOpen = !menuOpen" href="/supporter" class="p-4 text-lg w-full text-center hover:text-gray-50 cursor-pointer">Supporters</a>
             <a @click="menuOpen = !menuOpen" href="/news-and-events" class="p-4 text-lg w-full text-center hover:text-gray-50 cursor-pointer">News & Events</a>
             <a @click="menuOpen = !menuOpen" href="/#jobs" class="p-4 text-lg w-full text-center hover:text-gray-50 cursor-pointer">Jobs<a>
-            <a @click="menuOpen = !menuOpen" href="/#contact" class="mt-4 flex justify-center items-center w-full font-semibold bg-secondary text-dark py-2 px-3 focus:outline-none hover:bg-gray-200 rounded text-base">Contact Us</a>
+            <a @click="menuOpen = !menuOpen" href="/#contact" class="transition-colors mt-4 flex justify-center items-center w-full font-semibold bg-secondary text-dark py-2 px-3 focus:outline-none hover:bg-gray-50 rounded-lg text-base">Contact Us</a>
           </nav>
         </div>
 
-        <nav class="md:ml-auto hidden md:flex flex-wrap items-center text-base justify-center">
+        <nav class="lg:ml-auto hidden lg:flex flex-wrap items-center text-base justify-center">
           <a href="/about" class="p-2 hover:text-gray-50 cursor-pointer">About</a>
           <a href="/team" class="p-2 hover:text-gray-50 cursor-pointer">Team<a>
           <a href="/supporter" class="p-2 hover:text-gray-50 cursor-pointer">Supporters</a>
           <a href="/news-and-events" class="p-2 hover:text-gray-50 cursor-pointer">News & Events</a>
           <a href="/#jobs" class="p-2 hover:text-gray-50 cursor-pointer">Jobs<a>
-          <a href="/#contact" class="ml-4 inline-flex items-center font-semibold bg-secondary text-dark py-2 px-3 focus:outline-none hover:bg-gray-200 rounded text-base">Contact Us</a>
+          <a href="/#contact" class="transition-colors ml-4 inline-flex items-center font-semibold bg-secondary text-dark py-2 px-3 focus:outline-none hover:bg-gray-50 rounded-lg text-base">Contact Us</a>
         </nav>
       </div>
     </header>
