@@ -9,6 +9,7 @@ html {
 *[id]:target {
   padding-top: 200px;
   margin-top: -200px;
+  outline: 0;
 }
 
 /* prevents alpine content to blip */
