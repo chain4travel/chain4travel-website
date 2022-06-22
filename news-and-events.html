@@ -31,13 +31,13 @@ title: News & Events
   </div>
 </section>
 
-<section class="container mt-16 md:mt-32">
+<section class="container my-16 md:my-32">
 
   <h2 class="font-bold text-xl mb-8">Upcoming events</h2>
   <div class="grid grid-cols-12 gap-4 md:gap-6">
     {% for event in events %}
       {% if event.category === "Upcoming" %}
-        <div class="p-4 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-6">
+        <div class="p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-6">
           <img class="object-cover mb-4 rounded-lg" src="../images/events/{{event.image}}.png" alt="">
           <a class="group flex items-center target:underline" href="#{{event.slug}}" id="{{event.slug}}">
             <h3 class="text-2xl font-bold">{{ event.title }}</h3>
@@ -75,10 +75,15 @@ title: News & Events
   <div class="grid grid-cols-12 gap-4 md:gap-6">
     {% for event in events %}
       {% if event.category === "Past Events" %}
-        <div class="p-4 md:p-8 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-6">
+        <div class="text-sm p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-6">
           <h3 class="text-2xl font-bold">{{ event.title }}</h3>
-          <p class="text-sm text-secondary mt-1">{{ event.date }}</p>
-          <p class="text-sm text-gray-400 mt-4">{{ event.description }}</p>
+          <p class="text-secondary mt-1">{{ event.date }}</p>
+          <p class="text-gray-400 mt-4">{{ event.description }}</p>
+          {% if event.outLink %}
+            <a class="mt-4 underline line-clamp-1 hover:text-primary" href="{{ event.outLink }}" target="_blank" rel="noopener noreferrer">
+              {{ event.outLink }}
+            </a>
+          {% endif %}
         </div>
       {% endif %}
     {% endfor %}

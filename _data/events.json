@@ -13,7 +13,8 @@
     "speaker1Linkedin": "https://www.linkedin.com/in/anke-hsu/",
     "speaker2": "Daniel Poerschke",
     "speaker2Slug": "danielpoerschke",
-    "speaker2Linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/"
+    "speaker2Linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/",
+    "outLink": ""
   },
   {
     "date": "June 27–29, 2022",
@@ -29,7 +30,8 @@
     "speaker1Linkedin": "https://www.linkedin.com/in/anke-hsu/",
     "speaker2": "Vincent Usbeck",
     "speaker2Slug": "vincentusbeck",
-    "speaker2Linkedin": "https://www.linkedin.com/in/vincentusbeck"
+    "speaker2Linkedin": "https://www.linkedin.com/in/vincentusbeck",
+    "outLink": ""
   },
   {
     "date": "July 15–16, 2022",
@@ -45,7 +47,8 @@
     "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
     "speaker2": "Vincent Usbeck",
     "speaker2Slug": "vincentusbeck",
-    "speaker2Linkedin": "https://www.linkedin.com/in/vincentusbeck"
+    "speaker2Linkedin": "https://www.linkedin.com/in/vincentusbeck",
+    "outLink": ""
   },
   {
     "date": "October 04–06, 2022",
@@ -61,7 +64,8 @@
     "speaker1Linkedin": "https://www.linkedin.com/in/anke-hsu/",
     "speaker2": "Daniel Poerschke",
     "speaker2Slug": "danielpoerschke",
-    "speaker2Linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/"
+    "speaker2Linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/",
+    "outLink": ""
   },
   {
     "date": "November 14-17, 2022",
@@ -77,7 +81,8 @@
     "speaker1Linkedin": "",
     "speaker2": "",
     "speaker2Slug": "",
-    "speaker2Linkedin": "k"
+    "speaker2Linkedin": "",
+    "outLink": ""
   },
   {
     "date": "March 11–12, 2022",
@@ -86,16 +91,8 @@
     "slug": "hsma",
     "link": "https://www.hsma.de/de",
     "description": "The Hospitality Sales & Marketing Association Deutschland e.V. consolidates over 1600 members of the hospitality industry and forms a network of as well as a knowledge pool on all relevant specialist areas. Our Managing Director Daniel Poerschke was there and received overwhelming feedback for his presentation of Chain4Travel's approach to revolutionize the travel industry.",
-    "category": "Past Events"
-  },
-  {
-    "date": "June 01–02, 2022",
-    "location": "Berlin",
-    "title": "VIR Online Innovation Days",
-    "slug": "vir-online-innovation-days",
-    "link": "",
-    "description": "The VIR invited for this years' Online Innovation Days under the motto “Back to the Future” (“Zurück zur Zukunft”). Even two members of the Chain4Travel team held a keynote speech on the topic of Blockchain and Chain4travel's efforts in providing this technology for the travel industry. Anke Hsu, Head of Business Development at Chain4Travel and blockchain researcher talked about the possibilities of Blockchain technologies and explored various specific use cases for the travel industry. Ralf Usbeck, founder and CEO of Peakwork AG as well as Chain4Travel, was the final speaker at this year's VIR Online Innovation Days and spoke about the next stage of travel technology based on the Camino Blockchain. The time for change in the travel industry is ripe and the solutions are right there.",
-    "category": "Past Events"
+    "category": "Past Events",
+    "outLink": "https://www.youtube.com/watch?v=YGdxBfYmQSw"
   },
   {
     "date": "July 09–12, 2021",
@@ -104,6 +101,17 @@
     "slug": "consensus",
     "link": "https://www.coindesk.com/consensus2022",
     "description": "Consensus is much more than just another a crypto festival. CoinDesk brought together roughly 17,000 crypto enthusiasts and experts from the industry discussing the regulatory landscape, web3 and the future of digital assets. Vincent Usbeck, our Head of Marketing and Sales, was in Austin and looks back on interesting keynotes, inspiring discussions, and an overall extremely future-oriented environment.",
-    "category": "Past Events"
+    "category": "Past Events",
+    "outLink": "https://www.linkedin.com/posts/vincentusbeck_consensus2022-web3-camino-activity-6942569526815297536-X_U9?utm_source=linkedin_share&utm_medium=member_desktop_web"
+  },
+  {
+    "date": "June 01–02, 2022",
+    "location": "Berlin",
+    "title": "VIR Online Innovation Days",
+    "slug": "vir-online-innovation-days",
+    "link": "",
+    "description": "The VIR invited for this years' Online Innovation Days under the motto “Back to the Future” (“Zurück zur Zukunft”). Even two members of the Chain4Travel team held a keynote speech on the topic of Blockchain and Chain4travel's efforts in providing this technology for the travel industry. Anke Hsu, Head of Business Development at Chain4Travel and blockchain researcher talked about the possibilities of Blockchain technologies and explored various specific use cases for the travel industry. Ralf Usbeck, founder and CEO of Peakwork AG as well as Chain4Travel, was the final speaker at this year's VIR Online Innovation Days and spoke about the next stage of travel technology based on the Camino Blockchain. The time for change in the travel industry is ripe and the solutions are right there.",
+    "category": "Past Events",
+    "outLink": "https://www.youtube.com/user/virtualVIR"
   }
 ]
