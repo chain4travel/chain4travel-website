@@ -53,8 +53,9 @@ title: News & Events
               {{ event.location }}
             </div>
           </div>
-          <p class="text-sm text-gray-400">{{ event.description }}</p>
+          <p class="text-sm mb-4 text-gray-400">{{ event.description }}</p>
           {% if event.speaker1 %}
+          <p class="text-sm mt-2 font-bold">Connect with us on LinkedIn:</p>
             <div class="flex text-sm mt-4">
               <a class="flex items-center hover:text-primary mr-4" href="{{event.speaker1Linkedin}}" target="_blank" rel="noopener noreferrer">
                 <img class="w-8 h-8 rounded-full mr-2" src="/images/{{event.speaker1Slug}}.png" alt="{{event.speaker1Slug}}-avatar">
@@ -80,8 +81,9 @@ title: News & Events
           <p class="text-secondary mt-1">{{ event.date }}</p>
           <p class="text-gray-400 mt-4">{{ event.description }}</p>
           {% if event.outLink %}
-            <a class="mt-4 underline line-clamp-1 hover:text-primary" href="{{ event.outLink }}" target="_blank" rel="noopener noreferrer">
-              {{ event.outLink }}
+            <a class="flex items-center mt-4 hover:underline hover:text-primary" href="{{ event.outLink }}" target="_blank" rel="noopener noreferrer">
+              {{ event.outLinkLabel }}
+              <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
             </a>
           {% endif %}
         </div>
