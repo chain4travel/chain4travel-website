@@ -51,23 +51,6 @@
     "outLink": ""
   },
   {
-    "date": "November 14-17, 2022",
-    "location": "Phoenix",
-    "title": "Phocuswright Conference",
-    "slug": "phocuswright-conference",
-    "link": "https://www.phocuswrightconference.com/",
-    "description": "Phocuswright as the leading authority in travel, tourism and hospitality market research is offering once again with the Phocuswright Conference a valuable platform for innovative companies empowered to tackle the challenges our industry faces. Let’s talk about web3, blockchain technology for the travel industry and how Camino will revolutionize the world of travel. Spot the next big thing before everyone else does and meet us at the Conference in November.",
-    "category": "Upcoming",
-    "image": "events-cover-phocuswright",
-    "speaker1": "",
-    "speaker1Slug": "",
-    "speaker1Linkedin": "",
-    "speaker2": "",
-    "speaker2Slug": "",
-    "speaker2Linkedin": "",
-    "outLink": ""
-  },
-  {
     "date": "October 04–06, 2022",
     "location": "Amsterdam",
     "title": "World Aviation Festival",
@@ -85,6 +68,23 @@
     "outLink": ""
   },
   {
+    "date": "November 14-17, 2022",
+    "location": "Phoenix",
+    "title": "Phocuswright Conference",
+    "slug": "phocuswright-conference",
+    "link": "https://www.phocuswrightconference.com/",
+    "description": "Phocuswright as the leading authority in travel, tourism and hospitality market research is offering once again with the Phocuswright Conference a valuable platform for innovative companies empowered to tackle the challenges our industry faces. Let’s talk about web3, blockchain technology for the travel industry and how Camino will revolutionize the world of travel. Spot the next big thing before everyone else does and meet us at the Conference in November.",
+    "category": "Upcoming",
+    "image": "events-cover-phocuswright",
+    "speaker1": "",
+    "speaker1Slug": "",
+    "speaker1Linkedin": "",
+    "speaker2": "",
+    "speaker2Slug": "",
+    "speaker2Linkedin": "",
+    "outLink": ""
+  },
+  {
     "date": "March 11–12, 2022",
     "location": "Munich",
     "title": "HSMA",
@@ -96,7 +96,7 @@
     "outLinkLabel": "Listen to the short interview (YouTube)"
   },
   {
-    "date": "July 09–12, 2021",
+    "date": "July 09–12, 2022",
     "location": "Austin, Texas",
     "title": "Consensus (by CoinDesk)",
     "slug": "consensus",
