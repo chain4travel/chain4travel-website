@@ -1,0 +1,99 @@
+---
+layout: default
+title: News & Events
+---
+
+<section class="relative overflow-hidden mt-24 md:mt-12 py-12 md:py-32">
+  <div class="container mx-auto flex flex-col items-start relative z-10">
+      <div class="text-secondary uppercase text-sm font-bold tracking-widest mb-4 lg:mb-8">News & Events</div>
+      <h2 class="lg:text-7xl text-3xl mb-8 font-bold text-gray-50">
+          Chain4Travel around <br class="hidden md:block"> the <span class="text-primary">world</span>
+      </h2>
+      <p class="text-gray-200 text-lg md:text-2xl md:w-3/5 md:pr-8">
+        Find out more about Chain4Travel online and connect with us personally at one of the upcoming events.
+      </p>
+  </div>
+  <div class="z-0 bg-gradient-to-tr from-primary via-gray-900 to-secondary blur-3xl rounded-full w-screen h-48 absolute -bottom-24 left-1/2 -translate-x-1/2"></div>
+</section>
+
+<section class="container mt-12 md:mt-24">
+
+  <h2 class="font-bold text-xl md:text-3xl mb-8">Upcoming events</h2>
+  <div class="grid grid-cols-12 gap-4 md:gap-6">
+    {% for event in events %}
+      {% if event.category === "Upcoming" %}
+        <div class="p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-6">
+          <img class="object-cover mb-4 rounded-lg" src="../images/events/{{event.image}}.png" alt="">
+          <a class="group flex items-center target:underline" href="#{{event.slug}}" id="{{event.slug}}">
+            <h3 class="text-2xl font-bold">{{ event.title }}</h3>
+            <svg class="w-4 h-4 flex-shrink-0 ml-2 hidden group-hover:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+          </a>
+          <div class="flex items-center my-3 text-secondary text-sm font-bold">
+            <div class="flex items-center mr-4">
+              <svg class="w-4 h-4 mr-2 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+              {{ event.date }}
+            </div>
+            <div class="flex items-center">
+              <svg class="w-4 h-4 mr-2 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              {{ event.location }}
+            </div>
+          </div>
+          <p class="text-sm mb-4 text-gray-400">{{ event.description }}</p>
+          {% if event.speaker1 %}
+          <p class="text-sm mt-2 font-bold">Connect with us on LinkedIn:</p>
+            <div class="flex text-sm mt-4">
+              <a class="flex items-center hover:text-primary mr-4" href="{{event.speaker1Linkedin}}" target="_blank" rel="noopener noreferrer">
+                <img class="w-8 h-8 rounded-full mr-2" src="/images/{{event.speaker1Slug}}.png" alt="{{event.speaker1Slug}}-avatar">
+                {{ event.speaker1 }}
+              </a>
+              <a class="flex items-center hover:text-primary" href="{{event.speaker2Linkedin}}" target="_blank" rel="noopener noreferrer">
+                <img class="w-8 h-8 rounded-full mr-2" src="/images/{{event.speaker2Slug}}.png" alt="{{event.speaker2Slug}}-avatar">
+                {{ event.speaker2 }}
+              </a>
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  
+</section>
+
+  <section class="container my-12 md:my-24">
+    <h2 class="font-bold text-xl md:text-3xl mb-8">Latest press and news articles:</h2>
+    <div class="grid grid-cols-12 gap-4">
+      {% for news in news %}
+        <a href="{{news.link}}" target="_blank" rel="noopener noreferrer" class="col-span-6 md:col-span-3 text-sm group flex items-start rounded p-4 bg-gray-800 hover:bg-gray-700">
+          {% if news.icon %}
+            <img src="{{news.icon}}" alt="" class="rounded flex-shrink-0 mr-4 bg-gray-800 border-0 outline-0 w-6 h-6">
+          {% endif %}
+          {% if news.icon === "" %}
+            <svg class="w-6 h-6 flex-shrink-0 mr-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+          {% endif %}
+          <div class="font-bold line-clamp-3">{{news.title}}</div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+<section class="container mb-24">
+  <h2 class="font-bold text-xl md:text-3xl mb-8 mt-12">Recap of previous events</h2>
+  <div class="grid grid-cols-12 gap-4 md:gap-6">
+    {% for event in events %}
+      {% if event.category === "Past Events" %}
+        <div class="text-sm p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-6">
+          <h3 class="text-2xl font-bold">{{ event.title }}</h3>
+          <p class="text-secondary mt-1">{{ event.date }}</p>
+          <p class="text-gray-400 mt-4">{{ event.description }}</p>
+          {% if event.outLink %}
+            <a class="flex items-center mt-4 hover:underline hover:text-primary" href="{{ event.outLink }}" target="_blank" rel="noopener noreferrer">
+              {{ event.outLinkLabel }}
+              <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  
+</section>

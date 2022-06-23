@@ -9,6 +9,7 @@ html {
 *[id]:target {
   padding-top: 200px;
   margin-top: -200px;
+  outline: 0;
 }
 
 /* prevents alpine content to blip */
@@ -17,7 +18,7 @@ html {
 }
 
 #mc_embed_signup input.button {
-  @apply font-semibold mr-4 inline-flex text-dark bg-secondary py-2 px-6 focus:outline-none hover:bg-gray-200 rounded-lg md:text-lg h-auto font-sans;
+  @apply font-semibold mr-4 inline-flex text-dark bg-secondary py-2 px-6 focus:outline-none hover:bg-gray-50 rounded-lg md:text-lg h-auto font-sans;
 }
 
 #mc_embed_signup div.mc-field-group input {
