@@ -16,25 +16,7 @@ title: News & Events
   <div class="z-0 bg-gradient-to-tr from-primary via-gray-900 to-secondary blur-3xl rounded-full w-screen h-48 absolute -bottom-24 left-1/2 -translate-x-1/2"></div>
 </section>
 
-
-<section class="container mt-8 md:mt-16">
-  <h2 class="font-bold text-xl md:text-3xl mb-8">Latest press and news articles:</h2>
-  <div class="grid grid-cols-12 gap-4">
-    {% for news in news %}
-      <a href="{{news.link}}" target="_blank" rel="noopener noreferrer" class="col-span-6 md:col-span-3 text-sm group flex items-start rounded p-4 bg-gray-800 hover:bg-gray-700">
-        {% if news.icon %}
-          <img src="{{news.icon}}" alt="" class="rounded flex-shrink-0 mr-4 bg-gray-800 border-0 outline-0 w-6 h-6">
-        {% endif %}
-        {% if news.icon === "" %}
-          <svg class="w-6 h-6 flex-shrink-0 mr-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
-        {% endif %}
-        <div class="font-bold line-clamp-3">{{news.title}}</div>
-      </a>
-    {% endfor %}
-  </div>
-</section>
-
-<section class="container my-16 md:my-32">
+<section class="container mt-12 md:mt-24">
 
   <h2 class="font-bold text-xl md:text-3xl mb-8">Upcoming events</h2>
   <div class="grid grid-cols-12 gap-4 md:gap-6">
@@ -75,6 +57,26 @@ title: News & Events
     {% endfor %}
   </div>
 
+  
+</section>
+
+  <section class="container my-12 md:my-24">
+    <h2 class="font-bold text-xl md:text-3xl mb-8">Latest press and news articles:</h2>
+    <div class="grid grid-cols-12 gap-4">
+      {% for news in news %}
+        <a href="{{news.link}}" target="_blank" rel="noopener noreferrer" class="col-span-6 md:col-span-3 text-sm group flex items-start rounded p-4 bg-gray-800 hover:bg-gray-700">
+          {% if news.icon %}
+            <img src="{{news.icon}}" alt="" class="rounded flex-shrink-0 mr-4 bg-gray-800 border-0 outline-0 w-6 h-6">
+          {% endif %}
+          {% if news.icon === "" %}
+            <svg class="w-6 h-6 flex-shrink-0 mr-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+          {% endif %}
+          <div class="font-bold line-clamp-3">{{news.title}}</div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+<section class="container mb-24">
   <h2 class="font-bold text-xl md:text-3xl mb-8 mt-12">Recap of previous events</h2>
   <div class="grid grid-cols-12 gap-4 md:gap-6">
     {% for event in events %}
