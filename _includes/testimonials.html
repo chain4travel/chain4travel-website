@@ -13,7 +13,7 @@
           :class="{ 'bg-gray-800 text-gray-50' : tab === 'tab{{testimonial.slug}}' }"
           @click.prevent="tab = 'tab{{testimonial.slug}}'"
           >
-          <img alt="testimonial" src="../images/{{ testimonial.slug }}.png" class="w-12 md:w-16 h-12 md:h-16 rounded-full flex-shrink-0 mb-4 object-cover object-center">
+          <img alt="testimonial-photo" src="../images/{{ testimonial.slug }}.png" class="w-12 md:w-16 h-12 md:h-16 rounded-full flex-shrink-0 mb-4 object-cover object-center">
           <div class="">
             <div class="text-current text-center text-xs md:text-base whitespace-nowrap text-gray-200">{{ testimonial.person }}</div>
             <div class="text-gray-300 text-xs text-center mt-2 hidden lg:block">{{ testimonial.company }}</div>

@@ -1,0 +1,4 @@
+Sitemap: https://www.chain4travel.com/sitemap.xml
+
+User-agent: *
+Disallow:

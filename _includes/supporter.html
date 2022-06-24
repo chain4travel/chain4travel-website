@@ -3,7 +3,7 @@
     <div class="grid grid-cols-12 gap-2">
         {% for supporter in supporter %}
             <a href="{{supporter.url}}" class="bg-gray-900 hover:bg-gray-800 transition-colors group inline-flex flex-col items-center rounded-lg col-span-6 sm:col-span-3 lg:col-span-2 p-2 md:p-4 lg:p-6" target="_blank" rel="noopener noreferrer">
-                <img class="opacity-50 group-hover:opacity-100 transition-all" src="../images/supporter/{{supporter.slug}}.png" alt="">
+                <img class="opacity-50 group-hover:opacity-100 transition-all" src="../images/supporter/{{supporter.slug}}.png" alt="{{supporter.name}}">
                 <div class="text-gray-600 hidden">{{supporter.name}}</div>
             </a>
         {% endfor %}
