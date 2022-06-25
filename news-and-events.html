@@ -17,17 +17,13 @@ title: News & Events
 </section>
 
 <section class="container mt-12 md:mt-24">
-
   <h2 class="font-bold text-xl md:text-3xl mb-8">Upcoming events</h2>
   <div class="grid grid-cols-12 gap-4 md:gap-6">
     {% for event in events %}
       {% if event.category === "Upcoming" %}
         <div class="p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-6">
           <img class="object-cover mb-4 rounded-lg" src="../images/events/{{event.image}}.png" alt="">
-          <a class="group flex items-center target:underline" href="#{{event.slug}}" id="{{event.slug}}">
-            <h3 class="text-2xl font-bold">{{ event.title }}</h3>
-            <svg class="w-4 h-4 flex-shrink-0 ml-2 hidden group-hover:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
-          </a>
+          <h3 class="text-2xl font-bold">{{ event.title }}</h3>
           <div class="flex items-center my-3 text-secondary text-sm font-bold">
             <div class="flex items-center mr-4">
               <svg class="w-4 h-4 mr-2 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
@@ -56,9 +52,29 @@ title: News & Events
       {% endif %}
     {% endfor %}
   </div>
-
-  
 </section>
+
+
+
+<!-- Media section start -->
+  <section class="container mt-12 md:mt-24">
+    <h2 class="font-bold text-xl md:text-3xl mb-8">Media</h2>
+    <div class="grid grid-cols-12 gap-4 md:gap-6 text-base">
+      {% for media in media %}
+        <div class="p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-3 flex flex-col">
+          {% if media.type === "podcast" %}
+            <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>
+          {% endif %}
+          {% if media.type === "video" %}
+            <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"></path></svg>
+          {% endif %}
+          <h3 class="text-lg leading-tight my-4 font-bold">{{ media.title }}</h3>
+          <a class="text-primary hover:underline mt-auto" href="{{media.link}}" target="_blank" rel="noopener noreferrer">Go to {{media.type}}</a>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+<!-- Media section end -->
 
   <section class="container my-12 md:my-24">
     <h2 class="font-bold text-xl md:text-3xl mb-8">Latest press and news articles:</h2>
@@ -81,10 +97,10 @@ title: News & Events
   <div class="grid grid-cols-12 gap-4 md:gap-6">
     {% for event in events %}
       {% if event.category === "Past Events" %}
-        <div class="text-sm p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-6">
-          <h3 class="text-2xl font-bold">{{ event.title }}</h3>
+        <div class="text-sm p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-3">
+          <h3 class="text-lg font-bold">{{ event.title }}</h3>
           <p class="text-secondary mt-1">{{ event.date }}</p>
-          <p class="text-gray-400 mt-4">{{ event.description }}</p>
+          <p class="text-gray-400 mt-4 text-xs">{{ event.description }}</p>
           {% if event.outLink %}
             <a class="flex items-center mt-4 hover:underline hover:text-primary" href="{{ event.outLink }}" target="_blank" rel="noopener noreferrer">
               {{ event.outLinkLabel }}
