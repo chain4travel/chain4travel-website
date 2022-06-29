@@ -18,7 +18,9 @@ description: Find out more about Chain4Travel online and connect with us persona
 </section>
 
 <section class="container mt-12 md:mt-24">
-  <h2 class="font-bold text-xl md:text-3xl mb-8">Upcoming events</h2>
+  <div class="flex flex-col text-center w-full mb-20">
+    <h2 class="title-font md:text-5xl text-2xl font-bold text-gray-50">Upcoming events</h2>
+  </div>
   <div class="grid grid-cols-12 gap-4 md:gap-6">
     {% for event in events %}
       {% if event.category === "Upcoming" %}
@@ -59,7 +61,9 @@ description: Find out more about Chain4Travel online and connect with us persona
 
 <!-- Media section start -->
   <section class="container mt-12 md:mt-24">
-    <h2 class="font-bold text-xl md:text-3xl mb-8">Media</h2>
+    <div class="flex flex-col text-center w-full mb-20">
+      <h2 class="title-font md:text-5xl text-2xl font-bold text-gray-50">Media links</h2>
+    </div>
     <div class="grid grid-cols-12 gap-4 md:gap-6 text-base">
       {% for media in media %}
         <div class="p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-3 flex flex-col">
@@ -78,7 +82,9 @@ description: Find out more about Chain4Travel online and connect with us persona
 <!-- Media section end -->
 
   <section class="container my-12 md:my-24">
-    <h2 class="font-bold text-xl md:text-3xl mb-8">Latest press and news articles:</h2>
+    <div class="flex flex-col text-center w-full mb-20">
+      <h2 class="title-font md:text-5xl text-2xl font-bold text-gray-50">Latest press and news articles</h2>
+    </div>
     <div class="grid grid-cols-12 gap-4">
       {% for news in news %}
         <a href="{{news.link}}" target="_blank" rel="noopener noreferrer" class="col-span-6 md:col-span-3 text-sm group flex items-start rounded p-4 bg-gray-800 hover:bg-gray-700">
@@ -94,7 +100,9 @@ description: Find out more about Chain4Travel online and connect with us persona
     </div>
   </section>
 <section class="container mb-24">
-  <h2 class="font-bold text-xl md:text-3xl mb-8 mt-12">Recap of previous events</h2>
+  <div class="flex flex-col text-center w-full mb-20">
+    <h2 class="title-font md:text-5xl text-2xl font-bold text-gray-50">Recap of previous events</h2>
+  </div>
   <div class="grid grid-cols-12 gap-4 md:gap-6">
     {% for event in events %}
       {% if event.category === "Past Events" %}
@@ -114,3 +122,6 @@ description: Find out more about Chain4Travel online and connect with us persona
   </div>
   
 </section>
+
+
+{% include "contact.html" %}
