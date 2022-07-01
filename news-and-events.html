@@ -1,14 +1,15 @@
 ---
 layout: default
 title: News & Events
+description: Find out more about Chain4Travel online and connect with us personally at one of the upcoming events.
 ---
 
 <section class="relative overflow-hidden mt-24 md:mt-12 py-12 md:py-32">
   <div class="container mx-auto flex flex-col items-start relative z-10">
       <div class="text-secondary uppercase text-sm font-bold tracking-widest mb-4 lg:mb-8">News & Events</div>
-      <h2 class="lg:text-7xl text-3xl mb-8 font-bold text-gray-50">
+      <h1 class="lg:text-7xl text-3xl mb-8 font-bold text-gray-50">
           Chain4Travel around <br class="hidden md:block"> the <span class="text-primary">world</span>
-      </h2>
+      </h1>
       <p class="text-gray-200 text-lg md:text-2xl md:w-3/5 md:pr-8">
         Find out more about Chain4Travel online and connect with us personally at one of the upcoming events.
       </p>
@@ -17,8 +18,9 @@ title: News & Events
 </section>
 
 <section class="container mt-12 md:mt-24">
-
-  <h2 class="font-bold text-xl md:text-3xl mb-8">Upcoming events</h2>
+  <div class="flex flex-col text-center w-full mb-20">
+    <h2 class="title-font md:text-5xl text-2xl font-bold text-gray-50">Upcoming events</h2>
+  </div>
   <div class="grid grid-cols-12 gap-4 md:gap-6">
     {% for event in events %}
       {% if event.category === "Upcoming" %}
@@ -53,12 +55,36 @@ title: News & Events
       {% endif %}
     {% endfor %}
   </div>
-
-  
 </section>
 
+
+
+<!-- Media section start -->
+  <section class="container mt-12 md:mt-24">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h2 class="title-font md:text-5xl text-2xl font-bold text-gray-50">Media links</h2>
+    </div>
+    <div class="grid grid-cols-12 gap-4 md:gap-6 text-base">
+      {% for media in media %}
+        <div class="p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-3 flex flex-col">
+          {% if media.type === "podcast" %}
+            <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>
+          {% endif %}
+          {% if media.type === "video" %}
+            <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"></path></svg>
+          {% endif %}
+          <h3 class="text-lg leading-tight my-4 font-bold">{{ media.title }}</h3>
+          <a class="text-primary hover:underline mt-auto" href="{{media.link}}" target="_blank" rel="noopener noreferrer">Go to {{media.type}}</a>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+<!-- Media section end -->
+
   <section class="container my-12 md:my-24">
-    <h2 class="font-bold text-xl md:text-3xl mb-8">Latest press and news articles:</h2>
+    <div class="flex flex-col text-center w-full mb-20">
+      <h2 class="title-font md:text-5xl text-2xl font-bold text-gray-50">Latest press and news articles</h2>
+    </div>
     <div class="grid grid-cols-12 gap-4">
       {% for news in news %}
         <a href="{{news.link}}" target="_blank" rel="noopener noreferrer" class="col-span-6 md:col-span-3 text-sm group flex items-start rounded p-4 bg-gray-800 hover:bg-gray-700">
@@ -74,14 +100,16 @@ title: News & Events
     </div>
   </section>
 <section class="container mb-24">
-  <h2 class="font-bold text-xl md:text-3xl mb-8 mt-12">Recap of previous events</h2>
+  <div class="flex flex-col text-center w-full mb-20">
+    <h2 class="title-font md:text-5xl text-2xl font-bold text-gray-50">Recap of previous events</h2>
+  </div>
   <div class="grid grid-cols-12 gap-4 md:gap-6">
     {% for event in events %}
       {% if event.category === "Past Events" %}
-        <div class="text-sm p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-6">
-          <h3 class="text-2xl font-bold">{{ event.title }}</h3>
+        <div class="text-sm p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-3">
+          <h3 class="text-lg font-bold">{{ event.title }}</h3>
           <p class="text-secondary mt-1">{{ event.date }}</p>
-          <p class="text-gray-400 mt-4">{{ event.description }}</p>
+          <p class="text-gray-400 mt-4 text-xs">{{ event.description }}</p>
           {% if event.outLink %}
             <a class="flex items-center mt-4 hover:underline hover:text-primary" href="{{ event.outLink }}" target="_blank" rel="noopener noreferrer">
               {{ event.outLinkLabel }}
@@ -94,3 +122,6 @@ title: News & Events
   </div>
   
 </section>
+
+
+{% include "contact.html" %}
