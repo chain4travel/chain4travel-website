@@ -1,5 +1,23 @@
 [
   {
+    "date": "June 27–29, 2022",
+    "location": "Amsterdam",
+    "title": "Phocuswright Europe",
+    "slug": "phocuswright-europe",
+    "link": "https://www.phocuswrighteurope.com",
+    "description": "Under the motto “Fast Forward”, we visited this year’s Phocuswright Event in Amsterdam. True to this motto, we have seen inspiring keynotes, innovative use cases and were able to make new connections within the travel industry. Camino is something that will bring the industry fast forward. We are certain about it. Follow our journey and become part of the travel industry.",
+    "category": "Past Events",
+    "image": "events-cover-phocuswright-europe",
+    "speaker1": "Anke Hsu",
+    "speaker1Slug": "ankehsu",
+    "speaker1Linkedin": "https://www.linkedin.com/in/anke-hsu/",
+    "speaker2": "Vincent Usbeck",
+    "speaker2Slug": "vincentusbeck",
+    "speaker2Linkedin": "https://www.linkedin.com/in/vincentusbeck",
+    "outLink": "https://www.linkedin.com/feed/update/urn:li:activity:6950028622619398145/",
+    "outLinkLabel": "More about Phocuswright Europe 2022"
+  },
+  {
     "date": "June 22, 2022",
     "location": "Munich",
     "title": "HIGH 5 Innovation Conference",
@@ -14,23 +32,6 @@
     "speaker2": "Daniel Poerschke",
     "speaker2Slug": "danielpoerschke",
     "speaker2Linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/",
-    "outLink": ""
-  },
-  {
-    "date": "June 27–29, 2022",
-    "location": "Amsterdam",
-    "title": "Phocuswright Europe",
-    "slug": "phocuswright-europe",
-    "link": "https://www.phocuswrighteurope.com",
-    "description": "“Fast Forward” is the slogan of this years’ Phocuswright Event Europe. Fast forward is where we are heading with Camino as well. We are aiming to build the new world of travel and we are growing and growing. The travel industry is ripe for change and that is what we are looking forward to discussing. We are looking forward to inspirational discussions on web3, blockchain and how Camino use cases could look like. Join the travel revolution now!",
-    "category": "Upcoming",
-    "image": "events-cover-phocuswright-europe",
-    "speaker1": "Anke Hsu",
-    "speaker1Slug": "ankehsu",
-    "speaker1Linkedin": "https://www.linkedin.com/in/anke-hsu/",
-    "speaker2": "Vincent Usbeck",
-    "speaker2Slug": "vincentusbeck",
-    "speaker2Linkedin": "https://www.linkedin.com/in/vincentusbeck",
     "outLink": ""
   },
   {
