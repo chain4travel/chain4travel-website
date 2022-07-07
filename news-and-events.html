@@ -66,15 +66,15 @@ description: Find out more about Chain4Travel online and connect with us persona
     </div>
     <div class="grid grid-cols-12 gap-4 md:gap-6 text-base">
       {% for media in media %}
-        <div class="p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-3 flex flex-col">
-          {% if media.type === "podcast" %}
-            <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>
-          {% endif %}
-          {% if media.type === "video" %}
-            <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"></path></svg>
-          {% endif %}
-          <h3 class="text-lg leading-tight my-4 font-bold">{{ media.title }}</h3>
-          <a class="text-primary hover:underline mt-auto" href="{{media.link}}" target="_blank" rel="noopener noreferrer">Go to {{media.type}}</a>
+        <div class="bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-3 flex flex-col overflow-hidden">
+          <img src="/images/{{media.image}}.jpg" class="w-full object-cover max-h-32 md:max-h-60" alt="">
+          <div class="p-4 h-full flex flex-col">
+            <h3 class="text-lg leading-tight mb-4 font-bold line-clamp-3">{{ media.title }}</h3>
+            <a class="text-primary hover:underline mt-auto flex items-center" href="{{media.link}}" target="_blank" rel="noopener noreferrer">
+              Go to {{media.type}}
+              <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </a>
+          </div>
         </div>
       {% endfor %}
     </div>
