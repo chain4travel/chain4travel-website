@@ -5,6 +5,11 @@
         "link": "blockchain-developer.pdf"
     },
     {
+        "title": "DevOps Engineer",
+        "location": "m/f/x - Düsseldorf, Zürich, New York City, Bogota, Taipei - remote",
+        "link": "devops-engineer.pdf"
+    },
+    {
         "title": "Documentation Lead",
         "location": "m/f/x - Düsseldorf, Zürich, New York City, Bogota, Taipei - remote",
         "link": "documentation-lead.pdf"
@@ -18,10 +23,5 @@
         "title": "Product Manager",
         "location": "m/f/x - Düsseldorf, Zürich, New York City, Bogota, Taipei - remote",
         "link": "product-manager.pdf"
-    },
-    {
-        "title": "DevOps Engineer",
-        "location": "m/f/x - Düsseldorf, Zürich, New York City, Bogota, Taipei - remote",
-        "link": "devops-engineer.pdf"
     }
 ]
