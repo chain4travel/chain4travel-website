@@ -27,5 +27,5 @@ module.exports = {
                 '2xl': '4rem',
                 },
         }
-      },
-  }
+    },
+}
