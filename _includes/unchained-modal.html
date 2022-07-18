@@ -1,13 +1,13 @@
 <!-- Litepaper Modal -->
 <div x-cloak x-transition x-show="UnchainedPaperModal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
     <div class="mx-auto p-4 rounded overflow-y-auto">
-        <div class="bg-gray-800 rounded-2xl p-8 shadow-lg" @click.away="UnchainedPaperModal = false">
+        <div class="bg-gray-800 rounded-2xl p-2 md:p-8 shadow-lg" @click.away="UnchainedPaperModal = false">
             <!-- Begin Mailchimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
             <div id="mc_embed_signup" class="max-w-[500px]">
             <form action="https://chain4travel.us14.list-manage.com/subscribe/post?u=832e18c74a36b3076b9b0db29&amp;id=e77249f891" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
-                <h2>Join the waiting list!</h2>
+                <h2 class="text-gray-50">Join the waiting list!</h2>
             <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
             <div class="mc-field-group">
                 <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
@@ -36,7 +36,7 @@
             </div>
             <div class="flex items-start text-base my-4">
                 <input required type="checkbox" name="LPagreement" id="LPagreement" class="mt-2 rounded w-6 h-6 bg-dark border-secondary text-secondary focus:ring-secondary focus:ring-offset-dark cursor-pointer">
-                <label for="LPagreement" class="ml-4 text-gray-400 cursor-pointer hover:text-gray-300">I agree to the <a class="underline hover:text-primary" href="/data-privacy">privacy policy</a> and I consent to being contacted by Chain4Travel via email. I agree to the storage of my transmitted data for the required period of time.</label>
+                <label for="LPagreement" class="ml-4 text-gray-400 cursor-pointer hover:text-gray-300 text-sm">I agree to the <a class="underline hover:text-primary" href="/data-privacy">privacy policy</a> and I consent to being contacted by Chain4Travel via email. I agree to the storage of my transmitted data for the required period of time.</label>
             </div>
             <div hidden="true"><input type="hidden" name="tags" value="7393453"></div>
                 <div id="mce-responses" class="clear">
