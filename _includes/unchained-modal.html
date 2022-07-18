@@ -1,7 +1,7 @@
 <!-- Litepaper Modal -->
-<div x-cloak x-transition x-show="UnchainedPaperModal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
+<div x-cloak x-transition x-show="UnchainedSignUpModal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
     <div class="mx-auto p-4 rounded overflow-y-auto">
-        <div class="bg-gray-800 rounded-2xl p-2 md:p-8 shadow-lg" @click.away="UnchainedPaperModal = false">
+        <div class="bg-gray-800 rounded-2xl p-2 md:p-8 shadow-lg" @click.away="UnchainedSignUpModal = false">
             <!-- Begin Mailchimp Signup Form -->
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
             <div id="mc_embed_signup" class="max-w-[500px]">
@@ -44,7 +44,10 @@
                     <div class="response text-secondary mt-2 font-bold" id="mce-success-response" style="display:none"></div>
                 </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_832e18c74a36b3076b9b0db29_e77249f891" tabindex="-1" value=""></div>
-                <div class="clear"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                <div class="clear">
+                    <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button">
+                </div>
+                <div class="mt-4 w-full text-center cursor-pointer border text-gray-200 border-gray-700 hover:bg-gray-700 py-3 px-5 rounded transition-colors" @click="UnchainedSignUpModal = false">Close</div>
                 </div>
             </form>
             </div>
