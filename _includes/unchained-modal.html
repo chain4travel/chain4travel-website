@@ -3,7 +3,6 @@
     <div class="mx-auto p-4 rounded overflow-y-auto">
         <div class="bg-gray-800 rounded-2xl p-2 md:p-8 shadow-lg" @click.away="UnchainedSignUpModal = false">
             <!-- Begin Mailchimp Signup Form -->
-            <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
             <div id="mc_embed_signup" class="max-w-[500px]">
             <form action="https://chain4travel.us14.list-manage.com/subscribe/post?u=832e18c74a36b3076b9b0db29&amp;id=e77249f891" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
@@ -35,8 +34,8 @@
                 <input type="text" value="" name="MMERGE4" class="required" id="mce-MMERGE4">
             </div>
             <div class="flex items-start text-base my-4">
-                <input required type="checkbox" name="unchainedAgreement" id="unchainedAgreement" class="mt-2 rounded w-6 h-6 bg-dark border-secondary text-secondary focus:ring-secondary focus:ring-offset-dark cursor-pointer">
-                <label for="unchainedAgreement" class="ml-4 text-gray-400 cursor-pointer hover:text-gray-300 text-sm">I agree to the <a class="underline hover:text-primary" href="/data-privacy">privacy policy</a> and I consent to being contacted by Chain4Travel via email. I agree to the storage of my transmitted data for the required period of time.</label>
+                <input required type="checkbox" name="UnchainedAgreement" id="UnchainedAgreement" class="mt-2 rounded w-6 h-6 bg-dark border-secondary text-secondary focus:ring-secondary focus:ring-offset-dark cursor-pointer">
+                <label for="UnchainedAgreement" class="ml-4 text-gray-400 cursor-pointer hover:text-gray-300 text-left">I agree to the <a class="underline hover:text-primary" href="/data-privacy">privacy policy</a> and I consent to being contacted by Chain4Travel via email. I agree to the storage of my transmitted data for the required period of time.</label>
             </div>
             <div hidden="true"><input type="hidden" name="tags" value="7393453"></div>
                 <div id="mce-responses" class="clear">
@@ -47,7 +46,7 @@
                 <div class="clear">
                     <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button">
                 </div>
-                <div class="mt-4 w-full text-center cursor-pointer border text-gray-200 border-gray-700 hover:bg-gray-700 py-3 px-5 rounded transition-colors" @click="UnchainedSignUpModal = false">Close</div>
+                <div class="mt-4 w-full text-center cursor-pointer border text-gray-200 border-gray-700 hover:bg-gray-700 py-2 px-6 rounded transition-colors" @click="UnchainedSignUpModal = false">Close</div>
                 <p class="text-center text-sm mt-4">Please also check your spam folder!</p>
                 </div>
             </form>
