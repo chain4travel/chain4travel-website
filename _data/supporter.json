@@ -175,6 +175,11 @@
         "url": "https://www.riversoft.com.tw/"
     },
     {
+        "name": "SH Financial",
+        "slug": "shfinancial",
+        "url": "https://sh-financial.com/"
+    },
+    {
         "name": "Sugartrends",
         "slug": "sugartrends",
         "url": "https://www.sugartrends.com/en"
@@ -183,6 +188,11 @@
         "name": "Sunweb Group",
         "slug": "sunweb",
         "url": "https://www.sunweb.de/"
+    },
+    {
+        "name": "TenetX",
+        "slug": "tenetx",
+        "url": "https://tenetx.io/"
     },
     {
         "name": "Traffics",
