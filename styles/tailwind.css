@@ -28,7 +28,7 @@ html {
 }
 
 #mc_embed_signup input.button {
-  @apply font-semibold w-full flex text-dark bg-secondary py-2 px-6 focus:outline-none hover:bg-gray-50 rounded md:text-lg h-auto font-sans;
+  @apply font-semibold w-full text-dark bg-secondary py-2 px-6 focus:outline-none hover:bg-gray-50 rounded md:text-lg h-auto font-sans justify-center;
 }
 
 #mc_embed_signup div.mc-field-group input {
