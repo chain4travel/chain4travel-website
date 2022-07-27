@@ -32,7 +32,7 @@ html {
 }
 
 #mc_embed_signup div.mc-field-group input {
-  @apply placeholder-white0 bg-gray-800 border border-gray-700 rounded-lg block w-full focus:ring-2 text-white focus:ring-offset-gray-900 focus:ring-secondary
+  @apply placeholder-white bg-gray-800 border border-gray-700 rounded-lg block w-full focus:ring-2 text-white focus:ring-offset-gray-900 focus:ring-secondary
 }
 
 #mce-responses {
