@@ -2,7 +2,7 @@
     <div class="container py-16 pt-0">
 
     <div class="flex flex-col text-center w-full mb-20">
-      <h2 class="title-font md:text-5xl text-2xl font-bold text-gray-50">
+      <h2 class="title-font md:text-5xl text-2xl font-bold text-white">
         Learn what industry experts have to say about Chain4Travel
       </h2>
     </div>
@@ -12,13 +12,13 @@
         <a
           href="#"
           class="lg:col-span-2 flex flex-col justify-center items-center flex-1 rounded-lg p-4 px-4 md:px-2"
-          :class="{ 'bg-gray-800 text-gray-50' : tab === 'tab{{testimonial.slug}}' }"
+          :class="{ 'bg-gray-800 text-white' : tab === 'tab{{testimonial.slug}}' }"
           @click.prevent="tab = 'tab{{testimonial.slug}}'"
           >
           <img alt="testimonial-photo" src="../images/{{ testimonial.slug }}.png" class="w-12 h-12 rounded-full flex-shrink-0 mb-2 object-cover object-center">
           <div class="">
             <div class="text-current text-center text-xs md:text-base whitespace-nowrap text-gray-100">{{ testimonial.person }}</div>
-            <div class="text-gray-500 text-xs text-center hidden lg:block">{{ testimonial.company }}</div>
+            <div class="text-white0 text-xs text-center hidden lg:block">{{ testimonial.company }}</div>
           </div>
         </a>
       {% endfor %}

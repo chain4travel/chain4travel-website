@@ -28,11 +28,11 @@ html {
 }
 
 #mc_embed_signup input.button {
-  @apply font-semibold w-full text-dark bg-secondary py-2 px-6 focus:outline-none hover:bg-gray-50 rounded md:text-lg h-auto font-sans justify-center;
+  @apply font-semibold w-full text-dark bg-secondary py-2 px-6 focus:outline-none hover:bg-white rounded md:text-lg h-auto font-sans justify-center;
 }
 
 #mc_embed_signup div.mc-field-group input {
-  @apply placeholder-gray-500 bg-gray-800 border border-gray-700 rounded-lg block w-full focus:ring-2 text-gray-50 focus:ring-offset-gray-900 focus:ring-secondary
+  @apply placeholder-white0 bg-gray-800 border border-gray-700 rounded-lg block w-full focus:ring-2 text-white focus:ring-offset-gray-900 focus:ring-secondary
 }
 
 #mce-responses {
