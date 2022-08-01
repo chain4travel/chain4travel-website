@@ -18,6 +18,16 @@
     "outLinkLabel": "More about Phocuswright Europe 2022"
   },
   {
+    "date": "November 2-5, 2022",
+    "location": "Antalya",
+    "title": "Fvw Travel Talk",
+    "slug": "fvw-travel-talk",
+    "link": "https://www.fvw.de/events/fvw--traveltalk-kongress-2022-in-antalya-478",
+    "description": "The congress has been the leading specialist congress for German-speaking tourism for more than 20 years. After two virtual events, the B2B event will take place live again. From November 2nd to 5th, 2022, the industry will meet at the Hotel Swandor Topkapi Palace.",
+    "category": "Upcoming",
+    "image": "events-cover-fvw-travel-talk"
+  },
+  {
     "date": "June 22, 2022",
     "location": "Munich",
     "title": "HIGH 5 Innovation Conference",
@@ -41,7 +51,7 @@
     "slug": "avalanche-house",
     "link": "https://www.avalanche.house/",
     "description": "We are gearing up for the Avalanche House in Brooklyn and are looking forward to interesting keynotes and impactful discussions about web3, traveltech, blockchain technology and much more. The decision to use the robust and versatile Avalanche technology, was the best possible foundation to change the world of travel. We cannot wait to meet other users of the Avalanche ecosystem and to connect and learn from each other. Join the travel revolution!",
-    "category": "Upcoming",
+    "category": "Past Events",
     "image": "events-cover-avalanche",
     "speaker1": "Pablo Castillo",
     "speaker1Slug": "pablocastillo",
