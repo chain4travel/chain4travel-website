@@ -27,7 +27,7 @@ description: Find out more about Chain4Travel online and connect with us persona
     {% for event in events %}
       {% if event.category === "Upcoming" %}
         <div class="p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-6">
-          <img class="object-cover mb-4 rounded-lg" src="../images/events/{{event.image}}.png" alt="">
+          <img class="object-cover mb-4 rounded-lg" src="../images/events/{{event.image}}.png" alt="{{event.image}} - cover" role="presentation">
           <h3 class="text-2xl font-bold">{{ event.title }}</h3>
           <div class="flex items-center my-3 text-secondary text-sm font-bold">
             <div class="flex items-center mr-4">
@@ -71,7 +71,7 @@ description: Find out more about Chain4Travel online and connect with us persona
     <div class="grid grid-cols-12 gap-4 md:gap-6 text-base">
       {% for media in media %}
         <div class="bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-3 flex flex-col overflow-hidden">
-          <img src="/images/{{media.image}}.jpg" class="w-full object-cover max-h-32 md:max-h-60" alt="">
+          <img src="/images/{{media.image}}.jpg" class="w-full object-cover max-h-32 md:max-h-60" alt="{{media.image}} - cover">
           <div class="p-4 h-full flex flex-col">
             <h3 class="text-lg leading-tight mb-4 font-bold line-clamp-3">{{ media.title }}</h3>
             <a class="text-primary hover:underline mt-auto flex items-center" href="{{media.link}}" target="_blank">
