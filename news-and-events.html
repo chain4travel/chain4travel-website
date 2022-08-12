@@ -47,10 +47,12 @@ description: Find out more about Chain4Travel online and connect with us persona
                 <img class="w-8 h-8 rounded-full mr-2" src="/images/{{event.speaker1Slug}}.png" alt="{{event.speaker1Slug}}-avatar">
                 {{ event.speaker1 }}
               </a>
-              <a class="flex items-center hover:text-primary" href="{{event.speaker2Linkedin}}" target="_blank">
-                <img class="w-8 h-8 rounded-full mr-2" src="/images/{{event.speaker2Slug}}.png" alt="{{event.speaker2Slug}}-avatar">
-                {{ event.speaker2 }}
-              </a>
+              {% if event.speaker2 %}
+                <a class="flex items-center hover:text-primary" href="{{event.speaker2Linkedin}}" target="_blank">
+                  <img class="w-8 h-8 rounded-full mr-2" src="/images/{{event.speaker2Slug}}.png" alt="{{event.speaker2Slug}}-avatar">
+                  {{ event.speaker2 }}
+                </a>
+              {% endif %}
             </div>
           {% endif %}
         </div>

@@ -25,7 +25,10 @@
     "link": "https://www.fvw.de/events/fvw--traveltalk-kongress-2022-in-antalya-478",
     "description": "A key question of the Fvw TravelTalk convention will be how new technologies, such as blockchain, are emerging and shaping new ways of working in the industry. As Chain4Travel, we look forward to these discussions and conversations about real use cases on the Camino blockchain. Don't miss our keynote speech and the possibility of exploring the potential of blockchain in the travel industry in one of the deep dive sessions or masterclasses.",
     "category": "Upcoming",
-    "image": "events-cover-fvw-travel-talk"
+    "image": "events-cover-fvw-travel-talk",
+    "speaker1": "Ralf Usbeck",
+    "speaker1Slug": "ralfusbeck",
+    "speaker1Linkedin": "https://www.linkedin.com/in/ralf-usbeck-650646235/"
   },
   {
     "date": "June 22, 2022",
@@ -45,7 +48,7 @@
     "outLink": ""
   },
   {
-    "date": "July 15–16, 2022",
+    "date": "July 15-16, 2022",
     "location": "Brooklyn",
     "title": "Avalanche House",
     "slug": "avalanche-house",
@@ -62,7 +65,7 @@
     "outLink": ""
   },
   {
-    "date": "October 04–06, 2022",
+    "date": "October 04-06, 2022",
     "location": "Amsterdam",
     "title": "World Aviation Festival",
     "slug": "world-aviation-festival",
@@ -96,7 +99,7 @@
     "outLink": ""
   },
   {
-    "date": "March 11–12, 2022",
+    "date": "March 11-12, 2022",
     "location": "Munich",
     "title": "HSMAday",
     "slug": "hsma",
@@ -107,7 +110,7 @@
     "outLinkLabel": "Listen to the short interview (YouTube)"
   },
   {
-    "date": "July 09–12, 2022",
+    "date": "July 09-12, 2022",
     "location": "Austin, Texas",
     "title": "Consensus (by CoinDesk)",
     "slug": "consensus",
@@ -118,7 +121,7 @@
     "outLinkLabel": "See insights from Consensus 2022 (LinkedIn)"
   },
   {
-    "date": "June 01–02, 2022",
+    "date": "June 01-02, 2022",
     "location": "Berlin",
     "title": "VIR Online Innovation Days",
     "slug": "vir-online-innovation-days",

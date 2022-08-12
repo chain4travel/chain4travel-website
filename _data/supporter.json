@@ -70,6 +70,11 @@
         "url": "https://www.falkensteiner.com/en"
     },
     {
+        "name": "Fitbooktravel",
+        "slug": "fitbooktravel",
+        "url": "https://fitbooktravel.com/"
+    },
+    {
         "name": "FTI",
         "slug": "fti",
         "url": "https://www.fti.de/"
@@ -133,6 +138,16 @@
         "name": "Lufthansa Holidays",
         "slug": "lufthansaholidays",
         "url": "https://www.lufthansaholidays.com/en-de"
+    },
+    {
+        "name": "Midnightdeal",
+        "slug": "midnightdeal",
+        "url": "https://midnightdeal.com/de"
+    },
+    {
+        "name": "Miles & More",
+        "slug": "miles-and-more",
+        "url": "https://www.miles-and-more.com/de/en.html"
     },
     {
         "name": "MTS Globe",
