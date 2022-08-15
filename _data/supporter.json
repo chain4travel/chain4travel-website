@@ -50,6 +50,11 @@
         "url": "https://www.busy-rooms.com/en"
     },
     {
+        "name": "CarbonClick",
+        "slug": "carbonclick",
+        "url": "https://www.carbonclick.com/"
+    },
+    {
         "name": "DER Touristik",
         "slug": "der",
         "url": "https://www.dertouristik.com/en/?lang=EN&rdeLocaleAttr=EN"
