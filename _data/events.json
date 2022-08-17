@@ -111,17 +111,6 @@
     "outLink": ""
   },
   {
-    "date": "March 11-12, 2022",
-    "location": "Munich",
-    "title": "HSMAday",
-    "slug": "hsma",
-    "link": "https://www.hsma.de/de",
-    "description": "The Hospitality Sales & Marketing Association Deutschland e.V. consolidates over 1,600 members of the hospitality industry and forms a network of as well as a knowledge pool on all relevant specialist areas. Our Managing Director Daniel Poerschke was there and received overwhelming feedback for his presentation of Chain4Travel’s approach to revolutionize the travel industry. ",
-    "category": "Past Events",
-    "outLink": "https://www.youtube.com/watch?v=YGdxBfYmQSw",
-    "outLinkLabel": "Listen to the short interview (YouTube)"
-  },
-  {
     "date": "June 01-02, 2022",
     "location": "Berlin",
     "title": "VIR Online Innovation Days",
@@ -131,5 +120,16 @@
     "category": "Past Events",
     "outLink": "https://www.youtube.com/user/virtualVIR",
     "outLinkLabel": "Watch our keynotes on day two here (YouTube)"
+  },
+  {
+    "date": "March 11-12, 2022",
+    "location": "Munich",
+    "title": "HSMAday",
+    "slug": "hsma",
+    "link": "https://www.hsma.de/de",
+    "description": "The Hospitality Sales & Marketing Association Deutschland e.V. consolidates over 1,600 members of the hospitality industry and forms a network of as well as a knowledge pool on all relevant specialist areas. Our Managing Director Daniel Poerschke was there and received overwhelming feedback for his presentation of Chain4Travel’s approach to revolutionize the travel industry. ",
+    "category": "Past Events",
+    "outLink": "https://www.youtube.com/watch?v=YGdxBfYmQSw",
+    "outLinkLabel": "Listen to the short interview (YouTube)"
   }
 ]
