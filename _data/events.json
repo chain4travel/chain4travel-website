@@ -1,5 +1,19 @@
 [
   {
+    "date": "September 28-29, 2022",
+    "location": "Singapore",
+    "title": "Token2049",
+    "slug": "token2049",
+    "link": "https://www.token2049.com",
+    "description": "This year we are attending Token2049 in Singapore for the first time, and we are looking forward to this extraordinary crypto event that will take place at the same time as the Formula 1 Singapore Grand Prix. Besides the buzzing city, we cannot wait to see more compelling use cases and insights from a wide variety of industries in Web3. We are ready to help shape the future and share our travel expertise in Web3. We hopefully see you in Singapore!",
+    "category": "Upcoming",
+    "image": "events-cover-token2049",
+    "speaker1": "Pablo Castillo",
+    "speaker1Slug": "pablocastillo",
+    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
+    "outLink": ""
+  },
+  {
     "date": "October 04-06, 2022",
     "location": "Amsterdam",
     "title": "World Aviation Festival",
