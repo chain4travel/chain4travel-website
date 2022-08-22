@@ -43,14 +43,20 @@ description: Find out more about Chain4Travel online and connect with us persona
           {% if event.speaker1 %}
           <p class="text-sm mt-2 font-bold">Connect with us on LinkedIn:</p>
             <div class="flex text-sm mt-4">
-              <a class="flex items-center hover:text-primary mr-4" href="{{event.speaker1Linkedin}}" target="_blank">
+              <a class="flex items-center hover:text-primary" href="{{event.speaker1Linkedin}}" target="_blank">
                 <img class="w-8 h-8 rounded-full mr-2" src="/images/{{event.speaker1Slug}}.png" alt="{{event.speaker1Slug}}-avatar">
                 {{ event.speaker1 }}
               </a>
               {% if event.speaker2 %}
-                <a class="flex items-center hover:text-primary" href="{{event.speaker2Linkedin}}" target="_blank">
+                <a class="flex items-center hover:text-primary mx-4" href="{{event.speaker2Linkedin}}" target="_blank">
                   <img class="w-8 h-8 rounded-full mr-2" src="/images/{{event.speaker2Slug}}.png" alt="{{event.speaker2Slug}}-avatar">
                   {{ event.speaker2 }}
+                </a>
+              {% endif %}
+              {% if event.speaker3 %}
+                <a class="flex items-center hover:text-primary" href="{{event.speaker3Linkedin}}" target="_blank">
+                  <img class="w-8 h-8 rounded-full mr-2" src="/images/{{event.speaker3Slug}}.png" alt="{{event.speaker2Slug}}-avatar">
+                  {{ event.speaker3 }}
                 </a>
               {% endif %}
             </div>
