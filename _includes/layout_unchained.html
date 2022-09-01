@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gray-900">
+<head class="overflow-x-hidden">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+
+    <meta charset="UTF-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css?v={% version %}"/>
+    <script src="/js/alpine.js?v={% version %}" defer></script>
+
+    <!-- Theme color -->
+    <meta name="theme-color" content="#171717" />
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.chain4travel.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Chain4Travel - Connecting the new world of travel">
+    <meta property="og:description" content="Chain4Travel is the facilitator of the Camino consortium blockchain, a new disruptive approach to trade touristic products B2B and B2C.">
+    <meta property="og:image" content="https://www.chain4travel.com/images/social.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Chain4Travel" />
+    <meta name="twitter:title" content="Chain4Travel - Connecting the new world of travel">
+    <meta name="twitter:description" content="Chain4Travel is the facilitator of the Camino consortium blockchain, a new disruptive approach to trade touristic products B2B and B2C.">
+    <meta name="twitter:image" content="https://www.chain4travel.com/images/social.png">
+
+    <!-- Cookie Consent by TermsFeed Privacy Generator https://www.TermsFeed.com -->
+    <script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
+    <script type="text/javascript" charset="UTF-8">
+    document.addEventListener('DOMContentLoaded', function () {
+    cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"dark","language":"en","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"Chain4Travel","website_privacy_policy_url":"https://chain4travel.com/data-privacy/"});
+    });
+    </script>
+
+    <!-- Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/plain" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=G-HCFQ9121EE"></script>
+    <script type="text/plain" cookie-consent="tracking">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HCFQ9121EE');
+    </script>
+    <!-- end of Google Analytics-->
+
+    <noscript>ePrivacy and GPDR Cookie Consent management by <a href="https://www.TermsFeed.com/" rel="nofollow">TermsFeed Privacy Generator</a></noscript>
+    <!-- End Cookie Consent by TermsFeed Privacy Generator https://www.TermsFeed.com -->
+    
+</head>
+<body class="bg-gray-900 text-gray-100 overflow-x-hidden lg:text-lg">
+    {{ content | safe }}
+    {% include "footer.html" %}
+</body>
+</html>
