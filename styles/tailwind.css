@@ -99,7 +99,7 @@ table tr.small th {
 }
 
 .timetable-cell {
-  @apply whitespace-nowrap font-mono text-sm align-top pt-6;
+  @apply whitespace-nowrap font-mono text-sm align-top;
 }
 
 .timetable-cell-small {
