@@ -11,12 +11,17 @@ description: TODO
             All information for <span class="text-primary">Travel Unchained</span> on one page.
         </h1>
 
+        <div class="lg:hidden">
+            <a class="bg-gray-900/50 px-4 py-3 rounded-xl" href="#agenda">View Agenda</a>
+            <a class="bg-gray-900/50 px-4 py-3 rounded-xl" href="#shuttle">View Shuttle</a>
+        </div>
+
     </div>
     <div class="z-0 bg-gradient-to-tr from-primary via-gray-900 to-secondary blur-3xl rounded-full w-screen h-48 absolute -bottom-24 left-1/2 -translate-x-1/2"></div>
 </section>
 
 <div class="container grid grid-cols-12 py-12 md:py-24 lg:gap-16">
-    <div class="col-span-12 lg:col-span-6 mb-16 lg:mb-0">
+    <div class="col-span-12 lg:col-span-6 mb-16 lg:mb-0" id="agenda">
         <div class="text-white font-bold text-3xl mb-2 flex items-center">
             <svg class="w-8 h-8 flex-shrink-0 mr-4 text-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5h10m-10 7h10m-10 7h10"></path><circle cx="5" cy="5" r="2" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle><circle cx="5" cy="5" r="2" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle><circle cx="5" cy="12" r="2" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle><circle cx="5" cy="19" r="2" fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></circle></svg>
             Event Agenda
@@ -24,7 +29,20 @@ description: TODO
 
         <div class="text-white font-bold text-2xl mb-4 mt-8">Day 1 is packed</div>
         After a day exploring web3 in travel and learning about real-life use cases, join us at Sea Club Mhares for amazing views, delicious food, and cocktails.
-        <table class="text-left align-top mt-8 border border-gray-800 w-full">
+
+        <table class="text-left align-top mt-8 border border-gray-700 w-full">
+            <tr class="bg-gray-700">
+                <th>Time</th>
+                <th>Description</th>
+            </tr>
+            <tr class="small bg-gray-800">
+                <td class="timetable-cell-small">11:15</td>
+                <td>Muelle Golondrina Transfer</td>
+            </tr>
+            <tr class="small">
+                <td class="timetable-cell-small"></td>
+                <td><span class="text-primary">Part 1: Keynotes</span></td>
+            </tr>
             <tr class="small">
                 <td class="timetable-cell-small">12:00</td>
                 <td>Registration & Lunch</td>
@@ -52,6 +70,9 @@ description: TODO
             <tr class="small">
                 <td class="timetable-cell-small">14:40</td>
                 <td>Break</td>
+            </tr><tr class="small">
+                <td class="timetable-cell-small"></td>
+                <td><span class="text-primary">Part 2: Use Cases</span> </td>
             </tr>
             <tr class="small">
                 <td class="timetable-cell-small">15:15</td>
@@ -77,9 +98,13 @@ description: TODO
                 <td class="timetable-cell-small">17:00</td>
                 <td>Networking</td>
             </tr>
-            <tr class="small">
-                <td class="timetable-cell-small">17:30</td>
+            <tr class="small bg-gray-800">
+                <td class="timetable-cell-small">17:15</td>
                 <td>Hotel Transfer</td>
+            </tr>
+            <tr class="small bg-gray-800">
+                <td class="timetable-cell-small">19:00</td>
+                <td>Seaclub Transfer</td>
             </tr>
             <tr class="small">
                 <td class="timetable-cell-small">19:30</td>
@@ -89,6 +114,10 @@ description: TODO
                 <td class="timetable-cell-small">20:30</td>
                 <td>Dinner & Afterparty</td>
             </tr>
+            <tr class="small bg-gray-800">
+                <td class="timetable-cell-small">23:00<br> -<br> 02:00</td>
+                <td>Hotel Transfer</td>
+            </tr>
             <tr class="small">
                 <td class="timetable-cell-small">02:00</td>
                 <td>End</td>
@@ -97,8 +126,23 @@ description: TODO
 
         <div class="text-white font-bold text-2xl mb-4 mt-8">Day 2 is exclusive</div>
         Meet the right people in an exclusive setting; the perfect opportunity to network and exchange thoughts and ideas about the future of travel.
+
+        <table class="text-left align-top mt-8 border border-gray-700 w-full">
+            <tr class="bg-gray-700">
+                <th>Time</th>
+                <th class="">Description</th>
+            </tr>
+            <tr class="small">
+                <td class="timetable-cell-small">10:00</td>
+                <td class="">Network Brunch - Please register to the exclusive network brunch event</td>
+            </tr>
+            <tr class="small">
+                <td class="timetable-cell-small">12:00</td>
+                <td class="">End</td>
+            </tr>
+        </table>
     </div>
-    <div class="col-span-12 lg:col-span-6">
+    <div class="col-span-12 lg:col-span-6" id="shuttle">
         {% include "unchained-shuttle-table.html" %}
     </div>
 </div>
