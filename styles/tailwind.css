@@ -90,7 +90,7 @@ table tr {
 
 table tr td,
 table tr th {
-  @apply p-4;
+  @apply py-2 px-4;
 }
 
 table tr.small td,
