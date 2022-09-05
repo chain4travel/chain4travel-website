@@ -103,5 +103,5 @@ table tr.small th {
 }
 
 .timetable-cell-small {
-  @apply whitespace-nowrap font-mono text-sm;
+  @apply whitespace-nowrap font-mono text-sm w-24;
 }
