@@ -1,7 +1,7 @@
 <div x-data="{ atTop : true }">
     <header
-      class="text-gray-400 w-full fixed top-0 left-0 right-0 z-50"
-      :class="{'shadow-lg bg-gray-900/80 backdrop-blur-xl border-b border-gray-800' : !atTop}"
+      class="text-gray-400 bg-gray-900/80 w-full backdrop-blur-xl fixed top-0 left-0 right-0 z-50"
+      :class="{'shadow-lg border-b border-gray-800' : !atTop}"
       @scroll.window="atTop = ( window.pageYOffset > 0 ) ? false : true">
       <div class="container mx-auto flex flex-wrap py-4 items-center">
         <a href="/" class="flex font-medium items-center text-gray-900 transition-all hover:brightness-125">
