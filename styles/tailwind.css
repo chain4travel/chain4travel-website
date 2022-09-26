@@ -66,12 +66,14 @@ html {
 
 .termsfeed-com---palette-dark .cc-nb-okagree,
 .termsfeed-com---palette-dark .cc-cp-foot-save {
-  background-color: #30e8bf !important;
+  background-color: #fff !important;
   color: #111 !important;
 }
 
-.termsfeed-com---palette-dark .cc-nb-reject {
-  background-color: #aaa !important;
+.termsfeed-com---palette-dark .cc-nb-reject,
+.termsfeed-com---palette-dark .cc-nb-changep {
+  background-color: transparent !important;
+  color: #fff !important;
 }
 
 .use-cases-bg {
