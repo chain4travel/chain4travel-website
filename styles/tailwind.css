@@ -57,7 +57,11 @@ html {
 }
 
 .termsfeed-com---nb-simple {
-  max-width: 560px !important;
+  max-width: 450px !important;
+}
+
+.termsfeed-com---nb .cc-nb-text {
+  font-size: 14px !important;
 }
 
 .termsfeed-com---nb .cc-nb-main-container {
