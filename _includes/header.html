@@ -1,7 +1,7 @@
 <div x-data="{ atTop : true }">
     <header
-      class="text-gray-400 w-full fixed top-0 left-0 right-0 z-50"
-      :class="{'shadow-lg bg-gray-900/80 backdrop-blur-xl border-b border-gray-800' : !atTop}"
+      class="text-gray-400 bg-gray-900/80 w-full backdrop-blur-xl fixed top-0 left-0 right-0 z-50"
+      :class="{'shadow-lg qwborder-b border-gray-800' : !atTop}"
       @scroll.window="atTop = ( window.pageYOffset > 0 ) ? false : true">
       <div class="container mx-auto flex flex-wrap py-4 items-center">
         <a href="/" class="flex font-medium items-center text-gray-900 transition-all hover:brightness-125">
@@ -31,7 +31,8 @@
             <a @click="menuOpen = !menuOpen" href="/about" class="p-4 text-lg w-full text-center hover:text-white cursor-pointer">About</a>
             <a @click="menuOpen = !menuOpen" href="/team" class="p-4 text-lg w-full text-center hover:text-white cursor-pointer">Team<a>
             <a @click="menuOpen = !menuOpen" href="/supporter" class="p-4 text-lg w-full text-center hover:text-white cursor-pointer">Supporters</a>
-            <a @click="menuOpen = !menuOpen" href="/news-and-events" class="p-4 text-lg w-full text-center hover:text-white cursor-pointer">News & Events</a>
+            <a @click="menuOpen = !menuOpen" href="/news" class="p-4 text-lg w-full text-center hover:text-white cursor-pointer">News</a>
+            <a @click="menuOpen = !menuOpen" href="/events" class="p-4 text-lg w-full text-center hover:text-white cursor-pointer">Events</a>
             <a @click="menuOpen = !menuOpen" href="/#jobs" class="p-4 text-lg w-full text-center hover:text-white cursor-pointer">Jobs</a>
             <a @click="menuOpen = !menuOpen" href="/pre-sale" class="p-4 text-lg w-full text-center hover:text-white cursor-pointer">Pre-Sale</a>
             <a @click="menuOpen = !menuOpen" href="/#contact" class="transition-colors mt-4 flex justify-center items-center w-full font-semibold text-gray-900 bg-secondary hover:bg-white hover:border-white hover:text-gray-900 py-2 px-3 rounded-lg text-base">Contact Us</a>
@@ -42,7 +43,8 @@
           <a href="/about" class="p-2 hover:text-white cursor-pointer">About</a>
           <a href="/team" class="p-2 hover:text-white cursor-pointer">Team<a>
           <a href="/supporter" class="p-2 hover:text-white cursor-pointer">Supporters</a>
-          <a href="/news-and-events" class="p-2 hover:text-white cursor-pointer">News & Events</a>
+          <a href="/news" class="p-2 hover:text-white cursor-pointer">News</a>
+          <a href="/events" class="p-2 hover:text-white cursor-pointer">Events</a>
           <a href="/#jobs" class="p-2 hover:text-white cursor-pointer">Jobs</a>
           <a href="/pre-sale" class="p-2 hover:text-white cursor-pointer">Pre-Sale</a>
           <a href="/#contact" class="transition-colors ml-4 inline-flex items-center font-semibold text-gray-900 bg-secondary hover:bg-white hover:border-white hover:text-gray-900 py-2 px-3 rounded-lg text-base">Contact Us</a>

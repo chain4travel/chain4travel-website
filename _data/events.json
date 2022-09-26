@@ -85,23 +85,6 @@
   },
 
   {
-    "date": "July 15-16, 2022",
-    "location": "Brooklyn",
-    "title": "Avalanche House",
-    "slug": "avalanche-house",
-    "link": "https://www.avalanche.house/",
-    "description": "Avalanche House was a whole other level: The location was entirely transformed into the Andretti Formula E scenery, even with the real racing car being there. Our team could listen to the awesome lineup of speakers from all across Web3 and get to know the industry's top leaders and creative minds. Thank you Avalanche House that we were able to connect with others from the ecosystem.",
-    "category": "Past Events",
-    "image": "events-cover-avalanche",
-    "speaker1": "Pablo Castillo",
-    "speaker1Slug": "pablocastillo",
-    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
-    "speaker2": "Vincent Usbeck",
-    "speaker2Slug": "vincentusbeck",
-    "speaker2Linkedin": "https://www.linkedin.com/in/vincentusbeck",
-    "outLink": ""
-  },
-  {
     "date": "July 09-12, 2022",
     "location": "Austin, Texas",
     "title": "Consensus (by CoinDesk)",
@@ -129,23 +112,6 @@
     "speaker2Linkedin": "https://www.linkedin.com/in/vincentusbeck",
     "outLink": "https://www.linkedin.com/feed/update/urn:li:activity:6950028622619398145/",
     "outLinkLabel": "More about Phocuswright Europe 2022"
-  },
-  {
-    "date": "June 22, 2022",
-    "location": "Munich",
-    "title": "HIGH 5 Innovation Conference",
-    "slug": "innovation-conference",
-    "link": "https://apaleo.com/de/high-5-innovation-conference",
-    "description": "Apaleo brought together hoteliers, innovators, and thought leaders in Munich for the High 5 Innovation Conference. We were also there, represented by our colleagues Anke and Daniel. They had interesting discussions about blockchain’s potential to revolutionize the hospitality industry and, more specifically, how being part of the Camino network can benefit the industry.",
-    "category": "Past Events",
-    "image": "events-cover-high5",
-    "speaker1": "Anke Hsu",
-    "speaker1Slug": "ankehsu",
-    "speaker1Linkedin": "https://www.linkedin.com/in/anke-hsu/",
-    "speaker2": "Daniel Poerschke",
-    "speaker2Slug": "danielpoerschke",
-    "speaker2Linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/",
-    "outLink": ""
   },
   {
     "date": "June 01-02, 2022",
