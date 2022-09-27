@@ -12,6 +12,12 @@ html {
   outline: 0;
 }
 
+.video-frame {
+    box-shadow:
+    16px 16px 64px 0 rgba(48, 232, 191, .25),
+    -16px -16px 64px 0 rgba(255, 130, 52, .25);
+}
+
 /* prevents alpine content to blip */
 [x-cloak] {
   display: none !important;
@@ -52,7 +58,7 @@ html {
 
 #mc_embed_signup #mce-success-response {
   background: none !important;
-  color: #30E8BF !important;
+  color: #30e8bf !important;
   font-size: 16px;
 }
 
