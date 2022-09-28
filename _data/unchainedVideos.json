@@ -12,21 +12,42 @@
     {
         "url": "SnNZI49z-L4",
         "title": "Blockchain, Way More Than Just Bitcoin by Dr. Stephan Romeike",
-        "text": "Stephan made it clear that blockchain is much more than just Bitcoin."
+        "text": "Stephan made it clear that blockchain is much more than just Bitcoin. He guides the audience through the world of the token economy using his three working hypotheses."
     },
     {
         "url": "XYNPXRfNs-M",
         "title": "Payment and Settlement Solutions by Roberto da Re",
         "text": "Business-to-business transactions can be expensive, and it can be difficult to reconcile thousands of ledger items across the supply chain. Roberto explains in his keynote speech how Travel Ledger facilitates a solution to this by offering fast and inexpensive settlements for the travel industry."
     },
+
     {
-        "url": "UyMUaKy4uQc",
-        "title": "Camino Outlook by Thomas Stirnimann",
-        "text": "Thomas presented the bright outlook for Camino and ended the afternoon session with a very important and decisive question: 'Which Camino will you take?'"
+        "url": "hIxtQUQOfVw",
+        "title": "Hotel Information in Web3 by Ralf Usbeck",
+        "text": "XXX"
+    },
+    {
+        "url": "A1Mg5-LfmCs",
+        "title": "Incident Messaging in Web3 by Tom Dillon",
+        "text": "Tom presented on the topic of 'incident messaging' two new D-Apps which A3M Global Monitoring plan to launch on Camino. A great example of the potential for destination content on blockchain."
     },
     {
         "url": "dtp5JCL-bOk",
         "title": "Loyalty Programs on Camino by Anke Hsu",
-        "text": "Anke explained new opportunities for loyalty on Camino. Three key messages can be derived from her keynote speech."
+        "text": "Anke vividly explained new opportunities for loyalty on Camino. Besides learning about real-life use cases of loyalty based on blockchain, three key messages can be derived from her keynote speech."
+    },
+    {
+        "url": "H6Yz26jfYIg",
+        "title": "Voucher Solution on Camino by Manuel Saballus",
+        "text": "Manuel demonstrated Camino's potential for customer service based on Peakwork's brand new voucher platform: Travel products & services are turned into digital assets via a B2B backend. With applied blockchain technology, the process of distribution, even between various partners, and financial settlement, work almost automatically."
+    },
+    {
+        "url": "hIxtQUQOfVw",
+        "title": "Hotel Information in Web3 by Ralf Usbeck",
+        "text": "XXX"
+    },
+    {
+        "url": "GpoenHHl7Ss",
+        "title": "Camino Governance by Pablo Castillo",
+        "text": "Pablo was one of the last speakers to address the important topic of governance on the Camino blockchain. This topic covered the important participants that secure and govern the network: the validators. What a validator does, how to become one and how the voting system works was explained perfectly well by Pablo."
     }
 ]
