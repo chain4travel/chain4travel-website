@@ -19,11 +19,16 @@
         "title": "Payment and Settlement Solutions by Roberto da Re",
         "text": "Business-to-business transactions can be expensive, and it can be difficult to reconcile thousands of ledger items across the supply chain. Roberto explains in his keynote speech how Travel Ledger facilitates a solution to this by offering fast and inexpensive settlements for the travel industry."
     },
+    {
+        "url": "dDg5qM5kZN0",
+        "title": "Stablecoins by Mohit Davar",
+        "text": "Mohit introduced us all to the interesting world of stablecoins. For the Camino blockchain, SH Financial will launch three stablecoins pegged with US dollars, British pounds, and euros. This digital currency will allow travel industry partners to trade and pay for goods and services at stable counter values within the shared network."
+    },
 
     {
         "url": "hIxtQUQOfVw",
         "title": "Hotel Information in Web3 by Ralf Usbeck",
-        "text": "XXX"
+        "text": "The potentials for real-life use cases on Camino are enormous. Ralf's presentation addresses the opportunities for hotels in web3. What sounds unimaginable today could become a reality powered by blockchain very soon: Complete and easily accessible hotel information. "
     },
     {
         "url": "A1Mg5-LfmCs",
@@ -36,18 +41,18 @@
         "text": "Anke vividly explained new opportunities for loyalty on Camino. Besides learning about real-life use cases of loyalty based on blockchain, three key messages can be derived from her keynote speech."
     },
     {
-        "url": "H6Yz26jfYIg",
+        "url": "V_C7YOs-1ow",
         "title": "Voucher Solution on Camino by Manuel Saballus",
         "text": "Manuel demonstrated Camino's potential for customer service based on Peakwork's brand new voucher platform: Travel products & services are turned into digital assets via a B2B backend. With applied blockchain technology, the process of distribution, even between various partners, and financial settlement, work almost automatically."
-    },
-    {
-        "url": "hIxtQUQOfVw",
-        "title": "Hotel Information in Web3 by Ralf Usbeck",
-        "text": "XXX"
     },
     {
         "url": "GpoenHHl7Ss",
         "title": "Camino Governance by Pablo Castillo",
         "text": "Pablo was one of the last speakers to address the important topic of governance on the Camino blockchain. This topic covered the important participants that secure and govern the network: the validators. What a validator does, how to become one and how the voting system works was explained perfectly well by Pablo."
+    },
+    {
+        "url": "UyMUaKy4uQc",
+        "title": "Camino Outlook by Thomas Stirnimann",
+        "text": "Thomas presented the bright outlook for Camino and ended the afternoon session with a very important and decisive question: 'Which Camino will you take?'"
     }
 ]
