@@ -4,62 +4,71 @@
         "slug": "ralfusbeck",
         "position": "CEO",
         "linkedin": "https://www.linkedin.com/in/ralf-usbeck-650646235/",
-        "text": "Ralf Usbeck is the founder and CEO of Peakwork AG. Customers of his leading technologies include international travel companies & global Internet giants such as Google and Facebook. In 2013, Ralf Usbeck received an international award as 'Serial Innovator of Travel Technology' at the World Travel Market in London. He is also the founder of TravelTainment (sold to Amadeus in 2006), Vtours, and Weekend.com."
+        "text": "Ralf Usbeck is the founder and CEO of Peakwork AG. Customers of his leading technologies include international travel companies & global Internet giants such as Google and Facebook. In 2013, Ralf Usbeck received an international award as 'Serial Innovator of Travel Technology' at the World Travel Market in London. He is also the founder of TravelTainment (sold to Amadeus in 2006), Vtours, and Weekend.com.",
+        "level": "first"
     },
     {
         "name": "Thomas Stirnimann",
         "slug": "thomasstirnimann",
         "position": "COO",
         "linkedin": "https://www.linkedin.com/in/thomas-stirnimann-7759a9109/",
-        "text": "Thomas Stirnimann is the chairman and owner of Alpha Golf Travel AG and a board member at Hotelplan Holding AG. Until December 2020, he was the CEO of the Hotelplan Group for eight years. Before that, he worked for more than 20 years at Kuoni Travel Holding AG, responsible for the markets in Switzerland, Scandinavia, and Greece. Thomas was responsible for Travelhouse, and he is the founder of Edelweiss Airways."
+        "text": "Thomas Stirnimann is the chairman and owner of Alpha Golf Travel AG and a board member at Hotelplan Holding AG. Until December 2020, he was the CEO of the Hotelplan Group for eight years. Before that, he worked for more than 20 years at Kuoni Travel Holding AG, responsible for the markets in Switzerland, Scandinavia, and Greece. Thomas was responsible for Travelhouse, and he is the founder of Edelweiss Airways.",
+        "level": "first"
     },
     {
         "name": "Pablo Castillo",
         "slug": "pablocastillo",
         "position": "CTO",
         "linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
-        "text": "Pablo Castillo, CIO and Executive Board member Hotelplan Group 2014 to 2021, has vast and proven experience delivering complex projects across all European markets with a strong business focus. He started his career in tourism over 20 years selling trips for Kuoni and has held various positions in Data & Content Management, eCommerce, Project & Innovation Program management."
+        "text": "Pablo Castillo, CIO and Executive Board member Hotelplan Group 2014 to 2021, has vast and proven experience delivering complex projects across all European markets with a strong business focus. He started his career in tourism over 20 years selling trips for Kuoni and has held various positions in Data & Content Management, eCommerce, Project & Innovation Program management.",
+        "level": "first"
     },
     {
         "name": "Anke Hsu",
         "slug": "ankehsu",
         "position": "Head of Business Development",
         "linkedin": "https://www.linkedin.com/in/anke-hsu/",
-        "text": "With more than 25 years of experience in the travel industry, Anke Hsu has worked in various leadership positions for the Lufthansa Group, flights.com, Sabre Corporation, FTI Group, and InteRES GmbH (a subsidiary of TUI) at locations in Germany, France, Switzerland, the USA, and Brazil. In addition to her position as Head of Business Development and Growth at Chain4Travel, she is an external doctoral blockchain researcher at the University of Zurich, ranked as one of the top blockchain universities worldwide."
+        "text": "With more than 25 years of experience in the travel industry, Anke Hsu has worked in various leadership positions for the Lufthansa Group, flights.com, Sabre Corporation, FTI Group, and InteRES GmbH (a subsidiary of TUI) at locations in Germany, France, Switzerland, the USA, and Brazil. In addition to her position as Head of Business Development and Growth at Chain4Travel, she is an external doctoral blockchain researcher at the University of Zurich, ranked as one of the top blockchain universities worldwide.",
+        "level": "second"
     },
     {
         "name": "Alexander Koch",
         "slug": "alexanderkoch",
         "position": "Head of Technology",
         "linkedin": "https://www.linkedin.com/in/alexander-koch-tech-enthusiast/",
-        "text": "Alexander Koch is a technology enthusiast and expert in high-performance computing. After studying and working at the Computing Center of RWTH Aachen University, he started his career in the travel industry in 2010 as a software engineer at Peakwork, where he was instrumental in driving player technology together with Markus Pfau. Striving to broaden and deepen his knowledge, Alex is a key driver for strategic projects, innovations and new technologies."
+        "text": "Alexander Koch is a technology enthusiast and expert in high-performance computing. After studying and working at the Computing Center of RWTH Aachen University, he started his career in the travel industry in 2010 as a software engineer at Peakwork, where he was instrumental in driving player technology together with Markus Pfau. Striving to broaden and deepen his knowledge, Alex is a key driver for strategic projects, innovations and new technologies.",
+        "level": "second"
     },
     {
         "name": "Daniel Poerschke",
         "slug": "danielpoerschke",
         "position": "Managing Director",
         "linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/",
-        "text": "As Managing Director and Head of Product at Chain4Travel, Daniel supports the creation of a decentralized infrastructure for the travel industry. Daniel is a tech enthusiast with a background in the hospitality industry. He studied International Management (Dipl. BWL) and Computer Science (M. Sc.) and started his career in the hospitality industry as Food & Beverage Manager and Sales Manager before diving into Travel Tech at Peakwork, taking on the roles of Technical Project Manager and Product Owner at Peakwork. There, he helped launching the Rail-Package-Player and utilizing innovative A.I. to manage non-bookable-content."
+        "text": "As Managing Director and Head of Product at Chain4Travel, Daniel supports the creation of a decentralized infrastructure for the travel industry. Daniel is a tech enthusiast with a background in the hospitality industry. He studied International Management (Dipl. BWL) and Computer Science (M. Sc.) and started his career in the hospitality industry as Food & Beverage Manager and Sales Manager before diving into Travel Tech at Peakwork, taking on the roles of Technical Project Manager and Product Owner at Peakwork. There, he helped launching the Rail-Package-Player and utilizing innovative A.I. to manage non-bookable-content.",
+        "level": "second"
     },
     {
         "name": "Vincent Usbeck",
         "slug": "vincentusbeck",
         "position": "Head of Sales & Marketing",
         "linkedin": "https://www.linkedin.com/in/vincentusbeck",
-        "text": "Vincent Usbeck is Head of Sales and Marketing at Chain4Travel. During his studies with a focus on management, philosophy and economics, Vincent founded a start-up in the travel sector and was able to gather various expertise and establish relationships in the industry. After his studies, he worked in South America. He is passionate about making innovative technologies such as blockchain accessible to new markets, which determines his daily work at Chain4Travel."
+        "text": "Vincent Usbeck is Head of Sales and Marketing at Chain4Travel. During his studies with a focus on management, philosophy and economics, Vincent founded a start-up in the travel sector and was able to gather various expertise and establish relationships in the industry. After his studies, he worked in South America. He is passionate about making innovative technologies such as blockchain accessible to new markets, which determines his daily work at Chain4Travel.",
+        "level": "second"
     },
     {
         "name": "Helena Vossen",
         "slug": "helenavossen",
         "position": "Marketing Manager",
         "linkedin": "https://www.linkedin.com/in/helena-vossen-6b2343131/",
-        "text": "Helena earned her bachelor's degree in Tourism Management from Heilbronn University of Applied Sciences and her master's degree in International Marketing and Media Management from RFH University of Applied Sciences Cologne. Helena found her passion for innovative technologies early on during her bachelor's studies, which led her to write her thesis about the potential of blockchain technology for the travel industry. In her position as Digital Marketing Manager at the German National Tourist Office in London, Helena was responsible for creating and realizing cross-media campaigns. Today, she can apply and intensify her knowledge in the disciplines of marketing and blockchain in her daily work at Chain4Travel."
+        "text": "Helena earned her bachelor's degree in Tourism Management from Heilbronn University of Applied Sciences and her master's degree in International Marketing and Media Management from RFH University of Applied Sciences Cologne. Helena found her passion for innovative technologies early on during her bachelor's studies, which led her to write her thesis about the potential of blockchain technology for the travel industry. In her position as Digital Marketing Manager at the German National Tourist Office in London, Helena was responsible for creating and realizing cross-media campaigns. Today, she can apply and intensify her knowledge in the disciplines of marketing and blockchain in her daily work at Chain4Travel.",
+        "level": "second"
     },
     {
         "name": "Tabea Arnold",
         "slug": "tabeaarnold",
         "position": "Product Manager",
         "linkedin": "https://www.linkedin.com/in/tabea-arnold/",
-        "text": "Tabea is the product manager at Chain4Travel. Throughout the last 4 years she has lived, worked and studied on 4 different continents and is exited to revolutionize the travel industry.  She studied International Business (B.A.) and Customer experience & Innovation (M.Sc.). Tabea has gained experience as consultant and strategic designer at BCG and founded her own company in the travel sector. Her background gave her various experience from launching an application to consulting various clients in the tech sector."
+        "text": "Tabea is the product manager at Chain4Travel. Throughout the last 4 years she has lived, worked and studied on 4 different continents and is exited to revolutionize the travel industry.  She studied International Business (B.A.) and Customer experience & Innovation (M.Sc.). Tabea has gained experience as consultant and strategic designer at BCG and founded her own company in the travel sector. Her background gave her various experience from launching an application to consulting various clients in the tech sector.",
+        "level": "second"
     }
 ]
