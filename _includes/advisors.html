@@ -14,7 +14,7 @@
               <div class="animate-pulse z-0 bg-gradient-to-tl from-primary via-gray-900 to-secondary blur-lg rounded-full w-20 h-20 absolute top-0 left-1/2 -translate-x-1/2"></div>
             </div>
             <h2 class="font-bold text-white text-2xl whitespace-nowrap">{{ member.name }}</h2>
-            <span class="text-gray-400 text-base cursor-pointer hover:opacity-70" @click="{{member.slug}}Modal = true">Read more</span>
+            <span class="text-gray-400 text-base cursor-pointer hover:opacity-70" @click="{{member.slug}}Modal = true">Bio</span>
           </div>
           <!-- Team Modal -->
           <div x-transition x-show="{{member.slug}}Modal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
