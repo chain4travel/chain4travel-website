@@ -115,6 +115,11 @@
         "url": "https://www.software.travel/"
     },
     {
+        "name": "Hahn Air",
+        "slug": "hahnair",
+        "url": "https://www.hahnair.com/en"
+    },
+    {
         "name": "hlx.com",
         "slug": "hlx",
         "url": "https://www.hlx.com/de-de"
@@ -173,6 +178,11 @@
         "name": "Lufthansa Holidays",
         "slug": "lufthansaholidays",
         "url": "https://www.lufthansaholidays.com/en-de"
+    },
+    {
+        "name": "MIDOCO Group",
+        "slug": "midoco",
+        "url": "https://www.umbrella.ch/en/umbrella-company"
     },
     {
         "name": "Midnightdeal",
