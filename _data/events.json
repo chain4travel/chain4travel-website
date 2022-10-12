@@ -91,6 +91,12 @@
     "description": "We are thrilled to be shortlisted for this year's Travolution Award 'Best Technology Innovation'. As a start-up in the travel industry, this nomination is a great honor and shows us that the revolutionary potential of Camino is recognized. We look forward to meeting all the other nominated travel innovators in London and having a great evening. Until then, keep your fingers crossed and connect with Pablo, who will be there representing the whole team.",
     "category": "Upcoming",
     "image": "events-cover-travolution-award",
+    "speaker1": "Pablo Castillo",
+    "speaker1Slug": "pablocastillo",
+    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
+    "speaker2": "David Henderson",
+    "speaker2Slug": "davidhenderson",
+    "speaker2Linkedin": "https://www.linkedin.com/in/davidhenderson11/",
     "outLink": ""
   },
   {
@@ -102,6 +108,9 @@
     "description": "We are very excited to announce that Chain4Travel's CEO, Ralf Usbeck, will give a keynote speech at the Travolution European Summit 2023. Leading the adoption of blockchain technology in the travel industry with Camino, his speech will blend perfectly with the overall future-focused environment set by the event theme #metatravel. Let's discuss how travel companies must prepare for the technological revolution and what role Camino will play.",
     "category": "Upcoming",
     "image": "events-cover-travolution",
+    "speaker1": "Ralf Usbeck",
+    "speaker1Slug": "ralfusbeck",
+    "speaker1Linkedin": "https://www.linkedin.com/in/ralf-usbeck-650646235/",
     "outLink": ""
   },
   {
