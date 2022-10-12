@@ -1,5 +1,18 @@
 [
   {
+    "date": "October 18-19, 2022",
+    "location": "Frankfurt",
+    "title": "CAC22B - The Crypto Assets Conference",
+    "slug": "event-crypto-assets",
+    "link": "https://www.crypto-assets-conference.de/",
+    "description": "We will be at the Crypto Asset Conference 2022 and will join over 300 guests and 5,000+ online attendees for one of Germany's leading digital assets conferences. Congratulations to the Blockchain Center for organizing this important event on the campus of the Frankfurt School, one of Europe's leading business schools delivering excellence in management and finance education. We cannot wait to meet thought leaders and listen to discussions of industry experts.",
+    "category": "Upcoming",
+    "image": "events-cover-crypto-assets",
+    "speaker1": "Vincent Usbeck",
+    "speaker1Slug": "vincentusbeck",
+    "speaker1Linkedin": "https://www.linkedin.com/in/vincentusbeck"
+  },
+  {
     "date": "November 2-5, 2022",
     "location": "Antalya",
     "title": "Fvw Travel Talk",
@@ -64,9 +77,6 @@
     "speaker1": "Anke Hsu",
     "speaker1Slug": "ankehsu",
     "speaker1Linkedin": "https://www.linkedin.com/in/anke-hsu/",
-    "speaker2": "Daniel Poerschke",
-    "speaker2Slug": "danielpoerschke",
-    "speaker2Linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/",
     "outLink": ""
   },
   {
