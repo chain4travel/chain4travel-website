@@ -65,6 +65,11 @@
         "url": "https://www.carbonclick.com/"
     },
     {
+        "name": "DataArt",
+        "slug": "dataart",
+        "url": "https://www.dataart.com/"
+    },
+    {
         "name": "DER Touristik",
         "slug": "der",
         "url": "https://www.dertouristik.com/en/?lang=EN&rdeLocaleAttr=EN"
