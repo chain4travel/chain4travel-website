@@ -64,6 +64,14 @@
         "level": "second"
     },
     {
+        "name": "Tabea Arnold",
+        "slug": "tabeaarnold",
+        "position": "Product Manager",
+        "linkedin": "https://www.linkedin.com/in/tabea-arnold/",
+        "text": "Tabea is the product manager at Chain4Travel. Throughout the last 4 years she has lived, worked and studied on 4 different continents and is exited to revolutionize the travel industry.  She studied International Business (B.A.) and Customer experience & Innovation (M.Sc.). Tabea has gained experience as consultant and strategic designer at BCG and founded her own company in the travel sector. Her background gave her various experience from launching an application to consulting various clients in the tech sector.",
+        "level": "second"
+    },
+    {
         "name": "Julia Landis",
         "slug": "julialandis",
         "position": "Head of Office Management",
