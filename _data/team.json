@@ -64,11 +64,19 @@
         "level": "second"
     },
     {
-        "name": "Tabea Arnold",
-        "slug": "tabeaarnold",
+        "name": "Julia Landis",
+        "slug": "julialandis",
+        "position": "Head of Office Management",
+        "linkedin": "",
+        "text": "Julia is Head of Office Management at Chain4Travel AG. During her studies in Cologne in the field of office management, she worked in a law firm where she was able to put her acquired knowledge directly into practice. Back in Zurich, Julia worked in the banking sector, where she had her first touchpoints with the world of cryptocurrencies and blockchain. Since then, she has become passionate about the vision of Chain4Travel and is eager to use her extensive professional experience in managing positions and her strong sense of organizational structures for the benefit of Chain4Travel.",
+        "level": "second"
+    },
+    {
+        "name": "Illa Eggers",
+        "slug": "illaeggers",
         "position": "Product Manager",
-        "linkedin": "https://www.linkedin.com/in/tabea-arnold/",
-        "text": "Tabea is the product manager at Chain4Travel. Throughout the last 4 years she has lived, worked and studied on 4 different continents and is exited to revolutionize the travel industry.  She studied International Business (B.A.) and Customer experience & Innovation (M.Sc.). Tabea has gained experience as consultant and strategic designer at BCG and founded her own company in the travel sector. Her background gave her various experience from launching an application to consulting various clients in the tech sector.",
+        "linkedin": "",
+        "text": "Illa Eggers is our contact for global public relations. With more than 20 years of experience in the travel industry and especially in travel technology, since the year 2000 she has been the communication specialist behind all major external communication of TravelTainment and Peakwork. Next to PR Illa knows all the marketing related challenges of a travel tech company - from corporate communication via social media, on- and offline channels to developing customer relations and event communication.",
         "level": "second"
     }
 ]
