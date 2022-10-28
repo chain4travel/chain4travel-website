@@ -50,9 +50,24 @@
         "url": "https://www.bentour.de/"
     },
     {
+        "name": "Berge und Meer",
+        "slug": "berge-und-meer",
+        "url": "URL_MISSING"
+    },
+    {
+        "name": "Bewotec",
+        "slug": "bewotec",
+        "url": "URL_MISSING"
+    },
+    {
         "name": "Beyond Bookings",
         "slug": "beyondbookings",
         "url": "https://beyond-bookings.com/"
+    },
+    {
+        "name": "Bholly Consulting",
+        "slug": "bholly-consulting",
+        "url": "URL_MISSING"
     },
     {
         "name": "Busy Rooms",
@@ -63,6 +78,11 @@
         "name": "CarbonClick",
         "slug": "carbonclick",
         "url": "https://www.carbonclick.com/"
+    },
+    {
+        "name": "CFM Media",
+        "slug": "cfm-media",
+        "url": "URL_MISSING"
     },
     {
         "name": "DataArt",
@@ -78,6 +98,16 @@
         "name": "Dtravel",
         "slug": "dtravel",
         "url": "https://dtravel.com/"
+    },
+    {
+        "name": "E Confirm",
+        "slug": "e-confirm",
+        "url": "URL_MISSING"
+    },
+    {
+        "name": "ennea",
+        "slug": "ennea",
+        "url": "URL_MISSING"
     },
     {
         "name": "Eurowings",
@@ -103,6 +133,11 @@
         "name": "FTI",
         "slug": "fti",
         "url": "https://www.fti.de/"
+    },
+    {
+        "name": "Fraport",
+        "slug": "fraport",
+        "url": "URL_MISSING"
     },
     {
         "name": "Gerrit Halfmann Design",
@@ -165,6 +200,11 @@
         "url": "https://www.invia.de/en/"
     },
     {
+        "name": "Involatus",
+        "slug": "involatus",
+        "url": "URL_MISSING"
+    },
+    {
         "name": "IT-Square",
         "slug": "itsquare",
         "url": "https://itsquare.de/"
@@ -173,6 +213,11 @@
         "name": "ISO Travel Solutions",
         "slug": "iso",
         "url": "https://www.isotravel.com/en"
+    },
+    {
+        "name": "Lufthansa",
+        "slug": "lufthansa",
+        "url": "https://www.lufthansa.de"
     },
     {
         "name": "Lufthansa City Center",
@@ -220,6 +265,11 @@
         "url": "https://www.neusta-tourism.de/"
     },
     {
+        "name": "OHTEC",
+        "slug": "ohtec",
+        "url": "URL_MISSING"
+    },
+    {
         "name": "Orchestra",
         "slug": "orchestra",
         "url": "https://www.orchestra.eu/en/"
@@ -228,6 +278,16 @@
         "name": "OTS",
         "slug": "ots",
         "url": "https://otsglobe.com/"
+    },
+    {
+        "name": "OTS",
+        "slug": "ots-2",
+        "url": "URL_MISSING"
+    },
+    {
+        "name": "Passolution",
+        "slug": "passolution",
+        "url": "URL_MISSING"
     },
     {
         "name": "Peakwork",
@@ -240,9 +300,19 @@
         "url": "https://www.prodyna.com/"
     },
     {
+        "name": "Rita AG",
+        "slug": "ritaag",
+        "url": "URL_MISSING"
+    },
+    {
         "name": "Riversoft",
         "slug": "riversoft",
         "url": "https://www.riversoft.com.tw/"
+    },
+    {
+        "name": "Saltours",
+        "slug": "saltours",
+        "url": "URL_MISSING"
     },
     {
         "name": "SH Financial",
@@ -260,6 +330,11 @@
         "url": "https://www.sunweb.de/"
     },
     {
+        "name": "Sunny Cars",
+        "slug": "sunnycars",
+        "url": "URL_MISSING"
+    },
+    {
         "name": "TenetX",
         "slug": "tenetx",
         "url": "https://tenetx.io/"
@@ -268,6 +343,16 @@
         "name": "Traffics",
         "slug": "traffics",
         "url": "https://www.traffics.de/"
+    },
+    {
+        "name": "Traso",
+        "slug": "traso",
+        "url": "URL_MISSING"
+    },
+    {
+        "name": "Travel One Inventory",
+        "slug": "travel-one-inventory",
+        "url": "URL_MISSING"
     },
     {
         "name": "TUI",
@@ -280,6 +365,11 @@
         "url": "https://soluciones.turismoi.com/"
     },
     {
+        "name": "Twerenbold",
+        "slug": "twerenbold",
+        "url": "URL_MISSING"
+    },
+    {
         "name": "Unicsoft",
         "slug": "unicsoft",
         "url": "https://unicsoft.com/"
@@ -288,6 +378,11 @@
         "name": "Ventura",
         "slug": "ventura",
         "url": "https://www.venturatravel.org/"
+    },
+    {
+        "name": "VIR",
+        "slug": "vir",
+        "url": "URL_MISSING"
     },
     {
         "name": "Xeni",
