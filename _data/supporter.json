@@ -65,11 +65,6 @@
         "url": "https://beyond-bookings.com/"
     },
     {
-        "name": "BHolly Consulting",
-        "slug": "bholly-consulting",
-        "url": "https://bhollyconsulting.com/"
-    },
-    {
         "name": "Busy Rooms",
         "slug": "busyrooms",
         "url": "https://www.busy-rooms.com/en"
@@ -280,11 +275,6 @@
         "url": "https://otsglobe.com/"
     },
     {
-        "name": "OTS Travel Solutions AG",
-        "slug": "ots-2",
-        "url": "http://www.ontravelsolutions.com/"
-    },
-    {
         "name": "Passolution GmbH",
         "slug": "passolution",
         "url": "https://www.passolution.de/"
@@ -300,19 +290,9 @@
         "url": "https://www.prodyna.com/"
     },
     {
-        "name": "RITA AG",
-        "slug": "ritaag",
-        "url": "https://rita.ag/"
-    },
-    {
         "name": "Riversoft",
         "slug": "riversoft",
         "url": "https://www.riversoft.com.tw/"
-    },
-    {
-        "name": "Saltours International",
-        "slug": "saltours",
-        "url": "https://www.saltours.travel/"
     },
     {
         "name": "SH Financial",
@@ -348,11 +328,6 @@
         "name": "TraSo GmbH",
         "slug": "traso",
         "url": "https://www.traso.de/"
-    },
-    {
-        "name": "Hiberus Travel One Inventory",
-        "slug": "travel-one-inventory",
-        "url": "https://www.hiberus.com/en/travel-one-inventory-solution"
     },
     {
         "name": "TUI",
