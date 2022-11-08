@@ -56,19 +56,19 @@
         "level": "second"
     },
     {
-        "name": "Helena Vossen",
-        "slug": "helenavossen",
-        "position": "Marketing Manager",
-        "linkedin": "https://www.linkedin.com/in/helena-vossen-6b2343131/",
-        "text": "Helena earned her bachelor's degree in Tourism Management from Heilbronn University of Applied Sciences and her master's degree in International Marketing and Media Management from RFH University of Applied Sciences Cologne. Helena found her passion for innovative technologies early on during her bachelor's studies, which led her to write her thesis about the potential of blockchain technology for the travel industry. In her position as Digital Marketing Manager at the German National Tourist Office in London, Helena was responsible for creating and realizing cross-media campaigns. Today, she can apply and intensify her knowledge in the disciplines of marketing and blockchain in her daily work at Chain4Travel.",
-        "level": "second"
-    },
-    {
         "name": "Julia Landis",
         "slug": "julialandis",
         "position": "Head of Office Management",
         "linkedin": "https://www.linkedin.com/in/julia-landis-78a456250/",
         "text": "Julia is Head of Office Management at Chain4Travel AG. During her studies in Cologne in the field of office management, she worked in a law firm where she was able to put her acquired knowledge directly into practice. Back in Zurich, Julia worked in the banking sector, where she had her first touchpoints with the world of cryptocurrencies and blockchain. Since then, she has become passionate about the vision of Chain4Travel and is eager to use her extensive professional experience in managing positions and her strong sense of organizational structures for the benefit of Chain4Travel.",
+        "level": "second"
+    },
+    {
+        "name": "Helena Vossen",
+        "slug": "helenavossen",
+        "position": "Marketing Manager",
+        "linkedin": "https://www.linkedin.com/in/helena-vossen-6b2343131/",
+        "text": "Helena earned her bachelor's degree in Tourism Management from Heilbronn University of Applied Sciences and her master's degree in International Marketing and Media Management from RFH University of Applied Sciences Cologne. Helena found her passion for innovative technologies early on during her bachelor's studies, which led her to write her thesis about the potential of blockchain technology for the travel industry. In her position as Digital Marketing Manager at the German National Tourist Office in London, Helena was responsible for creating and realizing cross-media campaigns. Today, she can apply and intensify her knowledge in the disciplines of marketing and blockchain in her daily work at Chain4Travel.",
         "level": "second"
     },
     {
