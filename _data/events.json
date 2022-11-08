@@ -1,21 +1,5 @@
 [
   {
-    "date": "November 2-5, 2022",
-    "location": "Antalya",
-    "title": "Fvw Travel Talk",
-    "slug": "fvw-travel-talk",
-    "link": "https://www.fvw.de/events/fvw--traveltalk-kongress-2022-in-antalya-478",
-    "description": "A key question of the Fvw TravelTalk convention will be how new technologies, such as blockchain, are emerging and shaping new ways of working in the industry. As Chain4Travel, we look forward to these discussions and conversations about real use cases on the Camino blockchain. Don't miss our keynote speech and the possibility of exploring the potential of blockchain in the travel industry in one of the deep dive sessions or masterclasses.",
-    "category": "Upcoming",
-    "image": "events-cover-fvw-travel-talk",
-    "speaker1": "Ralf Usbeck",
-    "speaker1Slug": "ralfusbeck",
-    "speaker1Linkedin": "https://www.linkedin.com/in/ralf-usbeck-650646235/",
-    "speaker2": "Anke Hsu",
-    "speaker2Slug": "ankehsu",
-    "speaker2Linkedin": "https://www.linkedin.com/in/anke-hsu/"
-  },
-  {
     "date": "November 7-9, 2022",
     "location": "London",
     "title": "WTM London",
@@ -109,6 +93,23 @@
     "outLink": ""
   },
 
+  {
+    "date": "November 2-5, 2022",
+    "location": "Antalya",
+    "title": "Fvw Travel Talk",
+    "slug": "fvw-travel-talk",
+    "link": "https://www.fvw.de/events/fvw--traveltalk-kongress-2022-in-antalya-478",
+    "description": "A key question of the Fvw TravelTalk convention will be how new technologies, such as blockchain, are emerging and shaping new ways of working in the industry. As Chain4Travel, we look forward to these discussions and conversations about real use cases on the Camino blockchain. Don't miss our keynote speech and the possibility of exploring the potential of blockchain in the travel industry in one of the deep dive sessions or masterclasses.",
+    "category": "Past Events",
+    "image": "events-cover-fvw-travel-talk",
+    "speaker1": "Ralf Usbeck",
+    "speaker1Slug": "ralfusbeck",
+    "speaker1Linkedin": "https://www.linkedin.com/in/ralf-usbeck-650646235/",
+    "speaker2": "Anke Hsu",
+    "speaker2Slug": "ankehsu",
+    "speaker2Linkedin": "https://www.linkedin.com/in/anke-hsu/",
+    "outLink": "https://www.linkedin.com/posts/chain4travel_blockchain-fvw-travelindustry-activity-6994262478255706112-Omto?utm_source=share&utm_medium=member_desktop"
+  },
   {
     "date": "September 28-29, 2022",
     "location": "Singapore",
