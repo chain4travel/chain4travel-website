@@ -1,38 +1,5 @@
 [
   {
-    "date": "October 04-06, 2022",
-    "location": "Amsterdam",
-    "title": "World Aviation Festival",
-    "slug": "world-aviation-festival",
-    "link": "https://www.terrapinn.com/conference/aviation-festival/index.stm",
-    "description": "We will attend the World Aviation Festival 2022! Let's talk about blockchain technology that can foster new business models and create innovation for all players in the tourism industry. The use cases for global aviation industry in specific are huge and we are looking forward to showing the potential of our highly scalable Camino network that will create a safe and innovative environment for relationships and the trade of travel products B2B and B2C.",
-    "category": "Upcoming",
-    "image": "events-cover-aviation",
-    "speaker1": "Anke Hsu",
-    "speaker1Slug": "ankehsu",
-    "speaker1Linkedin": "https://www.linkedin.com/in/anke-hsu/",
-    "speaker2": "Daniel Poerschke",
-    "speaker2Slug": "danielpoerschke",
-    "speaker2Linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/",
-    "outLink": ""
-  },
-  {
-    "date": "November 2-5, 2022",
-    "location": "Antalya",
-    "title": "Fvw Travel Talk",
-    "slug": "fvw-travel-talk",
-    "link": "https://www.fvw.de/events/fvw--traveltalk-kongress-2022-in-antalya-478",
-    "description": "A key question of the Fvw TravelTalk convention will be how new technologies, such as blockchain, are emerging and shaping new ways of working in the industry. As Chain4Travel, we look forward to these discussions and conversations about real use cases on the Camino blockchain. Don't miss our keynote speech and the possibility of exploring the potential of blockchain in the travel industry in one of the deep dive sessions or masterclasses.",
-    "category": "Upcoming",
-    "image": "events-cover-fvw-travel-talk",
-    "speaker1": "Ralf Usbeck",
-    "speaker1Slug": "ralfusbeck",
-    "speaker1Linkedin": "https://www.linkedin.com/in/ralf-usbeck-650646235/",
-    "speaker2": "Anke Hsu",
-    "speaker2Slug": "ankehsu",
-    "speaker2Linkedin": "https://www.linkedin.com/in/anke-hsu/"
-  },
-  {
     "date": "November 7-9, 2022",
     "location": "London",
     "title": "WTM London",
@@ -81,9 +48,6 @@
     "speaker1": "Anke Hsu",
     "speaker1Slug": "ankehsu",
     "speaker1Linkedin": "https://www.linkedin.com/in/anke-hsu/",
-    "speaker2": "Daniel Poerschke",
-    "speaker2Slug": "danielpoerschke",
-    "speaker2Linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/",
     "outLink": ""
   },
   {
@@ -95,6 +59,12 @@
     "description": "We are thrilled to be shortlisted for this year's Travolution Award 'Best Technology Innovation'. As a start-up in the travel industry, this nomination is a great honor and shows us that the revolutionary potential of Camino is recognized. We look forward to meeting all the other nominated travel innovators in London and having a great evening. Until then, keep your fingers crossed and connect with Pablo, who will be there representing the whole team.",
     "category": "Upcoming",
     "image": "events-cover-travolution-award",
+    "speaker1": "Pablo Castillo",
+    "speaker1Slug": "pablocastillo",
+    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
+    "speaker2": "David Henderson",
+    "speaker2Slug": "davidhenderson",
+    "speaker2Linkedin": "https://www.linkedin.com/in/davidhenderson11/",
     "outLink": ""
   },
   {
@@ -106,6 +76,9 @@
     "description": "We are very excited to announce that Chain4Travel's CEO, Ralf Usbeck, will give a keynote speech at the Travolution European Summit 2023. Leading the adoption of blockchain technology in the travel industry with Camino, his speech will blend perfectly with the overall future-focused environment set by the event theme #metatravel. Let's discuss how travel companies must prepare for the technological revolution and what role Camino will play.",
     "category": "Upcoming",
     "image": "events-cover-travolution",
+    "speaker1": "Ralf Usbeck",
+    "speaker1Slug": "ralfusbeck",
+    "speaker1Linkedin": "https://www.linkedin.com/in/ralf-usbeck-650646235/",
     "outLink": ""
   },
   {
@@ -120,6 +93,23 @@
     "outLink": ""
   },
 
+  {
+    "date": "November 2-5, 2022",
+    "location": "Antalya",
+    "title": "Fvw Travel Talk",
+    "slug": "fvw-travel-talk",
+    "link": "https://www.fvw.de/events/fvw--traveltalk-kongress-2022-in-antalya-478",
+    "description": "A key question of the Fvw I TravelTalk convention was how new technologies, such as blockchain, are emerging and shaping new ways of working in the industry. We were happy to join these discussions and share some insights about blockchain in travel and real-life use cases on the Camino network in our keynote speeches and panel discussion.",
+    "category": "Past Events",
+    "image": "events-cover-fvw-travel-talk",
+    "speaker1": "Ralf Usbeck",
+    "speaker1Slug": "ralfusbeck",
+    "speaker1Linkedin": "https://www.linkedin.com/in/ralf-usbeck-650646235/",
+    "speaker2": "Anke Hsu",
+    "speaker2Slug": "ankehsu",
+    "speaker2Linkedin": "https://www.linkedin.com/in/anke-hsu/",
+    "outLink": "https://www.linkedin.com/posts/chain4travel_blockchain-fvw-travelindustry-activity-6994262478255706112-Omto?utm_source=share&utm_medium=member_desktop"
+  },
   {
     "date": "September 28-29, 2022",
     "location": "Singapore",
