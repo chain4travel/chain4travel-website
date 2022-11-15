@@ -13,9 +13,9 @@ html {
 }
 
 .video-frame {
-    box-shadow:
-    16px 16px 64px 0 rgba(48, 232, 191, .25),
-    -16px -16px 64px 0 rgba(255, 130, 52, .25);
+  box-shadow:
+  16px 16px 64px 0 rgba(48, 232, 191, .25),
+  -16px -16px 64px 0 rgba(255, 130, 52, .25);
 }
 
 /* prevents alpine content to blip */
