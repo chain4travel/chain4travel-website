@@ -76,7 +76,7 @@ description: Find out more about Chain4Travel online and connect with us persona
   <div class="grid grid-cols-12 gap-4 md:gap-6">
     {% for event in events %}
       {% if event.category === "Past Events" %}
-        <div class="text-sm p-4 bg-gray-800 rounded-lg col-span-12 md:col-span-6 xl:col-span-4 flex flex-col">
+        <div class="text-sm p-6 bg-gray-800 rounded-lg col-span-12 md:col-span-6 xl:col-span-4 flex flex-col">
           <img src="/images/prev-event-{{event.slug}}.jpg" class="mb-4 rounded-lg" alt="">
           <h3 class="text-lg font-bold">{{ event.title }}</h3>
           <div class="flex items-center my-3 text-secondary text-sm font-bold">
@@ -85,11 +85,11 @@ description: Find out more about Chain4Travel online and connect with us persona
               {{ event.date }}
             </div>
           </div>
-          <p class="text-gray-400 mb-4">{{ event.description }}</p>
+          <p class="text-gray-400 mb-4 line-clamp-4">{{ event.description }}</p>
           {% if event.outLink %}
-            <a class="flex items-center mt-auto hover:underline hover:text-primary" href="{{ event.outLink }}" target="_blank">
+            <a class="inline-flex py-1 rounded items-center mt-auto hover:underline hover:text-primary" href="{{ event.outLink }}" target="_blank">
+              <svg class="mr-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
               Details
-              <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
             </a>
           {% endif %}
         </div>
