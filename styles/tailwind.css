@@ -23,6 +23,14 @@ html {
   display: none !important;
 }
 
+#mc-embedded-subscribe-form {
+  margin: 0 !important;
+}
+
+#mc_embed_signup .mc-field-group {
+  @apply w-full pb-4 !important;
+}
+
 #mc_embed_signup .mc-field-group label {
   font-size: 14px;
   text-align: left;
@@ -38,7 +46,16 @@ html {
 }
 
 #mc_embed_signup div.mc-field-group input {
-  @apply placeholder-white bg-gray-800 border border-gray-700 rounded-lg block w-full focus:ring-2 text-white focus:ring-offset-gray-900 focus:ring-secondary
+  @apply placeholder-white bg-gray-800 border border-gray-700 rounded-lg block w-full focus:ring-2 text-white focus:ring-offset-gray-900 focus:ring-secondary;
+}
+
+#mc_embed_signup input::placeholder {
+  color: rgba(255,255,255,.5) !important;
+}
+
+#mc_embed_signup div.mc-field-group input.newsletterForm {
+  text-indent: 0;
+  @apply placeholder-white bg-gray-800 border p-2 md:p-4 w-full text-2xl border-gray-700 rounded-lg block focus:ring-2 text-white focus:ring-offset-gray-900 focus:ring-secondary
 }
 
 #mce-responses {
