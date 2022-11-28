@@ -6,11 +6,13 @@ html {
   scroll-behavior: smooth;
 }
 
+/*
 *[id]:target {
   padding-top: 200px;
   margin-top: -200px;
   outline: 0;
 }
+*/
 
 .video-frame {
   box-shadow:
