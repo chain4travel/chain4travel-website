@@ -29,8 +29,12 @@ html {
   margin: 0 !important;
 }
 
+.helper_text {
+  display: none !important;
+}
+
 #mc_embed_signup .mc-field-group {
-  @apply w-full pb-4 !important;
+  @apply w-full pb-2 !important;
 }
 
 #mc_embed_signup .mc-field-group label {
@@ -44,11 +48,11 @@ html {
 }
 
 #mc_embed_signup input.button {
-  @apply font-semibold w-full text-dark bg-secondary py-2 px-6 focus:outline-none hover:bg-white rounded md:text-lg h-auto font-sans justify-center;
+  @apply font-semibold w-auto text-dark bg-secondary py-1 mt-1 px-6 focus:outline-none hover:bg-white rounded md:text-lg h-auto font-sans justify-center;
 }
 
 #mc_embed_signup div.mc-field-group input {
-  @apply placeholder-white bg-gray-800 border border-gray-700 rounded-lg block w-full focus:ring-2 text-white focus:ring-offset-gray-900 focus:ring-secondary;
+  @apply placeholder-white bg-gray-800 border border-gray-700 rounded-lg block w-full text-white focus:border-secondary outline-none;
 }
 
 #mc_embed_signup input::placeholder {
@@ -76,9 +80,12 @@ html {
 }
 
 #mc_embed_signup #mce-success-response {
+  margin: 0 0 .5rem 0;
   background: none !important;
-  color: #30e8bf !important;
-  font-size: 16px;
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: normal;
+  width: 100%;
 }
 
 .termsfeed-com---nb-simple {
