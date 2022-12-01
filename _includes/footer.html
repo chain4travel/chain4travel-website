@@ -1,4 +1,4 @@
-{% include "newsletter.html" %}
+{% if page.url === "/newsletter-success/" %} {% else %} {% include "newsletter.html" %} {% endif %}
 
 <div>
     <header class="text-gray-400 bg-[#111]">
