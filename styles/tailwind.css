@@ -84,7 +84,7 @@ html {
   background: none !important;
   color: #FF8235 !important;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: bold !important;
   width: 100%;
 }
 
