@@ -130,6 +130,11 @@
         "url": "https://embarkingonvoyage.com/"
     },
     {
+        "name": "Event Scouts",
+        "slug": "eventscouts",
+        "url": "https://event-scouts.com/"
+    },
+    {
         "name": "Falkensteiner",
         "slug": "falkensteiner",
         "url": "https://www.falkensteiner.com/en"
@@ -383,6 +388,16 @@
         "name": "Unicsoft",
         "slug": "unicsoft",
         "url": "https://unicsoft.com/"
+    },
+    {
+        "name": "Universal Beach Hotels",
+        "slug": "universalbeachhotels",
+        "url": "https://www.universalbeachhotels.com/"
+    },
+    {
+        "name": "Universal Travel",
+        "slug": "universaltravel",
+        "url": "https://www.universaltravel.ch/"
     },
     {
         "name": "Ventura",
