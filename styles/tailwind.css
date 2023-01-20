@@ -126,8 +126,8 @@ table tr {
   @apply border-b border-gray-700;
 }
 
-table tr td,
-table tr th {
+div:not(.prose) table tr td,
+div:not(.prose) table tr th {
   @apply py-2 px-4;
 }
 
