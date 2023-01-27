@@ -59,10 +59,11 @@
               <h2 class="font-bold text-white text-xl">{{ member.name }}</h2>
               <div class="mt-1 text-xs uppercase font-bold text-primary">{{ member.position }}</div>
               <div class="flex w-full items-center text-base text-gray-400 justify-center">
-                <a class="p-2 hover:text-white whitespace-nowrap" href="{{ member.linkedin }}" target="_blank">
-                  LinkedIn
-                </a>
-                |
+                {% if member.linkedin %}
+                  <a class="p-2 hover:text-white whitespace-nowrap" href="{{ member.linkedin }}" target="_blank">
+                    LinkedIn
+                  </a> |
+                {% endif %}
                 {% if member.text %}
                   <span class="p-2 hover:text-white whitespace-nowrap cursor-pointer" @click="{{member.slub}}Modal = true">Bio</span>
                 {% endif %}
