@@ -225,6 +225,11 @@
         "url": "https://www.huerzeler.com/en"
     },
     {
+        "name": "InfoComm Management",
+        "slug": "infocomm",
+        "url": "https://infocomm.mc/"
+    },
+    {
         "name": "Invia",
         "slug": "invia",
         "url": "https://www.invia.de/en/"
