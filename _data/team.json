@@ -96,6 +96,14 @@
         "level": "second"
     },
     {
+        "name": "Illa Eggers",
+        "slug": "illaeggers",
+        "position": "PR Manager",
+        "linkedin": "https://www.linkedin.com/in/illa-eggers/",
+        "text": "Illa Eggers is our contact for global public relations. With more than 20 years of experience in the travel industry and especially in travel technology, since the year 2000 she has been the communication specialist behind all major external communication of TravelTainment and Peakwork. Next to PR Illa knows all the marketing related challenges of a travel tech company - from corporate communication via social media, on- and offline channels to developing customer relations and event communication.",
+        "level": "second"
+    },
+    {
         "name": "Juan B Sanchez",
         "slug": "juanbsanchez",
         "position": "Community Manager",
@@ -104,11 +112,19 @@
         "level": "second"
     },
     {
-        "name": "Illa Eggers",
-        "slug": "illaeggers",
-        "position": "PR Manager",
-        "linkedin": "https://www.linkedin.com/in/illa-eggers/",
-        "text": "Illa Eggers is our contact for global public relations. With more than 20 years of experience in the travel industry and especially in travel technology, since the year 2000 she has been the communication specialist behind all major external communication of TravelTainment and Peakwork. Next to PR Illa knows all the marketing related challenges of a travel tech company - from corporate communication via social media, on- and offline channels to developing customer relations and event communication.",
+        "name": "Philipp Nahrgang",
+        "slug": "philippnahrgang",
+        "position": "Marketing Associate",
+        "linkedin": "https://www.linkedin.com/in/philipp-nahrgang-010073243/",
+        "text": "Philipp Nahrgang is a marketing associate at Chain4Travel. A year abroad enabled him to make international contacts and sparked his enthusiasm for the tourism industry. He subsequently began his business studies, founded a start-up in the travel sector and was able to gain further relationships along with experience in the field.",
+        "level": "second"
+    },
+    {
+        "name": "Vladimir Novikov",
+        "slug": "vladimirnovikov",
+        "position": "Marketing Manager",
+        "linkedin": "https://linkedin.com/in/vovanovaque",
+        "text": "Vladimir is an experienced brand and marketing executive with over 10 years of hands-on experience. Known for analytical/data-driven and strategic thinking, clear communication, and creativity in developing successful marketing campaigns. Skilled in digital marketing and able to manage tasks effectively while building strong relationships with teams and stakeholders. Notable achievements include launching the first Web3 booking application win.so through successful go-to-market strategies and building local travel brands. Vladimir's work is always driven by a desire to build customer-focused communications.",
         "level": "second"
     }
 ]

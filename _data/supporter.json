@@ -145,6 +145,11 @@
         "url": "https://fitbooktravel.com/"
     },
     {
+        "name": "freshcells systems engineering GmbH",
+        "slug": "freshcells",
+        "url": "https://freshcells.de/"
+    },
+    {
         "name": "FTI",
         "slug": "fti",
         "url": "https://www.fti.de/"
@@ -218,6 +223,11 @@
         "name": "Hürzeler Bike Holiday",
         "slug": "huerzeler",
         "url": "https://www.huerzeler.com/en"
+    },
+    {
+        "name": "InfoComm Management",
+        "slug": "infocomm",
+        "url": "https://infocomm.mc/"
     },
     {
         "name": "Invia",

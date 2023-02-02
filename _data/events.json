@@ -1,22 +1,5 @@
 [
   {
-    "date": "Jan 18-22, 2023",
-    "location": "Madrid",
-    "title": "Fitur: International Tourism Trade Fair",
-    "slug": "fitur",
-    "link": "https://www.ifema.es/en/fitur",
-    "description": "8,000+ exhibitors & over 100,000 travel industry professionals and enthusiasts will come together in Madrid for Fitur 2023. From January 18-22, our colleagues Jhon Ruiz and Juan Sanchez will be on-site, spreading the word about #Camino, the blockchain ecosystem for the travel industry. Listen to our presentation on Friday at the Hiberus booth about a brand-new use case. Join us at this global meeting point to discuss the future of travel powered by blockchain.",
-    "category": "Upcoming",
-    "image": "events-cover-fitur",
-    "speaker1": "Jhon Ruiz",
-    "speaker1Slug": "jhonruiz",
-    "speaker1Linkedin": "https://www.linkedin.com/in/jhonruiz11/",
-    "speaker2": "Juan B Sanchez",
-    "speaker2Slug": "juanbsanchez",
-    "speaker2Linkedin": "https://www.linkedin.com/in/juan-b-s%C3%A1nchez-8ab64744/",
-    "outLink": ""
-  },
-  {
     "date": "Feb 28, 2023",
     "location": "London",
     "title": "Travolution European Summit",
@@ -42,6 +25,23 @@
     "outLink": ""
   },
 
+  {
+    "date": "Jan 18-22, 2023",
+    "location": "Madrid",
+    "title": "Fitur: International Tourism Trade Fair",
+    "slug": "fitur",
+    "link": "https://www.ifema.es/en/fitur",
+    "description": "8,000+ exhibitors & over 100,000 travel industry professionals and enthusiasts came together in Madrid for Fitur 2023. Our colleagues Jhon Ruiz and Juan Sanchez were on-site, spreading the word about #Camino, the blockchain ecosystem for the travel industry and even presented a new use case.",
+    "category": "Past Events",
+    "image": "prev-event-fitur",
+    "speaker1": "Jhon Ruiz",
+    "speaker1Slug": "jhonruiz",
+    "speaker1Linkedin": "https://www.linkedin.com/in/jhonruiz11/",
+    "speaker2": "Juan B Sanchez",
+    "speaker2Slug": "juanbsanchez",
+    "speaker2Linkedin": "https://www.linkedin.com/in/juan-b-s%C3%A1nchez-8ab64744/",
+    "outLink": "https://www.linkedin.com/posts/chain4travel_chain4travel-mit-blockchain-reiseschutz-activity-7024669405850554369-2JU3?utm_source=share&utm_medium=member_desktop"
+  },
   {
     "date": "November 7-9, 2022",
     "location": "London",
