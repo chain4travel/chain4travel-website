@@ -1,32 +1,29 @@
 [
-    {
-        "title": "Voucher Solution"
-    },
-    {
-        "title": "Trading Platform"
-    },
-    {
-        "title": "Hotel Information "
-    },
-    {
-        "title": "Roomtype Mapping"
-    },
-    {
-        "title": "Travel Companion"
-    },
-    {
-        "title": "Inflight Solutions"
-    },
-    {
-        "title": "Payment Settlement Solution"
-    },
-    {
-        "title": "Hotel Cartography "
-    },
-    {
-        "title": "Loyalty Programs"
-    },
-    {
-        "title": "Demand Bundling"
-    }
+    {"title": "Trading"},
+    {"title": "Payment & settlement"},
+    {"title": "Token rewards"},
+    {"title": "Loyalty "},
+    {"title": "Wallet rates/Personalized offers"},
+    {"title": "Digital collectibles"},
+    {"title": "Pooling"},
+    {"title": "Contracting/ Purchasing"},
+    {"title": "Demand Generation / Interest tracking"},
+    {"title": "Hotel/ roomtype mapping"},
+    {"title": "Disaster info"},
+    {"title": "Quality/ Verfication Seal "},
+    {"title": "Token gated access "},
+    {"title": "User generated content "},
+    {"title": "API substitution/reductions of APIs necessary for operation"},
+    {"title": "Voucher"},
+    {"title": "Souvenirs - pls see collectibles "},
+    {"title": "Information Services "},
+    {"title": "Climate Compensation"},
+    {"title": "Gamification/ Travelgadgets"},
+    {"title": "Traveler Identity "},
+    {"title": "Tracking"},
+    {"title": "Interline"},
+    {"title": "Automated Complaint Management"},
+    {"title": "Locking systems / building automation"},
+    {"title": "Reviews"},
+    {"title": "Insurance Policies"}
 ]
