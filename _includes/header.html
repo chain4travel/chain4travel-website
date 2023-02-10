@@ -1,6 +1,6 @@
 <div x-data="{ atTop : true }">
     <header
-      class="text-gray-400 bg-gray-900/80 w-full backdrop-blur-xl fixed top-0 left-0 right-0 z-50"
+      class="text-gray-300 bg-gray-900/80 w-full backdrop-blur-xl fixed top-0 left-0 right-0 z-50"
       :class="{'shadow-lg qwborder-b border-gray-800' : !atTop}"
       @scroll.window="atTop = ( window.pageYOffset > 0 ) ? false : true">
       <div class="container mx-auto flex flex-wrap py-4 items-center">
@@ -10,7 +10,7 @@
 
         <div x-data="{ menuOpen: false }" class="ml-auto">
           <!-- Mobile trigger -->
-          <div class="w-12 h-12 flex lg:hidden items-center justify-center" @click="menuOpen = !menuOpen" tabindex="0">
+          <div class="w-12 h-12 flex lg:hidden items-center justify-center hover:text-white" @click="menuOpen = !menuOpen" tabindex="0">
             <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
               <path fill="currentColor" d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
             </svg>
@@ -33,7 +33,7 @@
             <a @click="menuOpen = !menuOpen" href="/supporter" class="p-4 text-lg w-full text-center hover:text-white cursor-pointer">Supporters</a>
             <a @click="menuOpen = !menuOpen" href="/news" class="p-4 text-lg w-full text-center hover:text-white cursor-pointer">News</a>
             <a @click="menuOpen = !menuOpen" href="/events" class="p-4 text-lg w-full text-center hover:text-white cursor-pointer">Events</a>
-            <a @click="menuOpen = !menuOpen" href="/#contact" class="transition-colors mt-4 flex justify-center items-center w-full font-semibold text-gray-900 bg-secondary hover:bg-white hover:border-white hover:text-gray-900 py-2 px-3 rounded-lg text-base">Contact Us</a>
+            <a @click="menuOpen = !menuOpen" href="/#contact" class="transition-colors mt-4 flex justify-center items-center w-full font-semibold text-gray-900 bg-secondary hover:bg-white hover:border-white hover:text-gray-900 py-2 px-3 rounded-lg text-base">Contact</a>
           </nav>
         </div>
 
@@ -43,7 +43,7 @@
           <a href="/supporter" class="p-2 hover:text-white cursor-pointer">Supporters</a>
           <a href="/news" class="p-2 hover:text-white cursor-pointer">News</a>
           <a href="/events" class="p-2 hover:text-white cursor-pointer">Events</a>
-          <a href="/#contact" class="transition-colors ml-4 inline-flex items-center font-semibold text-gray-900 bg-secondary hover:bg-white hover:border-white hover:text-gray-900 py-2 px-3 rounded-lg text-base">Contact Us</a>
+          <a href="/#contact" class="transition-colors ml-3 inline-flex items-center font-semibold text-gray-900 bg-secondary hover:bg-white hover:border-white hover:text-gray-900 py-2 px-3 rounded-lg text-base">Contact</a>
         </nav>
       </div>
     </header>

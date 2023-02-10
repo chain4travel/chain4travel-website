@@ -151,3 +151,14 @@ table tr.small th {
 .prose a {
   @apply text-secondary cursor-pointer hover:no-underline
 }
+
+/* Camino Glas */
+
+.camino-glas {
+  border: 1px solid rgba(255,255,255,.25);
+  box-shadow:
+  inset -12px -12px 48px 0 rgba(177, 67, 252, .5),
+  inset 12px 12px 48px 0 rgba(20,158,237, .5),
+  0 0 24px 0 rgba(177, 67, 252, .3),
+  0 0 24px 0 rgba(20,158,237, .3);
+}
