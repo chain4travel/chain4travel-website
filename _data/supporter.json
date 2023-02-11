@@ -320,6 +320,11 @@
         "url": "https://www.orchestra.eu/en/"
     },
     {
+        "name": "openGeeksLab",
+        "slug": "opengeekslab",
+        "url": "https://opengeekslab.com/"
+    },
+    {
         "name": "OTS",
         "slug": "ots",
         "url": "https://otsglobe.com/"
