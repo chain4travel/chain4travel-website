@@ -11,6 +11,9 @@
     "speaker1": "Ralf Usbeck",
     "speaker1Slug": "ralfusbeck",
     "speaker1Linkedin": "https://www.linkedin.com/in/ralf-usbeck-650646235/",
+    "speaker2": "Anke Hsu",
+    "speaker2Slug": "ankehsu",
+    "speaker2Linkedin": "https://www.linkedin.com/in/anke-hsu/",
     "outLink": ""
   },
   {
@@ -22,6 +25,9 @@
     "description": "ITB Berlin has been an integral authority in the global travel industry for more than 50 years. Countries, cities, regions, tour operators, booking portals, hotels, and many other service providers from numerous countries will be on site. We from Chain4Travel will also be present at our own exhibition stand. We look forward to the unique chance to meet these many travel players and present our innovative technology solution to this community.",
     "category": "Upcoming",
     "image": "events-cover-itb",
+    "speaker1": "Book a meeting",
+    "speaker1Slug": "itb",
+    "speaker1Linkedin": "https://calendly.com/chain4travel-itb2/itb-berlin?month=2023-03",
     "outLink": ""
   },
 
