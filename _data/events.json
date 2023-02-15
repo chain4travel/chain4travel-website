@@ -17,7 +17,7 @@
     "outLink": ""
   },
   {
-    "date": "Feb 24 - Mar 5",
+    "date": "Feb 24 - Mar 5, 2023",
     "location": "Denver",
     "title": "ETH Denver",
     "slug": "eth-denver",
@@ -65,9 +65,9 @@
     "outLink": ""
   },
   {
-    "date": "Feb 24 - Mar 5",
+    "date": "April 16 - 18",
     "location": "Düsseldorf",
-    "title": "Hospitality Days",
+    "title": "101 Future Hospitality Days",
     "slug": "hospitality-days",
     "link": "https://www.die-101-future-hospitality-days.com/",
     "description": "What will the future of hospitality look like? What are the latest trends and developments in this travel sector? We can't wait to be inspired by the thought leaders and professionals in hospitality and start the conversation about how web3 technology will impact our future. Our colleague will even hold a keynote speech and answer whether web3 is a red flag or green light. Let's find out and connect at 101 Future Hospitality Days 101.",
@@ -90,12 +90,9 @@
     "description": "Miami Beach is calling! We are visiting this year's Aviation Festival Americas and are proud to be part of introducing new technologies, forming new strategies, and new beginnings for the aviation industry.We are happy to introduce the Camino blockchain as a future-proof solution for Aviation IT and Airport Tech to improve the digital infrastructure and, ultimately, the end-to-end customer experience. We can't wait to meet you in Miami!",
     "category": "Upcoming",
     "image": "events-avalanche-festival-americas",
-    "speaker1": "Anke Hsu",
-    "speaker1Slug": "ankehsu",
-    "speaker1Linkedin": "https://www.linkedin.com/in/anke-hsu/",
-    "speaker2": "Jhon Ruiz",
-    "speaker2Slug": "jhonruiz",
-    "speaker2Linkedin": "https://www.linkedin.com/in/jhonruiz11/",
+    "speaker1": "Jhon Ruiz",
+    "speaker1Slug": "jhonruiz",
+    "speaker1Linkedin": "https://www.linkedin.com/in/jhonruiz11/",
     "outLink": ""
   },
 
@@ -187,7 +184,7 @@
   {
     "date": "September 28-29, 2022",
     "location": "Singapore",
-    "title": "Token2049",
+    "title": "Token2049 Singapore",
     "slug": "token2049",
     "link": "https://www.token2049.com",
     "description": "Token2049, Asia's largest Web3 conference, comes to an end: 7000+ attendees, 2000+ global companies, and Chain4Travel as the only Layer1 provider for a global travel ecosystem. Click below to read Pablos' impressions and key learnings of Token 2049 in Singapore.",
