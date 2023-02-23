@@ -34,6 +34,20 @@
     "outLink": ""
   },
   {
+    "date": "Feb 27-28, 2023",
+    "location": "London",
+    "title": "Blockchain Economy",
+    "slug": "blockchain-economy",
+    "link": "https://blockchaineconomy.london/",
+    "description": "We are excited to visit UK's #1 blockchain event, the meeting place for the world's top crypto companies and blockchain entrepreneurs: Blockchain Economy London Summit 2023. It is the perfect opportunity to explore the potential of web3, NFTs, cryptocurrencies, blockchain, and much more. Let's meet and discuss the possibility of engaging in web3 for the travel industry. Meet MD and Head of Product Daniel on-site and learn more about the worldwide web3 travel ecosystem.",
+    "category": "Upcoming",
+    "image": "events-blockchain-economy",
+    "speaker1": "Daniel Poerschke",
+    "speaker1Slug": "danielpoerschke",
+    "speaker1Linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/",
+    "outLink": ""
+  },
+  {
     "date": "Feb 28, 2023",
     "location": "London",
     "title": "Travolution European Summit",
@@ -48,6 +62,9 @@
     "speaker2": "Anke Hsu",
     "speaker2Slug": "ankehsu",
     "speaker2Linkedin": "https://www.linkedin.com/in/anke-hsu/",
+    "speaker3": "David Henderson",
+    "speaker3Slug": "davidhenderson",
+    "speaker3Linkedin": "https://www.linkedin.com/in/davidhenderson11/",
     "outLink": ""
   },
   {
@@ -93,6 +110,20 @@
     "speaker1": "Jhon Ruiz",
     "speaker1Slug": "jhonruiz",
     "speaker1Linkedin": "https://www.linkedin.com/in/jhonruiz11/",
+    "outLink": ""
+  },
+  {
+    "date": "March 21-23, 2023",
+    "location": "Paris",
+    "title": "Paris Blockchain Week",
+    "slug": "paris-blockchain-week",
+    "link": "https://www.parisblockchainweek.com/",
+    "description": "The city of love turns web3. We secured our tickets for this year's Paris Blockchain Week, where some of the most influential people in the blockchain industry meet. As avid blockchain enthusiasts, we can't wait to learn about the latest developments in the web3 space, explore various applications across a range of industries, and introduce Camino Network as the L1 for the global travel industry. See you in Paris.",
+    "category": "Upcoming",
+    "image": "events-paris-blockchain-week",
+    "speaker1": "Pablo Castillo",
+    "speaker1Slug": "pablocastillo",
+    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
     "outLink": ""
   },
 
