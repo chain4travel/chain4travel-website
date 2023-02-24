@@ -20,6 +20,11 @@
         "url": "https://www.aerticket.de/en"
     },
     {
+        "name": "Airxelerate",
+        "slug": "airxelerate",
+        "url": "https://www.airxelerate.com/"
+    },
+    {
         "name": "Alpitour",
         "slug": "alpitour",
         "url": "https://www.alpitourworld.com/"
@@ -80,6 +85,16 @@
         "url": "https://www.cfmmedia.de/"
     },
     {
+        "name": "CodeGen",
+        "slug": "codegen",
+        "url": "https://codegen.co.uk/"
+    },
+    {
+        "name": "compecTA",
+        "slug": "compecTA",
+        "url": "https://www.compecta.com/"
+    },
+    {
         "name": "DataArt",
         "slug": "dataart",
         "url": "https://www.dataart.com/"
@@ -90,6 +105,11 @@
         "url": "https://www.dertouristik.com/en/?lang=EN&rdeLocaleAttr=EN"
     },
     {
+        "name": "Dreamtime",
+        "slug": "dreamtime",
+        "url": "https://www.dreamtime.ch/"
+    },
+    {
         "name": "Dtravel",
         "slug": "dtravel",
         "url": "https://dtravel.com/"
@@ -98,6 +118,16 @@
         "name": "e-confirm GmbH",
         "slug": "e-confirm",
         "url": "https://www.e-confirm.de/"
+    },
+    {
+        "name": "Ekoios",
+        "slug": "ekoios",
+        "url": "https://ekoios.vn"
+    },
+    {
+        "name": "Eniyan",
+        "slug": "eniyan",
+        "url": "https://eniyan.de/"
     },
     {
         "name": "Ennea Capital Partners",
@@ -133,6 +163,11 @@
         "name": "Falkensteiner",
         "slug": "falkensteiner",
         "url": "https://www.falkensteiner.com/en"
+    },
+    {
+        "name": "Feratel",
+        "slug": "feratel",
+        "url": "https://www.feratel.at/"
     },
     {
         "name": "Fitbooktravel",
@@ -215,6 +250,11 @@
         "url": "https://www.hurra.com/en/"
     },
     {
+        "name": "Immutable",
+        "slug": "immutable",
+        "url": "https://immutableinsight.com/en"
+    },
+    {
         "name": "Hürzeler Bike Holiday",
         "slug": "huerzeler",
         "url": "https://www.huerzeler.com/en"
@@ -235,14 +275,24 @@
         "url": "https://www.involatus.com/"
     },
     {
+        "name": "ISO Travel Solutions",
+        "slug": "iso",
+        "url": "https://www.isotravel.com/en"
+    },
+    {
+        "name": "IT-kompass",
+        "slug": "itkompass",
+        "url": "https://www.it-kompass.com/en/"
+    },
+    {
         "name": "IT-Square",
         "slug": "itsquare",
         "url": "https://itsquare.de/"
     },
     {
-        "name": "ISO Travel Solutions",
-        "slug": "iso",
-        "url": "https://www.isotravel.com/en"
+        "name": "Juniper",
+        "slug": "juniper",
+        "url": "https://juniper.com"
     },
     {
         "name": "Deutsche Lufthansa AG",
@@ -263,6 +313,16 @@
         "name": "mc2.ventures",
         "slug": "mc2",
         "url": "https://www.mc2.ventures/"
+    },
+    {
+        "name": "MeinReisebüro24",
+        "slug": "meinreisebuero24",
+        "url": "https://www.meinreisebuero24.com/"
+    },
+    {
+        "name": "MGC Consulting",
+        "slug": "mgconsulting",
+        "url": "http://mgc-frankfurt.de/"
     },
     {
         "name": "MIDOCO Group",
@@ -345,6 +405,21 @@
         "url": "https://www.riversoft.com.tw/"
     },
     {
+        "name": "SAN",
+        "slug": "san",
+        "url": "https://www.santsg.com/en/"
+    },
+    {
+        "name": "Schauinsland",
+        "slug": "schauinsland",
+        "url": "https://www.schauinsland-reisen.de/"
+    },
+    {
+        "name": "Schmetterling",
+        "slug": "schmetterling",
+        "url": "https://schmetterling.de/"
+    },
+    {
         "name": "SH Financial",
         "slug": "shfinancial",
         "url": "https://sh-financial.com/"
@@ -383,6 +458,16 @@
         "name": "TraSo GmbH",
         "slug": "traso",
         "url": "https://www.traso.de/"
+    },
+    {
+        "name": "Travel Ledger",
+        "slug": "travelledger",
+        "url": "https://www.travelledger.org/"
+    },
+    {
+        "name": "Triend",
+        "slug": "triend",
+        "url": "https://triend.io/"
     },
     {
         "name": "TUI",
