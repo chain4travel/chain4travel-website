@@ -27,7 +27,7 @@ description: Find out more about Chain4Travel online and connect with us persona
     {% for event in events %}
       {% if event.category === "Upcoming" %}
         <div class="p-6 bg-gray-800 rounded-lg mb-4 col-span-12 md:col-span-6">
-          <a href="{{ event.link }}" target="_blank" rel="noopener noreferrer" class="hover:brightness-125 transition-all">
+          <a {% if event.link %} href="{{ event.link }}" target="_blank" rel="noopener noreferrer" {% endif %} class="hover:brightness-125 transition-all">
             <img class="object-cover mb-4 rounded-lg" src="../images/events/{{event.image}}.png" alt="{{event.image}} - cover" role="presentation">
           </a>
           <h3 class="text-2xl font-bold">{{ event.title }}</h3>
