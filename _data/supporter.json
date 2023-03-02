@@ -20,6 +20,11 @@
         "url": "https://www.aerticket.de/en"
     },
     {
+        "name": "Aeolos",
+        "slug": "aeolos",
+        "url": "https://www.aeolos.com"
+    },
+    {
         "name": "Airxelerate",
         "slug": "airxelerate",
         "url": "https://www.airxelerate.com/"
@@ -38,6 +43,11 @@
         "name": "Andersen",
         "slug": "andersen",
         "url": "https://andersenlab.com/"
+    },
+    {
+        "name": "Asian Trails",
+        "slug": "asiantrails",
+        "url": "https://www.asiantrails.travel"
     },
     {
         "name": "Avra Tours",
@@ -438,6 +448,11 @@
         "name": "Schmetterling",
         "slug": "schmetterling",
         "url": "https://schmetterling.de/"
+    },
+    {
+        "name": "Servicereisen",
+        "slug": "servicereisen",
+        "url": "https://www.servicereisen.de"
     },
     {
         "name": "SH Financial",
