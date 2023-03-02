@@ -30,6 +30,16 @@
         "url": "https://www.alpitourworld.com/"
     },
     {
+        "name": "Algoteque",
+        "slug": "algotque",
+        "url": "https://www.algoteque.com/"
+    },
+    {
+        "name": "Andersen",
+        "slug": "andersen",
+        "url": "https://andersenlab.com/"
+    },
+    {
         "name": "Avra Tours",
         "slug": "avratours",
         "url": "https://www.avratours.gr/"
@@ -298,6 +308,11 @@
         "name": "Deutsche Lufthansa AG",
         "slug": "lufthansa",
         "url": "https://www.lufthansagroup.com/de/home.html"
+    },
+    {
+        "name": "Liminal",
+        "slug": "liminal",
+        "url": "https://www.lmnl.app/"
     },
     {
         "name": "Lufthansa City Center",
