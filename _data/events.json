@@ -1,19 +1,5 @@
 [
   {
-    "date": "March 7-9, 2023",
-    "location": "Berlin",
-    "title": "ITB Berlin",
-    "slug": "itb-berlin",
-    "link": "https://www.itb.com/en/",
-    "description": "ITB Berlin has been an integral authority in the global travel industry for more than 50 years. Countries, cities, regions, tour operators, booking portals, hotels, and many other service providers from numerous countries will be on site. We from Chain4Travel will also be present at our own exhibition stand. We look forward to the unique chance to meet these many travel players and present our innovative technology solution to this community.",
-    "category": "Upcoming",
-    "image": "events-cover-itb",
-    "speaker1": "Book a meeting",
-    "speaker1Slug": "itb",
-    "speaker1Linkedin": "https://calendly.com/chain4travel-itb2/itb-berlin?month=2023-03",
-    "outLink": ""
-  },
-  {
     "date": "March 29, 2023",
     "location": "London",
     "title": "Skift Future of Lodging Forum",
@@ -118,14 +104,27 @@
     "outLink": ""
   },
 
-
+  {
+    "date": "March 7-9, 2023",
+    "location": "Berlin",
+    "title": "ITB Berlin",
+    "slug": "itb-berlin",
+    "link": "https://www.itb.com/en/",
+    "description": "ITB Berlin has been an integral authority in the global travel industry for more than 50 years. Countries, cities, regions, tour operators, booking portals, hotels, and many other service providers from numerous countries will be on site. We from Chain4Travel will also be present at our own exhibition stand. We look forward to the unique chance to meet these many travel players and present our innovative technology solution to this community.",
+    "category": "Past Events",
+    "image": "events-cover-itb",
+    "speaker1": "Book a meeting",
+    "speaker1Slug": "itb",
+    "speaker1Linkedin": "https://calendly.com/chain4travel-itb2/itb-berlin?month=2023-03",
+    "outLink": "https://www.linkedin.com/posts/chain4travel_camino-web3-travel-activity-7041038708120150016-rf1X/"
+  },
   {
     "date": "Feb 15-17, 2023",
     "location": "Barcelona",
     "title": "European Blockchain Convention",
     "slug": "european-blockchain-convention",
     "link": "https://eblockchainconvention.com/",
-    "description": "Described as the most influential blockchain event in Europe, the European Blockchain Convention is something we won't miss in 2023. We are excited to meet in just a few days with 2,500+ web3 enthusiasts and talk about the latest advancements in blockchain technology and the impact it will have on different industries. As a decentralized industry approach, we are excited to introduce Camino as the L1 for the global travel industry.",
+    "description": "Deemed the most influential blockchain event in Europe, the European Blockchain Convention is an event we didnt miss in 2023. We were excited to meet 2,500+ web3 enthusiasts and talk about the latest advancements in blockchain technology and the impact it will have on different industries. As a decentralized industry approach, we were excited to introduce Camino as the L1 for the global travel industry.",
     "category": "Past Events",
     "image": "european-blockchain-convention",
     "speaker1": "Vincent Usbeck",
@@ -142,7 +141,7 @@
     "title": "ETH Denver",
     "slug": "eth-denver",
     "link": "https://www.ethdenver.com/overview",
-    "description": "The Community Innovation Festival ETH Denver is just around the corner. Next to #BUIDLWeek, the Core Event from March 2-5, there will also be an MTN Retreat.The Festival is a must in web3, and guess what-we will be there too. Our colleagues Jhon and Luca will open up the world of travel to the decentralized web3 community and elaborate on the potential of the L1 for the travel industry as one of the latest advancements in the space.",
+    "description": "The Community Innovation Festival ETH Denver took place from March 2-5. Our colleagues Jhon and Luca opened up the world of travel to the decentralized web3 community. They elaborated on the potential of the L1 for the travel industry as one of the latest advancements in the space.",
     "category": "Past Events",
     "image": "events-eth-denver",
     "speaker1": "Jhon Ruiz",
@@ -156,24 +155,24 @@
   {
     "date": "Feb 27-28, 2023",
     "location": "London",
-    "title": "Blockchain Economy",
+    "title": "Blockchain Economy Summit",
     "slug": "blockchain-economy",
     "link": "https://blockchaineconomy.london/",
-    "description": "We are excited to visit UK's #1 blockchain event, the meeting place for the world's top crypto companies and blockchain entrepreneurs: Blockchain Economy London Summit 2023. It is the perfect opportunity to explore the potential of web3, NFTs, cryptocurrencies, blockchain, and much more. Let's meet and discuss the possibility of engaging in web3 for the travel industry. Meet MD and Head of Product Daniel on-site and learn more about the worldwide web3 travel ecosystem.",
+    "description": "We were excited to visit UK's #1 blockchain event, the meeting place for the world's top crypto companies and blockchain entrepreneurs: Blockchain Economy London Summit 2023. It was the perfect opportunity to explore the potential of web3, NFTs, cryptocurrencies, blockchain, and much more.",
     "category": "Past Events",
     "image": "events-blockchain-economy",
     "speaker1": "Daniel Poerschke",
     "speaker1Slug": "danielpoerschke",
     "speaker1Linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/",
-    "outLink": ""
+    "outLink": "https://blockchaineconomy.london/"
   },
   {
     "date": "Feb 28, 2023",
     "location": "London",
     "title": "Travolution European Summit",
-    "slug": "travolution-eropean-summit",
+    "slug": "travolution-european-summit",
     "link": "https://travolutionevents.co.uk/2022/en/page/travolution-european-summit-2023",
-    "description": "We are very excited to announce that Chain4Travel's CEO, Ralf Usbeck, will give a keynote speech at the Travolution European Summit 2023. Leading the adoption of blockchain technology in the travel industry with Camino, his speech will blend perfectly with the overall future-focused environment set by the event theme #metatravel. Let's discuss how travel companies must prepare for the technological revolution and what role Camino will play.",
+    "description": "Looking back at this week, the Travolution.com European Summit was the definite highlight. Many tech topics were discussed - from top tech trends, the Green gap, and AI to the blockchain-powered Web3. Watching the panel pulling apart our predictions for the future was fun! Also, I introduced the Camino Network web3 travel ecosystem we are building with many travel companies worldwide.",
     "category": "Past Events",
     "image": "events-cover-travolution",
     "speaker1": "Ralf Usbeck",
@@ -185,7 +184,7 @@
     "speaker3": "David Henderson",
     "speaker3Slug": "davidhenderson",
     "speaker3Linkedin": "https://www.linkedin.com/in/davidhenderson11/",
-    "outLink": ""
+    "outLink": "https://www.linkedin.com/posts/anke-hsu_traveltech-metatravel-web3-activity-7037327984944406528-hFAt"
   },
   {
     "date": "Jan 18-22, 2023",
