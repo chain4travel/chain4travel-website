@@ -10,7 +10,7 @@
     <title>{{ title }} - Chain4Travel</title>
     <meta name="description" content="{{ description }}">
 
-    <link rel=“canonical” href=“https://chain4travel.com/” />
+    <link rel=“canonical” href=“https://www.chain4travel.com{{page.url}}” />
 
     <meta charset="UTF-8"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
@@ -65,6 +65,7 @@
     
 </head>
 <body class="bg-gray-900 text-gray-100 overflow-x-hidden lg:text-lg">
+
     {% include "header.html" %}
     {{ content | safe }}
     {% include "footer.html" %}
