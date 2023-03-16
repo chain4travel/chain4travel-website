@@ -1,4 +1,7 @@
 User-Agent: *
 Allow: /
 
+User-agent: Googlebot-Image
+Disallow: /
+
 Sitemap: https://www.chain4travel.com/sitemap.xml
