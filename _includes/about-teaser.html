@@ -1,11 +1,11 @@
-<section class="text-gray-400" x-data="{ pablocastilloModal: false }">
+<section class="text-gray-400">
     <div class="container py-24 md:flex items-center">
-      <div class="mb-8 md:mb-0 md:pr-12">
+      <div class="mb-8 md:mb-0 md:pr-24">
         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-primary mb-4" viewBox="0 0 975.036 975.036">
             <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
           </svg>
-        <h2 class="m:text-3xl text-2xl text-gray-100">Camino has the potential to revolutionize the travel industry in the same way as Netflix revolutionized video rentals. We are clearly not yet capitalizing on today's technological possibilities and customer expectations concerning the current state of travel technology and it’s associated processes.</h2>
-        <div class="inline-flex items-center mt-4 p-4 hover:bg-gray-800 rounded-lg cursor-pointer" @click="pablocastilloModal = true">
+        <h2 class="text-2xl text-gray-100">Camino has the potential to revolutionize the travel industry in the same way as Netflix revolutionized video rentals. We are clearly not yet capitalizing on today's technological possibilities and customer expectations concerning the current state of travel technology and it’s associated processes.</h2>
+        <div class="inline-flex items-center mt-6">
             <img alt="testimonial-photo" src="../images/pablocastillo.png" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
             <span class="flex-grow flex flex-col pl-4">
               <span class="title-font font-medium text-white">Pablo Castillo</span>
@@ -22,23 +22,5 @@
             </a>
           </div>
         </div>
-    </div>
-
-    <!-- Team Modal -->
-    <div x-transition x-show="pablocastilloModal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
-      <div class="max-w-xl mx-auto p-4 rounded overflow-y-auto">
-        <div class="bg-gray-800 rounded-2xl p-8 text-center shadow-lg" @click.away="pablocastilloModal = false">
-          <div class="relative">
-            <img class="mx-auto rounded-full w-28 h-28 mb-4 relative z-10 border-4 border-gray-900/25" src="../images/pablocastillo.png" alt="pablocastillo - Image">
-            <div class="animate-pulse z-0 bg-gradient-to-tl from-primary via-gray-900 to-secondary blur-lg rounded-full w-32 h-32 absolute top-0 left-1/2 -translate-x-1/2"></div>
-          </div>
-          <h2 class="font-bold text-white text-3xl">Pablo Castillo</h2>
-          <div class="mt-2 text-xs uppercase font-bold text-primary">CTO Chain4Travel</div>
-          <p class="my-6 mb-8 text-gray-400">
-            Pablo Castillo, CIO and Executive Board member Hotelplan Group 2014 to 2021, has vast and proven experience delivering complex projects across all European markets with a strong business focus. He started his career in tourism over 20 years selling trips for Kuoni and has held various positions in Data & Content Management, eCommerce, Project & Innovation Program management.
-          </p>
-          <span class="text-center cursor-pointer border border-gray-700 hover:bg-gray-700 py-3 px-5 rounded transition-colors" @click="pablocastilloModal = false">Close</span>
-        </div>
-      </div>
     </div>
   </section>

@@ -1,5 +1,19 @@
 [
   {
+    "date": "March 21-23, 2023",
+    "location": "Paris",
+    "title": "Paris Blockchain Week",
+    "slug": "paris-blockchain-week",
+    "link": "https://www.parisblockchainweek.com/",
+    "description": "The city of love turns web3. We secured our tickets for this year's Paris Blockchain Week, where some of the most influential people in the blockchain industry meet. As avid blockchain enthusiasts, we can't wait to learn about the latest developments in the web3 space, explore various applications across a range of industries, and introduce Camino Network as the L1 for the global travel industry. See you in Paris.",
+    "category": "Upcoming",
+    "image": "events-paris-blockchain-week",
+    "speaker1": "Pablo Castillo",
+    "speaker1Slug": "pablocastillo",
+    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
+    "outLink": ""
+  },
+  {
     "date": "March 29, 2023",
     "location": "London",
     "title": "Skift Future of Lodging Forum",
@@ -14,7 +28,7 @@
     "outLink": ""
   },
   {
-    "date": "April 16-18",
+    "date": "April 16-18, 2023",
     "location": "Düsseldorf",
     "title": "101 Future Hospitality Days",
     "slug": "hospitality-days",
@@ -45,20 +59,6 @@
     "outLink": ""
   },
   {
-    "date": "March 21-23, 2023",
-    "location": "Paris",
-    "title": "Paris Blockchain Week",
-    "slug": "paris-blockchain-week",
-    "link": "https://www.parisblockchainweek.com/",
-    "description": "The city of love turns web3. We secured our tickets for this year's Paris Blockchain Week, where some of the most influential people in the blockchain industry meet. As avid blockchain enthusiasts, we can't wait to learn about the latest developments in the web3 space, explore various applications across a range of industries, and introduce Camino Network as the L1 for the global travel industry. See you in Paris.",
-    "category": "Upcoming",
-    "image": "events-paris-blockchain-week",
-    "speaker1": "Pablo Castillo",
-    "speaker1Slug": "pablocastillo",
-    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
-    "outLink": ""
-  },
-  {
     "date": "Jun 12-14, 2023",
     "location": "Barcelona",
     "title": "PhocusWright Europe",
@@ -81,7 +81,7 @@
     "title": "World Aviation Festival",
     "slug": "phocuswright-europe",
     "link": "",
-    "description": "Our team is excited to be part of the biggest aviation conferences and exhibitions. Meet our Managing Director and Head of Development, Daniel Poerschke, and our Head of Business Development, Anke Hsu World Aviation Festival. Discuss with them how Camino Network can change the aviation industry. See you in Lissabon! #aviation #web3 #camino",
+    "description": "Our team is excited to be part of the biggest aviation conferences and exhibitions. Meet our Managing Director and Head of Development, Daniel Poerschke, and our Head of Business Development, Anke Hsu at World Aviation Festival. Discuss with them how Camino Network can change the aviation industry. See you in Lissabon! #aviation #web3 #camino",
     "category": "Upcoming",
     "image": "events-cover-aviation",
     "speaker1": "Anke Hsu",
@@ -98,7 +98,7 @@
     "title": "PhocusWright Conference",
     "slug": "phocuswright-conference",
     "link": "",
-    "description": "We are excited to join the PhocusWright Conference. Our Head of Business Development Americas, Jhon Ruiz, is visiting the event in Fort Lauderdale and is thrilled to discuss the possibilities of web3 technologies in travel. Join us to learn about the opportunities of the Camino Network for the travel industry. #travel #camino",
+    "description": "We are excited to join the PhocusWright Conference. Our Head of Business Development Americas, Jhon Ruiz, and our Head of Business Development, Anke Hsu, are visiting the event in Fort Lauderdale and are thrilled to discuss the possibilities of web3 technologies in travel. Join us to learn about the opportunities of the Camino Network for the travel industry. #travel #camino",
     "category": "Upcoming",
     "image": "events-cover-phocuswright",
     "outLink": ""
@@ -289,7 +289,7 @@
     "outLink": "https://www.linkedin.com/feed/update/urn:li:activity:6981196292697817089/"
   },
   {
-    "date": "July 09-12, 2022",
+    "date": "June 09-12, 2022",
     "location": "Austin, Texas",
     "title": "Consensus (by CoinDesk)",
     "slug": "consensus",
@@ -329,7 +329,7 @@
     "outLinkLabel": "Watch our keynotes on day two here (YouTube)"
   },
   {
-    "date": "March 11-12, 2022",
+    "date": "May 11-12, 2022",
     "location": "Munich",
     "title": "HSMAday",
     "slug": "hsma",
