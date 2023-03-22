@@ -40,8 +40,11 @@
     "speaker1Slug": "danielpoerschke",
     "speaker1Linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/",
     "speaker2": "Anke Hsu",
-    "speaker2Slug": "ankehsu",
-    "speaker2Linkedin": "https://www.linkedin.com/in/anke-hsu/",
+    "speaker2Slug": "tabeaarnold",
+    "speaker2Linkedin": "https://www.linkedin.com/in/tabea-arnold/",
+    "speaker3": "Helena Vossen",
+    "speaker3Slug": "helenavossen",
+    "speaker3Linkedin": "https://www.linkedin.com/in/helena-vossen-6b2343131/",
     "outLink": ""
   },
   {
@@ -61,7 +64,7 @@
   {
     "date": "Jun 12-14, 2023",
     "location": "Barcelona",
-    "title": "PhocusWright Europe",
+    "title": "Phocuswright Europe",
     "slug": "phocuswright-europe",
     "link": "https://www.phocuswrighteurope.com/",
     "description": "Do you want to join the best networking event in travel? Then you can not miss out on the Phocuswright Europe in Barcelona. Meet our Head of Business Development, Anke Hsu, and our Community Manager, Juan Sanchez, and get the chance to inform yourself about the latest news of web3 in travel and to join an event with the most influential leaders of the travel industry. #phocuswright #travel",
@@ -95,12 +98,18 @@
   {
     "date": "Nov 13-16, 2023",
     "location": "Ft. Lauderdale",
-    "title": "PhocusWright Conference",
+    "title": "Phocuswright Conference",
     "slug": "phocuswright-conference",
     "link": "",
-    "description": "We are excited to join the PhocusWright Conference. Our Head of Business Development Americas, Jhon Ruiz, and our Head of Business Development, Anke Hsu, are visiting the event in Fort Lauderdale and are thrilled to discuss the possibilities of web3 technologies in travel. Join us to learn about the opportunities of the Camino Network for the travel industry. #travel #camino",
+    "description": "We are excited to join the Phocuswright Conference. Our Head of Business Development Americas, Jhon Ruiz, and our Head of Business Development, Anke Hsu, are visiting the event in Fort Lauderdale and are thrilled to discuss the possibilities of web3 technologies in travel. Join us to learn about the opportunities of the Camino Network for the travel industry. #travel #camino",
     "category": "Upcoming",
     "image": "events-cover-phocuswright",
+    "speaker1": "Anke Hsu",
+    "speaker1Slug": "ankehsu",
+    "speaker1Linkedin": "https://www.linkedin.com/in/anke-hsu/",
+    "speaker2": "Jhon Ruiz",
+    "speaker2Slug": "jhonruiz",
+    "speaker2Linkedin": "https://www.linkedin.com/in/jhonruiz11/",
     "outLink": ""
   },
 
