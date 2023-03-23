@@ -90,6 +90,11 @@
         "url": "https://beyond-bookings.com/"
     },
     {
+        "name": "BUK",
+        "slug": "buk",
+        "url": "https://buk.technology/"
+    },
+    {
         "name": "Busy Rooms",
         "slug": "busyrooms",
         "url": "https://www.busy-rooms.com/en"
@@ -105,6 +110,11 @@
         "url": "https://www.cfmmedia.de/"
     },
     {
+        "name": "Clear Chain Travel",
+        "slug": "clearchain",
+        "url": "https://clearchaintravel.com/"
+    },
+    {
         "name": "CodeGen",
         "slug": "codegen",
         "url": "https://codegen.co.uk/"
@@ -113,6 +123,16 @@
         "name": "compecTA",
         "slug": "compecTA",
         "url": "https://www.compecta.com/"
+    },
+    {
+        "name": "Codora",
+        "slug": "codora",
+        "url": "https://codora.io/"
+    },
+    {
+        "name": "Cortex AG",
+        "slug": "cortex",
+        "url": "https://www.cortex-ag.com/en/"
     },
     {
         "name": "DataArt",
@@ -460,6 +480,11 @@
         "url": "https://sh-financial.com/"
     },
     {
+        "name": "SIXT",
+        "slug": "sixt",
+        "url": "https://www.sixt.de/betahome/#/"
+    },
+    {
         "name": "Studio5 Liguria",
         "slug": "studio5lab",
         "url": "https://studio5.it/"
@@ -483,6 +508,11 @@
         "name": "TenetX",
         "slug": "tenetx",
         "url": "https://tenetx.io/"
+    },
+    {
+        "name": "Tomorrow Explored",
+        "slug": "tx",
+        "url": "https://tx.company/"
     },
     {
         "name": "Traffics",
@@ -538,6 +568,11 @@
         "name": "Ventura",
         "slug": "ventura",
         "url": "https://www.venturatravel.org/"
+    },
+    {
+        "name": "Vibe",
+        "slug": "vibe",
+        "url": "https://www.vibe.travel/"
     },
     {
         "name": "Verband Internet Reisevertrieb e.V.",
