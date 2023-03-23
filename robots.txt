@@ -1,5 +1,6 @@
 User-Agent: *
 Allow: /
+Disallow: /pre-sale
 
 User-agent: Googlebot-Image
 Disallow: /
