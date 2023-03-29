@@ -20,6 +20,11 @@
         "url": "https://www.aerticket.de/en"
     },
     {
+        "name": "Aeolos",
+        "slug": "aeolos",
+        "url": "https://www.aeolos.com"
+    },
+    {
         "name": "Airxelerate",
         "slug": "airxelerate",
         "url": "https://www.airxelerate.com/"
@@ -28,6 +33,21 @@
         "name": "Alpitour",
         "slug": "alpitour",
         "url": "https://www.alpitourworld.com/"
+    },
+    {
+        "name": "Algoteque",
+        "slug": "algotque",
+        "url": "https://www.algoteque.com/"
+    },
+    {
+        "name": "Andersen",
+        "slug": "andersen",
+        "url": "https://andersenlab.com/"
+    },
+    {
+        "name": "Asian Trails",
+        "slug": "asiantrails",
+        "url": "https://www.asiantrails.travel"
     },
     {
         "name": "Avra Tours",
@@ -70,6 +90,11 @@
         "url": "https://beyond-bookings.com/"
     },
     {
+        "name": "BUK",
+        "slug": "buk",
+        "url": "https://buk.technology/"
+    },
+    {
         "name": "Busy Rooms",
         "slug": "busyrooms",
         "url": "https://www.busy-rooms.com/en"
@@ -85,14 +110,34 @@
         "url": "https://www.cfmmedia.de/"
     },
     {
+        "name": "Clear Chain Travel",
+        "slug": "clearchaintravel",
+        "url": "https://clearchaintravel.com/"
+    },
+    {
         "name": "CodeGen",
         "slug": "codegen",
         "url": "https://codegen.co.uk/"
     },
     {
+        "name": "Companion D",
+        "slug": "companiond",
+        "url": ""
+    },
+    {
         "name": "compecTA",
         "slug": "compecTA",
         "url": "https://www.compecta.com/"
+    },
+    {
+        "name": "Codora",
+        "slug": "codora",
+        "url": "https://codora.io/"
+    },
+    {
+        "name": "Cortex AG",
+        "slug": "cortex",
+        "url": "https://www.cortex-ag.com/en/"
     },
     {
         "name": "DataArt",
@@ -292,12 +337,17 @@
     {
         "name": "Juniper",
         "slug": "juniper",
-        "url": "https://juniper.com"
+        "url": "https://ejuniper.com/en/"
     },
     {
         "name": "Deutsche Lufthansa AG",
         "slug": "lufthansa",
         "url": "https://www.lufthansagroup.com/de/home.html"
+    },
+    {
+        "name": "Liminal",
+        "slug": "liminal",
+        "url": "https://www.lmnl.app/"
     },
     {
         "name": "Lufthansa City Center",
@@ -425,9 +475,19 @@
         "url": "https://schmetterling.de/"
     },
     {
+        "name": "Servicereisen",
+        "slug": "servicereisen",
+        "url": "https://www.servicereisen.de"
+    },
+    {
         "name": "SH Financial",
         "slug": "shfinancial",
         "url": "https://sh-financial.com/"
+    },
+    {
+        "name": "SIXT",
+        "slug": "sixt",
+        "url": "https://www.sixt.de/betahome/#/"
     },
     {
         "name": "Studio5 Liguria",
@@ -453,6 +513,11 @@
         "name": "TenetX",
         "slug": "tenetx",
         "url": "https://tenetx.io/"
+    },
+    {
+        "name": "Tomorrow Explored",
+        "slug": "tx",
+        "url": "https://tx.company/"
     },
     {
         "name": "Traffics",
@@ -508,6 +573,11 @@
         "name": "Ventura",
         "slug": "ventura",
         "url": "https://www.venturatravel.org/"
+    },
+    {
+        "name": "Vibe",
+        "slug": "vibe",
+        "url": "https://www.vibe.travel/"
     },
     {
         "name": "Verband Internet Reisevertrieb e.V.",

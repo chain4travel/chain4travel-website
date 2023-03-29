@@ -61,10 +61,9 @@
               <div class="flex w-full items-center text-base text-gray-400 mt-auto justify-center">
                 {% if member.text %}
                 <span class="p-2 hover:text-white whitespace-nowrap cursor-pointer" @click="{{member.slub}}Modal = true">Bio</span>
-                  |
                 {% endif %}
                 {% if member.linkedin %}
-                  <a class="p-2 hover:text-white whitespace-nowrap" href="{{ member.linkedin }}" target="_blank">LinkedIn</a>
+                | <a class="p-2 hover:text-white whitespace-nowrap" href="{{ member.linkedin }}" target="_blank">LinkedIn</a>
                 {% endif %}
               </div>
               
