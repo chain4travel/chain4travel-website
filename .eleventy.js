@@ -11,6 +11,7 @@ module.exports = function (eleventyConfig) {
     './node_modules/alpinejs/dist/cdn.min.js': './js/alpine.js',
   })
 
+  eleventyConfig.addPassthroughCopy('src/img')
   eleventyConfig.addPassthroughCopy('images')
   eleventyConfig.addPassthroughCopy('static')
   eleventyConfig.addPassthroughCopy('robots.txt')
@@ -51,6 +52,12 @@ module.exports = function (eleventyConfig) {
     })
   
   return {
+    dir: {
+      input: "src",
+      output: "_site",
+      includes: "includes",
+      layouts: "layouts"
+    },
     htmlTemplateEngine: "njk"
   };
 };

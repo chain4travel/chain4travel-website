@@ -5,13 +5,12 @@ module.exports = {
     safelist: [],
     plugins: [
         require('@tailwindcss/typography'),
-        require('@tailwindcss/line-clamp'),
         require('@tailwindcss/forms'),
     ],
     theme: {
         colors: {
             dark: "#141A18",
-            primary: "#FF8235",
+            primary: "#FA6400",
             secondary: "#30E8BF",
             white: "#fff",
             muted: "#9CA3AF",
