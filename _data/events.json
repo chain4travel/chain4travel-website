@@ -34,6 +34,37 @@
     "outLink": ""
   },
   {
+    "date": "April 26-28, 2023",
+    "location": "Austin, TX",
+    "title": "Consensus",
+    "slug": "consensus",
+    "link": "https://www.coindesk.com/consensus2022/",
+    "description": "This year's Consensus will be our second attendance at the world's largest cryptocurrency and web3 event. We look forward to an exciting and informative gathering for anyone interested in the future of blockchain and its potential impact on various industries. We are incredibly excited about the latest trends in this industry and are happy to present Camino, the web3 travel ecosystem.",
+    "category": "Upcoming",
+    "image": "events-cover-consensus",
+    "speaker1": "Jhon Ruiz",
+    "speaker1Slug": "jhonruiz",
+    "speaker1Linkedin": "https://www.linkedin.com/in/jhonruiz11/",
+    "outLink": ""
+  },
+  {
+    "date": "May 3-5, 2023",
+    "location": "Barcelona",
+    "title": "Avalanche Summit",
+    "slug": "avalanche-summit",
+    "link": "https://www.avalanchesummit.com/",
+    "description": "Avalanche Summit 2022 didn't disappoint, and we are more than excited to see this year's Summit. Unparalleled in scalability, interoperability, and security in creating a robust and sustainable blockchain ecosystem, Avalanche has set groundbreaking standards in the industry. We are excited to learn, connect and collaborate with the great community attending the event.",
+    "category": "Upcoming",
+    "image": "events-cover-avalanche-summit",
+    "speaker1": "Pablo Castillo",
+    "speaker1Slug": "pablocastillo",
+    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
+    "speaker2": "Sam Jaarsma",
+    "speaker2Slug": "samjaarsma",
+    "speaker2Linkedin": "https://www.linkedin.com/in/samjaarsma/",
+    "outLink": ""
+  },
+  {
     "date": "May 16-17, 2023",
     "location": "Miami",
     "title": "Aviation Festival Americas",
@@ -45,6 +76,23 @@
     "speaker1": "Jhon Ruiz",
     "speaker1Slug": "jhonruiz",
     "speaker1Linkedin": "https://www.linkedin.com/in/jhonruiz11/",
+    "outLink": ""
+  },
+  {
+    "date": "June 6-8, 2023",
+    "location": "Milan",
+    "title": "HEDNA",
+    "slug": "hedna",
+    "link": "https://www.hedna.org/hedna-milan/",
+    "description": "HEDNA has become the leading voice in advancing the use of technology in the hospitality industry. We look forward to this unique opportunity to meet industry leaders, technology providers, and hoteliers from around the world. Overall, we are more than excited to introduce Camino Network, which cannot only tackle the challenges the industry faces today but also open up new opportunities for the future of hospitality. ",
+    "category": "Upcoming",
+    "image": "events-cover-hedna",
+    "speaker1": "Pablo Castillo",
+    "speaker1Slug": "pablocastillo",
+    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
+    "speaker2": "Sam Jaarsma",
+    "speaker2Slug": "samjaarsma",
+    "speaker2Linkedin": "https://www.linkedin.com/in/samjaarsma/",
     "outLink": ""
   },
   {
