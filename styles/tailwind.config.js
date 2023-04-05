@@ -8,6 +8,12 @@ module.exports = {
         require('@tailwindcss/forms'),
     ],
     theme: {
+        extend: {
+            animation: {
+                'spin-slow': 'spin 6s linear infinite',
+                'spin-slower': 'spin 12s linear reverse infinite',
+            }
+        },
         colors: {
             dark: "#141A18",
             primary: "#FA6400",
