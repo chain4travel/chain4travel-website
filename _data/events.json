@@ -1,19 +1,5 @@
 [
   {
-    "date": "March 21-23, 2023",
-    "location": "Paris",
-    "title": "Paris Blockchain Week",
-    "slug": "paris-blockchain-week",
-    "link": "https://www.parisblockchainweek.com/",
-    "description": "The city of love turns web3. We secured our tickets for this year's Paris Blockchain Week, where some of the most influential people in the blockchain industry meet. As avid blockchain enthusiasts, we can't wait to learn about the latest developments in the web3 space, explore various applications across a range of industries, and introduce Camino Network as the L1 for the global travel industry. See you in Paris.",
-    "category": "Upcoming",
-    "image": "events-paris-blockchain-week",
-    "speaker1": "Pablo Castillo",
-    "speaker1Slug": "pablocastillo",
-    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
-    "outLink": ""
-  },
-  {
     "date": "March 29, 2023",
     "location": "London",
     "title": "Skift Future of Lodging Forum",
@@ -113,6 +99,20 @@
     "outLink": ""
   },
 
+  {
+    "date": "March 21-23, 2023",
+    "location": "Paris",
+    "title": "Paris Blockchain Week",
+    "slug": "paris-blockchain-week",
+    "link": "https://www.parisblockchainweek.com/",
+    "description": "Greetings from @Paris Blockchain Week and a quick live update of my experience 🇫🇷 The #ParisBlockchainWeek brought together blockchain enthusiasts from around the world to discuss the latest trends and developments in the industry.",
+    "category": "Past Events",
+    "image": "events-paris-blockchain-week",
+    "speaker1": "Pablo Castillo",
+    "speaker1Slug": "pablocastillo",
+    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
+    "outLink": "https://www.linkedin.com/posts/pablo-castillo-c4t_parisblockchainweek-web3-blockchaintechnology-activity-7044715786795442176-zfME?utm_source=share&utm_medium=member_desktop"
+  },
   {
     "date": "March 7-9, 2023",
     "location": "Berlin",
