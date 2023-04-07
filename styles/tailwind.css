@@ -11,16 +11,26 @@ html {
 }
 
 .btn-primary,
-.btn-white {
-  @apply transition-all hover:scale-110 ease-in-out 
+.btn-white,
+.btn-black,
+.btn-white-outline {
+  @apply transition-colors border-2 h-10 inline-flex items-center justify-center px-4 rounded-lg
 }
 
 .btn-primary {
-  @apply font-semibold bg-primary text-white rounded-lg py-3 px-4
+  @apply font-semibold bg-primary text-white border-primary
 }
 
 .btn-white {
-  @apply font-semibold bg-white text-gray-900 rounded-lg py-3 px-4
+  @apply font-semibold bg-white border-white text-gray-900
+}
+
+.btn-white-outline {
+  @apply font-semibold bg-none text-white border-2 border-white 
+}
+
+.btn-black {
+  @apply font-semibold bg-gray-900 border-gray-900 text-white
 }
 
 /* styles for responsive youtube embed player */
