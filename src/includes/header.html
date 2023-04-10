@@ -1,18 +1,44 @@
-<header class="bg-gray-900 py-6">
-    <div class="container px-4 flex items-center justify-between">
-        <a href="/">
+<header class="bg-gray-900 text-white z-50 sticky top-0">    
+    <div class="container px-4 flex flex-wrap py-6 items-center justify-between">
+        <a href="/" class="flex font-medium items-center text-gray-900 transition-all hover:brightness-125">
             <span class="sr-only">Chain4Travel</span>
-            <img class="h-10" src="/img/logo-full.svg" alt="">
+            <img class="h-8" src="/img/logo-full.svg" alt="">
         </a>
-        <nav class="text-gray-300 flex items-center justify-center">
-            <a href="#" class="py-2 px-3 hover:text-white">About us</a>
-            <a href="#" class="py-2 px-3 hover:text-white">Team</a>
-            <a href="#" class="py-2 px-3 hover:text-white">Supporters</a>
-            <a href="#" class="py-2 px-3 hover:text-white">Learning Hub</a>
-        </nav>
-        <div>
-            <a href="#" class="mr-2 btn-white-outline">Linkedin</a>
-            <a href="#" class="btn-white">Contact us</a>
+
+        <div x-data="{ menuOpen: false }" class="ml-auto">
+            <!-- Mobile trigger -->
+            <div class="w-12 h-12 flex lg:hidden items-center justify-center hover:text-white" @click="menuOpen = !menuOpen" tabindex="0">
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M3 6h18v2H3V6zm0 5h18v2H3v-2zm0 5h18v2H3v-2z"/>
+                </svg>
+            </div>
+
+            <!-- Mobile menu starts -->
+            <nav x-cloak x-show="menuOpen" x-transition.duration.250ms @click.away="menuOpen = false" class="p-8 pt-20 fixed top-0 left-0 right-0 bg-gray-900 border-b-2 border-gray-700 z-50 flex flex-col items-center text-base justify-center">
+                <div class="w-12 h-12 flex items-center justify-center absolute top-4 right-4" @click="menuOpen = !menuOpen" tabindex="0">
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M19 6.4L17.6 5 12 10.6 6.4 5 5 6.4l5.6 5.6L5 17.6 6.4 19l5.6-5.6 5.6 5.6 1.4-1.4-5.6-5.6L19 6.4z"/>
+                    </svg>
+                </div>
+
+                <a href="/" class="flex font-medium items-center text-gray-900 mb-4">     
+                    <span class="sr-only">Chain4Travel</span>
+                    <img class="h-8 md:h-10" src="/img/logo-full.svg" alt="">
+                </a>
+            </nav>
+            <!-- Mobile menu ends -->
         </div>
+
+        <nav class="mr-auto hidden lg:flex flex-wrap items-center text-base justify-center">
+            <a href="/about" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/about' in page.url }}">About</a>
+            <a href="/about" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/xxx' in page.url }}">Team</a>
+            <a href="/about" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/xxx' in page.url }}">Supporters</a>
+            <a href="/about" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/xxx' in page.url }}">Learning Hub</a>
+        </nav>
+
+        <nav class="hidden lg:flex flex-wrap items-center text-base justify-center">
+            <a class="btn-white-outline ml-2" href="">Linkedin</a>
+            <a class="btn-white ml-2" href="">Contact</a>
+        </nav>
     </div>
 </header>
