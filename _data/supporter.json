@@ -150,6 +150,11 @@
         "url": "https://www.dertouristik.com/en/?lang=EN&rdeLocaleAttr=EN"
     },
     {
+        "name": "DiBooq GmbH",
+        "slug": "dibooq",
+        "url": "https://www.dibooq.com"
+    },
+    {
         "name": "Dreamtime",
         "slug": "dreamtime",
         "url": "https://www.dreamtime.ch/"
@@ -213,6 +218,11 @@
         "name": "Feratel",
         "slug": "feratel",
         "url": "https://www.feratel.at/"
+    },
+    {
+        "name": "Fireblocks",
+        "slug": "fireblocks",
+        "url": "https://fireblocks.com"
     },
     {
         "name": "Fitbooktravel",
@@ -310,6 +320,11 @@
         "url": "https://infocomm.mc/"
     },
     {
+        "name": "Infuy",
+        "slug": "infuy",
+        "url": "https://www.infuy.com"
+    },
+    {
         "name": "Invia",
         "slug": "invia",
         "url": "https://www.invia.de/en/"
@@ -345,19 +360,29 @@
         "url": "https://www.lufthansagroup.com/de/home.html"
     },
     {
-        "name": "Liminal",
-        "slug": "liminal",
-        "url": "https://www.lmnl.app/"
-    },
-    {
         "name": "Lufthansa City Center",
         "slug": "lcc",
         "url": "https://lufthansa-city-center.com/en/"
     },
     {
+        "name": "Legends",
+        "slug": "legends",
+        "url": "https://www.livemylegend.com/"
+    },
+    {
+        "name": "Liminal",
+        "slug": "liminal",
+        "url": "https://www.lmnl.app/"
+    },
+    {
         "name": "Lufthansa Holidays",
         "slug": "lufthansaholidays",
         "url": "https://www.lufthansaholidays.com/en-de"
+    },
+    {
+        "name": "Liminal",
+        "slug": "liminal",
+        "url": "https://www.lmnl.app/"
     },
     {
         "name": "mc2.ventures",
@@ -488,6 +513,11 @@
         "name": "SIXT",
         "slug": "sixt",
         "url": "https://www.sixt.de/betahome/#/"
+    },
+    {
+        "name": "Sleap.io",
+        "slug": "sleapio",
+        "url": "https://sleap.io/"
     },
     {
         "name": "Studio5 Liguria",
