@@ -1,0 +1,103 @@
+---
+layout: default
+permalink: news/
+
+title: Connecting the new world of travel
+description: Chain4Travel is the facilitator of the Camino consortium blockchain, a new disruptive approach to trade touristic products B2B and B2C.
+---
+
+{% include "atlas-nav.html" %}
+
+<!-- Hero starts -->
+<div class="py-20 bg-gray-900 text-white">
+    <div class="container px-4 text-center">
+        <h1 class="text-4xl md:text-5xl lg:text-7xl tracking-tight font-black">
+            Travel leaders believe in web3
+        </h1>
+        <p class="mt-8 md:text-lg lg:text-xl max-w-screen-md mx-auto text-gray-400">
+            See what our testimonials have to say about the innovational potential of blockchain for travel
+        </p>
+    </div>
+</div>
+<!-- Hero ends -->
+
+<div class="py-16 md:py-32 container px-4">
+    <div class="text-2xl xl:text-5xl font-black text-center mb-12">
+        Latest news about Chain4Travel
+    </div>
+    <div class="grid grid-cols-12 gap-6">
+        {% set newsData = newsarticles.data %}
+        {% for x in newsData %}
+            {% set news = x.attributes %}
+            <div class="
+                {% if loop.index0 < 3 %} col-span-4 border-2 {% endif %}
+                {% if loop.index0 > 2 %} col-span-2 border {% endif %}
+                border-gray-300 rounded-lg overflow-hidden">
+                <div class="p-6">
+                    <div class="font-black {% if loop.index0 < 3 %}text-2xl{% endif %} {% if loop.index0 > 2 %}text-xl{% endif %} line-clamp-3">
+                        {{news.title}}
+                    </div>
+                    {% if loop.index0 < 3 %}
+                    <p class="mt-4 line-clamp-4">{{news.articleTeaser}}</p>
+                    {% endif %}
+                    {% if loop.index0 < 3 %}
+                    <a href="{{news.linkToArticle}}" class="btn-black mt-4">
+                        Go to article
+                        <svg class="w-6 h-6 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 12-6-6m6 6-6 6m6-6H5"></path></svg>
+                    </a>
+                    {% else %}
+                    <a href="{{news.linkToArticle}}" class="inline-flex items-center mt-4">
+                        Go to article
+                        <svg class="w-6 h-6 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 12-6-6m6 6-6 6m6-6H5"></path></svg>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="bg-gray-900 text-white py-16 md:py-32">
+    <div class="container px-4 grid grid-cols-12 gap-6 items-center">
+        <div class="col-span-12 md:col-span-6">
+            <div class="font-black text-secondary uppercase mb-2 md:mb-6">Stay up to date</div>
+            <div class="text-2xl xl:text-5xl font-black">
+                Get the monthly Chain4Travel newsletter in your inbox
+            </div>
+            <p class="my-2 md:my-6">
+                Stay ahead of the game in travel with our monthly newsletter covering the hottest topics in blockchain, crypto, and web3, all relevant for travel. Join the forefront of digital innovation in the travel industry.
+            </p>
+            <a href="#" class="btn-primary">Subscribe here</a>
+        </div>
+        <div class="md:col-start-8 col-span-12 md:col-span-5 order-first md:order-last rounded-lg overflow-hidden h-64 md:h-[420px]">
+            <img class="w-full h-full object-cover" src="https://images.pexels.com/photos/2924738/pexels-photo-2924738.jpeg" alt="Chain4Travel Logo">
+        </div>
+    </div>
+</div>
+
+<div class="py-16 md:py-32 bg-gray-950 text-white">
+    <div class="container px-4">
+        <div class="text-2xl xl:text-5xl font-black text-center mb-12">
+            Listen to us in podcasts
+        </div>
+        <div class="grid grid-cols-12 gap-6">
+
+            <div class="col-span-12 md:col-span-6 xl:col-span-4 bg-gray-900 flex rounded-lg overflow-hidden">
+                <img class="w-1/3 flex-shrink-0 h-full" src="https://images.pexels.com/photos/12002706/pexels-photo-12002706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                <div class="p-6">
+                    <div class="font-black text-xl md:text-3xl">
+                        Podcast 101
+                    </div>
+                    <div class="text-secondary my-2">
+                        17-21 March 2023
+                    </div>
+                    <p class="line-clamp-3 text-gray-300">
+                        Lorem ipsum dolor sit amet con sectetur adipisicing elit. Ea veniam nam eveniet impedit aspernatur rem, deserunt doloremque, consectetur iusto id, corporis dolores eaque quisquam.
+                    </p>
+                    <a href="#" class="btn-white-outline mt-4">Listen now</a>
+                </div>
+            </div>
+
+        </div>    
+    </div>
+</div>

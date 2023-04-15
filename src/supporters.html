@@ -19,8 +19,8 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 <!-- Hero ends -->
 
 <div class="py-16 md:py-32 container px-4">
-    <div class="text-2xl xl:text-5xl font-black text-center mb-8">
-        Don’t take our word for it and see <br> what experts have to say
+    <div class="text-2xl xl:text-5xl font-black text-center mb-12">
+        Don’t take our word for it and see what experts have to say
     </div>
     <div class="md:grid grid-cols-12 gap-6">
         {% for testimonial in testimonials %}
@@ -38,4 +38,60 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
         {% endif %}
         {% endfor %}
     </div>
+    <div class="flex justify-center mt-12">
+        <a href="/testimonials" class="btn-primary">View all testimonials</a>
+    </div>
 </div>
+
+<div class="py-16 md:py-32 bg-gray-900 text-white">
+    <div class="container px-4">
+        <div class="text-2xl xl:text-5xl font-black text-center mb-8">
+            120+ supporters of the decentralized travel industry
+        </div>
+        <div class="flex flex-wrap items-center justify-center">
+            {% for supporter in supporter %}
+                <a href="{{supporter.url}}" class="bg-gray-900 transition-colors group inline-flex flex-col items-center justify-center p-2 w-[10%]" target="_blank">
+                    <img class="w-full opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all max-w-[180px]" src="../images/supporter/{{supporter.slug}}.png" alt="{{supporter.name}}">
+                    <div class="text-gray-600 hidden">{{supporter.name}}</div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="py-16 md:py-32">
+    <div class="container px-4 grid grid-cols-12 gap-6 items-center">
+        <div class="col-span-12 md:col-span-6">
+            <div class="text-2xl xl:text-5xl font-black">
+                Be a first-mover and join the travel revolution now
+            </div>
+            <p class="my-2 md:my-6">
+                Various groups are involved in the Camino ecosystem, all contributing to the network. In addition to supporters who support the vision and explore use cases in web3, there is also the opportunity to become active as a validator and to secure and steer the future development of the network.
+            </p>
+            <div class="flex">
+                <a href="#" class="btn-primary">Become a supporter</a>
+                <a href="#" class="btn-black-outline ml-2">Join the consortia</a>
+            </div>
+        </div>
+        <div class="md:col-start-8 col-span-12 md:col-span-5 order-first md:order-last rounded-lg overflow-hidden h-64 md:h-[420px]">
+            <img class="w-full h-full object-cover" src="https://images.pexels.com/photos/2924738/pexels-photo-2924738.jpeg" alt="Chain4Travel Logo">
+        </div>
+    </div>
+</div>
+
+<!-- Testimonial section starts -->
+<div class="py-16 md:py-32 bg-gray-900 text-white">
+    <div class="container px-4">
+        <blockquote class="text-xl md:text-3xl text-center max-w-screen-lg mx-auto font-light md:leading-10">
+            “Validators play an important role in securing and building the future-proof Camino travel ecosystem of decentralized applications. Becoming a validator means getting into the driver's seat in shaping the future of travel. It is also a perfect opportunity to get familiar with blockchain technology.”
+        </blockquote>
+        <div class="flex items-center justify-center mt-10">
+            <img class="w-14 md:w-20 h-14 md:h-20 mr-4 md:mr-6 rounded-lg" src="/images/ankehsu.png" alt="">
+            <div>
+                <div class="font-black md:text-2xl">Anke Hsu</div>
+                <div class="text-secondary text-xs md:text-base uppercase tracking-wider font-black">Head of Business Development</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial section ends -->

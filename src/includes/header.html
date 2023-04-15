@@ -33,7 +33,18 @@
             <a href="/about" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/about' in page.url }}">About</a>
             <a href="/team" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/team' in page.url }}">Team</a>
             <a href="/supporters" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/supporters' in page.url }}">Supporters</a>
-            <a href="/about" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/xxx' in page.url }}">Learning Hub</a>
+            <div class="" x-data="{ developerMenu: false }">
+                <div class="p-2 hover:text-white cursor-pointer flex items-center {{ 'text-white font-bold' if '/bugbounty' in page.url }}  {{ 'text-white font-bold' if '/grant-program' in page.url }} {{ 'text-white font-bold' if '/developer' in page.url }}" @click="developerMenu = !developerMenu">
+                    Web3 Atlas
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m17 10-5 5-5-5"></path></svg>
+                </div>
+                <div x-cloak x-transition x-show="developerMenu" @click.away="developerMenu = false" class="absolute bg-gray-800 flex flex-col rounded-md shadow-2xl p-3">
+                    <a @click="menuOpen = !menuOpen" href="/blog" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/blog' in page.url }}">Web3 Travel Blog</a>
+                    <a @click="menuOpen = !menuOpen" href="/usecases" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/usecases' in page.url }}">Use Cases</a>
+                    <a @click="menuOpen = !menuOpen" href="/news" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/news' in page.url }}">News</a>
+                    <a @click="menuOpen = !menuOpen" href="/events" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/events' in page.url }}">Events</a>
+                </div>
+            </div>
         </nav>
 
         <nav class="hidden lg:flex flex-wrap items-center text-base justify-center">
