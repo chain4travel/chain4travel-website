@@ -55,7 +55,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 </div>
 <!-- Post-Hero Block ends -->
 
-<div class="py-16 md:py-32">
+<div class="bg-gray-100 py-16 md:py-32">
     <div class="container px-4 grid grid-cols-12 gap-6 items-center">
         <div class="col-span-12 md:col-span-6">
             <div class="text-2xl xl:text-5xl font-black">
@@ -70,6 +70,88 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
         </div>
     </div>
 </div>
+
+<!-- Team Section starts -->
+<div class="py-16 md:py-32">
+    <div class="container px-4 mx-auto">
+        <div class="text-2xl xl:text-5xl font-black text-center mb-8">
+            Meet our web3 travel experts 
+        </div>
+
+        <div class="bg-gray-900 grid grid-cols-12 gap-6 rounded-lg py-12">
+            {% for member in team %}
+            {% if member.level === "first" %}
+            <!-- C-Level Team Card -->
+            <div class="col-span-12 md:col-span-4" x-data="{ {{member.slub}}Modal: false }">
+                <div class="rounded-xl h-full flex flex-col items-center">
+                    <img class="mx-auto rounded-lg w-32 h-32 mb-4 relative z-10" src="../images/{{member.slug}}.png" alt="{{memeber.name}} - Image">
+                    <h2 class="font-black text-white text-2xl">{{ member.name }}</h2>
+                    <div class="mt-1 text-xs uppercase font-bold text-gray-300">{{ member.position }}</div>
+                    <div class="mt-4 flex w-full items-center text-base text-gray-400 justify-center">
+                        {% if member.text %}
+                            <span class="btn-white-outline" @click="{{member.slub}}Modal = true">Bio</span>
+                        {% endif %}
+                        <a class="btn-white-outline ml-2" href="{{ member.linkedin }}" target="_blank">
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+                <!-- C-Level Team Modal -->
+                <div x-cloak x-transition x-show="{{member.slub}}Modal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
+                <div class="max-w-2xl mx-auto p-4 rounded overflow-y-auto flex flex-col items-center justify-center text-center">
+                    <div class="bg-white rounded-2xl p-8 shadow-lg text-gray-900" @click.away="{{member.slub}}Modal = false">
+                        <img class="mx-auto rounded-lg w-28 h-28 mb-4 relative z-10" src="../images/{{member.slug}}.png" alt="{{memeber.name}} - Image">
+                        <h2 class="font-black text-3xl">{{ member.name }}</h2>
+                        <div class="mt-2 text-xs uppercase font-bold text-gray-700">{{ member.position }}</div>
+                        <p class="my-6 mb-8 text-gray-700">{{ member.text }}</p>
+                        <span class="btn-black" @click="{{member.slub}}Modal = false">Close</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- / Team Card -->
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="flex justify-center flex-wrap rounded-lg mt-12">
+            {% for member in team %}
+            {% if member.level === "second" %}
+            <!-- Team Card -->
+            <div class="w-full md:w-1/3 lg:w-1/4 2xl:w-1/5 flex-shrink-0" x-data="{ {{member.slub}}Modal: false }">
+                <div class="pb-8 rounded-xl h-full flex flex-col items-center">
+                    <img class="mx-auto rounded-lg w-28 h-28 mb-4 relative z-10" src="../images/{{member.slug}}.png" alt="{{memeber.name}} - Image">
+                    <h2 class="font-black text-xl">{{ member.name }}</h2>
+                    <div class="mt-1 text-xs uppercase font-semibold text-gray-700 mb-2 text-center">{{ member.position }}</div>
+                    <div class="flex w-full items-center text-base text-gray-400 mt-auto justify-center">
+                        {% if member.text %}
+                            <span class="btn-black-outline" @click="{{member.slub}}Modal = true">Bio</span>
+                        {% endif %}
+                        {% if member.linkedin %}
+                            <a class="btn-black-outline ml-2" href="{{ member.linkedin }}" target="_blank">LinkedIn</a>
+                        {% endif %}
+                    </div>
+                </div>
+                <!-- Team Modal -->
+                <div x-cloak x-transition x-show="{{member.slub}}Modal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
+                <div class="max-w-2xl mx-auto p-4 rounded overflow-y-auto flex flex-col items-center justify-center text-center">
+                    <div class="bg-white rounded-2xl p-8 shadow-lg text-gray-900" @click.away="{{member.slub}}Modal = false">
+                        <img class="mx-auto rounded-lg w-28 h-28 mb-4 relative z-10" src="../images/{{member.slug}}.png" alt="{{memeber.name}} - Image">
+                        <h2 class="font-black text-3xl">{{ member.name }}</h2>
+                        <div class="mt-2 text-xs uppercase font-bold text-gray-700">{{ member.position }}</div>
+                        <p class="my-6 mb-8 text-gray-700">{{ member.text }}</p>
+                        <span class="btn-black" @click="{{member.slub}}Modal = false">Close</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- / Team Card -->
+            {% endif %}
+            {% endfor %}
+    </div>
+</div>
+<!-- Team Section ends -->
+
 <div class="py-16 md:py-32 bg-gray-800 text-white">
     <div class="container px-4 grid grid-cols-12 gap-6 items-center">
         <div class="col-span-12 md:col-span-6">

@@ -1,0 +1,41 @@
+---
+layout: default
+
+title: Connecting the new world of travel
+description: Chain4Travel is the facilitator of the Camino consortium blockchain, a new disruptive approach to trade touristic products B2B and B2C.
+---
+
+<!-- Hero starts -->
+<div class="py-20 bg-gray-900 text-white">
+    <div class="container px-4 text-center">
+        <h1 class="text-4xl md:text-5xl lg:text-7xl tracking-tight font-black">
+            The growing network of supporters
+        </h1>
+        <p class="mt-8 md:text-lg lg:text-xl max-w-screen-md mx-auto text-gray-400">
+            Get to know the entire network of pioneering travel innovators
+        </p>
+    </div>
+</div>
+<!-- Hero ends -->
+
+<div class="py-16 md:py-32 container px-4">
+    <div class="text-2xl xl:text-5xl font-black text-center mb-8">
+        Don’t take our word for it and see <br> what experts have to say
+    </div>
+    <div class="md:grid grid-cols-12 gap-6">
+        {% for testimonial in testimonials %}
+        {% if loop.index0 < 3 %}
+        <div class="col-span-4 bg-gray-100 p-6 rounded-lg flex flex-col">
+            <p class="mb-4">"{{ testimonial.text }}"</p>
+            <div class="flex items-center mt-auto">
+                <img alt="testimonial-photo" src="../images/{{ testimonial.slug }}.png" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                <div class="ml-2">
+                    <div class="font-black">{{ testimonial.person }}</div>
+                    <div class="text-sm">{{ testimonial.company }}</div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
