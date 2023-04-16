@@ -6,6 +6,12 @@
   display: none !important;
 }
 
+*[id]:target {
+  padding-top: 112px;
+  margin-top: -112px;
+  outline: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
