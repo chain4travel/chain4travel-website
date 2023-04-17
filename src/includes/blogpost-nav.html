@@ -5,11 +5,10 @@
             More blog posts
         </div>
         <div class="grid grid-cols-12 gap-6 mt-8">
-            {{ 'text-primary font-bold' if '/about' in page.url }}
             {% for x in blogposts %}
             <a href="{{x.link}}" class="
                 {% if title === x.title %} hidden {% endif %} col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
-                <img class="brightness-100 group-hover:brightness-125" src="/images/decentralization-article.png" alt="">
+                <img class="brightness-100 group-hover:brightness-125" src="{{x.coverImage}}" alt="">
                 <div class="p-4 md:p-6">
                     <h2 class="font-black text-2xl md:text-3xl mb-4">{{x.title}}</h2>
                     <time class="text-gray-400">{{x.date}}</time>

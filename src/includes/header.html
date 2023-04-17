@@ -14,7 +14,7 @@
             </div>
 
             <!-- Mobile menu starts -->
-            <nav x-cloak x-show="menuOpen" x-transition.duration.250ms @click.away="menuOpen = false" class="p-4 pb-8 fixed top-0 left-0 right-0 bg-gray-900 border-b-2 border-gray-700 z-50 flex flex-col">
+            <div x-cloak x-show="menuOpen" x-transition.duration.250ms @click.away="menuOpen = false" class="p-4 pb-8 fixed top-0 left-0 right-0 bg-gray-900 border-b-2 border-gray-700 z-50 flex flex-col">
                 <div class="flex justify-between items-center">
                     <a href="/" class="">     
                         <span class="sr-only">Chain4Travel</span>
@@ -40,7 +40,7 @@
                         <a @click="menuOpen = !menuOpen" class="w-full btn-white" href="/contact">Contact</a>
                     </div>
                 </nav>
-            </nav>
+            </div>
             <!-- Mobile menu ends -->
         </div>
 

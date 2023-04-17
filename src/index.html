@@ -16,8 +16,8 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
                 <strong>We enable web3 innovation for the travel industry</strong> — Chain4Travel is the facilitator of the Camino consortium blockchain, and pioneer in web3 in travel with over 120 supporters from the travel industry.
             </p>
             <div class="flex mt-8 justify-center md:justify-start">
-                <a href="#" class="btn-primary">Learn more</a>
-                <a href="#" class="btn-white ml-4">Contact us</a>
+                <a href="/about" class="btn-primary">Learn more</a>
+                <a href="/contact" class="btn-white ml-4">Contact us</a>
             </div>
         </div>
         <div class="order-first md:order-last col-span-6 col-start-4 md:col-span-5 md:col-start-8 aspect-video md:aspect-square bg-cover" style="background-image: url(/img/photos/winter.png);">
@@ -76,7 +76,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 </div>
 
 <!-- Post-Hero Block starts -->
-<div class="py-16 bg-gradient-to-b bg-gray-900 text-white">
+<div class="py-16 md:py-32 bg-gradient-to-b bg-gray-900 text-white">
     <div class="container px-4">
         <div class="text-2xl xl:text-5xl font-black text-center mb-12">
             A new generation of internet is emerging
@@ -202,34 +202,23 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 <!-- Blog article teaser section starts -->
 <div class="py-16 md:py-32 bg-gray-900 text-white">
     <div class="container px-4">
-        <div class="flex justify-between items-center">
-            <div class="text-2xl xl:text-5xl font-black">
-                Web3 Travelogue
-            </div>
-            <a href="#" class="btn-primary">See more news</a>
-        </div>
+        <div class="text-2xl xl:text-5xl font-black text-center">Web3 Travelogue</div>
         <div class="grid grid-cols-12 gap-6 mt-8">
-            <a href="#" class="col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
-                <img class="brightness-100 group-hover:brightness-125" src="/images/decentralization-article.png" alt="">
+            {% for x in blogposts %}
+            {% if loop.index0 < 3 %}
+            <a href="{{x.link}}" class="col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
+                <img class="brightness-100 group-hover:brightness-125" src="{{x.coverImage}}" alt="">
                 <div class="p-4 md:p-6">
-                    <h2 class="font-black text-2xl md:text-3xl mb-4">NFTs aren’t just digital monkeys. Here’s what they can do for travel</h2>
-                    <time class="text-gray-400">March 16, 2023</time>
+                    <h2 class="font-black text-2xl md:text-3xl line-clamp-2">{{x.title}}</h2>
+                    <time class="text-gray-400 my-4 block">{{x.date}}</time>
+                    <p class="text-gray-300 line-clamp-2">{{x.excerpt}}</p>
                 </div>
             </a>
-            <a href="#" class="col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
-                <img class="brightness-100 group-hover:brightness-125" src="/images/decentralization-article.png" alt="">
-                <div class="p-4 md:p-6">
-                    <h2 class="font-black text-2xl md:text-3xl mb-4">NFTs aren’t just digital monkeys. Here’s what they can do for travel</h2>
-                    <time class="text-gray-400">March 16, 2023</time>
-                </div>
-            </a>
-            <a href="#" class="col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
-                <img class="brightness-100 group-hover:brightness-125" src="/images/decentralization-article.png" alt="">
-                <div class="p-4 md:p-6">
-                    <h2 class="font-black text-2xl md:text-3xl mb-4">NFTs aren’t just digital monkeys. Here’s what they can do for travel</h2>
-                    <time class="text-gray-400">March 16, 2023</time>
-                </div>
-            </a>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="flex justify-center mt-8">
+            <a href="/blog" class="btn-primary">All blogposts</a>
         </div>
     </div>
 </div>
