@@ -205,11 +205,6 @@
         "url": "https://embarkingonvoyage.com/"
     },
     {
-        "name": "Event Scouts",
-        "slug": "eventscouts",
-        "url": "https://event-scouts.com/"
-    },
-    {
         "name": "Falkensteiner",
         "slug": "falkensteiner",
         "url": "https://www.falkensteiner.com/en"
@@ -373,6 +368,11 @@
         "name": "Liminal",
         "slug": "liminal",
         "url": "https://www.lmnl.app/"
+    },
+    {
+        "name": "List Scouts",
+        "slug": "list-scrouts",
+        "url": "http://list-scouts.com/"
     },
     {
         "name": "Lufthansa Holidays",
