@@ -19,29 +19,49 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 </div>
 <!-- Hero ends -->
 
-<div class="pt-6 bg-gray-100">
+<div class="py-8 bg-gray-100">
     <div class="container px-4">
         <a href="/supporters" class="btn-black-outline">Back to supporters</a>
     </div>
 </div>
 
-<div class="py-16 md:py-32 bg-gray-100">
-    <div class="container px-4">
-        <div class="grid grid-cols-12 gap-6">
+
+<div class="pb-16 md:pb-32 bg-gray-100">
+    <div class="container px-4 mx-auto">
+
+            <div class="grid grid-cols-12 gap-4">
             {% for x in testimonials %}
-            <div class="col-span-12 md:flex items-start bg-white p-8 rounded-lg">
-                <div class="md:w-1/4 md:px-12 md:border-r border-gray-100 md:h-full flex-shrink-0 flex flex-col justify-start items-center text-center">
-                    <img alt="testimonial-photo" src="../images/{{ x.slug }}.png" class="w-24 h-24 mb-4 rounded-full flex-shrink-0 object-cover object-center">
-                    <div class="font-black text-xl">{{ x.person }}</div>
-                    <div class="text-sm">{{ x.company }}</div>
+
+            <div class="col-span-6 md:col-span-4 lg:col-span-3" x-data="{ {{x.slub}}Modal: false }">
+
+                <div class="rounded-xl h-full flex flex-col items-center bg-white p-6 text-center group border-2 border-white hover:border-primary cursor-pointer" @click="{{x.slub}}Modal = true">
+                    <img class="transition-transform group-hover:scale-110 mx-auto rounded-lg w-24 md:w-32 aspect-square mb-4 relative z-10" src="../images/{{x.slug}}.png" alt="{{x.name}} - Image">
+                    <h2 class="font-black text-xl md:text-2xl">
+                        {{ x.person }}
+                    </h2>
+                    <div class="mt-1 text-sm uppercase font-bold text-gray-500">
+                        {{ x.company }}
+                    </div>
                 </div>
-                <div class="w-full text-lg md:pl-12 order-first md:order-last">
-                    {%- if x.text -%}<p class="mb-4">"{{ x.text }}"</p>{%- endif -%}
-                    {%- if x.text2 -%}<p class="mb-4">"{{ x.text2 }}"</p>{%- endif -%}
-                    {%- if x.text3 -%}<p class="mb-4">"{{ x.text3 }}"</p>{%- endif -%}
+                
+                <div x-cloak x-show="{{x.slub}}Modal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
+                    <div class="max-w-2xl mx-auto p-4 rounded overflow-y-auto flex flex-col items-center justify-center text-center">
+                        <div class="bg-white rounded-2xl p-8 shadow-lg text-gray-900" @click.away="{{x.slub}}Modal = false">
+                            <img class="mx-auto rounded-lg w-28 h-28 mb-4 relative z-10" src="../images/{{x.slug}}.png" alt="{{x.name}} - Image">
+                            <h2 class="font-black text-3xl">{{ x.name }}</h2>
+                            <div class="mt-2 text-xs uppercase font-bold text-gray-700">{{ x.position }}</div>
+                            
+                        {%- if x.text -%}<p class="mb-4">"{{ x.text }}"</p>{%- endif -%}
+                        {%- if x.text2 -%}<p class="mb-4">"{{ x.text2 }}"</p>{%- endif -%}
+                        {%- if x.text3 -%}<p class="mb-4">"{{ x.text3 }}"</p>{%- endif -%}
+                            <span class="btn-black" @click="{{x.slub}}Modal = false">Close</span>
+                        </div>
+                    </div>
                 </div>
+
             </div>
             {% endfor %}
-        </div>
+            </div>
+
     </div>
 </div>
