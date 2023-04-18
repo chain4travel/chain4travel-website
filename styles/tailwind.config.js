@@ -14,6 +14,9 @@ module.exports = {
                 'spin-slower': 'spin 48s linear reverse infinite',
             }
         },
+        fontFamily: {
+            'sans': ['Inter, system-ui, sans-serif'],
+        },
         colors: {
             dark: "#141A18",
             primary: "#FA6400",

@@ -12,6 +12,7 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addPassthroughCopy('src/img')
+  eleventyConfig.addPassthroughCopy('src/fonts')
   eleventyConfig.addPassthroughCopy('images')
   eleventyConfig.addPassthroughCopy('static')
   eleventyConfig.addPassthroughCopy('robots.txt')
