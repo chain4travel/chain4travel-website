@@ -10,8 +10,8 @@ module.exports = {
     theme: {
         extend: {
             animation: {
-                'spin-slow': 'spin 6s linear infinite',
-                'spin-slower': 'spin 12s linear reverse infinite',
+                'spin-slow': 'spin 24s linear infinite',
+                'spin-slower': 'spin 48s linear reverse infinite',
             }
         },
         colors: {
