@@ -1,33 +1,5 @@
 [
   {
-    "date": "March 21-23, 2023",
-    "location": "Paris",
-    "title": "Paris Blockchain Week",
-    "slug": "paris-blockchain-week",
-    "link": "https://www.parisblockchainweek.com/",
-    "description": "The city of love turns web3. We secured our tickets for this year's Paris Blockchain Week, where some of the most influential people in the blockchain industry meet. As avid blockchain enthusiasts, we can't wait to learn about the latest developments in the web3 space, explore various applications across a range of industries, and introduce Camino Network as the L1 for the global travel industry. See you in Paris.",
-    "category": "Upcoming",
-    "image": "events-paris-blockchain-week",
-    "speaker1": "Pablo Castillo",
-    "speaker1Slug": "pablocastillo",
-    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
-    "outLink": ""
-  },
-  {
-    "date": "March 29, 2023",
-    "location": "London",
-    "title": "Skift Future of Lodging Forum",
-    "slug": "skift-future",
-    "link": "https://live.skift.com/skift-future-of-lodging-forum-2023/",
-    "description": "What is the future of the hotel industry going to look like? We are happy to announce that we will be part of the “Future of Lodging Forum” in London. It’s the perfect opportunity to explore the future of the hotel industry. Meet our advisor Remy Merckx and discuss with him how we will be part of the future and how we can revolutionize the industry. See you in London. #web3 #hospitality",
-    "category": "Upcoming",
-    "image": "events-cover-skift",
-    "speaker1": "Rémy Merckx",
-    "speaker1Slug": "remymerc",
-    "speaker1Linkedin": "",
-    "outLink": ""
-  },
-  {
     "date": "April 16-18, 2023",
     "location": "Düsseldorf",
     "title": "101 Future Hospitality Days",
@@ -48,6 +20,37 @@
     "outLink": ""
   },
   {
+    "date": "April 26-28, 2023",
+    "location": "Austin, TX",
+    "title": "Consensus",
+    "slug": "consensus",
+    "link": "https://www.coindesk.com/consensus2022/",
+    "description": "This year's Consensus will be our second attendance at the world's largest cryptocurrency and web3 event. We look forward to an exciting and informative gathering for anyone interested in the future of blockchain and its potential impact on various industries. We are incredibly excited about the latest trends in this industry and are happy to present Camino, the web3 travel ecosystem.",
+    "category": "Upcoming",
+    "image": "events-cover-consensus",
+    "speaker1": "Jhon Ruiz",
+    "speaker1Slug": "jhonruiz",
+    "speaker1Linkedin": "https://www.linkedin.com/in/jhonruiz11/",
+    "outLink": ""
+  },
+  {
+    "date": "May 3-5, 2023",
+    "location": "Barcelona",
+    "title": "Avalanche Summit",
+    "slug": "avalanche-summit",
+    "link": "https://www.avalanchesummit.com/",
+    "description": "Avalanche Summit 2022 didn't disappoint, and we are more than excited to see this year's Summit. Unparalleled in scalability, interoperability, and security in creating a robust and sustainable blockchain ecosystem, Avalanche has set groundbreaking standards in the industry. We are excited to learn, connect and collaborate with the great community attending the event.",
+    "category": "Upcoming",
+    "image": "events-cover-avalanche-summit",
+    "speaker1": "Pablo Castillo",
+    "speaker1Slug": "pablocastillo",
+    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
+    "speaker2": "Sam Jaarsma",
+    "speaker2Slug": "samjaarsma",
+    "speaker2Linkedin": "https://www.linkedin.com/in/samjaarsma/",
+    "outLink": ""
+  },
+  {
     "date": "May 16-17, 2023",
     "location": "Miami",
     "title": "Aviation Festival Americas",
@@ -59,6 +62,23 @@
     "speaker1": "Jhon Ruiz",
     "speaker1Slug": "jhonruiz",
     "speaker1Linkedin": "https://www.linkedin.com/in/jhonruiz11/",
+    "outLink": ""
+  },
+  {
+    "date": "June 6-8, 2023",
+    "location": "Milan",
+    "title": "HEDNA",
+    "slug": "hedna",
+    "link": "https://www.hedna.org/hedna-milan/",
+    "description": "HEDNA has become the leading voice in advancing the use of technology in the hospitality industry. We look forward to this unique opportunity to meet industry leaders, technology providers, and hoteliers from around the world. Overall, we are more than excited to introduce Camino Network, which cannot only tackle the challenges the industry faces today but also open up new opportunities for the future of hospitality. ",
+    "category": "Upcoming",
+    "image": "events-cover-hedna",
+    "speaker1": "Pablo Castillo",
+    "speaker1Slug": "pablocastillo",
+    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
+    "speaker2": "Sam Jaarsma",
+    "speaker2Slug": "samjaarsma",
+    "speaker2Linkedin": "https://www.linkedin.com/in/samjaarsma/",
     "outLink": ""
   },
   {
@@ -113,6 +133,20 @@
     "outLink": ""
   },
 
+  {
+    "date": "March 21-23, 2023",
+    "location": "Paris",
+    "title": "Paris Blockchain Week",
+    "slug": "paris-blockchain-week",
+    "link": "https://www.parisblockchainweek.com/",
+    "description": "Greetings from @Paris Blockchain Week and a quick live update of my experience 🇫🇷 The #ParisBlockchainWeek brought together blockchain enthusiasts from around the world to discuss the latest trends and developments in the industry.",
+    "category": "Past Events",
+    "image": "events-paris-blockchain-week",
+    "speaker1": "Pablo Castillo",
+    "speaker1Slug": "pablocastillo",
+    "speaker1Linkedin": "https://www.linkedin.com/in/pablo-castillo-2942206/",
+    "outLink": "https://www.linkedin.com/posts/pablo-castillo-c4t_parisblockchainweek-web3-blockchaintechnology-activity-7044715786795442176-zfME?utm_source=share&utm_medium=member_desktop"
+  },
   {
     "date": "March 7-9, 2023",
     "location": "Berlin",
