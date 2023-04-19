@@ -20,7 +20,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
                 <a href="/contact" class="btn-white ml-4">Contact us</a>
             </div>
         </div>
-        <div class="order-first md:order-last col-span-6 col-start-4 md:col-span-5 md:col-start-8 aspect-video md:aspect-square bg-cover" style="background-image: url(/img/photos/winter.png);">
+        <div class="order-first md:order-last col-span-6 col-start-4 md:col-span-4 md:col-start-9 aspect-video md:aspect-square bg-cover" style="background-image: url(/img/photos/winter.png);">
             <img src="/img/logoshape.png" alt="">
         </div>
     </div>
@@ -210,19 +210,19 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 <!-- Testimonial section ends -->
 
 <!-- Blog article teaser section starts -->
-<div class="py-16 md:py-32 bg-gray-900 text-white">
+<div class="py-16 md:py-32 bg-gray-100">
     <div class="container px-4">
         <div class="text-2xl xl:text-5xl font-black text-center mb-4 md:mb-8">Chain4Travel Blog</div>
-        <p class="text-center text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ullam velit dolores fugit quia id ipsa dignissimos temporibus expedita nihil, asperiores quod facere at?</p>
+        <p class="text-center text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ullam velit dolores fugit quia id ipsa dignissimos temporibus expedita nihil, asperiores quod facere at?</p>
         <div class="grid grid-cols-12 gap-6 mt-6 md:mt-12">
             {% for x in blogposts %}
             {% if loop.index0 < 3 %}
-            <a href="{{x.link}}" class="col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
+            <a href="{{x.link}}" class="col-span-12 md:col-span-4 bg-white transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
                 <img class="brightness-100 group-hover:brightness-125" src="{{x.coverImage}}" alt="">
                 <div class="p-4 md:p-6">
                     <h2 class="font-black text-2xl md:text-3xl line-clamp-2">{{x.title}}</h2>
-                    <time class="text-gray-400 my-4 block">{{x.date}}</time>
-                    <p class="text-gray-300 line-clamp-2">{{x.excerpt}}</p>
+                    <time class="text-gray-600 my-4 block">{{x.date}}</time>
+                    <p class="text-gray-700 line-clamp-2">{{x.excerpt}}</p>
                 </div>
             </a>
             {% endif %}
