@@ -1,62 +1,67 @@
 [
     {
         "title": "Payment and settlement",
+        "icon":  "usecase-icon-01",
         "list1": "enabling worldwide peer-to-peer transactions",
         "list2": "automatic reconciliation",
         "list3": "low transaction costs"
     },
     {
-        "title": "Payment and settlement",
-        "list1": "enabling worldwide peer-to-peer transactions",
-        "list2": "automatic reconciliation",
-        "list3": "low transaction costs"
+        "title": "Trading",
+        "icon":  "usecase-icon-02",
+        "list1": "trading in various directions: B2B2C, C2B and even D2C",
+        "list2": "resellable rates",
+        "list3": "enabling automation, cost-efficiency, and flexibility"
     },
     {
-        "title": "Payment and settlement",
-        "list1": "enabling worldwide peer-to-peer transactions",
-        "list2": "automatic reconciliation",
-        "list3": "low transaction costs"
+        "title": "Identity management",
+        "icon":  "usecase-icon-03",
+        "list1": "securely store and verify identity documents",
+        "list2": "streamlined check-in process"
     },
     {
-        "title": "Payment and settlement",
-        "list1": "enabling worldwide peer-to-peer transactions",
-        "list2": "automatic reconciliation",
-        "list3": "low transaction costs"
+        "title": "Loyalty programs",
+        "icon":  "usecase-icon-04",
+        "list1": "travelers can earn and redeem rewards in a more secure and transparent way  across multiple providers",
+        "list2": "easily track loyalty data and improve personalization"
     },
     {
-        "title": "Payment and settlement",
-        "list1": "enabling worldwide peer-to-peer transactions",
-        "list2": "automatic reconciliation",
-        "list3": "low transaction costs"
+        "title": "Token rewards",
+        "icon":  "usecase-icon-05",
+        "list1": "incentivizing customers with instant payment processing",
+        "list2": "increasing loyalty, brand engagement, and user-generated content"
     },
     {
-        "title": "Payment and settlement",
-        "list1": "enabling worldwide peer-to-peer transactions",
-        "list2": "automatic reconciliation",
-        "list3": "low transaction costs"
+        "title": "Token gated access",
+        "icon":  "usecase-icon-06",
+        "list1": "reducing the risk of fraud or theft with a tokenized access system",
+        "list2": "introducing new loyalty programs",
+        "list3": "seamless and efficient"
     },
     {
-        "title": "Payment and settlement",
-        "list1": "enabling worldwide peer-to-peer transactions",
-        "list2": "automatic reconciliation",
-        "list3": "low transaction costs"
+        "title": "Tracking",
+        "icon":  "usecase-icon-07",
+        "list1": "tamper-proof way to track travel data related to travel, such as bookings, reservations, or luggage",
+        "list2": "streamline operations",
+        "list3": "offering a more efficient and personalized service"
     },
     {
-        "title": "Payment and settlement",
-        "list1": "enabling worldwide peer-to-peer transactions",
-        "list2": "automatic reconciliation",
-        "list3": "low transaction costs"
+        "title": "Sustainability",
+        "icon":  "usecase-icon-08",
+        "list1": "seamless offsetting for travelers along the value chain",
+        "list2": "blockchain ensures the integrity of the process by creating a tamper-proof record"
     },
     {
-        "title": "Payment and settlement",
-        "list1": "enabling worldwide peer-to-peer transactions",
-        "list2": "automatic reconciliation",
-        "list3": "low transaction costs"
+        "title": "API substitution",
+        "icon":  "usecase-icon-09",
+        "list1": "systems and applications seamlessly communicate with each other",
+        "list2": "reducing integration cost and complexity",
+        "list3": "reducing the risk of downtime or system failures"
     },
     {
-        "title": "Payment and settlement",
-        "list1": "enabling worldwide peer-to-peer transactions",
-        "list2": "automatic reconciliation",
-        "list3": "low transaction costs"
+        "title": "Room type mapping",
+        "icon":  "usecase-icon-10",
+        "list1": "improving the accuracy of non-bookable content, such as reviews or information on  room amenities, with a single source of truth",
+        "list2": "data easily accessible for all parties involved"
     }
 ]

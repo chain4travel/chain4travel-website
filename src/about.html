@@ -164,17 +164,15 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
         <div class="text-2xl xl:text-5xl font-black">
             Web3 travel use cases become mainstream. It’s time to explore the value in web3 for your business. 
         </div>
-        <div class="flex py-6 my-6 overflow-x-scroll md:overflow-auto md:flex-wrap">
+        <div class="flex pt-12 my-6 overflow-x-scroll md:overflow-auto md:flex-wrap">
             {% for x in usecasesdummy %}
-            <div class="flex-shrink-0 max-w-xs md:w-1/4 lg:w-1/5 p-3">
-                <div class="p-4 md:p-6 bg-white rounded-lg text-left ">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16" fill="none" viewBox="0 0 64 64">
-                        <path stroke="#FF8235" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.667 32.2H8v24h10.667v-5.333m0-18.667H24l16.848 7.22a3 3 0 0 1 1.819 2.758v3.355m-24-13.333v18.667m24-5.334h-8L28 42.867m14.667 2.666h8c1.777 0 5.333 1.067 5.333 5.334l-12.364 5.299a16 16 0 0 1-12.605 0l-12.364-5.3"/>
-                        <circle cx="48" cy="24.2" r="5.333" stroke="#FF8235" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                        <circle cx="29.333" cy="16.2" r="5.333" stroke="#FF8235" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                    </svg>
+            <div class="flex-shrink-0 max-w-xs md:w-1/3 lg:w-1/5 p-3 md:mb-16">
+                <div class="p-4 pt-12 md:p-6 md:pt-12 bg-white rounded-lg text-left h-full relative">
+                    <div class="bg-primary p-4 inline-block rounded-lg absolute left-1/2 -translate-x-1/2 -top-10">
+                        <img class="w-12" src="/img/use-cases/{{x.icon}}.svg" alt="">
+                    </div>
                     <h2 class="font-black text-xl my-2">{{x.title}}</h2>
-                    <ul class="list-disc pl-4 text-sm">
+                    <ul class="list-disc pl-4 text-sm text-gray-600">
                     {% if x.list1 %}<li>{{x.list1}}</li>{% endif %}
                     {% if x.list2 %}<li>{{x.list2}}</li>{% endif %}
                     {% if x.list3 %}<li>{{x.list3}}</li>{% endif %}
