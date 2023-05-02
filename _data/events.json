@@ -1,39 +1,5 @@
 [
   {
-    "date": "April 16-18, 2023",
-    "location": "Düsseldorf",
-    "title": "101 Future Hospitality Days",
-    "slug": "hospitality-days",
-    "link": "https://www.die-101-future-hospitality-days.com/",
-    "description": "What will the future of hospitality look like? What are the latest trends and developments in this travel sector? We can't wait to be inspired by the thought leaders and professionals in hospitality and start the conversation about how web3 technology will impact our future. Our colleague will even hold a keynote speech and answer whether web3 is a red flag or green light. Let's find out and connect at 101 Future Hospitality Days 101.",
-    "category": "Upcoming",
-    "image": "events-hospitality-days",
-    "speaker1": "Daniel Poerschke",
-    "speaker1Slug": "danielpoerschke",
-    "speaker1Linkedin": "https://www.linkedin.com/in/daniel-poerschke-30a84652/",
-    "speaker2": "Tabea Arnold",
-    "speaker2Slug": "tabeaarnold",
-    "speaker2Linkedin": "https://www.linkedin.com/in/tabea-arnold/",
-    "speaker3": "Helena Vossen",
-    "speaker3Slug": "helenavossen",
-    "speaker3Linkedin": "https://www.linkedin.com/in/helena-vossen-6b2343131/",
-    "outLink": ""
-  },
-  {
-    "date": "April 26-28, 2023",
-    "location": "Austin, TX",
-    "title": "Consensus",
-    "slug": "consensus",
-    "link": "https://www.coindesk.com/consensus2022/",
-    "description": "This year's Consensus will be our second attendance at the world's largest cryptocurrency and web3 event. We look forward to an exciting and informative gathering for anyone interested in the future of blockchain and its potential impact on various industries. We are incredibly excited about the latest trends in this industry and are happy to present Camino, the web3 travel ecosystem.",
-    "category": "Upcoming",
-    "image": "events-cover-consensus",
-    "speaker1": "Jhon Ruiz",
-    "speaker1Slug": "jhonruiz",
-    "speaker1Linkedin": "https://www.linkedin.com/in/jhonruiz11/",
-    "outLink": ""
-  },
-  {
     "date": "May 3-5, 2023",
     "location": "Barcelona",
     "title": "Avalanche Summit",
@@ -48,20 +14,6 @@
     "speaker2": "Sam Jaarsma",
     "speaker2Slug": "samjaarsma",
     "speaker2Linkedin": "https://www.linkedin.com/in/samjaarsma/",
-    "outLink": ""
-  },
-  {
-    "date": "May 16-17, 2023",
-    "location": "Miami",
-    "title": "Aviation Festival Americas",
-    "slug": "avalanche-festival-americas",
-    "link": "https://www.terrapinn.com/conference/aviation-festival-americas/index.stm",
-    "description": "Miami Beach is calling! We are visiting this year's Aviation Festival Americas and are proud to be part of introducing new technologies, forming new strategies, and new beginnings for the aviation industry.We are happy to introduce the Camino blockchain as a future-proof solution for Aviation IT and Airport Tech to improve the digital infrastructure and, ultimately, the end-to-end customer experience. We can't wait to meet you in Miami!",
-    "category": "Upcoming",
-    "image": "events-avalanche-festival-americas",
-    "speaker1": "Jhon Ruiz",
-    "speaker1Slug": "jhonruiz",
-    "speaker1Linkedin": "https://www.linkedin.com/in/jhonruiz11/",
     "outLink": ""
   },
   {
@@ -133,6 +85,17 @@
     "outLink": ""
   },
 
+  {
+    "date": "April 16-18, 2023",
+    "location": "Düsseldorf",
+    "title": "101 Future Hospitality Days",
+    "slug": "hospitality-days",
+    "link": "https://www.die-101-future-hospitality-days.com/",
+    "description": "What will the future of hospitality look like? What are the latest trends and developments in this travel sector? We were inspired by the thought leaders and professionals in hospitality. Our colleague Daniel even hold a keynote speech and answered whether web3 is a red flag or green light.",
+    "category": "Past Events",
+    "image": "events-hospitality-days",
+    "outLink": "https://www.linkedin.com/feed/update/urn:li:activity:7054765017056845824"
+  },
   {
     "date": "March 21-23, 2023",
     "location": "Paris",
