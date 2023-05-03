@@ -110,6 +110,11 @@
         "url": "https://www.cfmmedia.de/"
     },
     {
+        "name": "Clairvoyant",
+        "slug": "clairvoyant",
+        "url": "https://clairvoyantlab.com/"
+    },
+    {
         "name": "Clear Chain Travel",
         "slug": "clearchaintravel",
         "url": "https://clearchaintravel.com/"
@@ -345,6 +350,11 @@
         "url": "https://itsquare.de/"
     },
     {
+        "name": "Joonze",
+        "slug": "joonze",
+        "url": "https://www.joonze.com/"
+    },
+    {
         "name": "Juniper",
         "slug": "juniper",
         "url": "https://ejuniper.com/en/"
@@ -371,18 +381,13 @@
     },
     {
         "name": "List Scouts",
-        "slug": "list-scrouts",
+        "slug": "listscouts",
         "url": "http://list-scouts.com/"
     },
     {
         "name": "Lufthansa Holidays",
         "slug": "lufthansaholidays",
         "url": "https://www.lufthansaholidays.com/en-de"
-    },
-    {
-        "name": "Liminal",
-        "slug": "liminal",
-        "url": "https://www.lmnl.app/"
     },
     {
         "name": "mc2.ventures",
