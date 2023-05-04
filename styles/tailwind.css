@@ -103,3 +103,30 @@ html {
   width: 100%; 
   height: 100%;
 }
+
+#mc_embed_signup form {
+  margin: 0 !important;
+}
+#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
+  margin: 0 !important;
+}
+
+#mc_embed_signup div.response {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+}
+
+#mc_embed_signup div#mce-responses {
+  padding: 0 !important;
+  margin: 0 0 .5rem 0 !important;
+}
+
+#mc_embed_signup .helper_text,
+#mc_embed_signup input[type="email"] {
+  background-color: transparent !important;
+}
+
+#mc-embedded-subscribe {
+  @apply transition-colors border-2 h-10 inline-flex items-center justify-center px-4 rounded-lg font-semibold bg-primary text-white border-primary m-0 cursor-pointer !important;
+}

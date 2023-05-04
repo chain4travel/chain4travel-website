@@ -36,7 +36,7 @@
                     <a @click="menuOpen = !menuOpen" class="py-3 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/news' in page.url }}" href="/news">News</a>
                     <a @click="menuOpen = !menuOpen" class="py-3 mb-4 {{ 'text-primary font-bold' if '/events' in page.url }}" href="/events">Events</a>
                     <div class="flex gap-2">
-                        <a @click="menuOpen = !menuOpen" class="w-full btn-white-outline" href="">Linkedin</a>
+                        <a @click="menuOpen = !menuOpen" class="w-full btn-white-outline" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/company/chain4travel/">Linkedin</a>
                         <a @click="menuOpen = !menuOpen" class="w-full btn-white" href="/contact">Contact</a>
                     </div>
                 </nav>
@@ -63,7 +63,7 @@
         </nav>
 
         <nav class="hidden lg:flex flex-wrap items-center text-base justify-center">
-            <a class="btn-white-outline ml-2" href="">Linkedin</a>
+            <a class="btn-white-outline ml-2" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/company/chain4travel/">Linkedin</a>
             <a class="btn-white ml-2" href="/contact">Contact</a>
         </nav>
     </div>
