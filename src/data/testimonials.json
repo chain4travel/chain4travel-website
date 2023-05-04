@@ -3,19 +3,22 @@
         "text": "Blockchains have enormous potential to materially change our business model by making transactions along the value chain more secure, efficient and traceable. Camino, as the first blockchain platform for travel, offers vast possibilities to enhance processes, products and services in the travel industry. Eurowings will be one of the first movers, currently exploring first use cases in inflight shopping, customer loyalty, digital marketing and sales together with our partners Chain4Travel and Peakwork.",
         "person": "Jens Bischof",
         "slug": "jensbischof",
-        "company": "CEO Eurowings"
+        "company": "CEO Eurowings",
+        "placement": "homepage"
     },
     {
         "text": "With Camino, Chain4Travel delivers a completely new approach to process structuring in tourism. We at FTI are very excited about the first dApps and benefits of a blockchain-based data protection approach. Both production and distribution of travel products are being fundamentally rethought here; great to be a part of it.",
         "person": "Ralph Schiller",
         "slug": "ralphschiller",
-        "company": "CEO FTI Group"
+        "company": "CEO FTI Group",
+        "placement": "homepage"
     },
     {
         "text": "Similar to the internet in the 1990s, Blockchain could become a game changing technology in travel. Chain4Travel is well positioned to actively drive this change and is one of the most advanced innovation companies in this field.",
         "person": "Sebastian Ebel",
         "slug": "sebastianebel",
-        "company": "CEO TUI Group"
+        "company": "CEO TUI Group",
+        "placement": "homepage"
     },
     {
         "text": "Leading the field in digital crisis communication whilst streamlining and structuring the flow of information between source and the travelling customer. Our task at A3M is to provide the travelling public with punctual, accurate, in- depth and time critical information and this at a very high frequency. A task we are mastering daily in close cooperation with our tour operators, travel retailers, OBEs and corporate customers. Today's solutions are however limited, both technically and economically posing challenges to serve customer demands going forward. This is one reason why blockchain is so important for A3M`s future business model.",
@@ -23,7 +26,8 @@
         "text3": "Going forward, A3M are currently researching new “Pay Per Use” and “customer UGC contribution” models, both only economically feasible with the advent of blockchain and NFT technology. It promises to be an interesting future! We at A3M are very excited about our partnership with Chain4Travel and Camino, leading the industry into a new age of crisis information and communication management.",
         "person": "Tom Dillon",
         "slug": "thomasdillon",
-        "company": "CEO A3M Global Monitoring GmbH"
+        "company": "CEO A3M Global Monitoring GmbH",
+        "placement": "homepage"
     },
     {
         "text": "Today, hotel distribution can be quite challenging. The Camino consortium blockchain has the potential for a technical revolution. Our hospitality industry can benefit immensely from the Camino Network in various areas. At Falkensteiner Hotels & Residences we are already working on ideas and concepts for voucher solutions, customer loyalty programs and the improved distribution of microservices and ancillaries linked to our hotels. We are also evolving our digital footprint towards new ways our guests will consume and experience our products and services, even in the meta space.",
