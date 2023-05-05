@@ -20,8 +20,9 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
                 <a href="/contact" class="btn-white ml-4">Contact us</a>
             </div>
         </div>
-        <div class="order-first md:order-last col-span-6 col-start-4 md:col-span-5 md:col-start-auto aspect-video md:aspect-square bg-cover" style="background-image: url(/img/photos/beach.png);">
-            <img src="/img/logoshape.png" alt="">
+        <div class="order-first md:order-last col-span-6 col-start-4 md:col-span-5 md:col-start-auto aspect-video md:aspect-square relative">
+            <div class="absolute w-full h-full">{% image "src/img/logoshape.png", "Chain4Travel logo shape" %}</div>
+            {% image "src/img/photos/beach.png", "Chain4Travel logo shape" %}
         </div>
     </div>
 </div>
@@ -49,7 +50,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 <div class="py-16 md:py-32">
     <div class="max-w-screen-xl mx-auto px-4 text-center md:text-left items-center grid grid-cols-12 gap-6">
         <div class="col-span-12 md:col-span-5 rounded-lg bg-gray-100 text-gray-600">
-            <img class="w-full h-64 object-cover grayscale opacity-80" src="/img/photos/rain.png" alt="">
+            {% image "src/img/photos/rain.png", "Rainy window at aiport", "h-32 md:h-64 grayscale" %}
             <div class="p-4 md:p-6">
                 <div class="font-black text-xl md:text-3xl mb-4">
                     Today's travel industry
@@ -72,7 +73,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
             <div class="bg-gradient-to-b md:bg-gradient-to-r from-gray-100 to-gray-900 absolute w-2 -top-6 -bottom-6 md:w-auto md:h-2 md:top-auto md:bottom-auto md:-left-6 md:-right-6 z-0"></div>
         </div>
         <div class="col-span-12 md:col-span-5 rounded-2xl overflow-hidden bg-white shadow-primary shadow-2xl">
-            <img class="w-full h-64 object-cover" src="/img/photos/airplane-window.png" alt="">
+            {% image "src/img/photos/airplane-window.png", "Airplane window", "h-32 md:h-64" %}
             <div class="p-4 md:p-6">
                 <div class="font-black text-xl md:text-3xl">
                     Tomorrow's travel industry
@@ -95,7 +96,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
         <div class="md:grid grid-cols-12 gap-8">
             <div class="md:col-span-4 rounded-lg mb-6 md:mb-0">
                 <div class="text-center md:px-4">
-                    <img class="w-40 mx-auto" src="img/schema-web1.png" alt="">
+                    <div class="w-40 mx-auto">{% image "src/img/schema-web1.png", "Shema showing connections of web1", "w-full" %}</div>
                     <h2 class="font-black text-xl md:text-2xl my-4">
                         Web1
                     </h2>
@@ -106,7 +107,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
             </div>
             <div class="md:col-span-4 rounded-lg mb-6 md:mb-0">
                 <div class="text-center md:px-4">
-                    <img class="w-40 mx-auto" src="img/schema-web2.png" alt="">
+                    <div class="w-40 mx-auto">{% image "src/img/schema-web2.png", "Shema showing connections of web2", "w-full" %}</div>
                     <h2 class="font-black text-xl md:text-2xl my-4">
                         Web2
                     </h2>
@@ -117,7 +118,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
             </div>
             <div class="md:col-span-4 rounded-lg">
                 <div class="text-center md:px-4">
-                    <img class="w-40 mx-auto" src="img/schema-web3.png" alt="">
+                    <div class="w-40 mx-auto">{% image "src/img/schema-web3.png", "Shema showing connections of web3", "w-full" %}</div>
                     <h2 class="font-black text-xl md:text-2xl my-4">
                         Web3
                     </h2>
