@@ -105,6 +105,11 @@
         "url": "https://www.carbonclick.com/"
     },
     {
+        "name": "Cena pro",
+        "slug": "cenapro",
+        "url": "hello@cena.pro"
+    },
+    {
         "name": "CFM_media GmbH",
         "slug": "cfm-media",
         "url": "https://www.cfmmedia.de/"
@@ -358,6 +363,11 @@
         "name": "Juniper",
         "slug": "juniper",
         "url": "https://ejuniper.com/en/"
+    },
+    {
+        "name": "Kuende",
+        "slug": "kuende",
+        "url": "https://kuende.com/"
     },
     {
         "name": "Deutsche Lufthansa AG",
