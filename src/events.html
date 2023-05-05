@@ -20,44 +20,59 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 </div>
 <!-- Hero ends -->
 
-<div class="py-16 max-w-screen-xl px-8 md:px-4 mx-auto">
-    <div class="grid grid-cols-12 gap-6 items-stretch">
+<div class="py-16 bg-gray-100">
+    <div class="grid grid-cols-12 gap-6 max-w-screen-xl px-8 md:px-4 mx-auto">
         {% set eventData = events.data %}
         {% for x in eventData %}
             {% set event = x.attributes %}
-            <a href="{{event.link}}" target="_blank" rel="noopener noreferrer" class="col-span-12 md:col-span-4 group ">
-                <div class="border border-gray-300 group-hover:border-primary h-full rounded-lg overflow-hidden transition-colors">
-                    <img class="object-cover h-28 group-hover:brightness-110" src="https://api.strapi.camino.network{{event.image.data.attributes.url}}" alt="">
-                    <div class="p-6">
-                        <div class="text-2xl font-black">
-                            {{event.title}}
+            <div class="col-span-12 md:col-span-6 group bg-white border border-gray-300 group-hover:border-primary flex flex-col h-full rounded-lg overflow-hidden transition-colors">
+                <a href="{{event.link}}" target="_blank" rel="noopener noreferrer">
+                    <img class="object-cover w-full h-auto group-hover:brightness-110" src="https://api.strapi.camino.network{{event.image.data.attributes.url}}" alt="" />
+                </a>
+                <div class="p-6 flex flex-col h-full">
+                    <a class="text-xl md:text-3xl font-black hover:text-primary" href="{{event.link}}" target="_blank" rel="noopener noreferrer">
+                        {{event.title}}
+                    </a>
+                    <div class="my-4 uppercase text-primary flex">
+                        <div class="flex items-center mr-4 text-sm font-bold">
+                            <svg class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24"><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="map-marker-area__map-marker-area"><path d="M18 16.016c1.245.529 2 1.223 2 1.984 0 1.657-3.582 3-8 3s-8-1.343-8-3c0-.76.755-1.456 2-1.984" class="map-marker-area__Ellipse map-marker-area__494"/><path d="M17 8.444C17 11.537 12 17 12 17s-5-5.463-5-8.556C7 5.352 9.239 3 12 3s5 2.352 5 5.444Z" class="map-marker-area__Ellipse map-marker-area__116"/><circle cx="12" cy="8" r="1" class="map-marker-area__Ellipse map-marker-area__117"/></g></svg>
+                            {{event.location}}
                         </div>
-                        <div class="my-4 uppercase text-primary">
-                            <div class="flex items-center mb-2 text-sm font-bold tracking-wider">
-                                <svg class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24"><g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="map-marker-area__map-marker-area"><path d="M18 16.016c1.245.529 2 1.223 2 1.984 0 1.657-3.582 3-8 3s-8-1.343-8-3c0-.76.755-1.456 2-1.984" class="map-marker-area__Ellipse map-marker-area__494"/><path d="M17 8.444C17 11.537 12 17 12 17s-5-5.463-5-8.556C7 5.352 9.239 3 12 3s5 2.352 5 5.444Z" class="map-marker-area__Ellipse map-marker-area__116"/><circle cx="12" cy="8" r="1" class="map-marker-area__Ellipse map-marker-area__117"/></g></svg>
-                                {{event.location}}
-                            </div>
-                            <div class="flex items-center text-sm font-bold tracking-wider">
-                                <svg class="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="calendar-event"><path id="Vector 15" d="M4 9V19C4 20.1046 4.89543 21 6 21H18C19.1046 21 20 20.1046 20 19V9M4 9V7C4 5.89543 4.89543 5 6 5H8M4 9H20M20 9V7C20 5.89543 19.1046 5 18 5H16M16 5V3M16 5H8M8 3V5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect id="Rectangle 576" x="13" y="14" width="3" height="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
-                                {{event.date}}
-                            </div>
+                        <div class="flex items-center text-sm font-bold">
+                            <svg class="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="calendar-event"><path id="Vector 15" d="M4 9V19C4 20.1046 4.89543 21 6 21H18C19.1046 21 20 20.1046 20 19V9M4 9V7C4 5.89543 4.89543 5 6 5H8M4 9H20M20 9V7C20 5.89543 19.1046 5 18 5H16M16 5V3M16 5H8M8 3V5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect id="Rectangle 576" x="13" y="14" width="3" height="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
+                            {{event.date}}
                         </div>
-                        <p class="text-gray-700 text-sm">
-                            {{event.description}}
-                        </p>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-4">
+                        {{event.description}}
+                    </p>
+                    <div class="md:flex items-center justify-start gap-3 -mx-1 mt-auto">
+                        {% set teamData = event.team_members.data %}
+                        {% for a in teamData %}
+                        {% set teamMember = a.attributes %}
+                            <a class="flex items-center p-1 rounded-lg text-sm font-bold hover:bg-gray-200" href="{{teamMember.linkedInLink}}" target="_blank" rel="noopener noreferrer">
+                                <img class="mr-1 rounded-lg w-8 h-8" src="../images/{{teamMember.name | slugify({separator: ''})}}.png" alt="{{teamMember.name}} - Photo">
+                                {{teamMember.name}}
+                            </a>
+                        {% endfor %}
                     </div>
                 </div>
-            </a>
+            </div>
         {% endfor %}
     </div>
 </div>
 
 <div class="py-16 max-w-screen-xl px-8 md:px-4 mx-auto">
+
+    <div class="text-2xl xl:text-5xl font-black text-center mb-12">
+        Past events and insights
+    </div>
+
     <div class="grid grid-cols-12 gap-6 items-stretch">
         {% set eventPastData = eventspast.data %}
         {% for y in eventPastData %}
             {% set eventPast = y.attributes %}
-            <a class="col-span-12 md:col-span-3">
+            <a class="col-span-12 md:col-span-4">
                 <div class="border border-gray-300 h-full rounded-lg overflow-hidden">
                     <img class="object-cover w-full" src="https://api.strapi.camino.network{{eventPast.image.data.attributes.url}}" alt="">
                     <div class="p-6">
