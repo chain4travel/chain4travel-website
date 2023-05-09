@@ -65,23 +65,23 @@ html {
 }
 
 .btn-primary {
-  @apply font-semibold bg-primary text-white border-primary
+  @apply font-semibold bg-primary text-white border-primary hover:bg-primaryDark hover:border-primaryDark
 }
 
 .btn-white {
-  @apply font-semibold bg-white border-white text-gray-900
+  @apply font-semibold bg-white border-white text-gray-900 hover:bg-gray-300 hover:border-gray-300
 }
 
 .btn-white-outline {
-  @apply font-semibold bg-none text-white border-2 border-white 
+  @apply font-semibold bg-none text-white border-2 border-gray-500 hover:border-gray-300
 }
 
 .btn-black-outline {
-  @apply font-semibold bg-none text-gray-900 border-2 border-gray-900 
+  @apply font-semibold bg-none text-gray-900 border-2 border-gray-500 hover:border-gray-900
 }
 
 .btn-black {
-  @apply font-semibold bg-gray-900 border-gray-900 text-white
+  @apply font-semibold bg-gray-900 border-gray-900 text-white hover:bg-gray-700 hover:border-gray-700
 }
 
 /* styles for responsive youtube embed player */
