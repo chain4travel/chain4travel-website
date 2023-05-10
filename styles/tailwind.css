@@ -60,7 +60,9 @@ html {
 .btn-white,
 .btn-black,
 .btn-black-outline, 
-.btn-white-outline {
+.btn-white-outline,
+.btn-black-ghost,
+.btn-white-ghost {
   @apply transition-colors border-2 h-10 inline-flex items-center justify-center px-4 rounded-lg cursor-pointer
 }
 
@@ -82,6 +84,13 @@ html {
 
 .btn-black {
   @apply font-semibold bg-gray-900 border-gray-900 text-white hover:bg-gray-700 hover:border-gray-700
+}
+
+.btn-black-ghost {
+  @apply border-0 text-gray-900 hover:bg-gray-300
+}
+.btn-white-ghost {
+  @apply border-0 text-white hover:bg-gray-700
 }
 
 /* styles for responsive youtube embed player */

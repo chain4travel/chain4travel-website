@@ -27,7 +27,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
     </div>
     <div class="grid grid-cols-12 gap-6">
         {% set newsData = newsarticles.data %}
-        {% for x in newsData %}
+        {% for x in newsData|sort(false, true, 'date')|reverse %}
             {% set news = x.attributes %}
             <div class="
                 {% if loop.index0 < 3 %} col-span-12 md:col-span-6 xl:col-span-4 {% endif %}
@@ -37,9 +37,10 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
                     <img class="w-full h-48 object-cover" src="https://api.strapi.camino.network/{{news.image.data.attributes.url}}" alt="">
                 </a>
                 <div class="p-4">
-                    <div class="font-black {% if loop.index0 < 3 %}text-xl{% endif %} {% if loop.index0 > 2 %}text-xl{% endif %} line-clamp-3">
+                    <div class="font-black {% if loop.index0 < 3 %}text-xl{% endif %} {% if loop.index0 > 2 %}text-xl{% endif %} line-clamp-2">
                         {{news.title}}
                     </div>
+                    <p class="my-4 line-clamp-4 text-sm text-gray-700">{{news.date}}</p>
                     <p class="my-4 line-clamp-4 text-sm text-gray-700">{{news.articleTeaser}}</p>
                     {% if loop.index0 < 3 %}
                     <a href="{{news.linkToArticle}}" class="btn-black w-full">
