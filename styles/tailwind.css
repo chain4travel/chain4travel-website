@@ -61,7 +61,7 @@ html {
 .btn-black,
 .btn-black-outline, 
 .btn-white-outline {
-  @apply transition-colors border-2 h-10 inline-flex items-center justify-center px-4 rounded-lg
+  @apply transition-colors border-2 h-10 inline-flex items-center justify-center px-4 rounded-lg cursor-pointer
 }
 
 .btn-primary {
