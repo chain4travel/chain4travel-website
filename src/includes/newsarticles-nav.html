@@ -6,13 +6,13 @@
         </div>
         <div class="grid grid-cols-12 gap-6 mt-8">
             {% set newsData = newsarticles.data %}
-            {% for news in newsData %}
+            {% for news in newsData|sort(false, true, 'date')|reverse %}
             {% set x = news.attributes %}
             {% if (loop.index <= 3) %}
             <a href="#" class="col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
-                <img class="brightness-100 group-hover:brightness-125 h-60 bg-gray-700 p-4 object-cover" src="{{x.image}}" alt="{{x.title}}">
+                <img class="brightness-100 group-hover:brightness-125 w-full h-60 bg-gray-700 object-cover" src="https://api.strapi.camino.network/{{x.image.data.attributes.url}}" alt="">
                 <div class="p-4 md:p-6">
-                    <h2 class="font-black text-xl mb-4 line-clamp-3">{{x.title}}</h2>
+                    <h2 class="font-black text-xl mb-4 line-clamp-2">{{x.title}}</h2>
                     <p class="line-clamp-3 text-gray-300">
                         {{x.articleTeaser}}
                     </p>

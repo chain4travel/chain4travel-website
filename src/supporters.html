@@ -32,25 +32,7 @@ placement: supporters
     </div>
 </div>
 
-<div class="py-16 md:py-32">
-    <div class="max-w-screen-xl px-8 md:px-4 mx-auto grid grid-cols-12 gap-6 items-center">
-        <div class="col-span-12 md:col-span-6">
-            <div class="text-2xl xl:text-5xl font-black">
-                Be a first-mover and join the travel revolution now 
-            </div>
-            <div class="flex my-2 md:my-6">
-                <a href="#" class="btn-primary">Become a supporter</a>
-                <a href="/contact" class="btn-black-outline ml-2">Schedule a call</a>
-            </div>
-            <p class="">
-                Various groups are involved in the Camino ecosystem, all contributing to the network. In addition to supporters who support the vision and explore use cases in web3, there is also the opportunity to become active as a validator and to secure and steer the future development of the network. 
-            </p>
-        </div>
-        <div class="md:col-start-8 col-span-12 md:col-span-5 order-first md:order-last rounded-lg overflow-hidden h-64 md:h-[460px]">
-            <img class="w-full h-full object-cover" src="https://images.pexels.com/photos/2924738/pexels-photo-2924738.jpeg" alt="Chain4Travel Logo">
-        </div>
-    </div>
-</div>
+{% include "testimonial-four.html" %}
 
 <!-- Testimonial section starts -->
 <div class="py-16 md:py-32 bg-gray-900 text-white relative">
@@ -70,4 +52,22 @@ placement: supporters
 </div>
 <!-- Testimonial section ends -->
 
-{% include "testimonial-four.html" %}
+<div class="py-16 md:py-32">
+    <div class="max-w-screen-xl px-8 md:px-4 mx-auto grid grid-cols-12 gap-6 items-center">
+        <div class="col-span-12 md:col-span-6">
+            <div class="text-2xl xl:text-5xl font-black">
+                Be a first-mover and join the travel revolution now 
+            </div>
+            <div class="flex my-2 md:my-6">
+                <a href="/supporter" class="btn-primary">Become a supporter</a>
+                <a href="/contact" class="btn-black-outline ml-4">Schedule a call</a>
+            </div>
+            <p class="">
+                Various groups are involved in the Camino ecosystem, all contributing to the network. In addition to supporters who support the vision and explore use cases in web3, there is also the opportunity to become active as a validator and to secure and steer the future development of the network. 
+            </p>
+        </div>
+        <div class="md:col-start-8 col-span-12 md:col-span-5 order-first md:order-last rounded-lg overflow-hidden h-64 md:h-[460px]">
+            {% image "src/img/astronaut_helmet_at_beach_futuristic_realistic.jpg", "Astronaut helmet at beach futuristic realistic", "w-full h-full object-cover" %}
+        </div>
+    </div>
+</div>

@@ -20,7 +20,7 @@ placement: about
 <!-- Hero ends -->
 
 <!-- Post-Hero Block starts -->
-<div class="py-16 bg-gradient-to-b bg-gray-900 text-white">
+<div class="pb-16 bg-gradient-to-b bg-gray-900 text-white">
     <div class="max-w-screen-xl px-8 md:px-4 mx-auto">
         <div class="grid grid-cols-12 gap-8">
             <div class="col-span-12 md:col-span-4 bg-gradient-to-b from-secondary p-1 rounded-t-3xl">
@@ -29,27 +29,27 @@ placement: about
                         Education
                     </h2>
                     <p class="text-gray-400">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto rem rerum non saepe sunt, doloremque explicabo.
+                        We provide educational programs centered around web3 in the travel industry, hold presentations on stage and offer workshops to bridge the gap between web3 and travel. 
                     </p>
                 </div>
             </div>
             <div class="col-span-12 md:col-span-4 bg-gradient-to-b from-gray-300 p-1 rounded-t-3xl">
                 <div class="p-4 md:p-8 text-center bg-gray-900 rounded-t-3xl">
                     <h2 class="font-black text-xl md:text-3xl mb-4">
-                        Consulting
+                        Building
                     </h2>
                     <p class="text-gray-400">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto rem rerum non saepe sunt, doloremque explicabo.
+                        We assist in the identification of use cases and the development of solutions. Besides workshops, we organize hackathons to promote innovation within travel companies.
                     </p>
                 </div>
             </div>
             <div class="col-span-12 md:col-span-4 bg-gradient-to-b from-primary p-1 rounded-t-3xl">
                 <div class="p-4 md:p-8 text-center bg-gray-900 rounded-t-3xl">
                     <h2 class="font-black text-xl md:text-3xl mb-4">
-                        Building
+                        Consulting
                     </h2>
                     <p class="text-gray-400">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto rem rerum non saepe sunt, doloremque explicabo.
+                        As pioneers in web3 within the travel industry and the driving force behind the creation of the Camino Network, we offer a range of consulting services to leverage this expertise.
                     </p>
                 </div>
             </div>
@@ -58,10 +58,10 @@ placement: about
 </div>
 <!-- Post-Hero Block ends -->
 
-<div class="py-16 md:py-32">
+<div class="pt-16 md:pt-32">
     <div class="max-w-screen-xl px-8 md:px-4 mx-auto grid grid-cols-12 gap-6 items-center">
         <div class="col-span-12 md:col-span-5 rounded-lg overflow-hidden h-64 md:h-[460px]">
-            <img class="w-full h-full object-cover" src="https://media.istockphoto.com/id/1065191436/de/foto/touristen-entdecken-die-eish%C3%B6hle.jpg?s=1024x1024&w=is&k=20&c=B5vaKxP7VVmp2LJOC4Evh-blpazzQOnMMmHwqmdqA2w=" alt="Chain4Travel Logo">
+            {% image "src/img/world_natural_super_realistic.jpg", "World natural super realistic", "w-full h-full object-cover" %}
         </div>
         <div class="md:col-start-7 col-span-12 md:col-span-6">
             <div class="text-2xl xl:text-5xl font-black">
@@ -87,7 +87,7 @@ placement: about
             <a href="#" class="btn-black">Read full blog article</a>
         </div>
         <div class="md:col-start-8 col-span-12 md:col-span-5 order-first md:order-last rounded-lg overflow-hidden h-64 md:h-[460px]">
-            <img class="w-full h-full object-cover" src="https://images.pexels.com/photos/2924738/pexels-photo-2924738.jpeg" alt="Chain4Travel Logo">
+            {% image "src/img/photorealistic_earth_shown_in_universe_cosmos_2.jpg", "Photorealistic earth shown in universe cosmos variant", "w-full h-full object-cover" %}
         </div>
     </div>
 </div>
@@ -159,12 +159,12 @@ placement: about
         <div class="text-2xl xl:text-5xl font-black">
             Web3 travel use cases become mainstream. It’s time to explore the value in web3 for your business.
         </div>
-        <div class="flex my-12 flex-wrap mx-2 xl:-mx-3">
+        <div class="flex my-8 flex-wrap mx-2 xl:-mx-3">
             {% for x in usecasesdummy %}
             <div class="flip-card flex-shrink-0 w-1/2 md:w-1/3 lg:w-1/5 max-w-xs aspect-square md:h-80 p-2 xl:p-3">
                 <div class="flip-card-inner">
                     <div class="flip-card-front p-4 md:p-6 border border-gray-200 bg-white rounded-lg text-left h-full relative flex flex-col items-center justify-center">
-                        <img class="w-12 h-12" src="/img/use-cases/{{x.icon}}.svg" alt="">
+                        <img class="w-16 h-16" src="/img/use-cases/{{x.icon}}.svg" alt="">
                         <div class="flex items-center justify-center">
                             <h2 class="font-black text-lg md:text-xl text-center my-2">{{x.title}}</h2>
                         </div>
