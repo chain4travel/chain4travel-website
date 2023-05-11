@@ -43,6 +43,6 @@ permalink: "/usecase/{{ usecaseData.attributes.PageName | slugify }}/"
 {% endfor %}
 </div>
 
-<div class="prose max-w-screen-xl px-8 md:px-4 mx-auto ">
+<div class="prose max-w-screen-xl px-8 md:px-4 mx-auto">
     {{x.UseCaseText}}
 </div>
