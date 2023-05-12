@@ -7,26 +7,12 @@ pagination:
 permalink: "/usecase/{{ usecaseData.attributes.PageName | slugify }}/"
 eleventyComputed:
     title: "{{usecaseData.attributes.PageName}}"
-heroText: heroText
-heroHighlight: heroHighlight
-heroSub: heroSub
 ---
 
 {% set x = usecaseData.attributes %}
+{% set heroItem = "usecase-hero-" + x.PageName | slugify + ".html" %}
 
-<!-- Hero starts -->
-<div class="py-20 bg-gray-900 text-white">
-    <div class="max-w-screen-md px-8 md:px-4 mx-auto text-center">
-        <p class="text-secondary uppercase font-bold text-sm tracking-widest mb-6">Use Case in detail</p>
-        <h1 class="text-4xl md:text-5xl lg:text-7xl font-black">
-            {{heroText}} <span class="text-primary">{{heroHighlight}}</span>
-        </h1>
-        <p class="mt-8 md:text-lg lg:text-xl max-w-screen-md mx-auto text-gray-400">
-            {{heroSub}}
-        </p>
-    </div>
-</div>
-<!-- Hero ends -->
+{% include heroItem %}
 
 <div class="py-16 md:py-32">
     <div class="max-w-screen-xl px-8 md:px-4 mx-auto grid grid-cols-12 gap-6 items-center">
