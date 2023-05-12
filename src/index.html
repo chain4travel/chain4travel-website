@@ -246,7 +246,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
             {% for x in blogposts %}
             {% if loop.index0 < 3 %}
             <a href="{{x.link}}" class="col-span-12 md:col-span-4 bg-white transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
-                <img class="brightness-100 group-hover:brightness-125" src="{{x.coverImage}}" alt="">
+                <img class="brightness-100 group-hover:brightness-125 h-64 w-full object-cover" src="{{x.coverImage}}" alt="">
                 <div class="p-4 md:p-6">
                     <h2 class="font-black text-2xl md:text-3xl line-clamp-2">{{x.title}}</h2>
                     <time class="text-gray-600 my-4 block">{{x.date}}</time>
