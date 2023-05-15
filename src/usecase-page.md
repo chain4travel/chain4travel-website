@@ -4,7 +4,6 @@ pagination:
     data: usecases.data
     size: 1
     alias: usecaseData
-permalink: "/usecase/{{ usecaseData.attributes.PageName | slugify }}/"
 eleventyComputed:
     title: "{{usecaseData.attributes.PageName}}"
 ---
@@ -48,7 +47,7 @@ eleventyComputed:
     </div>
     {% endif %}
     {% endfor %}
-</div>
+    </div>
 </div>
 
 <div class="prose prose-lg max-w-screen-xl px-8 md:px-4 mx-auto">
