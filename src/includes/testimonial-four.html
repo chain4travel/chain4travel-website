@@ -6,7 +6,7 @@
         <div class="grid grid-cols-12 gap-6 relative">
             {% for x in testimonials %}
             {% if x.placement === placement %}
-            <div class="col-span-12 md:col-span-6 flex py-6 md:p-12 bg-white rounded-lg text-left" x-data="{ {{x.slug}}Modal:false }">
+            <div class="col-span-12 md:col-span-6 flex p-4 md:p-12 bg-white rounded-lg text-left" x-data="{ {{x.slug}}Modal:false }">
                 <img class="w-12 md:w-24 h-12 md:h-24 rounded-lg" src="/images/{{x.slug}}.png" alt="">
                 <div class="ml-4 md:ml-8">
                     <p class="md:text-xl line-clamp-4 font-black">

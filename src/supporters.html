@@ -7,7 +7,7 @@ placement: supporters
 ---
 
 <!-- Hero starts -->
-<div class="py-20 bg-gray-900 text-white">
+<div class="py-16 md:py-20 bg-gray-900 text-white">
     <div class="max-w-screen-xl px-8 md:px-4 mx-auto text-center">
         <h1 class="text-4xl md:text-5xl lg:text-7xl font-black">
             The growing network of supporters
@@ -23,7 +23,7 @@ placement: supporters
     <div class="max-w-screen-xl px-8 md:px-4 mx-auto">
         <div class="flex flex-wrap items-center justify-center">
             {% for supporter in supporter %}
-                <a href="{{supporter.url}}" class="bg-gray-900 transition-colors group inline-flex flex-col items-center justify-center p-2 w-[10%]" target="_blank">
+                <a href="{{supporter.url}}" class="bg-gray-900 transition-colors group inline-flex flex-col items-center justify-center p-2 w-1/4 xl:w-[10%]" target="_blank">
                     <img class="w-full opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all max-w-[180px]" src="../images/supporter/{{supporter.slug}}.png" alt="{{supporter.name}}">
                     <div class="text-gray-600 hidden">{{supporter.name}}</div>
                 </a>
@@ -58,9 +58,9 @@ placement: supporters
             <div class="text-2xl xl:text-5xl font-black">
                 Be a first-mover and join the travel revolution now 
             </div>
-            <div class="flex my-2 md:my-6">
+            <div class="md:flex my-2 md:my-6">
                 <a href="/supporter" class="btn-primary">Become a supporter</a>
-                <a href="https://calendly.com/vincent-usbeck" class="btn-black-outline ml-4" target="_blank" rel="noopener noreferrer">Schedule a call</a>
+                <a href="https://calendly.com/vincent-usbeck" class="btn-black-outline md:ml-4 mt-4 md:mt-0" target="_blank" rel="noopener noreferrer">Schedule a call</a>
             </div>
             <p class="">
                 Various groups are involved in the Camino ecosystem, all contributing to the network. In addition to supporters who support the vision and explore use cases in web3, there is also the opportunity to become active as a validator and to secure and steer the future development of the network. 
