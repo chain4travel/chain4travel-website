@@ -1,0 +1,320 @@
+---
+layout: default
+title: Transportation
+---
+
+<!-- Hero starts -->
+<div class="py-16 md:py-20 bg-gray-900 text-white">
+    <div class="max-w-screen-xl px-8 md:px-4 mx-auto text-center">
+        <p class="text-secondary uppercase font-bold text-sm tracking-widest mb-6">Use Case in detail</p>
+        <h1 class="text-4xl md:text-5xl lg:text-7xl font-black">
+            Blockchain use cases for <span class="text-primary">transportation</span>
+        </h1>
+        <p class="mt-8 md:text-lg lg:text-xl max-w-screen-md mx-auto text-gray-400">
+            Explore new potentials for transportation providers in web3
+        </p>
+        <a href="/usecases" class="mt-8 btn-white-outline">Back to overview</a>
+    </div>
+</div>
+<!-- Hero ends -->
+
+<div class="py-16 md:py-32">
+    <div class="max-w-screen-xl px-8 md:px-4 mx-auto grid grid-cols-12 gap-6 items-center">
+        <div class="col-span-12 md:col-span-6">
+            <div class="text-2xl xl:text-5xl font-black">
+                Keeping up the fast pace 
+            </div>
+            <p class="my-2 md:my-6">
+                Travel is defined as the movement of people between distant geographical locations and occurs by various means of transportation, such as planes, trains, buses, and ships, to name a few. These transportation providers can thrive thanks to ecosystems such as ports, train stations, and airports. For this part of the travel industry in particular, it is essential to keep up with the fast pace and use technologies that ease the collaboration between multiple partners.
+            </p>
+        </div>
+        <div class="col-span-12 md:col-span-5 md:col-start-8 rounded-lg overflow-hidden h-64 md:h-[460px]">
+            {% image "src/img/use-cases/usecase-airports.png", "Room of travel poster with palm tree on the beach natural", "w-full h-full object-cover" %}
+        </div>
+    </div>
+</div>
+
+<!-- Stats block starts -->
+<div class="py-16 bg-gradient-to-b bg-gray-900">
+    <div class="max-w-screen-xl px-8 md:px-4 mx-auto text-white">
+        <div class="text-xl xl:text-3xl font-black mb-6 md:mb-12">The challenges transportation providers face</div>
+        <div class="md:grid grid-cols-12 gap-8">
+            <div class="col-span-12 md:col-span-6 bg-gray-800 rounded-lg relative">
+                <div class="p-4 md:p-6 mb-4 md:mb-0">
+                    Safety and speed are paramount in the fast-paced travel industry. However, lots of current technologies struggle to keep up with these demands. Transportation providers face numerous challenges, including high transaction costs, lack of innovation, legacy systems, gate-keeping intermediaries, and security concerns/fraud, leading to friction for customers.
+                </div>
+            </div>
+            <div class="col-span-12 md:col-span-6 bg-gray-800 rounded-lg relative">
+                <div class="p-4 md:p-6 mb-4 md:mb-0">
+                    Blockchain technology offers a secure, transparent solution for data exchange enabling efficient transactions while helping with identity verification, reducing fraud, and many other challenges.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Stats block ends -->
+
+<div class="py-16 md:py-32 bg-gray-100">
+    <div class="max-w-screen-lg px-8 md:px-4 mx-auto">
+    {% for y in testimonials %}
+    {% if y.slug == "jensbischof" %}
+        <div class="bg-white rounded-lg p-4 md:p-6 flex items-start">
+            <img class="w-12 md:w-24 h-12 md:h-24 rounded-lg" src="/images/{{y.slug}}.png" alt="">
+            <div class="ml-4 md:ml-8">
+                <p class="md:text-xl font-bold">
+                    “{{y.text}}”
+                </p>
+                <div class="text-gray-700 text-sm md:text-base my-2 md:my-4">
+                    <div class="font-bold">{{y.person}}</div>
+                    {{y.company}}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    {% endfor %}
+    </div>
+</div>
+
+<div class="py-16 md:py-32">
+
+    <div class="max-w-screen-xl px-8 md:px-4 mx-auto">
+
+        <div class="font-black text-4xl mb-4 text-center">Streamlined Processes</div>
+
+        <div class="grid grid-cols-12 gap-6">
+
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Distribution and trading</div>
+                    <p class="mb-4">Transportation businesses need to provide and maintain dozens of APIs to connect to hundreds of distribution partners if they want to sell directly. On the other side, it is costly for distribution partners to connect to many transportation APIs that look different, increasing the technical complexity and cost..</p>
+                    <p>The offering and exchange of any bookable content in the travel industry will be much easier and faster by using the Camino Network, needing only one API to connect to the Camino infrastructure and, in total, much fewer than before.</p>   
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Decreases API amount and complexity</li>
+                        <li>Enables new connections to a wider range of partners or customers</li>
+                        <li>Increases data security and quality</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">NFT technology enhances the retailing experience</div>
+                    <p class="mb-4">Today's legacy systems don't allow much flexibility. Additionally, ticket fraud is a significant problem that affects travel providers losing billions of dollars annually.</p>
+                    <p>NFT technology revolutionizes the retail ticketing experience by enhancing security and allowing for greater flexibility. It gives both travel providers and customers a more seamless and trustworthy experience. For example, lounge access can be bought separately from the booking process, independently from the legacy process. In addition, NFT tickets allow C2B or even C2C ticket trading. With NFTs, passengers can securely transfer, resell, and rename their tickets.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Enables secure, flexible, and efficient distribution of ancillaries</li>
+                        <li>reduces customer service costs</li>
+                        <li>Increases total revenue</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Payment & settlement </div>
+                    <p class="mb-4">The payment and settlement process in the travel industry is typically complex, time-consuming, and costly.</p>
+                    <p>The payment process on Camino Network will change this as all travel services along the value chain take place in a global peer-to-peer network, which is extremely fast, and results in significantly lower transaction costs. This could mean that even micro services and products could be offered online at a fraction of today's transaction cost. The settlement between suppliers, partners, and B2B customers could be done more efficiently and automated. Records on the Camino Network will provide auditable data. Another advantage is the security aspect, which is given by definition by a blockchain and reduces fraud significantly.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Reduces transaction costs massively and makes payment and settlement automatic (in the same “logical second”)</li>
+                        <li>Provides immutable records of transactions that can be used for audits or disputes</li>
+                        <li>Reduces the paperwork between partners and increases security along the process</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Tracking</div>
+                    <p class="mb-4">Tracking of data, transactions, or even physical products such as luggage involves many connections and system integrations which can lead to errors and overall involve high costs.</p>
+                    <p>Using blockchain, for example, for baggage tracking means having a single source of truth which can increase efficiency and customer satisfaction by improving real-time monitoring, tracing, and transparency. In addition, smart contracts can handle complaint management and compensation automatically and support the certification and authentication of employees and partners across the value chain.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Increases efficiency of tracking data, transactions, or physical products</li>
+                        <li>Creates one single source of truth</li>
+                        <li>Reduces cost and effort through automation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Automated compensation management</div>
+                    <p class="mb-4">The volume of complaints since the emergence of social media and online communication channels is overwhelming. Poor complaint management, however, can negatively impact customer satisfaction and brand reputation.</p>
+                    <p>Web3 technology can automate claims before complaints are submitted. Managing claims using programmable smart contracts saves costs and impresses customers with real-time resolutions.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Automizes compensation management in the event of a claim and prevents complaints</li>
+                        <li>Reduces resources needed for complaint management</li>
+                        <li>Increases overall customer satisfaction with real-time solutions</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ############### -->
+
+        <div class="font-black text-4xl mb-4 mt-12 text-center">Customer experience and loyalty</div>
+        <div class="grid grid-cols-12 gap-6">
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Rewards</div>
+                    <p class="mb-4">Managing rewards in transportation can be complex and costly and may not always deliver the desired results.</p>
+                    <p>Blockchain technology introduces new opportunities to design incentives for both B2B and B2C. Token rewards, such as NFTs, can effectively encourage desired behaviors among travelers, communities, or partners. For example, a train operator could offer a free trip after a certain number of rides taken within a specific period. Smart contracts automate the entire coordination process, making incentive management more efficient and contributing to improved customer experience and loyalty.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Offers new ways to incentives travelers or partners</li>
+                        <li>Automizes the coordination of the incentive</li>
+                        <li>Reduces overall resources for incentivization of B2B and B2C</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Loyalty</div>
+                    <p class="mb-4">Everyone strives for loyal customers, but maintaining loyalty is time-consuming and costly. Especially SMEs, lack the resources to set up loyalty systems. </p>
+                    <p>The Web3 innovation provides more efficeincy und automation of long tail loyalty programs with customized rewards, fast access, and personalized offers. These can be easily set up with points/NFTs, global partners, and customized tips, and transactions are visible instantly. Extending customer loyalty with a free drink on a flight or access to an airport lounge, or even a free flight or shuttle service after a minimum purchase can become part of loyalty programs.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Reduces the integration and maintenance efforts of loyalty programs</li>
+                        <li>Provides instant settlement between multiple partners</li>
+                        <li>Secures payment and reduces fraud</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Digital collectibles </div>
+                    <p class="mb-4">Travelers love collecting things from their trip, such as souvenirs. As of today, these souvenirs can only be physical. The next generation, however, strives for digital proofs of travel that they can share with social networks online.</p>
+                    <p>Digital collectibles are an innovative way to promote the brand and engage with the audience. For example, a transport company can increase traffic in a certain destination with an exclusive NFT collection featuring iconic landmarks. Such digital collectibles not only celebrate local culture but also create memorable experiences and lasting brand impressions.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Leverages additional income streams</li>
+                        <li>Offers new ways to adapt to the generation of digital nomads</li>
+                        <li>Increases loyalty and customer engagement</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Voucher</div>
+                    <p class="mb-4">Implementing voucher solutions can be complex, especially when multiple parties are involved.</p>
+                    <p>The Camino ecosystem provides a simple setup for companies to add and redeem vouchers, with added flexibility and higher loyalty potential. For example, airlines and rail companies can easily offer free coffee from an external provider for delayed travelers.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Reduces the complexity of implentation of vouchers with multiple partners</li>
+                        <li>Automizes the redemption and reconciliation</li>
+                        <li>Increases customer experience and loyalty </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Gamification/ travel gadgets</div>
+                    <p class="mb-4">Limited expertise and high costs often prevent businesses from exploring gamification as an innovative method of improving guests’ experiences. </p>
+                    <p>Consider a scenario where businesses reward customers with a complimentary coffee or exclusive gift for reaching a specific booking threshold. By using NFTs customers can enjoy these perks in an entertaining and rewarding manner.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Provides easy access to gamification tools with the latest technology</li>
+                        <li>Offers increased traveler experience</li>
+                        <li>Keeps cost for implementation low</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ############### -->
+        
+        <div class="font-black text-4xl mb-4 mt-12 text-center">Interconnectivity</div>
+        <div class="grid grid-cols-12 gap-6">
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Information services</div>
+                    <p class="mb-4">The integration of information services can be challenging for the travel industry. The compatibility of different systems, data security issues, and the overall cost of integrating can prevent the implementation of such valuable services.</p>
+                    <p>With Camino Network, a single source of information is ensured, and integration costs are reduced. Any kind of information service, for example, information about delays, accidents, or the weather, can be easily provided for customers.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Creates a single source of truth for information services</li>
+                        <li>Reduces integration costs of information services</li>
+                        <li>Increases value for customers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Climate compensation</div>
+                    <p class="mb-4">Tracking and verifying the environmental impact and effectiveness of carbon offsetting programs can be challenging. Customers often struggle with a lack of transparency and may question the true impact of emission reduction efforts. </p>
+                    <p>Blockchain technology ensures the integrity of offsetting processes by creating a tamper-proof record. Improving reporting systems with the help of Camino Network and offering clear, accessible information can help build trust and demonstrate a genuine commitment to reducing carbon emissions. </p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Creates a tamper-proof record</li>
+                        <li>Ensures trust and transparency in the tracking and offsetting process</li>
+                        <li> Increases willingness of customers for offsetting programs </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Traveler identity</div>
+                    <p class="mb-4">Along the entire travel supply chain, the industry relies on identity verification to ensure passengers' safety and security and comply with regulatory requirements. However, the current process can be slow, inefficient, and vulnerable to fraud.</p>
+                    <p>Self-Sovereign Identity (SSI) introduces a new era of data management, providing travelers with true control over their personal information. This reduces the need for companies to store sensitive records, mitigating the risk of data leaks. Now travelers can create a single wallet containing all their data. This allows them to have accounts across various websites without multiple passwords, store essential travel information, and attach identity verification for secure travel bookings and other transactions.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Streamlines the identity verification process</li>
+                        <li>Enhances the overall travel experience by reducing wait times</li>
+                        <li>Shifts the control of personal data back to travelers </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="border-t border-gray-200 py-16 md:py-32">
+    <div class="max-w-screen-xl px-8 md:px-4 mx-auto">
+        <div class="flex py-12 md:flex-row flex-col items-center">
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-full relative">
+                <iframe class="rounded-lg mb-4 md:mb-0 h-[180px] md:h-[200px] lg:h-[300px]" width="100%" height="auto" src="https://www.youtube-nocookie.com/embed/V_C7YOs-1ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h2 class="text-2xl lg:text-3xl mb-4 font-black ">Voucher Solution on Camino by Manuel Saballus"</h2>
+                <p class="mb-8 text-muted text-sm md:text-base">
+                    Manuel demonstrated Camino's potential for customer service based on Peakwork's brand new voucher platform: Travel products & services are turned into digital assets via a B2B backend. With applied blockchain technology, the process of distribution, even between various partners, and financial settlement, work almost automatically."
+                </p>
+                <a class="text-primary hover: inline-flex items-center" href="https://www.youtube.com/watch?v=V_C7YOs-1ow" target="_blank" rel="noopener noreferrer">
+                    Go to Video
+                    <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </a>
+            </div>
+        </div> 
+    </div>  
+</section>
