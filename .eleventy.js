@@ -53,6 +53,13 @@ module.exports = function (eleventyConfig) {
 			</picture>`;
 	});
 
+  eleventyConfig.addFilter('sortBy', function (arr, prop) {
+    const isNum = val => val == +val;
+    const sorter = (a, b) => isNum(a[prop]) && isNum(b[prop]) ? +a[prop] - b[prop] : a[prop] < b[prop];
+    arr.sort(sorter);
+    return arr; 
+  });
+
   eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
     if (
       process.env.ELEVENTY_PRODUCTION &&

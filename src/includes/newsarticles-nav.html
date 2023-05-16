@@ -5,8 +5,7 @@
             Latest news
         </div>
         <div class="grid grid-cols-12 gap-6 mt-8">
-            {% set newsData = newsarticles.data %}
-            {% for news in newsData|sort(false, true, 'date')|reverse %}
+            {% for news in newsarticles.data | sort(attribute='attributes.date') | reverse %}
             {% set x = news.attributes %}
             {% if (loop.index <= 3) %}
             <a href="#" class="col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">

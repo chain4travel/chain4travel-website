@@ -20,7 +20,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 </div>
 <!-- Hero ends -->
 
-<div class="py-16 md:py-32 max-w-screen-xl px-8 md:px-4 mx-auto">
+<div class="py-16 max-w-screen-xl px-8 md:px-4 mx-auto">
     <div class="bg-gray-900 text-white p-4 md:p-8 rounded-lg flex flex-col md:flex-row justify-between items-center">
         <div class="text-center md:text-left mt-4 md:mt-0">
             <div class="text-xl md:text-3xl font-black md:mb-4">The premier event for web3 in travel</div>
@@ -33,8 +33,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 
 <div class="py-16 bg-gray-100">
     <div class="grid grid-cols-12 gap-6 max-w-screen-xl px-8 md:px-4 mx-auto">
-        {% set eventData = events.data %}
-        {% for x in eventData|sort(false, true, 'date') %}
+        {% for x in events.data | sort(attribute='attributes.startdate') %}
             {% set event = x.attributes %}
             <div class="col-span-12 md:col-span-6 group bg-white border border-gray-300 group-hover:border-primary flex flex-col h-full rounded-lg overflow-hidden transition-colors">
                 <a href="{{event.link}}" target="_blank" rel="noopener noreferrer">
@@ -80,8 +79,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
     </div>
 
     <div class="grid grid-cols-12 gap-6 items-stretch">
-        {% set eventPastData = eventspast.data %}
-        {% for y in eventPastData %}
+        {% for y in eventspast.data | sort(attribute='attributes.date') %}
             {% set eventPast = y.attributes %}
             <a href="{{eventPast.link}}" target="_blank" rel="noopener noreferrer" class="col-span-12 md:col-span-4">
                 <div class="border border-gray-300 h-full rounded-lg overflow-hidden">

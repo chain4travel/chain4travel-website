@@ -31,8 +31,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
             <div class="btn-primary bottom-0" x-text="newsContainerOpen ? 'Close' : 'Show more'" @click="newsContainerOpen = !newsContainerOpen">Show more</div>
         </div>
         <div class="grid grid-cols-12 gap-6">
-            {% set newsData = newsarticles.data %}
-            {% for x in newsData|sort(false, true, 'date')|reverse %}
+            {% for x in newsarticles.data | sort(attribute='attributes.date') | reverse %}
             {% set news = x.attributes %}
             <div class="col-span-12 md:col-span-6 xl:col-span-4 border border-gray-300 rounded-lg overflow-hidden">
                 <a href="{{news.linkToArticle}}" target="_blank" rel="noopener noreferrer" class="hover:brightness-110 transition-all">
