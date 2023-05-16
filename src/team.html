@@ -176,7 +176,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
         </div>
         <div class="flex justify-center flex-wrap rounded-lg mt-12">
             {% set advisorData = advisors.data %}
-            {% for x in advisorData %}
+            {% for x in advisorData | sort(attribute='attributes.name') %}
                 {% set advisor = x.attributes %}
             <!-- Team Card -->
             <div class="w-1/2 md:w-1/3 lg:w-1/4 2xl:w-1/5 flex-shrink-0" x-data="{ advisor{{x.id}}Modal: false }">
