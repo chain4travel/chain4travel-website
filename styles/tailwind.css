@@ -139,3 +139,27 @@ html {
 #mc-embedded-subscribe {
   @apply transition-colors border-2 h-10 inline-flex items-center justify-center px-4 rounded-lg font-semibold bg-primary text-white border-primary m-0 cursor-pointer !important;
 }
+
+.termsfeed-com---nb-simple {
+  max-width: 450px !important;
+}
+
+.termsfeed-com---nb .cc-nb-text {
+  font-size: 14px !important;
+}
+
+.termsfeed-com---nb .cc-nb-main-container {
+  padding: 2rem !important;
+}
+
+.termsfeed-com---palette-dark .cc-nb-okagree,
+.termsfeed-com---palette-dark .cc-cp-foot-save {
+  background-color: #fff !important;
+  color: #111 !important;
+}
+
+.termsfeed-com---palette-dark .cc-nb-reject,
+.termsfeed-com---palette-dark .cc-nb-changep {
+  background-color: #333 !important;
+  color: #fff !important;
+}
