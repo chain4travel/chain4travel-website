@@ -35,7 +35,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
             <div class="col-span-6 md:col-span-4 lg:col-span-3" x-data="{ {{x.slub}}Modal: false }">
 
                 <div class="rounded-xl h-full flex flex-col items-center bg-white p-6 text-center group border-2 border-white hover:border-primary cursor-pointer" @click="{{x.slub}}Modal = true">
-                    <img class="transition-transform group-hover:scale-110 mx-auto rounded-lg w-24 md:w-32 aspect-square mb-4 relative z-10" src="../images/{{x.slug}}.png" alt="{{x.name}} - Image">
+                    <img class="transition-transform group-hover:scale-110 mx-auto rounded-lg w-24 md:w-32 aspect-square mb-4 relative z-10" src="../img/{{x.slug}}.png" alt="{{x.name}} - Image">
                     <h2 class="font-black text-xl md:text-2xl">
                         {{ x.person }}
                     </h2>
@@ -47,7 +47,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
                 <div x-cloak x-show="{{x.slub}}Modal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
                     <div class="max-w-2xl mx-auto p-4 rounded overflow-y-auto flex flex-col items-center justify-center text-center">
                         <div class="bg-white rounded-2xl p-8 shadow-lg text-gray-900" @click.away="{{x.slub}}Modal = false">
-                            <img class="mx-auto rounded-lg w-28 h-28 mb-4 relative z-10" src="../images/{{x.slug}}.png" alt="{{x.name}} - Image">
+                            <img class="mx-auto rounded-lg w-28 h-28 mb-4 relative z-10" src="../img/{{x.slug}}.png" alt="{{x.name}} - Image">
                             <h2 class="font-black text-3xl">{{ x.name }}</h2>
                             <div class="mt-2 text-xs uppercase font-bold text-gray-700">{{ x.position }}</div>
                             
