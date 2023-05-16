@@ -47,6 +47,7 @@ module.exports = function (eleventyConfig) {
 					width="${highsrc.width}"
 					height="${highsrc.height}"
           class="${imgClass} object-cover"
+          style="font-size: 0px"
 					alt="${alt}"
 					loading="lazy"
 					decoding="async">

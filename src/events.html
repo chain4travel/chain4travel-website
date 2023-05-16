@@ -9,7 +9,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 
 <!-- Hero starts -->
 <div class="py-16 md:py-20 bg-gray-900 text-white">
-    <div class="max-w-screen-xl px-8 md:px-4 mx-auto text-center">
+    <div class="max-w-screen-xl px-8 mx-auto text-center">
         <h1 class="text-4xl md:text-5xl lg:text-7xl font-black">
             Meet-ups and events
         </h1>
@@ -20,7 +20,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 </div>
 <!-- Hero ends -->
 
-<div class="py-16 max-w-screen-xl px-8 md:px-4 mx-auto">
+<div class="py-16 max-w-screen-xl px-8 mx-auto">
     <div class="bg-gray-900 text-white p-4 md:p-8 rounded-lg flex flex-col md:flex-row justify-between items-center">
         <div class="text-center md:text-left mt-4 md:mt-0">
             <div class="text-xl md:text-3xl font-black md:mb-4">The premier event for web3 in travel</div>
@@ -32,7 +32,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 </div>
 
 <div class="py-16 bg-gray-100">
-    <div class="grid grid-cols-12 gap-6 max-w-screen-xl px-8 md:px-4 mx-auto">
+    <div class="grid grid-cols-12 gap-6 max-w-screen-xl px-8 mx-auto">
         {% for x in events.data | sort(attribute='attributes.startdate') %}
             {% set event = x.attributes %}
             <div class="col-span-12 md:col-span-6 group bg-white border border-gray-300 group-hover:border-primary flex flex-col h-full rounded-lg overflow-hidden transition-colors">
@@ -72,7 +72,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
     </div>
 </div>
 
-<div class="py-16 max-w-screen-xl px-8 md:px-4 mx-auto">
+<div class="py-16 max-w-screen-xl px-8 mx-auto">
 
     <div class="text-2xl xl:text-5xl font-black text-center mb-12">
         Past events and insights
