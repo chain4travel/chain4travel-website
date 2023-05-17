@@ -105,6 +105,11 @@
         "url": "https://www.carbonclick.com/"
     },
     {
+        "name": "Cena pro",
+        "slug": "cenapro",
+        "url": "mailto:hello@cena.pro"
+    },
+    {
         "name": "CFM_media GmbH",
         "slug": "cfm-media",
         "url": "https://www.cfmmedia.de/"
@@ -140,6 +145,11 @@
         "url": "https://www.cortex-ag.com/en/"
     },
     {
+        "name": "CurPay",
+        "slug": "curpay",
+        "url": "https://curpay.io/"
+    },
+    {
         "name": "DataArt",
         "slug": "dataart",
         "url": "https://www.dataart.com/"
@@ -168,6 +178,11 @@
         "name": "Ekoios",
         "slug": "ekoios",
         "url": "https://ekoios.vn"
+    },
+    {
+        "name": "Enefty",
+        "slug": "enefty",
+        "url": "https://enefty.app/"
     },
     {
         "name": "Eniyan",
@@ -340,6 +355,11 @@
         "url": "https://ejuniper.com/en/"
     },
     {
+        "name": "Kuende",
+        "slug": "kuende",
+        "url": "https://kuende.com/"
+    },
+    {
         "name": "Deutsche Lufthansa AG",
         "slug": "lufthansa",
         "url": "https://www.lufthansagroup.com/de/home.html"
@@ -488,6 +508,16 @@
         "name": "SIXT",
         "slug": "sixt",
         "url": "https://www.sixt.de/betahome/#/"
+    },
+    {
+        "name": "Sleap.io",
+        "slug": "sleapio",
+        "url": "https://sleap.io/"
+    },
+    {
+        "name": "Stripe",
+        "slug": "stripe",
+        "url": "https://stripe.com/"
     },
     {
         "name": "Studio5 Liguria",
