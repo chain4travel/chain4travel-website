@@ -122,7 +122,9 @@
             <div class="customer-logos slider">
                     {% for supporter in supporter %}
                     <a class="slide" href="{{supporter.url}}" target="_blank" rel="noopener noreferrer">
-                        <img src="/img/supporter/{{supporter.slug}}.png" alt="{{supporter.name}} Logo" class="opacity-50 hover:opacity-100" width="160" height="80">
+                        {% set logoPath = "src/img/supporter/" + supporter.slug + ".png" %}
+                        {% set logoAlt = supporter.name + " Logo" %}
+                        {% image logoPath, logoAlt, "opacity-50 hover:opacity-100" %}
                     </a>
                     {% endfor %}
             </div>

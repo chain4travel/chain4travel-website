@@ -75,16 +75,18 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
             Listen to us in podcasts
         </div>
         <div class="grid grid-cols-12 gap-6">
-            {% for x in media %}
+            {% for x in newspodcasts.data | sort(attribute='attributes.Date') | reverse %}
+            {% set podcast = x.attributes %}
             <div class="col-span-12 md:col-span-6 xl:col-span-4 bg-white rounded-lg border border-gray-200 overflow-hidden">
-                <a href="{{x.link}}" target="_blank" rel="noopener noreferrer" class="hover:brightness-110 transition-colors">
-                    <img class="w-full h-48 object-cover" src="/img/{{x.image}}.jpg" alt="">
+                <a href="{{podcast.Link}}" target="_blank" rel="noopener noreferrer" class="hover:brightness-110 transition-colors">
+                    <img class="w-full h-48 object-cover" src="https://api.strapi.camino.network/{{podcast.TeaserImage.data.attributes.url}}" alt="">
                 </a>
                 <div class="p-6">
-                    <div class="line-clamp-2 font-black text-xl mb-4">
-                        {{x.title}}
+                    <div class="line-clamp-2 font-black text-xl">
+                        {{podcast.Title}}
                     </div>
-                    <a href="{{x.link}}" class="btn-black-outline mt-auto">
+                    <p class="my-4 line-clamp-4 text-sm text-primary font-bold">{{podcast.Date}}</p>
+                    <a href="{{podcast.Link}}" class="btn-black-outline mt-auto">
                         Listen now
                         <svg class="w-6 h-6 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 12-6-6m6 6-6 6m6-6H5"></path></svg>
                     </a>
