@@ -30,7 +30,7 @@
                 <nav class="flex flex-col w-full mt-4">
                     <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/about' in page.url }}" href="/about">About</a>
                     <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/team' in page.url }}" href="/team">Team</a>
-                    <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/supporters' in page.url }}" href="/supporters">Supporters</a>
+                    <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/supporter' in page.url }}" href="/supporter">Supporter</a>
                     <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/blog' in page.url }}" href="/blog">Blog</a>
                     <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/usecases' in page.url }}" href="/usecases">Use Cases</a>
                     <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/news' in page.url }}" href="/news">News</a>
@@ -47,7 +47,7 @@
         <nav class="absolute left-1/2 -translate-x-1/2 hidden lg:flex flex-wrap items-center text-base justify-center">
             <a href="/about" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/about' in page.url }}">About</a>
             <a href="/team" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/team' in page.url }}">Team</a>
-            <a href="/supporters" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/supporters' in page.url }}">Supporters</a>
+            <a href="/supporter" class="p-2 hover:text-white cursor-pointer {{ 'text-primary font-bold' if '/supporter' in page.url }}">Supporter</a>
             <div class="" x-data="{ developerMenu: false }">
                 <div class="p-2 hover:text-white cursor-pointer flex items-center {{ 'text-primary font-bold' if '/blog' in page.url }} {{ 'text-primary font-bold' if '/usecases' in page.url }} {{ 'text-primary font-bold' if '/news' in page.url }} {{ 'text-primary font-bold' if '/events' in page.url }}" @click="developerMenu = !developerMenu">
                     Web3 Atlas
