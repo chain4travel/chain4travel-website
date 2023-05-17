@@ -14,6 +14,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/img')
   eleventyConfig.addPassthroughCopy('src/fonts')
+  eleventyConfig.addPassthroughCopy('src/js')
   eleventyConfig.addPassthroughCopy('images')
   
   eleventyConfig.addPassthroughCopy('robots.txt')

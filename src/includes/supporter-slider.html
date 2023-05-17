@@ -110,9 +110,9 @@
     }
     </style>
     
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/bootstrap"></script>
     
     <div class="py-12 md:py-24 bg-gray-900 text-white">
         <div class="text-2xl xl:text-5xl font-black text-center mb-12">
@@ -122,7 +122,7 @@
             <div class="customer-logos slider">
                     {% for supporter in supporter %}
                     <a class="slide" href="{{supporter.url}}" target="_blank" rel="noopener noreferrer">
-                    <img src="/img/supporter/{{supporter.slug}}.png" alt="{{supporter.name}} Logo" class="opacity-50 hover:opacity-100">
+                        <img src="/img/supporter/{{supporter.slug}}.png" alt="{{supporter.name}} Logo" class="opacity-50 hover:opacity-100" width="160" height="80">
                     </a>
                     {% endfor %}
             </div>
