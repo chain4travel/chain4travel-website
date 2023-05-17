@@ -1,0 +1,98 @@
+---
+layout: default
+permalink: news/
+
+title: Connecting the new world of travel
+description: Chain4Travel is the facilitator of the Camino consortium blockchain, a new disruptive approach to trade touristic products B2B and B2C.
+---
+
+{% include "atlas-nav.html" %}
+
+<!-- Hero starts -->
+<div class="py-16 md:py-20 bg-gray-900 text-white">
+    <div class="max-w-screen-xl px-8 mx-auto text-center">
+        <h1 class="text-4xl md:text-5xl lg:text-7xl tracking-tight font-black">
+            Chain4Travel in the <span class="text-primary">news</span>
+        </h1>
+        <p class="mt-8 md:text-lg lg:text-xl max-w-screen-md mx-auto text-gray-400">
+            Stay up to date with the latest news on web3 in travel
+        </p>
+    </div>
+</div>
+<!-- Hero ends -->
+
+<div class="pt-12 pb-16 md:pb-32 max-w-screen-xl px-8 mx-auto">
+    <div class="relative overflow-hidden pb-16" :class="{'h-[1600px] lg:h-[1300px]' : !newsContainerOpen}" x-data="{ newsContainerOpen: false }">
+        <div class="absolute z-10 bottom-0 flex justify-center left-0 right-0 pt-8 bg-gradient-to-t from-white to-transparent">
+            <div class="btn-primary bottom-0" x-text="newsContainerOpen ? 'Close' : 'Show more'" @click="newsContainerOpen = !newsContainerOpen">Show more</div>
+        </div>
+        <div class="grid grid-cols-12 gap-6">
+            {% for x in newsarticles.data | sort(attribute='attributes.date') | reverse %}
+            {% set news = x.attributes %}
+            <div class="col-span-12 md:col-span-6 xl:col-span-4 border border-gray-300 rounded-lg overflow-hidden">
+                <a href="{{news.linkToArticle}}" target="_blank" rel="noopener noreferrer" class="hover:brightness-110 transition-all">
+                    <img class="w-full h-48 object-cover" src="https://api.strapi.camino.network/{{news.image.data.attributes.url}}" alt="">
+                </a>
+                <div class="p-4">
+                    <img title="{{news.mediaOutlet}}" class="w-24 h-6 object-left object-contain" src="https://api.strapi.camino.network/{{news.logo.data.attributes.url}}" alt="">
+                    <div class="mt-2 font-black text-2xl line-clamp-2">
+                        {{news.title}}
+                    </div>
+                    <p class="my-2 line-clamp-4 text-sm text-primary font-bold">{{news.date}}</p>
+                    <p class="mb-3 line-clamp-3 text-sm text-gray-700">{{news.articleTeaser}}</p>
+                    <a href="{{news.linkToArticle}}" class="btn-black w-full">
+                        Go to article
+                        <svg class="w-6 h-6 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 12-6-6m6 6-6 6m6-6H5"></path></svg>
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="bg-gray-900 text-white py-16 md:py-32">
+    <div class="max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-6 items-center">
+        <div class="col-span-12 md:col-span-6">
+            <div class="font-black text-secondary uppercase mb-2 md:mb-6">Stay up to date</div>
+            <div class="text-2xl xl:text-5xl font-black">
+                Get the monthly Chain4Travel newsletter in your inbox
+            </div>
+            <p class="my-2 md:my-6">
+                Stay ahead of the game in travel with our monthly newsletter covering the hottest topics in blockchain, crypto, and web3, all relevant for travel. Join the forefront of digital innovation in the travel industry.
+            </p>
+            {% include "newsletter-form.html" %}
+        </div>
+        <div class="md:col-start-8 col-span-12 md:col-span-5 order-first md:order-last rounded-lg overflow-hidden h-64 md:h-[460px]">
+            {% image "src/img/giant_mail_in_big_wave_at_beach_sunshine_super_realistic.jpg", "Giant mail in big wave at beach sunshine super realistic", "w-full h-full object-cover" %}
+        </div>
+    </div>
+</div>
+
+<div class="py-16 md:py-32 bg-gray-100">
+    <div class="max-w-screen-xl px-8 mx-auto">
+        <div class="text-2xl xl:text-5xl font-black text-gray-900 text-center mb-12">
+            Listen to us in podcasts
+        </div>
+        <div class="grid grid-cols-12 gap-6">
+            {% for x in newspodcasts.data | sort(attribute='attributes.Date') | reverse %}
+            {% set podcast = x.attributes %}
+            <div class="col-span-12 md:col-span-6 xl:col-span-4 bg-white rounded-lg border border-gray-200 overflow-hidden">
+                <a href="{{podcast.Link}}" target="_blank" rel="noopener noreferrer" class="hover:brightness-110 transition-colors">
+                    <img class="w-full h-48 object-cover" src="https://api.strapi.camino.network/{{podcast.TeaserImage.data.attributes.url}}" alt="">
+                </a>
+                <div class="p-6">
+                    <div class="line-clamp-2 font-black text-xl">
+                        {{podcast.Title}}
+                    </div>
+                    <p class="my-4 line-clamp-4 text-sm text-primary font-bold">{{podcast.Date}}</p>
+                    <a href="{{podcast.Link}}" class="btn-black-outline mt-auto">
+                        Listen now
+                        <svg class="w-6 h-6 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 12-6-6m6 6-6 6m6-6H5"></path></svg>
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>    
+    </div>
+</div>

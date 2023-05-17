@@ -1,0 +1,82 @@
+#mc-embedded-subscribe-form {
+    margin: 0 !important;
+  }
+  
+  #mc_embed_signup .mc-field-group {
+    @apply w-full pb-2 !important;
+  }
+  
+  #mc_embed_signup .mc-field-group label {
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 8px;
+    color: #ccc;
+  }
+  
+  #mc_embed_signup input.button {
+    @apply font-semibold w-auto text-dark bg-secondary py-1 mt-1 px-6 focus:outline-none hover:bg-white rounded md:text-lg h-auto font-sans justify-center;
+  }
+  
+  #mc_embed_signup div.mc-field-group input {
+    @apply placeholder-white bg-gray-800 border border-gray-700 rounded-lg block w-full text-white focus:border-secondary outline-none;
+  }
+  
+  #mc_embed_signup input::placeholder {
+    color: rgba(255,255,255,.5) !important;
+  }
+  
+  #mc_embed_signup div.mc-field-group input.newsletterForm {
+    text-indent: 0;
+    @apply placeholder-white text-center bg-gray-800 border p-2 md:p-4 w-full text-xl border-gray-700 rounded-lg block focus:ring-2 text-white focus:ring-offset-gray-900 focus:ring-secondary
+  }
+  
+  #mce-responses {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  #mc_embed_signup div.mce_inline_error {
+    background: none !important;
+    color: #ff9090 !important;
+    font-size: 12px;
+    line-height: 1;
+    text-align: left;
+    margin-bottom: 0 !important;
+  }
+  
+  #mc_embed_signup #mce-success-response {
+    margin: 0 0 .5rem 0;
+    background: none !important;
+    color: #FF8235 !important;
+    font-size: 14px;
+    font-weight: bold !important;
+    width: 100%;
+  }
+  
+  .termsfeed-com---nb-simple {
+    max-width: 450px !important;
+  }
+  
+  .termsfeed-com---nb .cc-nb-text {
+    font-size: 14px !important;
+  }
+  
+  .termsfeed-com---nb .cc-nb-main-container {
+    padding: 2rem !important;
+  }
+  
+  .termsfeed-com---palette-dark .cc-nb-okagree,
+  .termsfeed-com---palette-dark .cc-cp-foot-save {
+    background-color: #fff !important;
+    color: #111 !important;
+  }
+  
+  .termsfeed-com---palette-dark .cc-nb-reject,
+  .termsfeed-com---palette-dark .cc-nb-changep {
+    background-color: transparent !important;
+    color: #fff !important;
+  }

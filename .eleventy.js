@@ -1,5 +1,6 @@
 const now = String(Date.now())
 const htmlmin = require('html-minifier')
+const Image = require("@11ty/eleventy-img")
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget('./styles/tailwind.config.js')
@@ -11,26 +12,54 @@ module.exports = function (eleventyConfig) {
     './node_modules/alpinejs/dist/cdn.min.js': './js/alpine.js',
   })
 
+  eleventyConfig.addPassthroughCopy('src/img')
+  eleventyConfig.addPassthroughCopy('src/fonts')
+  eleventyConfig.addPassthroughCopy('src/js')
   eleventyConfig.addPassthroughCopy('images')
-  eleventyConfig.addPassthroughCopy('static')
-  eleventyConfig.addPassthroughCopy('robots.txt')
   
-  eleventyConfig.addPassthroughCopy('favicon.ico')
-  eleventyConfig.addPassthroughCopy('favicon-16x16.png')
-  eleventyConfig.addPassthroughCopy('favicon-32x32.png')
-  eleventyConfig.addPassthroughCopy('android-chrome-192x192.png')
-  eleventyConfig.addPassthroughCopy('android-chrome-512x512.png')
+  eleventyConfig.addPassthroughCopy('robots.txt')
   eleventyConfig.addPassthroughCopy('site.webmanifest')
 
   eleventyConfig.addShortcode('version', function () {
     return now
   })
+  
+  eleventyConfig.addShortcode("image", async function(src, alt, imgClass, sizes = "100vw") {
+		if(alt === undefined) {
+			// You bet we throw an error on missing alt (alt="" works okay)
+			throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`);
+		}
 
-  eleventyConfig.addFilter("randomItem", (arr) => {
-    arr.sort(() => {
-      return 0.5 - Math.random();
-    });
-    return arr.slice(0, 1);
+		let metadata = await Image(src, {
+			widths: [300, 600, 1200],
+			formats: ["avif", "png"],
+      outputDir: "./_site/img/"
+		});
+
+		let lowsrc = metadata.png[0];
+		let highsrc = metadata.png[metadata.png.length - 1];
+
+		return `<picture>
+			${Object.values(metadata).map(imageFormat => {
+				return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
+			}).join("\n")}
+				<img
+					src="${lowsrc.url}"
+					width="${highsrc.width}"
+					height="${highsrc.height}"
+          class="${imgClass} object-cover"
+          style="font-size: 0px"
+					alt="${alt}"
+					loading="lazy"
+					decoding="async">
+			</picture>`;
+	});
+
+  eleventyConfig.addFilter('sortBy', function (arr, prop) {
+    const isNum = val => val == +val;
+    const sorter = (a, b) => isNum(a[prop]) && isNum(b[prop]) ? +a[prop] - b[prop] : a[prop] < b[prop];
+    arr.sort(sorter);
+    return arr; 
   });
 
   eleventyConfig.addTransform('htmlmin', function (content, outputPath) {
@@ -47,10 +76,18 @@ module.exports = function (eleventyConfig) {
       return minified
     }
 
-        return content
-    })
+      return content
+  })
   
   return {
-    htmlTemplateEngine: "njk"
+    dir: {
+      input: "src",
+      output: "_site",
+      includes: "includes",
+      layouts: "layouts",
+      data: "data"
+    },
+    htmlTemplateEngine: "njk",
+    markdownTemplateEngine: "njk"
   };
 };

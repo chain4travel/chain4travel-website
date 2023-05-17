@@ -1,0 +1,69 @@
+<section class="bg-gray-900 text-white relative overflow-hidden py-16 md:py-32">
+    <div class="max-w-screen-xl px-8 mx-auto relative z-10">
+        <div class="lg:flex items-center">
+            <div class="lg:w-1/2 lg:pr-24">
+                <h2 id="contact" class="md:text-5xl text-2xl font-black text-white" id="team">
+                    Let’s talk
+                </h2>
+                <p class="mt-8 text-gray-300">
+                    Whether you are a startup looking to break into the travel industry or an established player seeking to stay ahead of the curve, Chain4Travel is your ultimate guide to digital transformation and innovation. Join us on the journey to the world of travel reinvented.
+                </p>
+                <div class="flex items-center gap-4 my-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-primary" viewBox="0 0 32 32"><path fill="currentColor" d="M26 30H11a2.002 2.002 0 0 1-2-2v-6h2v6h15V6h-9V4h9a2.002 2.002 0 0 1 2 2v22a2.002 2.002 0 0 1-2 2Z"/><path fill="currentColor" d="M17 10h7v2h-7v-2Zm-1 5h8v2h-8v-2Zm-1 5h9v2h-9v-2Zm-6-1a5.005 5.005 0 0 1-5-5V3h2v11a3 3 0 0 0 6 0V5a1 1 0 0 0-2 0v10H8V5a3 3 0 1 1 6 0v9a5.005 5.005 0 0 1-5 5Z"/></svg>
+                    <div>
+                        Join the team: Submit your CV via <a class="underline hover:text-primary" href="mailto:jobs@chain4travel.com">jobs@chain4travel.com</a>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4">
+                    <img src="/img/vincentusbeck.png" class="w-8 h-8 rounded" alt="Vincent Usbeck">
+                    <div>
+                        <strong>Let’s talk</strong>: Schedule an intro call via <a class="underline hover:text-primary" href="https://calendly.com/vincent-usbeck/chain4travel" target="_blank" rel="noopener noreferrer">Calendly.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2 relative mt-12 lg:mt-0">
+            <form name="c4t-contact" method="POST" action="/contact-success" data-netlify="true" netlify-honeypot="bot-field" class="relative bg-gray-900 z-50 block mx-auto lg:border border-white lg:p-8 rounded-lg">
+                <p class="hidden">
+                <label>
+                    Don't fill this out if you're human: <input name="bot-field" />
+                </label>
+                </p>
+                <p class="">
+                <label class="">Your Name:
+                    <input required placeholder="Your name ..." type="text" name="name" class="bg-gray-800 border border-gray-700 rounded block w-full mt-1 focus:ring-primary focus:border-primary text-white" />
+                </label>
+                </p>
+                <p class="mt-4">
+                <label class="">Your Email:
+                    <input required placeholder="Your email address ..." type="email" name="email" class="bg-gray-800 border border-gray-700 rounded block w-full mt-1 focus:ring-primary focus:border-primary text-white" />
+                </label>
+                </p>
+                <p class="mt-4">
+                <label class="">Message:
+                    <textarea required placeholder="Your question ..." name="message" class="resize-none h-24 bg-gray-800 border border-gray-700 rounded block w-full mt-1 focus:ring-primary focus:border-primary text-white"></textarea>
+                </label>
+                </p>
+                <p class="mt-4">
+                <div class="flex text-base">
+                    <input 
+                        required 
+                        type="checkbox" 
+                        name="agreement" 
+                        id="agreement" 
+                        class="mt-2 rounded w-6 h-6 bg-dark border-gray-700 checked:bg-primary checked:hover:bg-primary checked:focus:bg-primary focus:border-primary hover:border-primary cursor-pointer"
+                    >
+                    <label for="agreement" class="ml-4 text-gray-400">I agree to the <a class="underline" href="/data-privacy">privacy policy</a> and I consent to being contacted by Chain4Travel via email. I agree to the storage of my transmitted data for the required period of time.</label>
+                </div>
+                </p>
+                <p>
+                    <button class="w-full mt-8 btn-primary" type="submit">Send</button>
+                </p>
+            </form>
+            <div 
+                class="hidden lg:block z-0 w-[48rem] 2xl:w-[48rem] aspect-square absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-contain bg-center bg-no-repeat"
+                style="background-image: url(../img/globe-lines.svg);"
+            ></div>
+            </div>
+        </div>
+    </div>
+</section>

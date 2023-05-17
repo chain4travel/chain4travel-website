@@ -1,0 +1,109 @@
+---
+layout: default
+
+title: Connecting the new world of travel
+description: Chain4Travel is the facilitator of the Camino consortium blockchain, a new disruptive approach to trade touristic products B2B and B2C.
+---
+
+{% include "atlas-nav.html" %}
+
+<!-- Hero starts -->
+<div class="py-16 md:py-20 bg-gray-900 text-white">
+    <div class="max-w-screen-xl px-8 mx-auto text-center">
+        <h1 class="text-4xl md:text-5xl lg:text-7xl font-black">
+            Web3 & travel blog
+        </h1>
+        <p class="mt-8 md:text-lg lg:text-xl max-w-screen-md mx-auto text-gray-400">
+            Everything that is going to be relevant for tomorrow’s travel industry
+        </p>
+    </div>
+</div>
+<!-- Hero ends -->
+
+<div class="py-16 md:py-32 max-w-screen-xl px-8 mx-auto">
+    <div class="grid grid-cols-12 gap-6 items-stretch">
+        {% for x in blogposts %}
+
+            {% if loop.index0 < 1 %}
+            <div class="col-span-12 pb-8 md:pb-16 mb-8 md:mb-16 border-b-2 border-gray-300">
+                <div class="grid grid-cols-12 gap-6 items-center">
+                    <div class="col-span-12 md:col-span-6">
+                        <div class="text-2xl md:text-4xl xl:text-6xl font-black">
+                            {{x.title}}
+                        </div>
+                        <div class="font-black text-xl my-6 uppercase text-primary">
+                            {{x.date}}
+                        </div>
+                        <p class="text-gray-700">
+                            {{x.excerpt}}
+                        </p>
+                        <a href="{{x.link}}" class="btn-black mt-6">Read full article</a>
+                    </div>
+                    <div class="md:col-start-8 col-span-12 md:col-span-5 order-first md:order-last rounded-lg overflow-hidden h-64 lg:h-[420px]">
+                        <a href="{{x.link}}">
+                            <img class="w-full h-full object-cover" src="{{x.coverImage}}" alt="Chain4Travel Logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if loop.index0 > 0 %}
+            <a href="{{x.link}}" class="col-span-12 md:col-span-4">
+                <div class="border-2 border-gray-300 hover:border-primary h-full rounded-lg overflow-hidden">
+                    <img class="w-full h-64 object-cover" src="{{x.coverImage}}" alt="Chain4Travel Logo">
+                    <div class="p-6">
+                        <div class="text-2xl font-black">
+                            {{x.title}}
+                        </div>
+                        <div class="font-black my-2 uppercase text-primary">
+                            {{x.date}}
+                        </div>
+                        <p class="text-gray-700 text-sm">
+                            {{x.excerpt}}
+                        </p>
+                    </div>
+                </div>
+            </a>
+            {% endif %}
+
+        {% endfor %}
+    </div>
+</div>
+
+<div class="py-16 md:py-32 bg-gray-900 text-white">
+    <div class="max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-6 items-center">
+        <div class="col-span-12 md:col-span-6">
+            <div class="text-secondary text-sm font-bold uppercase tracking-widest">How to start</div>
+            <div class="text-2xl xl:text-5xl font-black my-2 md:my-6">
+                How can businesses join the web3 travel revolution?
+            </div>
+            <p class="my-2 md:my-6 text-gray-300">
+                Chain4Travel offers companies the chance to be at the cutting edge today and to help shape the travel industry of tomorrow. Any company, regardless of size or travel sector, can easily adopt web3 use cases on Camino Network. Contact us to kickstart your web3 journey and explore tailored use cases for your business. 
+            </p>
+            <a href="/contact" class="btn-primary">Contact us</a>
+        </div>
+        <div class="md:col-start-8 col-span-12 md:col-span-5 order-first md:order-last rounded-lg overflow-hidden h-64 md:h-[460px]">
+            {% image "src/img/photorealistic_tunnel_light_spots_70_mm_lens_canon_lens.jpg", "Photorealistic tunnel light spots 70 mm lens canon lens", "w-full h-full object-cover" %}
+        </div>
+    </div>
+</div>
+
+<div class="py-16 md:py-32">
+    <div class="max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-6 items-center">
+        <div class="col-span-12 md:col-span-5 rounded-lg overflow-hidden h-64 md:h-[460px]">
+            {% image "src/img/airplane_chemtrails_vertical_in_the_air_upwards_realistic.jpg", "Airplane chemtrails vertical in the air upwards realistic", "w-full h-full object-cover" %}
+        </div>
+        <div class="md:col-start-7 col-span-12 md:col-span-6">
+            <div class="text-secondary text-sm font-bold uppercase tracking-widest">Why blockchain</div>
+            <div class="text-2xl xl:text-5xl font-black my-2 md:my-6">
+                Why is blockchain technology relevant for travel?
+            </div>
+            <p class="text-gray-700">
+                Web3 is based on the core concepts of decentralization, openness, data security, and greater user value - all of which are enabled by blockchain technology. As such, it could be a more disruptive and significant paradigm shift for the travel industry than web2. It unlocks a field of possibilities for exploring traveler rewards, loyalty programs, more efficient processes, payment and billing solutions, and even entirely new business models while benefiting from enhanced security, peer-to-peer ownership of data and information, and cost savings. 
+            </p>
+        </div>
+    </div>
+</div>
+
+{% include "newsarticles-nav.html" %}

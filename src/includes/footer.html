@@ -1,0 +1,66 @@
+<footer class="bg-gray-900 border-t border-gray-800 py-12 md:py-24 text-white">
+    <div class="max-w-screen-xl px-8 mx-auto">
+        <div class="md:flex md:justify-between mb-10" x-data="{ newsletterModal: false }">
+            <a href="/" class="flex font-medium items-center text-gray-900 transition-all hover:brightness-125 mb-8 md:mb-0">
+                <span class="sr-only">Chain4Travel</span>
+                <img class="h-8" src="/img/logo-full.svg" alt="">
+            </a>
+
+            <span @click="newsletterModal = true" class="btn-white">Subscribe to our newsletter</span>
+                
+            <!-- Newsletter modal -->
+            <div x-cloak x-show="newsletterModal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
+                <div class="w-full mx-auto p-4 rounded overflow-y-auto flex flex-col items-center justify-center">
+                    <div class="bg-white w-full max-w-screen-sm rounded-2xl p-8 shadow-lg text-gray-900" @click.away="newsletterModal = false">
+                        <div class="text-xl font-black mb-4">Subscribe to our newsletter</div>
+                        {% include "newsletter-form.html" %}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="md:flex">
+            <div class="flex-1 mb-8 md:mb-0">
+                <p class="mb-6 text-gray-300 max-w-prose">
+                    As pioneers in web3 & travel, we can advise and connect companies, form partnerships, and make travel players work together in a completely new, collaborative ecosystem, called the Camino Network.
+                </p>
+                <div class="flex items-center gap-3">
+                    <a class="btn-primary" href="/contact">Contact us</a>
+                    <a class="hover:opacity-75 text-white" href="https://www.linkedin.com/company/chain4travel/" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-8" viewBox="0 0 32 32"><path d="M26.2 4H5.8C4.8 4 4 4.8 4 5.7v20.5c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V5.7c0-.9-.8-1.7-1.8-1.7ZM11.1 24.4H7.6V13h3.5v11.4Zm-1.7-13c-1.1 0-2.1-.9-2.1-2.1 0-1.2.9-2.1 2.1-2.1 1.1 0 2.1.9 2.1 2.1 0 1.2-1 2.1-2.1 2.1Zm15.1 12.9H21v-5.6c0-1.3 0-3.1-1.9-3.1S17 17.1 17 18.5v5.7h-3.5V13h3.3v1.5h.1c.5-.9 1.7-1.9 3.4-1.9 3.6 0 4.3 2.4 4.3 5.5v6.2h-.1Z"/></svg>
+                    </a>
+                    <a class="hover:opacity-75 text-white" href="https://twitter.com/Chain4Travel" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-8" viewBox="0 0 32 32"><path d="M11.92 24.94A12.76 12.76 0 0 0 24.76 12.1v-.59A9.4 9.4 0 0 0 27 9.18a9.31 9.31 0 0 1-2.59.71 4.56 4.56 0 0 0 2-2.5 8.89 8.89 0 0 1-2.86 1.1 4.52 4.52 0 0 0-7.7 4.11 12.79 12.79 0 0 1-9.3-4.71 4.51 4.51 0 0 0 1.4 6 4.47 4.47 0 0 1-2-.56v.05a4.53 4.53 0 0 0 3.55 4.45 4.53 4.53 0 0 1-2 .08A4.51 4.51 0 0 0 11.68 21a9.05 9.05 0 0 1-5.61 2A9.777 9.777 0 0 1 5 22.91a12.77 12.77 0 0 0 6.92 2"/></svg>
+                    </a>
+                    <a class="hover:opacity-75 text-white" href="https://www.youtube.com/@chain4travel" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-8" viewBox="0 0 32 32"><defs><clipPath id="bi-youtube__a"><path d="M0 0h32v32H0z"/></clipPath></defs><g clip-path="url(#bi-youtube__a)"><path d="M16.102 3.998h.178c1.644.006 9.974.066 12.22.67a4.02 4.02 0 0 1 2.83 2.84c.202.76.344 1.766.44 2.804l.02.208.044.52.016.208c.13 1.828.146 3.54.148 3.914v.15c-.002.388-.02 2.216-.164 4.12l-.016.21-.018.208c-.1 1.144-.248 2.28-.47 3.116a4.014 4.014 0 0 1-2.83 2.84c-2.32.624-11.138.668-12.36.67h-.284c-.618 0-3.174-.012-5.854-.104l-.34-.012-.174-.008-.342-.014-.342-.014c-2.22-.098-4.334-.256-5.308-.52a4.014 4.014 0 0 1-2.83-2.838c-.222-.834-.37-1.972-.47-3.116l-.016-.21-.016-.208A62.799 62.799 0 0 1 0 15.36v-.246c.004-.43.02-1.916.128-3.556l.014-.206.006-.104.016-.208.044-.52.02-.208c.096-1.038.238-2.046.44-2.804a4.014 4.014 0 0 1 2.83-2.84c.974-.26 3.088-.42 5.308-.52l.34-.014.344-.012.172-.006.342-.014A201.44 201.44 0 0 1 15.716 4h.386v-.002Zm-3.302 6.42v9.636l8.314-4.816-8.314-4.82Z"/></g></svg>
+                    </a>
+                </div>
+                <p class="mt-6 text-gray-400 max-w-prose text-xs">
+                    The images on this website were created using AI technology.
+                </p>
+            </div>
+            <div class="flex">
+                <ul class="md:ml-16 flex-1">
+                    <li class="font-bold mb-2">Website</li>
+                    <li><a class="whitespace-nowrap py-2 block hover:underline" href="/about">About</a></li>
+                    <li><a class="whitespace-nowrap py-2 block hover:underline" href="/team">Team</a></li>
+                    <li><a class="whitespace-nowrap py-2 block hover:underline" href="/supporters">Supporters</a></li>
+                </ul>
+                <ul class="md:ml-16 flex-1">
+                    <li class="font-bold mb-2 whitespace-nowrap">Web3 Atlas</li>
+                    <li><a class="whitespace-nowrap py-2 block hover:underline" href="/blog">Travel Blog</a></li>
+                    <li><a class="whitespace-nowrap py-2 block hover:underline" href="/usecases">Use Cases</a></li>
+                    <li><a class="whitespace-nowrap py-2 block hover:underline" href="/news">News</a></li>
+                    <li><a class="whitespace-nowrap py-2 block hover:underline" href="/events">Events</a></li>
+                </ul>
+                <ul class="md:ml-16 flex-1">
+                    <li class="font-bold mb-2">Legal</li>
+                    <li><a class="whitespace-nowrap py-2 block hover:underline" href="/imprint">Imprint</a></li>
+                    <li><a class="whitespace-nowrap py-2 block hover:underline" href="/data-privacy">Data Privacy</a></li>
+                    <li><a class="whitespace-nowrap py-2 block hover:underline" href="/terms-of-use">Terms of Use</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>

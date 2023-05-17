@@ -1,0 +1,77 @@
+[
+    {
+        "title": "Trading",
+        "icon":  "usecase-icon-02",
+        "list1": "trading in various directions: B2B2C, C2B and even D2C",
+        "list2": "resellable rates",
+        "list3": "enabling automation, cost-efficiency, and flexibility",
+        "text": "Trade in various directions, from B2B to C2C. Make use of newest technology enabling retradable rates and the benefits of automation, cost-efficiency, and flexibility."
+    },
+    {
+        "title": "Loyalty programs",
+        "icon":  "usecase-icon-04",
+        "list1": "travelers can earn and redeem rewards in a more secure and transparent way  across multiple providers",
+        "list2": "easily track loyalty data and improve personalization",
+        "text": "Web3 loyalty programs offer a more secure and transparent way for travelers to earn and redeem rewards across multiple providers. Plus, with tracking of loyalty data, personalization can be reinvented."
+    },
+    {
+        "title": "Token rewards",
+        "icon":  "usecase-icon-05",
+        "list1": "incentivizing customers with instant payment processing",
+        "list2": "increasing loyalty, brand engagement, and user-generated content",
+        "text": "With token rewards, travel companies can boost loyalty and brand engagement while encouraging customers to generate more user-generated content by providing instant payment processing."
+    },
+    {
+        "title": "Identity management",
+        "icon":  "usecase-icon-03",
+        "list1": "securely store and verify identity documents",
+        "list2": "streamlined check-in process",
+        "text": "Identity management is crucial for a seamless experience. With web3, travelers can securely store and verify their identity documents, while businesses can streamline the check-in process."
+    },
+    {
+        "title": "Payment and settlement",
+        "icon":  "usecase-icon-01",
+        "list1": "enabling worldwide peer-to-peer transactions",
+        "list2": "automatic reconciliation",
+        "list3": "low transaction costs",
+        "text": "Say hello to worldwide peer-to-peer transactions. Enjoy automatic reconciliation and the security of blockchain technology, all while keeping transaction costs low. "
+    },
+    {
+        "title": "Token gated access",
+        "icon":  "usecase-icon-06",
+        "list1": "reducing the risk of fraud or theft with a tokenized access system",
+        "list2": "introducing new loyalty programs",
+        "list3": "seamless and efficient",
+        "text": "With tokenized access, the risk of fraud or theft is extremely reduced, providing a more secure and efficient way to manage access to services and amenities. Plus, this opens up new possibilities for loyalty programs, allowing for seamless and efficient rewards distribution."
+    },
+    {
+        "title": "Tracking",
+        "icon":  "usecase-icon-07",
+        "list1": "tamper-proof way to track travel data related to travel, such as bookings, reservations, or luggage",
+        "list2": "streamline operations",
+        "list3": "offering a more efficient and personalized service",
+        "text": "With web3, travel companies can track travel-related, tamper-proof data such as bookings and luggage. All information is stored securely and transparently, reducing the risk of errors or fraud. Companies can streamline their operations and offer more efficient and personalized service. "
+    },
+    {
+        "title": "Sustainability",
+        "icon":  "usecase-icon-08",
+        "list1": "seamless offsetting for travelers along the value chain",
+        "list2": "blockchain ensures the integrity of the process by creating a tamper-proof record",
+        "text": "Easily create carbon offsetting programs for travelers along the value chain. Blockchain technology ensures the integrity of offsetting processes by creating a tamper-proof record, providing transparency and trust to customers. "
+    },
+    {
+        "title": "API substitution",
+        "icon":  "usecase-icon-09",
+        "list1": "systems and applications seamlessly communicate with each other",
+        "list2": "reducing integration cost and complexity",
+        "list3": "reducing the risk of downtime or system failures",
+        "text": "With blockchain, systems, and applications can seamlessly communicate, reducing integration costs and complexity. This ensures a more efficient and secure data exchange and reduces the risk of downtime or system failures. Say goodbye to siloed systems."
+    },
+    {
+        "title": "Room type mapping",
+        "icon":  "usecase-icon-10",
+        "list1": "improving the accuracy of non-bookable content, such as reviews or information on  room amenities, with a single source of truth",
+        "list2": "data easily accessible for all parties involved",
+        "text": "By providing a single source of truth, the accuracy of non-bookable content, such as reviews or room information, can be increased, and even microservices can be made bookable online. With data easily accessible for all parties involved, customer satisfaction can be improved. "
+    }
+]

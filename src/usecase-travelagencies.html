@@ -1,0 +1,143 @@
+---
+layout: default
+title: Travel agencies
+---
+
+<!-- Hero starts -->
+<div class="py-16 md:py-20 bg-gray-900 text-white">
+    <div class="max-w-screen-xl px-8 mx-auto text-center">
+        <p class="text-secondary uppercase font-bold text-sm tracking-widest mb-6">Use Case in detail</p>
+        <h1 class="text-4xl md:text-5xl lg:text-7xl font-black">
+            <span class="text-primary">Travel agencies</span> thriving in web3 
+        </h1>
+        <p class="mt-8 md:text-lg lg:text-xl max-w-screen-md mx-auto text-gray-400">
+            Create loyal customers and explore new revenue streams with web3
+        </p>
+        <a href="/usecases" class="mt-8 btn-white-outline">Back to overview</a>
+    </div>
+</div>
+<!-- Hero ends -->
+
+<div class="py-16 md:py-32">
+    <div class="max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-6 items-center">
+        <div class="col-span-12 md:col-span-6">
+            <div class="text-2xl xl:text-5xl font-black">
+                Keep putting customers at the center of your business and adapt to the latest technologies
+            </div>
+            <p class="my-2 md:my-6">
+                Customers are evolving and adapting to a new world, so travel agencies must adapt accordingly. Web3 technology can address several key challenges in the travel industry, including limited access to up-to-date travel content, low trust in distribution platforms, incomplete information for travelers, building and maintaining loyal customers, and a lack of opportunities for travel agencies to monetize their expertise. Travel agencies have extensive knowledge of travel planning, destinations, and travel trends.
+            </p>
+        </div>
+        <div class="col-span-12 md:col-span-5 md:col-start-8 rounded-lg overflow-hidden h-64 md:h-[460px]">
+            {% image "src/img/photorealistic_cave_opening_view_through_cave_on_to_the_sea.jpg", "Bed summer beach natural lighting natural geographic", "w-full h-full object-cover" %}
+        </div>
+    </div>
+</div>
+
+<div class="py-16 md:py-32 bg-gray-100">
+    <div class="max-w-screen-lg px-8 md:px-4 mx-auto">
+    {% for y in testimonials %}
+    {% if y.slug == "markusorth" %}
+        <div class="bg-white rounded-lg p-4 md:p-6 flex items-start">
+            <img class="w-12 md:w-24 h-12 md:h-24 rounded-lg" src="/img/{{y.slug}}.png" alt="">
+            <div class="ml-4 md:ml-8">
+                <p class="md:text-xl font-bold">
+                    “{{y.text}}”
+                </p>
+                <div class="text-gray-700 text-sm md:text-base my-2 md:my-4">
+                    <div class="font-bold">{{y.person}}</div>
+                    {{y.company}}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    {% endfor %}
+    </div>
+</div>
+
+<div class="py-16 md:py-32">
+
+    <div class="max-w-screen-xl px-8 mx-auto">
+
+        <div class="font-black text-4xl mb-4 text-center">Web3 use cases for travel agencies</div>
+
+        <p class="text-center max-w-screen-lg mb-10 text-gray-700 mx-auto">Explore the various use cases of blockchain technology for travel agencies and OTAs. Each use case offers a brief explanation and highlights the potential benefits.</p>
+
+        <div class="grid grid-cols-12 gap-6">
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Rewards</div>
+                    <p class="mb-4">Negotiating, coordinating, and consequently tracking and monitoring incentives is costly and sometimes doesn't equal the outcome.</p>
+                    <p>Blockchain technology offers ways to rethink rewards in B2B and B2C. Token rewards such as NFTs are a great tool to incentivize the behaviors of travelers, communities, or partners, even on top of loyalty schemes. For travel agencies, this could mean easier incentivization of customers, while smart contracts completely automize the coordination.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Offers new ways to incentives travelers or partners</li>
+                        <li>Automizes the coordination of the incentive</li>
+                        <li>Reduces overall resources for incentivization of B2B and B2C</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Voucher </div>
+                    <p class="mb-4">Implementing voucher solutions can be complex, especially when multiple parties are involved.</p>
+                    <p>The Camino ecosystem provides a simple setup for companies to add and redeem vouchers, with added flexibility and higher loyalty potential. For example, airlines and rail companies can easily offer free coffee from an external provider for delayed travelers.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Reduces the complexity of the implentation of vouchers with multiple partners</li>
+                        <li>Automizes the redemption and reconciliation</li>
+                        <li>Increases customer experience and loyalty</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Loyalty</div>
+                    <p class="mb-4">Everyone strives for loyal customers, but maintaining loyalty is time-consuming and costly. Other industries lead by example on how loyalty programs can be reinvented with web3 technologies, e.g., Starbucks.</p>
+                    <p>With Camino Network, the travel industry has the tech infrastructure at hand to create loyalty platforms, more efficient and less costly in bringing on new collection and redemption partners, with streamlined processes and instant views of balances for the customers and partners. Also, for smaller travel agencies or larger OTAs, this could bring new opportunities to easily join a loyalty program, where customers can collect & redeem in a safe and automized environment.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Reduces the integration and maintenance efforts of loyalty programs</li>
+                        <li>Provides instant settlement between multiple partners</li>
+                        <li>Secures payment and reduces fraud</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">Payment & settlement</div>
+                    <p>The payment process on Camino Network will change this as all travel services along the value chain take place in a global peer-to-peer network, which is extremely fast, and results in significantly lower transaction costs. This could mean that even micro services and products could be offered online at a fraction of today's transaction cost. The settlement between suppliers, partners, and B2B customers could be done more efficiently and automated. Records on the Camino Network will provide auditable data. Another advantage is the security aspect, which is given by definition by a blockchain and reduces fraud significantly.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Reduces transaction costs massively and makes payment and settlement automatic (in the same “logical second”)</li>
+                        <li>Provides immutable records of transactions that can be used for audits or disputes</li>
+                        <li>Reduces the paperwork between partners and increases security along the process</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border border-gray-200 overflow-hidden rounded-lg col-span-12 flex flex-col md:flex-row">
+                <div class="p-6 md:p-10">
+                    <div class="mb-4 font-black text-2xl">User-generated content</div>
+                    <p class="mb-4">User-generated content provides more authentic and trustworthy marketing for businesses and can increase engagement immensely. The problem is that guests often do not have a high incentive to share their experiences.</p>
+                    <p>Leverage web3 technologies to increase customer engagement with user-generated content. Users can generate content for various services or products on the blockchain and get rewarded instantly.</p>
+                </div>
+                <div class="border-t md:border-t-0 md:border-l border-gray-200 bg-gray-100 p-6 md:p-10 flex-shrink-0 md:w-1/3 flex flex-col justify-center">
+                    <div class="mb-2 font-bold">Benefits</div>
+                    <ul class="list-disc pl-4">
+                        <li>Increases user-generated-content for businesses effortlessly</li>
+                        <li>Offers new ways to incentivize customers</li>
+                        <li>Increases sales with trustworthy and authentic content</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -5,28 +5,27 @@ module.exports = {
     safelist: [],
     plugins: [
         require('@tailwindcss/typography'),
-        require('@tailwindcss/line-clamp'),
         require('@tailwindcss/forms'),
     ],
     theme: {
+        extend: {
+            animation: {
+                'spin-slow': 'spin 24s linear infinite',
+                'spin-slower': 'spin 48s linear reverse infinite',
+            }
+        },
+        fontFamily: {
+            'sans': ['Inter, system-ui, sans-serif'],
+        },
         colors: {
             dark: "#141A18",
-            primary: "#FF8235",
+            primary: "#FA6400",
+            primaryDark: "#D95600",
             secondary: "#30E8BF",
             white: "#fff",
             muted: "#9CA3AF",
             green: colors.lime,
             gray: colors.neutral,
-        },
-        container: {
-            center: true,
-            padding: {
-                DEFAULT: '1rem',
-                sm: '2rem',
-                lg: '4rem',
-                xl: '4rem',
-                '2xl': '4rem',
-                },
         }
     },
 }

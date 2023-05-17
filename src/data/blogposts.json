@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Safe, Secure, and Seamless: The Advantages of Crypto Wallets for the Travel Industry",
+        "excerpt": "Find out why crypto wallets are beneficial for the travel industry, even if customers aren't embracing web3 technologies (yet)",
+        "date": "April 27, 2023",
+        "coverImage": "/img/wallets-article.png",
+        "link": "/safe-secure-and-seamless-the-advantages-of-crypto-wallets-for-the-travel-industry"
+    },
+    {
+        "title": "NFTs aren’t just digital monkeys. Here’s what they can do for travel.",
+        "excerpt": "How the travel industry can leverage tokenization of digital assets.",
+        "date": "March 16, 2023",
+        "coverImage": "/img/whatAreNFTs-article.png",
+        "link": "/nfts-arent-just-digital-monkeys-heres-what-they-can-do-for-travel"
+    },
+    {
+        "title": "A Layer 1 blockchain for the travel industry - Why (not)?",
+        "excerpt": "We are going to get a bit more technical again and explain why the travel industry needs its own so-called Layer 1 blockchain.",
+        "date": "February 23, 2023",
+        "coverImage": "/img/level1-article.png",
+        "link": "/a-layer-1-blockchain-for-the-travel-industry-why-not"
+    },
+    {
+        "title": "Camino 101: What you should know about Camino Network",
+        "excerpt": "So far, we have been talking a lot about the basics of blockchains and web3. Today we want to share more insights about Camino, the web3 ecosystem for the travel industry.",
+        "date": "January 20, 2023",
+        "coverImage": "/img/camino101-article.png",
+        "link": "/camino-101-what-you-should-know-about-camino-network"
+    },
+    {
+        "title": "Decentralization in Travel - Are we in the midst of a paradigm shift?",
+        "excerpt": "Is decentralized travel the future? Decentralization could disrupt the travel industry as we know it. Learn how to leverage it to your advantage.",
+        "date": "December 21, 2022",
+        "coverImage": "/img/decentralization-article.png",
+        "link": "/decentralization-in-travel-back-to-the-basics"
+    }
+]

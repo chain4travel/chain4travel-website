@@ -1,0 +1,28 @@
+<!-- Latest news block starts -->
+<div class="py-16 md:py-32 bg-gray-900 text-white">
+    <div class="max-w-screen-xl px-8 mx-auto">
+        <div class="text-2xl xl:text-5xl font-black text-center">
+            Latest news
+        </div>
+        <div class="grid grid-cols-12 gap-6 mt-8">
+            {% for news in newsarticles.data | sort(attribute='attributes.date') | reverse %}
+            {% set x = news.attributes %}
+            {% if (loop.index <= 3) %}
+            <a href="#" class="col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
+                <img class="brightness-100 group-hover:brightness-125 w-full h-40 md:h-60 bg-gray-700 object-cover" src="https://api.strapi.camino.network/{{x.image.data.attributes.url}}" alt="">
+                <div class="p-4 md:p-6">
+                    <h2 class="font-black text-xl mb-4 line-clamp-2">{{x.title}}</h2>
+                    <p class="line-clamp-3 text-gray-300">
+                        {{x.articleTeaser}}
+                    </p>
+                </div>
+            </a>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="flex justify-center mt-8">
+            <a href="/news" class="btn-primary">See all news</a>
+        </div>
+    </div>
+</div>
+<!-- Latest news block ends -->
