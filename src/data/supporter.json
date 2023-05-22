@@ -115,6 +115,11 @@
         "url": "https://www.cfmmedia.de/"
     },
     {
+        "name": "Clairvoyant Lab",
+        "slug": "clairvoyant",
+        "url": "https://clairvoyantlab.com/"
+    },
+    {
         "name": "Clear Chain Travel",
         "slug": "clearchaintravel",
         "url": "https://clearchaintravel.com/"
@@ -140,6 +145,11 @@
         "url": "https://codora.io/"
     },
     {
+        "name": "Coherent",
+        "slug": "coherent",
+        "url": "https://coherent.xyz/"
+    },
+    {
         "name": "Cortex AG",
         "slug": "cortex",
         "url": "https://www.cortex-ag.com/en/"
@@ -158,6 +168,11 @@
         "name": "DER Touristik",
         "slug": "der",
         "url": "https://www.dertouristik.com/en/?lang=EN&rdeLocaleAttr=EN"
+    },
+    {
+        "name": "DFNS",
+        "slug": "dfns",
+        "url": "https://www.dfns.co/"
     },
     {
         "name": "Dreamtime",
@@ -348,6 +363,11 @@
         "name": "IT-Square",
         "slug": "itsquare",
         "url": "https://itsquare.de/"
+    },
+    {
+        "name": "Joonze",
+        "slug": "joonze",
+        "url": "https://www.joonze.com/"
     },
     {
         "name": "Juniper",
