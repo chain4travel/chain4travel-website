@@ -115,6 +115,11 @@
         "url": "https://www.cfmmedia.de/"
     },
     {
+        "name": "Clairvoyant Lab",
+        "slug": "clairvoyant",
+        "url": "https://clairvoyantlab.com/"
+    },
+    {
         "name": "Clear Chain Travel",
         "slug": "clearchaintravel",
         "url": "https://clearchaintravel.com/"
@@ -358,6 +363,11 @@
         "name": "IT-Square",
         "slug": "itsquare",
         "url": "https://itsquare.de/"
+    },
+    {
+        "name": "Joonze",
+        "slug": "joonze",
+        "url": "https://www.joonze.com/"
     },
     {
         "name": "Juniper",
