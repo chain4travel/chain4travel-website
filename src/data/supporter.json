@@ -25,6 +25,11 @@
         "url": "https://www.aeolos.com"
     },
     {
+        "name": "anomalyFi",
+        "slug": "anomalyfi",
+        "url": "https://dashboard.anomalyfi.com/"
+    },
+    {
         "name": "Airxelerate",
         "slug": "airxelerate",
         "url": "https://www.airxelerate.com/"
@@ -88,6 +93,11 @@
         "name": "Beyond Bookings",
         "slug": "beyondbookings",
         "url": "https://beyond-bookings.com/"
+    },
+    {
+        "name": "bloXmove",
+        "slug": "bloxmove",
+        "url": "https://bloxmove.com/"
     },
     {
         "name": "BUK",
@@ -313,6 +323,11 @@
         "name": "Holidays AG",
         "slug": "Holidaysag",
         "url": "https://holidays.ch/"
+    },
+    {
+        "name": "horeca Marketing",
+        "slug": "horeca-marketing",
+        "url": "https://horeca-marketing.de/"
     },
     {
         "name": "Hotelplan",
@@ -628,6 +643,16 @@
         "name": "Vibe",
         "slug": "vibe",
         "url": "https://www.vibe.travel/"
+    },
+    {
+        "name": "Vidma",
+        "slug": "vidma",
+        "url": "https://www.vidma.io/"
+    },
+    {
+        "name": "Vivin",
+        "slug": "vivin",
+        "url": "https://vivin.io/"
     },
     {
         "name": "Verband Internet Reisevertrieb e.V.",
