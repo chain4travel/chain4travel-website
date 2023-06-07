@@ -100,6 +100,11 @@
         "url": "https://bloxmove.com/"
     },
     {
+        "name": "Brain Station 23",
+        "slug": "brainstation23",
+        "url": "https://brainstation-23.com/"
+    },
+    {
         "name": "BUK",
         "slug": "buk",
         "url": "https://buk.technology/"
@@ -358,6 +363,11 @@
         "name": "Invia",
         "slug": "invia",
         "url": "https://www.invia.de/en/"
+    },
+    {
+        "name": "Interexy",
+        "slug": "interexy",
+        "url": "https://interexy.com/"
     },
     {
         "name": "Involatus",
