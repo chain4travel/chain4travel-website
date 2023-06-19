@@ -11,7 +11,7 @@ module.exports = async function () {
         currentPage++
     ) {
         let res = await axios.get(
-            `https://api.strapi.camino.network/partners?pagination[page]=${currentPage}&pagination[pageSize]=100`
+            `https://api.strapi.camino.network/partners?populate=*&pagination[page]=${currentPage}&pagination[pageSize]=100`
         );
         partners = [...partners, ...res.data.data];
     }

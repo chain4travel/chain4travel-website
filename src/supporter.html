@@ -22,12 +22,12 @@ placement: supporters
 <!-- Supporter Logo Wall starts -->
 <div class="pb-16 md:pb-32 bg-gray-900 text-white">
     <div class="max-w-screen-xl px-8 mx-auto">
-        <div class="w-full grid grid-cols-10 gap-2 lg:gap-4 items-center justify-center">
+        <div class="flex flex-wrap items-center justify-center">
             {% for y in partners.data | sort(attribute='attributes.companyName') %}
             {% set x = y.attributes %}
             {% if x.companyLogoLight.data.attributes.url %}
-                <a href="{{x.companyWebsite}}" class="bg-gray-900 transition-colors group col-span-2 lg:col-span-1" target="_blank">
-                    <img class="w-full opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all max-h-8 lg:max-h-16 object-contain" src="https://api.strapi.camino.network/{{x.companyLogoLight.data.attributes.url}}" alt="{{x.companyName}}">
+                <a href="{{x.companyWebsite}}" class="bg-gray-900 transition-colors group inline-flex flex-col items-center justify-center p-3 w-1/4 xl:w-[10%]" rel="noopener noreferrer" target="_blank">
+                    <img class="w-full opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all max-w-[180px] h-12 object-contain" src="https://api.strapi.camino.network/{{x.companyLogoLight.data.attributes.url}}" alt="{{x.companyName}}">
                     <div class="text-gray-600 hidden">{{x.companyName}}</div>
                 </a>
             {% endif %}
