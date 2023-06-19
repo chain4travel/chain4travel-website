@@ -124,7 +124,7 @@
                 {% for y in partners.data | sort(attribute='attributes.companyName') %}
                 {% set x = y.attributes %}
                 {% if x.companyLogoLight.data.attributes.url %}
-                <div class="slide" style="height: 64px;">
+                <div class="slide p-4 mb-6" style="height: 48px;">
                     <a class="flex items-center justify-center h-full" href="{{x.companyWebsite}}" target="_blank" rel="noopener noreferrer">
                         {% set logoPath = "https://api.strapi.camino.network/" + x.companyLogoLight.data.attributes.url %}
                         {% set logoAlt = x.companyName + " Logo" %}
