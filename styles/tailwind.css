@@ -63,7 +63,7 @@ html {
 .btn-white-outline,
 .btn-black-ghost,
 .btn-white-ghost {
-  @apply transition-colors border-2 h-10 inline-flex items-center justify-center px-4 rounded-lg cursor-pointer whitespace-nowrap
+  @apply transition-colors border-2 h-10 inline-flex items-center text-sm justify-center px-4 rounded-lg cursor-pointer whitespace-nowrap
 }
 
 .btn-primary {

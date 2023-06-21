@@ -2,6 +2,7 @@
     /* Slider */
     .slick-slide {
         margin: 0px 20px;
+
     }
     .slick-slide img {
         width: 100%;
@@ -120,13 +121,18 @@
         </div>
         <div class="max-w-screen-xl px-8 mx-auto">
             <div class="customer-logos slider">
-                    {% for supporter in supporter %}
-                    <a class="slide" href="{{supporter.url}}" target="_blank" rel="noopener noreferrer">
-                        {% set logoPath = "src/img/supporter/" + supporter.slug + ".png" %}
-                        {% set logoAlt = supporter.name + " Logo" %}
-                        {% image logoPath, logoAlt, "opacity-50 hover:opacity-100" %}
+                {% for y in partners.data | sort(attribute='attributes.companyName') %}
+                {% set x = y.attributes %}
+                {% if x.companyLogoLight.data.attributes.url %}
+                <div class="slide">
+                    <a class="flex items-center justify-center h-16 px-4" href="{{x.companyWebsite}}" target="_blank" rel="noopener noreferrer">
+                        {% set logoPath = "https://api.strapi.camino.network/" + x.companyLogoLight.data.attributes.url %}
+                        {% set logoAlt = x.companyName + " Logo" %}
+                        {% image logoPath, logoAlt, "opacity-50 hover:opacity-100 w-full" %}
                     </a>
-                    {% endfor %}
+                </div>
+                {% endif %}
+                {% endfor %}
             </div>
         </div>
     </div>

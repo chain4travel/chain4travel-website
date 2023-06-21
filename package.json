@@ -25,6 +25,7 @@
     "tailwindcss": "^3.3.1"
   },
   "dependencies": {
-    "@11ty/eleventy-cache-assets": "^2.3.0"
+    "@11ty/eleventy-cache-assets": "^2.3.0",
+    "axios": "^1.4.0"
   }
 }
