@@ -1,8 +1,8 @@
 #mc-embedded-subscribe-form {
     margin: 0 !important;
   }
-  
-  #mc_embed_signup .mc-field-group {
+
+  #mc_embed_signup .mc-field-group, {
     @apply w-full pb-2 !important;
   }
   
