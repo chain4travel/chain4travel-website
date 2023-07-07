@@ -26,8 +26,7 @@ placement: supporters
         {% for y in partners.data | sort(attribute='attributes.companyName') %}
         {% set x = y.attributes %}
         {% if x.companyLogoLight.data.attributes.url %}
-
-        {% if x.companyName == "Chain4Travel" %}
+        {% if x.companyName == "Chain4Travel" or x.companyName == "Camino Network Foundation" %}
         {% else %}
         <a href="{{x.companyWebsite}}" class="bg-gray-900 transition-colors group inline-flex flex-col items-center justify-center p-3 w-1/4 xl:w-[10%]" rel="noopener noreferrer" target="_blank">
             <img class="w-full opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all max-w-[180px] h-12 object-contain" src="https://api.strapi.camino.network/{{x.companyLogoLight.data.attributes.url}}" alt="{{x.companyName}}">
@@ -58,7 +57,7 @@ placement: supporters
             </div>
         </div>
     </div>
-    {% image "src/img/testimonial-bg.jpg", "Shema showing connections of web2", "absolute w-full h-full z-0 inset-0 object-cover opacity-30" %}
+    {% image "src/img/testimonial-bg.jpg", "Shema showing connections of web2", "", "absolute w-full h-full z-0 inset-0 object-cover opacity-30" %}
 </div>
 <!-- Testimonial section ends -->
 
@@ -77,7 +76,7 @@ placement: supporters
             </p>
         </div>
         <div class="md:col-start-8 col-span-12 md:col-span-5 order-first md:order-last rounded-lg overflow-hidden h-64 md:h-[460px]">
-            {% image "src/img/circle_sun_rays_in_the_circle_road_travel_futuristic_future.jpg", "Circle sun rays in the circle road travel futuristic future", "w-full h-full object-cover" %}
+            {% image "src/img/circle_sun_rays_in_the_circle_road_travel_futuristic_future.jpg", "Circle sun rays in the circle road travel futuristic future", "", "w-full h-full object-cover" %}
         </div>
     </div>
 </div>

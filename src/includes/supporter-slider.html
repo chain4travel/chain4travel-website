@@ -1,8 +1,7 @@
 <style>
     /* Slider */
     .slick-slide {
-        margin: 0px 20px;
-
+        margin: 0;
     }
     .slick-slide img {
         width: 100%;
@@ -111,26 +110,26 @@
     }
     </style>
     
-    <script src="js/jquery.js"></script>
-    <script src="js/slick.js"></script>
-    <script src="js/bootstrap"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     
-    <div class="py-12 md:py-24 bg-gray-900 text-white">
+    <div class="py-12 md:py-24 text-center bg-gray-900 text-white">
         <div class="text-2xl xl:text-5xl font-black text-center mb-12">
-            140+ supporting companies
+            Trusted by 140+ industry leaders
         </div>
-        <div class="max-w-screen-xl px-8 mx-auto">
+        <div class="max-w-screen-xl px-8 md:px-4 mx-auto my-3 md:my-6">
             <div class="customer-logos slider">
                 {% for y in partners.data | sort(attribute='attributes.companyName') %}
                 {% set x = y.attributes %}
                 {% if x.companyLogoLight.data.attributes.url %}
-                {% if x.companyName == "Chain4Travel" %}
+                {% if x.companyName == "Chain4Travel" or x.companyName == "Camino Network Foundation" %}
                 {% else %}
                 <div class="slide">
                     <a class="flex items-center justify-center h-16 px-4" href="{{x.companyWebsite}}" target="_blank" rel="noopener noreferrer">
                         {% set logoPath = "https://api.strapi.camino.network/" + x.companyLogoLight.data.attributes.url %}
                         {% set logoAlt = x.companyName + " Logo" %}
-                        {% image logoPath, logoAlt, "opacity-50 hover:opacity-100 w-full" %}
+                        {% image logoPath, logoAlt, "opacity-50 hover:opacity-100 w-full h-full p-2", "object-contain w-full h-full" %}
                     </a>
                 </div>
                 {% endif %}

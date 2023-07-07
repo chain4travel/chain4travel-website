@@ -24,7 +24,7 @@ module.exports = function (eleventyConfig) {
     return now
   })
   
-  eleventyConfig.addShortcode("image", async function(src, alt, imgClass, sizes = "100vw") {
+  eleventyConfig.addShortcode("image", async function(src, alt, pictureClass, imgClass, sizes = "100vw") {
 		if(alt === undefined) {
 			// You bet we throw an error on missing alt (alt="" works okay)
 			throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`);
@@ -39,7 +39,7 @@ module.exports = function (eleventyConfig) {
 		let lowsrc = metadata.png[0];
 		let highsrc = metadata.png[metadata.png.length - 1];
 
-		return `<picture>
+		return `<picture class="${pictureClass}">
 			${Object.values(metadata).map(imageFormat => {
 				return `  <source type="${imageFormat[0].sourceType}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
 			}).join("\n")}
@@ -47,7 +47,7 @@ module.exports = function (eleventyConfig) {
 					src="${lowsrc.url}"
 					width="${highsrc.width}"
 					height="${highsrc.height}"
-          class="${imgClass} object-cover"
+          class="${imgClass}"
           style="font-size: 0px"
 					alt="${alt}"
 					loading="lazy"
