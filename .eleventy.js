@@ -20,6 +20,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('robots.txt')
   eleventyConfig.addPassthroughCopy('site.webmanifest')
 
+  eleventyConfig.addPassthroughCopy({ 'src/Chain4Travel-Logo-Kit.zip': './Chain4Travel-Logo-Kit.zip' })
+
   eleventyConfig.addShortcode('version', function () {
     return now
   })
