@@ -56,6 +56,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.btn {
+  @apply transition-colors h-10 inline-flex items-center text-sm justify-center px-4 rounded-lg cursor-pointer whitespace-nowrap;
+}
+
 .btn-primary,
 .btn-white,
 .btn-black,
