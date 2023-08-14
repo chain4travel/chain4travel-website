@@ -1,0 +1,9 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    path { fill: black; }
+    @media (prefers-color-scheme: dark) {
+      path { fill: white; }
+    }
+  </style>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 55L30 4.99999H35H42.5H110V15H36.5L18.5 45H26L41 20H45H52.5H100H110V30L110 35V45H100H58.75L52.5 55H40L52 35H55H65H100V30H46.7857L32.5 55L30 55L20 55H12.5L9.99998 55L0 55ZM0 65L30 115H35H42.5L100 115L110 115V105L110 100V90L100 90L46.7857 90L38.2143 75H46L52 85H55H65H110V75H58.75L52.5 65H40L32.5 65H20L41 100H45H52.5H100V105H36.5L12.5 65H0Z" fill="currentColor"/>
+</svg>
