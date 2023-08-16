@@ -66,7 +66,12 @@
     <section class="py-16 md:py-20 bg-gray-900 text-white">
         <div class="max-w-screen-lg px-8 md:px-4 mx-auto flex flex-col items-center relative z-10 text-center">
             <div class="text-secondary uppercase text-sm font-bold tracking-widest text-center mb-4 lg:mb-8">
-                Blog article - February 23, 2023
+                Blog article - 
+                {% for x in blogposts %}
+                {% if x.title == title %}
+                    {{x.date}}
+                {% endif %}
+                {% endfor %}
             </div>
             <h1 class="lg:text-6xl text-3xl mb-8 font-black text-white">
                 {{title}}
