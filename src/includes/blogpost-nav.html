@@ -5,18 +5,21 @@
             More blog posts
         </div>
         <div class="grid grid-cols-12 gap-6 mt-8">
-            {% for x in blogposts %}
+            
+            {# TODO: map this list without the current blogpost #}
+            {% for x in blogposts | reverse %}
             {% if loop.index0 < 3 %}
-            <a href="{{x.link}}" class="
-                {% if title === x.title %} hidden {% endif %} col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
-                <img class="brightness-100 group-hover:brightness-125" src="{{x.coverImage}}" alt="">
+            <a href="{{ x.link }}" class="col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
+                <img class="brightness-100 group-hover:brightness-125" src="{{ x.coverImage }}" alt="">
                 <div class="p-4 md:p-6">
-                    <h2 class="font-black text-2xl md:text-3xl mb-4">{{x.title}}</h2>
-                    <time class="text-gray-400">{{x.date}}</time>
+                    <h2 class="font-black text-2xl md:text-3xl mb-4">{{ x.title }}</h2>
+                    <time class="text-gray-400">{{ x.date }}</time>
                 </div>
             </a>
             {% endif %}
             {% endfor %}
+            
+            
         </div>
         <div class="flex justify-center mt-8">
             <a href="/blog" class="btn-primary">All blogposts</a>
