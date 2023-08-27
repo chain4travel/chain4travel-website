@@ -8,7 +8,7 @@
             {% for news in newsarticles.data | sort(attribute='attributes.date') | reverse %}
             {% set x = news.attributes %}
             {% if (loop.index <= 3) %}
-            <a href="#" class="col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
+            <a href="{{x.linkToArticle}}" target="_blank" rel="noopener noreferrer" class="col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
                 <img class="brightness-100 group-hover:brightness-125 w-full h-40 md:h-60 bg-gray-700 object-cover" src="https://api.strapi.camino.network/{{x.image.data.attributes.url}}" alt="">
                 <div class="p-4 md:p-6">
                     <h2 class="font-black text-xl mb-4 line-clamp-2">{{x.title}}</h2>
