@@ -35,6 +35,8 @@
     <meta name="twitter:title" content="{{title}} - Chain4Travel">
     <meta name="twitter:description" content="{{description}}">
     <meta name="twitter:image" content="{% if socialImage %}https://www.chain4travel.com/img/{{socialImage}} {% else %} https://www.chain4travel.com/img/meta/social.png {% endif %}">
+
+    {% if noindex %}<meta name="robots" content="noindex">{% endif %}
     
 </head>
 <body class="bg-white text-gray-900">
