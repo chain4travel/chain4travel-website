@@ -26,7 +26,38 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
         <div class="text-center relative z-10">
             <img class="w-40 mx-auto mb-4" src="/img/unchained-logo-2023.svg" alt="">
             <h1 class="text-4xl md:text-6xl font-black tracking-tight my-4">
-                We are returning to Mallorca
+                We are returning to Mallorca <br>
+                <div id="demo" class="font-mono text-2xl tracking-normal font-bold mt-2 h-8"></div>
+                <script>
+                // Set the date we're counting down to
+                var countDownDate = new Date("Oct 9, 2023 19:30:00").getTime();
+
+                // Update the count down every 1 second
+                var x = setInterval(function() {
+
+                // Get today's date and time
+                var now = new Date().getTime();
+                    
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+                    
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    
+                // Output the result in an element with id="demo"
+                document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+                    
+                // If the count down is over, write some text 
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+                }, 1000);
+                </script>
             </h1>
             <div class="flex items-center font-semibold justify-center rounded-lg mb-4">
                 <div class="flex items-center py-3 px-2 md:px-4 text-xs md:text-base">

@@ -6,6 +6,40 @@ permalink: /unchained2023/
 noindex: true
 ---
 
+<div class="bg-gradient-to-r from-primary to-primaryDark text-center text-gray-900 py-4">
+    <div id="demo" class="font-mono text-2xl tracking-normal font-bold h-8"></div>
+    <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Oct 9, 2023 19:30:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+        
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+        
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+        
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+    }, 1000);
+    </script>
+</div>
+
 <!-- Hero starts -->
 <div class="py-16 md:h-[70vh] flex items-center justify-center bg-gray-900 text-white relative overflow-hidden">
     <div class="max-w-screen-md px-8 mx-auto text-center relative z-10">
@@ -44,26 +78,7 @@ noindex: true
         </a>
         <a href="/supporter" class="col-span-12 md:col-span-4 text-center group">
             <div class="text-3xl md:text-5xl font-black text-secondary mb-2">Global</div>
-            <div class="uppercase font-black tracking-wider text-sm md:text-base">International audience</div>
-        </a>
-    </div>
-</div>
-<!-- Stats ends -->
-
-<!-- Stats starts -->
-<div class="pb-8 md:pb-16 bg-gray-900 text-white">
-    <div class="max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-6">
-        <a href="/team" class="col-span-12 md:col-span-4 text-center group">
-            <div class="text-3xl md:text-5xl font-black text-secondary mb-2">Exclusive</div>
-            <div class="uppercase font-black tracking-wider text-sm md:text-base">Invite only</div>
-        </a>
-        <a href="/usecases" class="col-span-12 md:col-span-4 text-center group">
-            <div class="text-3xl md:text-5xl font-black text-secondary mb-2">Varied</div>
-            <div class="uppercase font-black tracking-wider text-sm md:text-base">Multiple locations</div>
-        </a>
-        <a href="/supporter" class="col-span-12 md:col-span-4 text-center group">
-            <div class="text-3xl md:text-5xl font-black text-secondary mb-2">Connect</div>
-            <div class="uppercase font-black tracking-wider text-sm md:text-base">Exclusive networking</div>
+            <div class="uppercase font-black tracking-wider text-sm md:text-base">Audience</div>
         </a>
     </div>
 </div>
