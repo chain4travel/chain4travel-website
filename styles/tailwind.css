@@ -172,3 +172,29 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   background-color: #333 !important;
   color: #fff !important;
 }
+
+table {
+  @apply w-full
+}
+
+table tr {
+  @apply border-b border-gray-700;
+}
+
+table tr td,
+table tr th {
+  @apply py-2 px-4;
+}
+
+table tr.small td,
+table tr.small th {
+  @apply py-2 px-4;
+}
+
+.timetable-cell {
+  @apply whitespace-nowrap font-mono text-sm align-top;
+}
+
+.timetable-cell-small {
+  @apply whitespace-nowrap font-mono text-sm w-24;
+}
