@@ -1,15 +1,35 @@
----
-layout: default
-title: Travel Un'chained Cocktail Bar
-description: Enjoy the Involatus Cocktail experience. Cheers to unforgettable moments!
-noindex: true
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Un'chained Cocktail Bar</title>
+    <meta name="description" content="Enjoy the Involatus Cocktail experience. Cheers to unforgettable moments!">
+
+    <meta charset="UTF-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css?v={% version %}"/>
+    <script src="/js/alpine.js?v={% version %}" defer></script>
+</head>
+<body>
+
+<div class="py-12 bg-gray-900">
+    <div class="max-w-screen-xl px-8 mx-auto flex justify-center items-center gap-8">
+        <img class="w-auto h-16 md:h-24 xl:h-32" src="/img/involatus-logo.svg" alt="">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.05078 0.391296L15.0708 14.4114M29.0909 28.4314L15.0708 14.4114M15.0708 14.4114L29.0909 0.391296M15.0708 14.4114L1.05078 28.4314" stroke="white"/>
+            </svg>            
+        <img class="w-auto h-12 md:h-16 xl:h-24" src="/img/travel-unchained-2023-logo.svg" alt="">
+    </div>
+</div>
 
 <!-- Cocktail menu starts -->
-<div class="py-16 md:py-32">
+<div class="py-16 md:py-24">
     <div class="max-w-screen-xl px-8 mx-auto">
         <div class="text-2xl xl:text-5xl font-black text-center">
-            Cocktail Bar Menu
+            Cocktail Bar <span class="text-primary">Menu</span>
         </div>
         <div class="grid grid-cols-12 gap-6 mt-8">
             <div class="col-span-12 md:col-span-4 bg-gray-100 rounded-lg overflow-hidden">
@@ -37,3 +57,67 @@ noindex: true
     </div>
 </div>
 <!-- Cocktail menu ends -->
+
+<section class="bg-gradient-to-br from-gray-800 to-gray-900 text-white relative overflow-hidden py-16 md:py-32">
+    <div class="max-w-screen-xl px-8 mx-auto relative z-10">
+        <div class="lg:flex items-center">
+            <div class="lg:w-1/2 lg:pr-24">
+                <div class="uppercase tracking-wide mb-4">
+                    Sponsored by
+                </div>
+                <h2 id="contact" class="md:text-5xl text-2xl font-black text-white" id="team">
+                    Involatus Carrier Consult
+                </h2>
+                <p class="mt-8 text-gray-300">
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </p>
+            </div>
+            <div class="lg:w-1/2 relative mt-12 lg:mt-0">
+            <form name="c4t-contact" method="POST" action="/contact-success" data-netlify="true" netlify-honeypot="bot-field" class="relative bg-gray-900 z-50 block mx-auto lg:border border-white lg:p-8 rounded-lg">
+                <p class="hidden">
+                <label>
+                    Don't fill this out if you're human: <input name="bot-field" />
+                </label>
+                </p>
+                <p class="">
+                <label class="">Your Name:
+                    <input required placeholder="Your name ..." type="text" name="name" class="bg-gray-800 border border-gray-700 rounded block w-full mt-1 focus:ring-primary focus:border-primary text-white" />
+                </label>
+                </p>
+                <p class="mt-4">
+                <label class="">Your Email:
+                    <input required placeholder="Your email address ..." type="email" name="email" class="bg-gray-800 border border-gray-700 rounded block w-full mt-1 focus:ring-primary focus:border-primary text-white" />
+                </label>
+                </p>
+                <p class="mt-4">
+                <label class="">Message:
+                    <textarea required placeholder="Your question ..." name="message" class="resize-none h-24 bg-gray-800 border border-gray-700 rounded block w-full mt-1 focus:ring-primary focus:border-primary text-white"></textarea>
+                </label>
+                </p>
+                <p class="mt-4">
+                <div class="flex text-base">
+                    <input 
+                        required 
+                        type="checkbox" 
+                        name="agreement" 
+                        id="agreement" 
+                        class="mt-2 rounded w-6 h-6 bg-dark border-gray-700 checked:bg-primary checked:hover:bg-primary checked:focus:bg-primary focus:border-primary hover:border-primary cursor-pointer"
+                    >
+                    <label for="agreement" class="ml-4 text-gray-400">I agree to the <a class="underline" href="/data-privacy">privacy policy</a> and I consent to being contacted by Chain4Travel via email. I agree to the storage of my transmitted data for the required period of time.</label>
+                </div>
+                </p>
+                <p>
+                    <button class="w-full mt-8 btn-primary" type="submit">Send</button>
+                </p>
+            </form>
+            <div 
+                class="hidden lg:block z-0 w-[48rem] 2xl:w-[48rem] aspect-square absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-contain bg-center bg-no-repeat"
+                style="background-image: url(../img/globe-lines.svg);"
+            ></div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+</body>
+</html>
