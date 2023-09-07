@@ -16,6 +16,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/fonts')
   eleventyConfig.addPassthroughCopy('src/js')
   eleventyConfig.addPassthroughCopy('images')
+  eleventyConfig.addPassthroughCopy('src/video/unchained-aftermovie-header.mp4')
   
   eleventyConfig.addPassthroughCopy('robots.txt')
   eleventyConfig.addPassthroughCopy('site.webmanifest')
