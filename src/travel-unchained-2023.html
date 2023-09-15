@@ -77,6 +77,7 @@ noindex: true
                     <img class="mx-auto w-24 md:w-32 aspect-square rounded-full" src="{{speaker.image}}" alt="">
                     <div class="font-black text-lg md:text-2xl mt-4">{{speaker.name}}</div>
                     <div class="text-gray-700">{{speaker.position}}</div>
+                    {% if speaker.position2 %}<div class="text-gray-700">{{speaker.position2}}</div>{% endif %}
                     <a class="p-2 text-sm text-gray-500 hover:text-primary hover:underline whitespace-nowrap" href="{{ speaker.linkedin }}" target="_blank">
                         LinkedIn
                     </a>
@@ -101,7 +102,7 @@ noindex: true
                 <td colspan="2"><span class="text-white text-lg font-black block">Location: Hotel Florida Magaluf</span> </td>
             </tr>
             <tr class="small">
-                <td class="timetable-cell-small"> 19:30 </td>
+                <td class="timetable-cell-small"> 19:30 <span class="text-gray-900">- 00:00</span> </td>
                 <td class="md:flex items-center justify-between">
                     Welcome Night
                     <a href="https://emind.de/en/" target="_blank" rel="noopener noreferrer" class="p-2 bg-white rounded-lg md:ml-4 inline-flex text-center items-center uppercase text-[11px] text-gray-900">
@@ -170,7 +171,9 @@ noindex: true
         </div>
         
         <div class="text-white font-black text-2xl mb-4 mt-8">Conference Day Shuttle (Oct 10)</div>
-        <p class="mb-4 text-sm text-gray-400">On Tuesday, we will visit different places and take care of transfers to and from the locations. Please call the number below in case you have questions. </p>
+        <p class="mb-4 text-sm text-gray-400">
+            On Tuesday, we have an exciting itinerary that includes visits to several locations, and rest assured, we will handle all transportation logistics to and from these destinations. If you have any questions or need assistance, please don't hesitate to contact us at the number below.
+        </p>
         
         <table class="text-left align-top mb-8 border border-gray-700">
             <tr>
@@ -217,7 +220,7 @@ noindex: true
         If you have any questions or problems on site, please contact Vincent Usbeck.
     </p>
     
-    <a class="hover:underline text-base font-bold py-1 inline-flex items-center" href="tel:+34 661 250 504">
+    <a class="hover:underline text-base font-bold py-1 inline-flex items-center" href="tel:+49 173 362 2450">
         <svg class="w-6 h-6 mr-2" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" stroke-linecap="round" stroke-linejoin="round"></path>
         </svg>

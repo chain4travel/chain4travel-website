@@ -2,7 +2,7 @@
     {
         "name": "Ralf Usbeck",
         "slug": "Ralf",
-        "position": "CEO & Founder Chain4Travel",
+        "position": "CEO Chain4Travel",
         "linkedin": "https://www.linkedin.com/in/ralf-usbeck-650646235/",
         "image": "/img/ralfusbeck.png"
     },
@@ -15,7 +15,7 @@
     {
         "name": "Marc Riley",
         "slug": "Marc",
-        "position": "CTO DER Touristik",
+        "position": "CTO DER Touristik Online",
         "linkedin": "https://www.linkedin.com/in/marc-r-9438233/",
         "image": "https://media.licdn.com/dms/image/C4E03AQHwKK1FjJayog/profile-displayphoto-shrink_200_200/0/1663400245790?e=1700092800&v=beta&t=8Vo7CdRPR69o38Xz6K6U7VEKk-hTLW3Lz3dC2JqBf0U"
 
@@ -44,7 +44,8 @@
     {
         "name": "Thomas Stirnimann",
         "slug": "Thomas",
-        "position": "Council President Camino Network Foundation",
+        "position": "Council President",
+        "position2": "Camino Network Foundation",
         "linkedin": "https://www.linkedin.com/in/thomas-stirnimann-7759a9109/",
         "image": "/img/thomasstirnimann.png"
     },
@@ -56,7 +57,7 @@
         "image": "https://media.licdn.com/dms/image/C4E03AQGkzHzj_tp6AA/profile-displayphoto-shrink_200_200/0/1656348336191?e=1700092800&v=beta&t=UwE4-WI1jRoKylfjr5JicAILrubZ7dQqCoDjvZzi6uc"
     },
     {
-        "name": "Vicktoria Kilch",
+        "name": "Vicktoria Klich",
         "slug": "Vicktoria",
         "position": "Co-Founder W3 Fund",
         "linkedin": "https://www.linkedin.com/in/vicktoriaklich/?locale=en_US",
