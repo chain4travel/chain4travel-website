@@ -149,16 +149,22 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
   @apply transition-colors border-2 h-10 inline-flex items-center justify-center px-4 rounded-lg font-semibold bg-primary text-white border-primary m-0 cursor-pointer !important;
 }
 
-.termsfeed-com---nb-simple {
+#termsfeed-com---nb {
   max-width: 450px !important;
+  width: 100% !important;
+  position: fixed !important;
+  left: inherit !important;
+  bottom: 0;
+  right: 0;
+  @apply bg-gray-800
 }
 
-.termsfeed-com---nb .cc-nb-text {
-  font-size: 14px !important;
+#termsfeed-com---nb .cc-nb-text {
+  @apply text-xs text-gray-300 !important
 }
 
-.termsfeed-com---nb .cc-nb-main-container {
-  padding: 2rem !important;
+#termsfeed-com---nb .cc-nb-main-container {
+  padding: 1rem !important;
 }
 
 .termsfeed-com---palette-dark .cc-nb-okagree,
@@ -169,8 +175,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 
 .termsfeed-com---palette-dark .cc-nb-reject,
 .termsfeed-com---palette-dark .cc-nb-changep {
-  background-color: #333 !important;
-  color: #fff !important;
+  @apply bg-gray-700 text-white !important
 }
 
 table {
