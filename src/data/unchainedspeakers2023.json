@@ -7,6 +7,13 @@
         "image": "https://media.licdn.com/dms/image/C4E03AQGkzHzj_tp6AA/profile-displayphoto-shrink_200_200/0/1656348336191?e=1700092800&v=beta&t=UwE4-WI1jRoKylfjr5JicAILrubZ7dQqCoDjvZzi6uc"
     },
     {
+        "name": "Jens Bischof",
+        "slug": "Jens",
+        "position": "CEO & CCO Eurowings",
+        "linkedin": "https://www.linkedin.com/in/jensbischof/",
+        "image": "/img/jensbischof.png"
+    },
+    {
         "name": "Pablo Castillo",
         "slug": "Pablo",
         "position": "CTO Chain4Travel",
