@@ -4,7 +4,7 @@
         "slug": "Samuel",
         "position": "CEO Offsetdata",
         "linkedin": "https://www.linkedin.com/in/samuel-p-austin/",
-        "image": "https://media.licdn.com/dms/image/C4E03AQGkzHzj_tp6AA/profile-displayphoto-shrink_200_200/0/1656348336191?e=1700092800&v=beta&t=UwE4-WI1jRoKylfjr5JicAILrubZ7dQqCoDjvZzi6uc"
+        "image": "/img/samaustin.jpg"
     },
     {
         "name": "Jens Bischof",
@@ -31,21 +31,21 @@
         "slug": "Vicktoria",
         "position": "Co-Founder W3 Fund",
         "linkedin": "https://www.linkedin.com/in/vicktoriaklich/?locale=en_US",
-        "image": "https://media.licdn.com/dms/image/C4E03AQHsQbFH3hvtTw/profile-displayphoto-shrink_200_200/0/1660170517146?e=1700092800&v=beta&t=sFmJEIJJst1-LDCAE-jZdXYbiQ7fdsJnPgWMSNXEMwU"
+        "image": "/img/vicktoriaklich.jpg"
     },
     {
         "name": "Marc Riley",
         "slug": "Marc",
         "position": "CTO DER Touristik Online",
         "linkedin": "https://www.linkedin.com/in/marc-r-9438233/",
-        "image": "https://media.licdn.com/dms/image/C4E03AQHwKK1FjJayog/profile-displayphoto-shrink_200_200/0/1663400245790?e=1700092800&v=beta&t=8Vo7CdRPR69o38Xz6K6U7VEKk-hTLW3Lz3dC2JqBf0U"
+        "image": "/img/marcriley.jpg"
     },
     {
         "name": "Michael Ros",
         "slug": "Michael",
         "position": "CEO & Founder Sleap",
         "linkedin": "https://www.linkedin.com/in/Michael Ros/",
-        "image": "https://media.licdn.com/dms/image/C4E03AQEOUj_qk_CSAg/profile-displayphoto-shrink_200_200/0/1604662830920?e=1700092800&v=beta&t=eEaGLRxOspjiSrlVxTXkqxfoDeduYY3pfTMoI4iogYM"
+        "image": "/img/michealros.jpg"
     },
     {
         "name": "Manuel Saballus",
@@ -74,6 +74,6 @@
         "slug": "Ben",
         "position": "CMO Bitmex",
         "linkedin": "https://www.linkedin.com/in/benjaminusinger/",
-        "image": "https://media.licdn.com/dms/image/D5603AQFZUep0F6NtWg/profile-displayphoto-shrink_200_200/0/1674532901696?e=1700092800&v=beta&t=kpdzmeDoV7MQUa1ryPtngDD47KYhZp60-DppH8PTWUw"
+        "image": "/img/benusinger.jpg"
     }
 ]
