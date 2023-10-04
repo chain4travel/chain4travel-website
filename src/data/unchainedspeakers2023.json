@@ -27,6 +27,13 @@
         "image": "/img/robgroombridge.png"
     },
     {
+        "name": "Michael Hasler",
+        "slug": "Micheal",
+        "position": "CEO Juice",
+        "linkedin": "https://www.linkedin.com/in/michael-hasler-8816a060/",
+        "image": "/img/michaelhasler.png"
+    },
+    {
         "name": "Vicktoria Klich",
         "slug": "Vicktoria",
         "position": "Co-Founder w3.fund",
@@ -72,7 +79,7 @@
     {
         "name": "Ben Usinger",
         "slug": "Ben",
-        "position": "CMO Bitmex",
+        "position": "CMO BitMEX",
         "linkedin": "https://www.linkedin.com/in/benjaminusinger/",
         "image": "/img/benusinger.jpg"
     }
