@@ -85,7 +85,7 @@ socialImage: social-unchained-2023.png
     </div>
 </div>
 
-<section class="py-16 md:py-24 border-y border-gray-200 bg-gray-100">
+<section class="py-16 md:py-24 border-y border-gray-200">
     <div class="max-w-screen-xl px-8 mx-auto">
         <h2 class="text-2xl md:text-4xl lg:text-6xl mb-8 md:mb-16 font-black text-center">
             Talks 2023
@@ -104,20 +104,15 @@ socialImage: social-unchained-2023.png
     </div>  
 </section>
 
-<div class="py-16 md:py-24">
-    <div class="max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-6 items-center">
-        <div class="col-span-12 md:col-span-5 rounded-lg overflow-hidden">
-            {% image "src/img/social-unchained-2023.png", "Photorealistic round window on ship hyperrealistic view", "", "w-full h-full object-cover" %}
+<div class="py-16 md:py-24 bg-gray-100">
+    <div class="max-w-screen-lg p-8 bg-white shadow-lg mx-auto rounded-xl">
+        <div class="text-2xl xl:text-4xl font-black text-center">
+            Thanks to our sponsors and partners 
         </div>
-        <div class="md:col-start-7 col-span-12 md:col-span-6">
-            <div class="text-2xl xl:text-5xl font-black">
-                Thanks to our sponsors and partners 
-            </div>
-            <div class="flex items-center gap-6 mt-8">
-                {% image "src/img/unchained/logo-emind.png", "eMind Logo", "", "h-8 w-auto" %}
-                {% image "src/img/unchained/logo-universal.png", "eMind Logo", "", "h-8 w-auto" %}
-                <img class="h-8 w-auto" src="/img/involatus-logo-simple.svg" alt="">
-            </div>
+        <div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-10 mt-8 md:mt-12">
+            {% image "src/img/unchained/logo-emind.png", "eMind Logo", "flex-shrink-0", "h-12 w-auto" %}
+            <img class="flex-shrink-0 h-12 w-auto" src="/img/involatus-logo-simple.svg" alt="">
+            {% image "src/img/unchained/logo-universal.png", "eMind Logo", "flex-shrink-0", "h-10 w-auto" %}
         </div>
     </div>
 </div>
