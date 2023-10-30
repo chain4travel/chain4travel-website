@@ -50,15 +50,15 @@ socialImage: social-unchained-2023.png
                 Impressions 2023
             </h2>
             <div class="grid grid-cols-12 gap-3">
-                {% image "src/img/unchained/unchained-01.png", "ALT", "col-span-6 md:col-span-3", "h-full rounded-xl object-cover" %}
-                {% image "src/img/unchained/unchained-07.png", "ALT", "col-span-6 md:col-span-4", "h-full rounded-xl object-cover" %}
-                {% image "src/img/unchained/unchained-03.png", "ALT", "col-span-6 md:col-span-5", "h-full rounded-xl object-cover" %}
-                {% image "src/img/unchained/unchained-04.png", "ALT", "col-span-6 md:col-span-4", "h-full rounded-xl object-cover" %}
-                {% image "src/img/unchained/unchained-05.png", "ALT", "col-span-6 md:col-span-4", "h-full rounded-xl object-cover" %}
-                {% image "src/img/unchained/unchained-09.png", "ALT", "col-span-6 md:col-span-4 row-span-2", "h-full rounded-xl object-cover" %}
-                {% image "src/img/unchained/unchained-02.png", "ALT", "col-span-6 md:col-span-2", "h-full rounded-xl object-cover" %}
-                {% image "src/img/unchained/unchained-08.png", "ALT", "col-span-6 md:col-span-3", "h-full rounded-xl object-cover" %}
-                {% image "src/img/unchained/unchained-06.png", "ALT", "col-span-6 md:col-span-3", "h-full rounded-xl object-cover" %}
+                {% image "src/img/unchained/unchained-01.png", "ALT", "col-span-6 md:col-span-3", "h-full rounded-xl object-cover shadow-lg" %}
+                {% image "src/img/unchained/unchained-07.png", "ALT", "col-span-6 md:col-span-4", "h-full rounded-xl object-cover shadow-lg" %}
+                {% image "src/img/unchained/unchained-03.png", "ALT", "col-span-6 md:col-span-5", "h-full rounded-xl object-cover shadow-lg" %}
+                {% image "src/img/unchained/unchained-04.png", "ALT", "col-span-6 md:col-span-4", "h-full rounded-xl object-cover shadow-lg" %}
+                {% image "src/img/unchained/unchained-05.png", "ALT", "col-span-6 md:col-span-4", "h-full rounded-xl object-cover shadow-lg" %}
+                {% image "src/img/unchained/unchained-09.png", "ALT", "col-span-6 md:col-span-4 row-span-2", "h-full rounded-xl object-cover shadow-lg" %}
+                {% image "src/img/unchained/unchained-02.png", "ALT", "col-span-6 md:col-span-2", "h-full rounded-xl object-cover shadow-lg" %}
+                {% image "src/img/unchained/unchained-08.png", "ALT", "col-span-6 md:col-span-3", "h-full rounded-xl object-cover shadow-lg" %}
+                {% image "src/img/unchained/unchained-06.png", "ALT", "col-span-6 md:col-span-3", "h-full rounded-xl object-cover shadow-lg" %}
             </div>
         </div>
     </div>
@@ -84,6 +84,25 @@ socialImage: social-unchained-2023.png
         </div>
     </div>
 </div>
+
+<section class="py-16 md:py-24 border-y border-gray-200 bg-gray-100">
+    <div class="max-w-screen-xl px-8 mx-auto">
+        <h2 class="text-2xl md:text-4xl lg:text-6xl mb-8 md:mb-16 font-black text-center">
+            Talks 2023
+        </h2>
+        <div class="grid grid-cols-12 gap-6 md:gap-10">
+            {% for video in unchainedVideos2023 %}
+            <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                <iframe class="rounded-lg mb-4 aspect-video" width="100%" height="auto" src="https://www.youtube-nocookie.com/embed/{{video.url}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h2 class="text-xl lg:text-2xl mb-4 font-black line-clamp-2">{{video.title}}</h2>
+                <a class="text-primary hover: inline-flex items-center" href="https://www.youtube.com/watch?v={{video.url}}" target="_blank" rel="noopener noreferrer">
+                    Go to Video <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>  
+</section>
 
 <div class="py-16 md:py-24">
     <div class="max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-6 items-center">
