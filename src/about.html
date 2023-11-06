@@ -58,7 +58,7 @@ placement: about
 </div>
 <!-- Post-Hero Block ends -->
 
-<div class="pt-16 md:pt-32" x-data="{ LitePaperModal: false }">
+<div class="pt-16 md:pt-32">
     <div class="max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-6 items-center">
         <div class="col-span-12 md:col-span-5 rounded-lg overflow-hidden h-64 md:h-[460px]">
             {% image "src/img/world_natural_super_realistic.jpg", "World natural super realistic", "", "w-full h-full object-cover" %}
@@ -70,8 +70,7 @@ placement: about
             <p class="my-2 md:my-6">
                 Back in 2021, we initiated Camino, the web3 travel ecosystem. We built the features and entire infrastructure. However, we don't own the network, and all IP rights are given to the Camino Network Foundation. In the future, we will continue to serve as specialists in web3 technology and experts in the travel industry, bringing valuable insights and development efforts to Camino's advancement.
             </p>
-            <span @click="LitePaperModal = true" class="btn-primary">Request litepaper</span>
-            {% include "litepaper-modal.html" %}
+            <a href="https://camino.network/static/docs/Chain4Travel_Litepaper_June.pdf" target="_blank" rel="noopener noreferrer" class="btn-primary">Open litepaper</a>
         </div>
     </div>
 </div>
