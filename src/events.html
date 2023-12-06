@@ -101,12 +101,12 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
                         <p class="text-gray-600 text-sm mb-4">
                             {{event.description}}
                         </p>
-                        <div class="md:flex items-center justify-start gap-3 -mx-1 mt-auto">
+                        <div class="md:flex flex-wrap items-center justify-start gap-x-2 gap-y-0 -mx-1 mt-auto">
                             {% set teamData = event.team_members.data %}
                             {% for a in teamData %}
                             {% set teamMember = a.attributes %}
-                                <a class="flex items-center p-1 rounded-lg text-sm font-bold hover:bg-gray-200" href="{{teamMember.linkedInLink}}" target="_blank" rel="noopener noreferrer">
-                                    <img class="mr-1 rounded-lg w-8 h-8" src="../img/{{teamMember.name | slugify({separator: ''})}}.png" alt="{{teamMember.name}} - Photo">
+                                <a class="flex items-center p-1 rounded-lg text-xs font-bold hover:bg-gray-200" href="{{teamMember.linkedInLink}}" target="_blank" rel="noopener noreferrer">
+                                    <img class="mr-1 rounded-full border border-gray-200 w-6 h-6" src="../img/{{teamMember.name | slugify({separator: ''})}}.png" alt="{{teamMember.name}} - Photo">
                                     {{teamMember.name}}
                                 </a>
                             {% endfor %}
