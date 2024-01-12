@@ -1,5 +1,12 @@
 [
     {
+        "title": "Camino 101: What you should know about Camino Network",
+        "excerpt": "So far, we have been talking a lot about the basics of blockchains and web3. Today we want to share more insights about Camino, the web3 ecosystem for the travel industry.",
+        "date": "January 5, 2024",
+        "coverImage": "/img/camino101-article.png",
+        "link": "/camino-101-what-you-should-know-about-camino-network"
+    },
+    {
         "title": "Smart contracts: The key to trust and efficiency in travel",
         "excerpt": "As the travel industry enters the new digital era, the need for understanding smart contracts and their legal implications is growing. This article provides a clear overview and highlights the potential of smart contracts in travel.",
         "date": "October 26, 2023",
@@ -54,13 +61,6 @@
         "date": "February 23, 2023",
         "coverImage": "/img/level1-article.png",
         "link": "/a-layer-1-blockchain-for-the-travel-industry-why-not"
-    },
-    {
-        "title": "Camino 101: What you should know about Camino Network",
-        "excerpt": "So far, we have been talking a lot about the basics of blockchains and web3. Today we want to share more insights about Camino, the web3 ecosystem for the travel industry.",
-        "date": "January 20, 2023",
-        "coverImage": "/img/camino101-article.png",
-        "link": "/camino-101-what-you-should-know-about-camino-network"
     },
     {
         "title": "Decentralization in Travel - Are we in the midst of a paradigm shift?",
