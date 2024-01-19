@@ -175,10 +175,27 @@ authorname: Pablo Castillo
         <iframe src="https://www.youtube-nocookie.com/embed/T64Ho0ePI64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
+    <p>
+        <a href="https://camino.network/static/docs/Camino_Network_Whitepaper.pdf#view=fit" target="_blank" rel="noopener noreferrer" class="btn-black no-underline">Camino Network Whitepaper</a>
+    </p>
+
     <h2>Get your business on digital rails </h2>
 
     <p>For forward-thinking companies, Camino Network is the community to belong. It is more than just technology. It's a space where learning, building, and innovating together with like-minded people to shape the future of the travel industry.</p>
     
     <p>If you know such people working in travel, please share this article with them. It is a great way to onboard more curious people to the web3 travel ecosystem. Subscribe to our newsletter (with over 1000 readers) — a perfect way to stay updated on the latest news from the web3 space presented through the lens of travel.</p>
+
+    <p x-data="{ newsletterModal: false }">
+        <span @click="newsletterModal = true" class="btn-primary">Subscribe to our newsletter</span>
+        <!-- Newsletter modal -->
+        <div x-cloak x-show="newsletterModal" class="bg-gray-900/75 mx-auto fixed top-0 left-0 w-full h-full flex items-center overflow-y-auto z-50">
+            <div class="w-full mx-auto p-4 rounded overflow-y-auto flex flex-col items-center justify-center">
+                <div class="bg-white w-full max-w-screen-sm rounded-2xl p-8 shadow-lg text-gray-900" @click.away="newsletterModal = false">
+                    <div class="text-xl font-black mb-4">Subscribe to our newsletter</div>
+                    {% include "newsletter-form.html" %}
+                </div>
+            </div>
+        </div>
+    </p>
 
 </div>
