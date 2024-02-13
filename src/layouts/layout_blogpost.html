@@ -5,7 +5,7 @@
     <title>{{ title }} - Chain4Travel</title>
     <meta name="description" content="{{ description }}">
 
-    <link rel=“canonical” href=“https://www.chain4travel.com{{page.url}}” />
+    <link rel="canonical" href="https://www.chain4travel.com{{page.url}}" />
 
     <meta charset="UTF-8"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
@@ -58,13 +58,13 @@
     <!-- end of Google Analytics-->
     
 </head>
-<body class="bg-white text-gray-900">
+<body class="text-gray-900 bg-white">
 
     {% include "header.html" %}
 
-    <section class="py-16 md:py-20 bg-gray-900 text-white">
-        <div class="max-w-screen-lg px-8 md:px-4 mx-auto flex flex-col items-center relative z-10 text-center">
-            <div class="text-secondary uppercase text-sm font-bold tracking-widest text-center mb-4 lg:mb-8">
+    <section class="py-16 text-white bg-gray-900 md:py-20">
+        <div class="relative z-10 flex flex-col items-center max-w-screen-lg px-8 mx-auto text-center md:px-4">
+            <div class="mb-4 text-sm font-bold tracking-widest text-center uppercase text-secondary lg:mb-8">
                 Blog article - 
                 {% for x in blogposts %}
                 {% if x.title == title %}
@@ -72,25 +72,25 @@
                 {% endif %}
                 {% endfor %}
             </div>
-            <h1 class="lg:text-6xl text-3xl mb-8 font-black text-white">
+            <h1 class="mb-8 text-3xl font-black text-white lg:text-6xl">
                 {{title}}
             </h1>
-            <p class="text-gray-200 text-lg md:pr-8">
+            <p class="text-lg text-gray-200 md:pr-8">
                 {{description}}
             </p>
         </div>
     </section>
 
     <section class="bg-gray-900 border-t border-gray-700">
-        <div class="max-w-screen-lg py-4 px-8 md:px-4 mx-auto md:flex items-center justify-between">
+        <div class="items-center justify-between max-w-screen-lg px-8 py-4 mx-auto md:px-4 md:flex">
             <div class="flex items-center justify-center">
-                <img alt="testimonial-photo" src="../img/{{authorslug}}.png" class="border border-gray-700 w-8 md:w-12 h-8 md:h-12 rounded-full flex-shrink-0 object-cover object-center">
-                <span class="pl-4 items-center text-left text-white/75">
+                <img alt="testimonial-photo" src="../img/{{authorslug}}.png" class="flex-shrink-0 object-cover object-center w-8 h-8 border border-gray-700 rounded-full md:w-12 md:h-12">
+                <span class="items-center pl-4 text-left text-white/75">
                     By {{authorname}}
                 </span>
             </div>
             <div class="flex items-center justify-center mt-2 md:mt-0">
-                <span class="mr-2 text-sm text-gray-400 hidden md:inline-block">Share:</span>
+                <span class="hidden mr-2 text-sm text-gray-400 md:inline-block">Share:</span>
                 <a
                     target="_blank"
                     href="https://twitter.com/share?text=Check out this new blog post by Chain4Travel&url=https://www.chain4travel.com{{permalink}}"
@@ -121,9 +121,9 @@
     {{ content | safe }}
 
     <section class="bg-gray-900 border-b border-gray-700">
-        <div class="max-w-screen-lg py-4 px-8 md:px-4 mx-auto md:flex items-center justify-center">
+        <div class="items-center justify-center max-w-screen-lg px-8 py-4 mx-auto md:px-4 md:flex">
             <div class="flex items-center justify-center mt-2 md:mt-0">
-                <span class="mr-2 text-sm text-gray-400 hidden md:inline-block">Share:</span>
+                <span class="hidden mr-2 text-sm text-gray-400 md:inline-block">Share:</span>
                 <a
                     target="_blank"
                     href="https://twitter.com/share?text=Check out this new blog post by Chain4Travel&url=https://www.chain4travel.com{{permalink}}"
