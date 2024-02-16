@@ -12,7 +12,11 @@ module.exports = {
             animation: {
                 'spin-slow': 'spin 24s linear infinite',
                 'spin-slower': 'spin 48s linear reverse infinite',
-            }
+            },
+			backgroundImage: {
+				'decode-gradient-hackerz-b': 'radial-gradient(100% 100% at 50% 125%, rgba(0, 243, 177, 0.80) 0%, rgba(0, 243, 177, 0.00) 60%);',
+				'gradient-unchained': 'radial-gradient(100% 100% at 50% 125%, rgba(250, 100, 0, 0.80) 0%, rgba(250, 100, 0,  0.00) 60%);',
+			},
         },
         fontFamily: {
             'sans': ['Inter, system-ui, sans-serif'],
