@@ -5,4 +5,4 @@ Disallow: /pre-sale
 User-agent: Googlebot-Image
 Disallow: /
 
-Sitemap: https://www.chain4travel.com/sitemap.xml
+Sitemap: https://chain4travel.com/sitemap.xml
