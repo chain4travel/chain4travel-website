@@ -12,6 +12,7 @@ module.exports = function (eleventyConfig) {
     './node_modules/alpinejs/dist/cdn.min.js': './js/alpine.js',
   })
 
+  eleventyConfig.addPassthroughCopy({ 'src/img/meta': '/' })
   eleventyConfig.addPassthroughCopy('src/img')
   eleventyConfig.addPassthroughCopy('src/fonts')
   eleventyConfig.addPassthroughCopy('src/js')
