@@ -15,25 +15,27 @@
 
     <!-- Theme color -->
     <meta name="theme-color" content="#171717" />
-    <link rel="icon" href="/img/meta/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/meta/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/meta/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/meta/favicon-16x16.png">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://chain4travel.com/">
+    <meta property="og:url" content="https://chain4travel.com{{page.url}}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{title}} - Chain4Travel">
     <meta property="og:description" content="{{description}}">
-    <meta property="og:image" content="{% if socialImage %}https://chain4travel.com/img/{{socialImage}} {% else %} https://chain4travel.com/img/meta/social.png {% endif %}">
+    <meta property="og:image" content="{% if socialImage %}https://chain4travel.com/img/{{socialImage}} {% else %} https://chain4travel.com/social.png {% endif %}">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@Chain4Travel" />
+    <meta property="twitter:url" content="https://chain4travel.com{{page.url}}">
     <meta name="twitter:title" content="{{title}} - Chain4Travel">
     <meta name="twitter:description" content="{{description}}">
-    <meta name="twitter:image" content="{% if socialImage %}https://chain4travel.com/img/{{socialImage}} {% else %} https://chain4travel.com/img/meta/social.png {% endif %}">
+    <meta name="twitter:image" content="{% if socialImage %}https://chain4travel.com/img/{{socialImage}} {% else %} https://chain4travel.com/social.png {% endif %}">
 
     {% if noindex %}<meta name="robots" content="noindex">{% endif %}
     
