@@ -8,13 +8,13 @@ socialImage: social-unchained-2023.png
 ---
 
 <!-- Hero starts -->
-<div class="py-8 text-white bg-gray-900 pt-24 pb-32">
-    <div class="max-w-screen-md px-8 mx-auto text-center">
+<div class="py-8 text-white bg-gray-900 pt-24 pb-32 relative">
+    <div class="max-w-screen-md px-8 mx-auto text-center relative z-10">
         <img class="w-40 mx-auto mb-6" src="/img/unchained-logo-2024.svg" alt="">
         <h1 class="text-4xl font-black tracking-tight md:text-5xl lg:text-6xl">
             Save the Date <div class="text-primary">Travel Un'chained 2024</div> 
         </h1>
-        <div class="inline-flex items-center justify-center gap-4 mt-6 font-semibold px-3 py-2 border border-gray-700 rounded-lg">
+        <div class="inline-flex items-center justify-center gap-4 mt-6 font-semibold px-4 py-3 bg-gray-950/30 rounded-lg">
             <div class="flex items-center text-xs md:text-sm">
                 <svg class="w-4 mr-1 md:w-6" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M9 3a1 1 0 0 0-2 0v1H6a3 3 0 0 0-3 3v1h18V7a3 3 0 0 0-3-3h-1V3a1 1 0 1 0-2 0v1H9V3Z"/><path fill-rule="evenodd" d="M3 19v-9h18v9a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3Zm11-5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2Z"/></svg>
                 Sep 30 - Oct 2, 2024
@@ -31,25 +31,49 @@ socialImage: social-unchained-2023.png
             <a href="" class="btn-primary">
                 Learn more
             </a>
-            <a href="#impressions" class="ml-4 btn-white">Recap 2023</a>
+            <a href="/unchained2023" class="ml-4 btn-white">Recap 2023</a>
         </div>
     </div>
+    {% image "src/img/unchained/unchained-04.png", "Unchained speaker room", "", "opacity-40 absolute inset-0 w-full h-full object-cover" %}
 </div>
 <!-- Hero ends -->
 
-<div class="py-16 md:py-24">
+<div class="py-16 md:py-24 border-b-2 border-gray-200">
     <div class="max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-6 items-center">
-        <div class="col-span-12 md:col-span-5 rounded-lg overflow-hidden h-64 md:h-[460px]">
-            {% image "src/img/world_natural_super_realistic.jpg", "World natural super realistic", "", "w-full h-full object-cover" %}
+        <div class="col-span-12 md:col-span-5 rounded-lg overflow-hidden h-64 md:h-[320px]">
+            {% image "src/img/universal-hotel-promo.png", "Hotel from universal", "", "w-full h-full object-cover object-left-top" %}
         </div>
         <div class="md:col-start-7 col-span-12 md:col-span-6">
             <div class="text-2xl xl:text-5xl font-black">
-                Facilitating the web3 travel ecosystem
+                Hotel partner – Universal
             </div>
             <p class="my-2 md:my-6">
-                Back in 2021, we initiated Camino, the web3 travel ecosystem. We built the features and entire infrastructure. However, we don't own the network, and all IP rights are given to the Camino Network Foundation. In the future, we will continue to serve as specialists in web3 technology and experts in the travel industry, bringing valuable insights and development efforts to Camino's advancement.
+                Universal is once again the official hotel partner for Travel Un'chained! Join us at the stunning Hotel Florida Magaluf for an unforgettable experience.
             </p>
-            <a href="https://camino.network/static/docs/Camino_Network_Whitepaper.pdf#view=fit" target="_blank" rel="noopener noreferrer" class="btn-primary">Open Whitepaper</a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn-primary">Book your room</a>
         </div>
     </div>
 </div>
+
+
+<section class="py-12 md:py-24">
+    <div class="max-w-screen-lg px-4 mx-auto">
+        <h2 class="my-8 text-3xl font-black text-center lg:text-4xl">
+            The Travel Un'chained <span class="text-primary">2023 Impressions</span>
+        </h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube-nocookie.com/embed/dHOlxmgFnzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="grid grid-cols-12 gap-4 mt-4">
+            {% image "src/img/unchained/unchained-01.png", "ALT", "col-span-6 md:col-span-3", "h-full rounded-xl object-cover shadow-lg" %}
+            {% image "src/img/unchained/unchained-07.png", "ALT", "col-span-6 md:col-span-4", "h-full rounded-xl object-cover shadow-lg" %}
+            {% image "src/img/unchained/unchained-03.png", "ALT", "col-span-6 md:col-span-5", "h-full rounded-xl object-cover shadow-lg" %}
+            {% image "src/img/unchained/unchained-04.png", "ALT", "col-span-6 md:col-span-4", "h-full rounded-xl object-cover shadow-lg" %}
+            {% image "src/img/unchained/unchained-05.png", "ALT", "col-span-6 md:col-span-4", "h-full rounded-xl object-cover shadow-lg" %}
+            {% image "src/img/unchained/unchained-09.png", "ALT", "col-span-6 md:col-span-4 row-span-2", "h-full rounded-xl object-cover shadow-lg" %}
+            {% image "src/img/unchained/unchained-02.png", "ALT", "col-span-6 md:col-span-2", "h-full rounded-xl object-cover shadow-lg" %}
+            {% image "src/img/unchained/unchained-08.png", "ALT", "col-span-6 md:col-span-3", "h-full rounded-xl object-cover shadow-lg" %}
+            {% image "src/img/unchained/unchained-06.png", "ALT", "col-span-6 md:col-span-3", "h-full rounded-xl object-cover shadow-lg" %}
+        </div>
+    </div>
+</section>
