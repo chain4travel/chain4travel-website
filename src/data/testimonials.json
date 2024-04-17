@@ -120,13 +120,6 @@
         "company": "neusta tourism AI & Big Data"
     },
     {
-        "text": "Hahn Air is proud to contribute to empowering the travel industry to move to a technology that will bring transparency, security and efficiency. We are looking forward to exploring the many possibilities opened by blockchain technology by becoming a validator for the Camino Network and joining Chain4Travel.",
-        "person": "Mathieu Montmessin",
-        "slug": "mathieumontmessin",
-        "company": "EVP Research & Development / Hahn Air Lines GmbH",
-        "placement": "supporters"
-    },
-    {
         "text": "The deeper we have delved into Chain4Travel, the more convinced we have become that this project may change travel forever, redesigning the industry's backbone to meet the expectations of the next generations. The Chain4Travel vision, the team and the network are the necessary ingredients to implement operationally and economically scalable new business models for the industry.",
         "person": "Jan Valentin",
         "slug": "janvalentin",
@@ -148,7 +141,8 @@
         "text": "We will develop interesting and new possibilities for the business travel segment. The focus here is on-demand bundling. Furthermore, we will implement solutions that enable the trading of products within the business travel community.",
         "person": "Markus Orth",
         "slug": "markusorth",
-        "company": "CEO Lufthansa City Center"
+        "company": "CEO Lufthansa City Center",
+        "placement": "supporters"
     },
     {
         "text": "We at GIATA are excited to launch the first groundbreaking hotel and room type mapping solutions on Camino. It will unify the process and provide certified access to hotel data, such as descriptions, health and safety, covid information and facts. It will revolutionize the way to deal with hotel content.",
