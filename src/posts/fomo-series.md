@@ -1,12 +1,14 @@
 ---
 layout: layout_blogpost
-title: Fomo Series - eIDAS 2.0 / EUDI Wallet
+title: "Crushing it with Digital Identity: How travel companies can win big with EU Digital Wallets in the next 2 years"
 description: Is decentralized travel the future? Decentralization could disrupt the travel industry as we know it. Learn how to leverage it to your advantage.
-socialImage: social_decentralization.png
-permalink: /fomo-series/
+socialImage: social_crushingit.png
+permalink: /crushing-it-with-digital-identity/
 authorslug: ankehsu
 authorname: Anke Hsu
 ---
+
+The game is changing fast. By mid-2026, the whole travel tech scene will look drastically different. The reason is the new EU regulations. In 24 months, they are rolling out Digital Identity Wallets as part of the eIDAS 2.0 framework. At Chain4Travel, we carefully follow the new regulations and technologies to seize exciting opportunities for travel and travel tech companies.
 
 ## What is Digital Identity
 
@@ -33,6 +35,8 @@ A very significant change and impact of this technology is hidden behind the own
 With the EUDI Wallet, things will drastically change. This system transforms how platforms manage customers' personal data. Instead of multiple service providers repeatedly collecting identity details, which is inefficient, costly, and risky, the personal data is collected once and securely stored in the wallet. Now, the customer controls and grants access to personal data.
 
 <img class="border border-gray-200 rounded-lg" src="/img/fomo-series-img-01.png" alt="">
+
+Picture source: [ec.europa.eu](https://ec.europa.eu)
 
 ## **The EU's vision: A secure and unified Digital Identity across Europe**
 
@@ -87,8 +91,6 @@ What does it all mean for your business? The digital wallet introduced by eIDAS 
 ## How do we crush it in the new digital realm?
 
 The web3 travel ecosystem of Camino Network is the place to belong if this article rings the bell and you would like to explore wallet integration, blockchain adoption, and innovations in digital identity. Individuals, startups, and established brands joining the community are actively shaping the future of travel by building on an open-source infrastructure for new travel digital products, ensuring that they comply with new laws and are ready for the new era of connected consumer behavior. 
-
-**VIDEO EXPLAINING DIGITAL IDENTITY [link will be shared later]**
 
 Join the [community](https://camino.network/validators/) to learn more about eIDAS 2.0 and EUDI Wallet, tune the products, and evolve as a business! 
 
