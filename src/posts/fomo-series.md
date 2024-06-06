@@ -1,7 +1,7 @@
 ---
 layout: layout_blogpost
-title: "Crushing it with Digital Identity: How travel companies can win big with EU Digital Wallets in the next 2 years"
-description: Is decentralized travel the future? Decentralization could disrupt the travel industry as we know it. Learn how to leverage it to your advantage.
+title: "Act now or fall behind: EU Digital Wallets are coming and they will change the travel game"
+description: The eIDAS 2.0 Regulation is set to transform identification, authentication, and proofs across the EU with immense impact on personal lives as well as businesses. Is the travel industry ready for digital identities and digital travelers?
 socialImage: social_crushingit.png
 permalink: /crushing-it-with-digital-identity/
 authorslug: ankehsu
