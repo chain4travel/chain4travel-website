@@ -3,7 +3,7 @@ layout: layout_blogpost
 title: "Act now or fall behind: EU Digital Wallets are coming and they will change the travel game"
 description: The eIDAS 2.0 Regulation is set to transform identification, authentication, and proofs across the EU with immense impact on personal lives as well as businesses. Is the travel industry ready for digital identities and digital travelers?
 socialImage: social_crushingit.png
-permalink: /crushing-it-with-digital-identity/
+permalink: /eu-digital-wallets-are-coming-and-they-will-change-the-travel-game/
 authorslug: ankehsu
 authorname: Anke Hsu
 ---
