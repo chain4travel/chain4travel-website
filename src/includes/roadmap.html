@@ -1,0 +1,51 @@
+
+<section class="section">
+    <div class="wrapper-lg">
+
+      <div class="relative">
+
+        <!-- Vertical middle line-->
+        <div class="absolute w-1 h-full transform -translate-x-1/2 bg-gray-300 dark:bg-gray-700 block left-7 md:left-1/2"></div>
+
+        {% for event in roadmap %}
+          <div class="">
+            {% if loop.index == '2' or loop.index == '4' or loop.index == '6' or loop.index == '8' or loop.index == '10' %} 
+              <!-- Right section -->
+              <div class="mb-8">
+                <div class="flex md:flex-col">
+                  <div class="flex flex-col md:flex-row items-start justify-start w-full mx-auto pl-8 md:pl-0">
+                    <div class="w-full md:w-1/2 md:pr-8">
+                      <div class="font-bold text-primary mt-0.5 md:text-right order-first">{{event.date}}</div>
+                    </div>
+                    <div class="w-full md:w-1/2 md:pl-8">
+                      <div class="font-black text-xl mb-2">{{event.title}}</div>
+                      <p class="text-gray-700 text-sm">{{event.text}}</p>
+                    </div>
+                  </div>
+                  <div class="absolute flex-shrink-0 flex items-center justify-center w-6 h-6 transform md:-translate-x-1/2 bg-primary rounded-full left-2 md:left-1/2">
+                  </div>
+                </div>
+              </div>
+            {% else %}
+              <!-- Left section -->
+              <div class="mb-8">
+                <div class="flex md:flex-col">
+                  <div class="flex flex-col md:flex-row items-start justify-start w-full mx-auto pl-8 md:pl-0">
+                    <div class="w-full md:w-1/2 md:pr-8 md:text-right">
+                      <div class="font-black text-xl mb-2">{{event.title}}</div>
+                      <p class="text-gray-700 text-sm">{{event.text}}</p>
+                    </div>
+                    <div class="w-full md:w-1/2 md:pl-8 order-first md:order-last">
+                      <div class="font-bold text-primary mt-0.5">{{event.date}}</div>
+                    </div>
+                  </div>
+                  <div class="absolute flex-shrink-0 flex items-center justify-center w-6 h-6 transform md:-translate-x-1/2 bg-primary rounded-full left-2 md:left-1/2">
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+
+    </div>
+  </section>
