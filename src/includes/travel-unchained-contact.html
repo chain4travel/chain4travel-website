@@ -1,0 +1,28 @@
+<form name="travel-unchained-contact" method="POST" action="/contact-success" data-netlify="true" netlify-honeypot="bot-field" class="" id="travel-unchained-contact">
+    <p class="hidden">
+    <label>
+        Don't fill this out if you're human: <input name="bot-field" />
+    </label>
+    </p>
+    <p class="">
+        <input required placeholder="Your name ..." type="text" name="name" class="bg-gray-800 border border-gray-700 rounded block w-full mt-1 focus:ring-primary focus:border-primary text-white" />
+    </p>
+    <p class="mt-2">
+        <input required placeholder="Your email address ..." type="email" name="email" class="bg-gray-800 border border-gray-700 rounded block w-full mt-1 focus:ring-primary focus:border-primary text-white" />
+    </p>
+    <p class="mt-4">
+    <div class="flex text-base">
+        <input 
+            required 
+            type="checkbox" 
+            name="agreement" 
+            id="agreement" 
+            class="mt-1 rounded w-6 h-6 bg-dark border-gray-700 checked:bg-primary checked:hover:bg-primary checked:focus:bg-primary focus:border-primary hover:border-primary cursor-pointer"
+        >
+        <label for="agreement" class="ml-4 text-sm/4 text-gray-400">I agree to the <a class="underline" href="/data-privacy">privacy policy</a> and I consent to being contacted by Chain4Travel via email. I agree to the storage of my transmitted data for the required period of time.</label>
+    </div>
+    </p>
+    <p>
+        <button class="w-full mt-8 btn-primary" type="submit">I want to join!</button>
+    </p>
+</form>
