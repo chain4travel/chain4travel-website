@@ -114,6 +114,8 @@ placement: about
 </div>
 <!-- Camino Network Block ends -->
 
+{% include "roadmap.html" %}
+
 <style>
  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
  .flip-card {
@@ -180,6 +182,69 @@ placement: about
     </div>
 </div>
 <!-- Use Cases ends -->
+
+<!-- Introducing-travel Block starts -->
+<div class="py-16 md:py-32 bg-gradient-to-b bg-gray-900 text-white">
+    <div class="max-w-screen-xl px-8 mx-auto">
+        <div class="text-2xl xl:text-5xl font-black text-center mb-12">
+            Introducing travel to the next generation of the internet
+        </div>
+        <div class="md:grid grid-cols-12 gap-8">
+            <div class="md:col-span-4 rounded-lg mb-6 md:mb-0">
+                <div class="md:px-4">
+                    <div class="w-40 mx-auto">{% image "src/img/schema-web1.png", "Shema showing connections of web1", "w-full" %}</div>
+                    <h2 class="font-black text-xl md:text-3xl mt-4">
+                        Web1
+                    </h2>
+                    <div class="bg-primary w-7 h-1 my-4"></div>
+                    <ul class="text-gray-400 list-disc pl-3">
+                        <li>Static websites with basic information about destinations, hotels, and attractions</li>
+                        <li>Dependence on physical travel agents for bookings and consultations</li>
+                        <li>Limited online booking capabilities made through email or phone</li>
+                        <li>Limited use of email for marketing and customer support</li>
+                        <li>Minimal interactivity and personalized products</li>
+                        <li>Rigid and centralized data management</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="md:col-span-4 rounded-lg mb-6 md:mb-0">
+                <div class="md:px-4">
+                    <div class="w-40 mx-auto">{% image "src/img/schema-web2.png", "Shema showing connections of web2", "w-full" %}</div>
+                    <h2 class="font-black text-xl md:text-3xl mt-4">
+                        Web2
+                    </h2>
+                    <div class="bg-primary w-7 h-1 my-4"></div>
+                    <ul class="text-gray-400 list-disc pl-3">
+                        <li>Mobile applications for bookings, check-ins, and itinerary management</li>
+                        <li>Metasearches for flights, accommodations, and car rentals</li>
+                        <li>Online travel agencies (OTAs) and booking platforms</li>
+                        <li>User-generated content, such as reviews and ratings</li>
+                        <li>Social media integration and influencer marketing</li>
+                        <li>Virtual tours and interactive maps</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="md:col-span-4 rounded-lg">
+                <div class="md:px-4">
+                    <div class="w-40 mx-auto">{% image "src/img/schema-web3.png", "Shema showing connections of web3", "w-full" %}</div>
+                    <h2 class="font-black text-xl md:text-3xl mt-4">
+                        Web3
+                    </h2>
+                    <div class="bg-primary w-7 h-1 my-4"></div>
+                    <ul class="text-gray-400 list-disc pl-3">
+                        <li>Enhanced personalization through digital wallets and tokenized preferences</li>
+                        <li>Smart contracts for automated bookings, payments, and verifications</li>
+                        <li>Interoperability between different travel services and platforms</li>
+                        <li>Tokenization of assets, such as hotel rooms or loyalty points</li>
+                        <li>Security and flexibility through secure ownership of assets and identities </li>
+                        <li>Enhanced data privacy and control for users</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Introducing-travel Block ends -->
 
 {% include "testimonial-four.html" %}
 
