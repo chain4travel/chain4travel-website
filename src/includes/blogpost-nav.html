@@ -7,13 +7,13 @@
         <div class="grid grid-cols-12 gap-6 mt-8">
             
             {# TODO: map this list without the current blogpost #}
-            {% for x in blogposts | reverse %}
+            {% for x in collections.blogposts | reverse %}
             {% if loop.index0 < 3 %}
-            <a href="{{ x.link }}" class="col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
-                <img class="brightness-100 group-hover:brightness-125" src="{{ x.coverImage }}" alt="">
+            <a href="{{ x.permalink }}" class="col-span-12 md:col-span-4 bg-gray-800 transition-colors border-2 border-primary border-opacity-0 hover:border-opacity-100 group rounded-lg overflow-hidden">
+                <img class="brightness-100 group-hover:brightness-125" src="{{ x.data.cover }}" alt="">
                 <div class="p-4 md:p-6">
-                    <h2 class="font-black text-2xl md:text-3xl mb-4">{{ x.title }}</h2>
-                    <time class="text-gray-400">{{ x.date }}</time>
+                    <h2 class="font-black text-2xl md:text-3xl mb-4">{{ x.data.title }}</h2>
+                    <time class="text-gray-400">{{x.data.publishDate | readableDate}}</time>
                 </div>
             </a>
             {% endif %}

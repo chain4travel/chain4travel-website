@@ -1,5 +1,4 @@
 User-Agent: *
 Allow: /
-Disallow: /pre-sale
 
 Sitemap: https://chain4travel.com/sitemap.xml

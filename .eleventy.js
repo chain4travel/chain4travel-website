@@ -1,6 +1,7 @@
 const now = String(Date.now())
 const htmlmin = require('html-minifier')
 const Image = require("@11ty/eleventy-img")
+const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget('./styles/tailwind.config.js')
@@ -64,6 +65,15 @@ module.exports = function (eleventyConfig) {
     const sorter = (a, b) => isNum(a[prop]) && isNum(b[prop]) ? +a[prop] - b[prop] : a[prop] < b[prop];
     arr.sort(sorter);
     return arr; 
+  });
+
+  // Create collection for all elements inside posts folder
+  eleventyConfig.addCollection("blogposts", function(collectionsBlogposts) {
+    return collectionsBlogposts.getFilteredByGlob("./src/posts/*.{html,md}");
+  });
+
+  eleventyConfig.addFilter("readableDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toFormat("LLLL dd, yyyy");
   });
 
   eleventyConfig.addTransform('htmlmin', function (content, outputPath) {

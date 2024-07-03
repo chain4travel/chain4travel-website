@@ -69,9 +69,9 @@
         <div class="relative z-10 flex flex-col items-center max-w-4xl px-8 mx-auto text-center md:px-4">
             <div class="mb-4 text-sm font-bold tracking-widest text-center uppercase text-secondary lg:mb-8">
                 Blog article - 
-                {% for x in blogposts %}
-                {% if x.title == title %}
-                    {{x.date}}
+                {% for x in collections.blogposts %}
+                {% if x.data.title == title %}
+                    {{x.data.publishDate | readableDate}}
                 {% endif %}
                 {% endfor %}
             </div>

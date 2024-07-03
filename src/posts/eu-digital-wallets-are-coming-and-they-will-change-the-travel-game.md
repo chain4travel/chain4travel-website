@@ -6,6 +6,8 @@ socialImage: social_crushingit.png
 permalink: /eu-digital-wallets-are-coming-and-they-will-change-the-travel-game/
 authorslug: ankehsu
 authorname: Anke Hsu
+publishDate: 2024-06-07
+cover: /img/crushing-it-article.png
 ---
 
 The game is changing fast. By mid-2026, the whole travel tech scene will look drastically different. The reason is the new EU regulations. In 24 months, they are rolling out Digital Identity Wallets as part of the eIDAS 2.0 framework. At Chain4Travel, we carefully follow the new regulations and technologies to seize exciting opportunities for travel and travel tech companies.

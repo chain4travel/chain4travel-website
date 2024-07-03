@@ -20,26 +20,26 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 
 <div class="py-16 md:py-32 max-w-screen-xl px-8 mx-auto">
     <div class="grid grid-cols-12 gap-6 items-stretch">
-        {% for x in blogposts %}
+        {% for x in collections.blogposts | sort(attribute='data.publishDate') | reverse %}
 
             {% if loop.index0 < 1 %}
             <div class="col-span-12 pb-8 md:pb-16 mb-8 md:mb-16 border-b-2 border-gray-300">
                 <div class="grid grid-cols-12 gap-6 items-center">
                     <div class="col-span-12 md:col-span-6">
                         <div class="text-2xl md:text-4xl font-black">
-                            {{x.title}}
+                            {{x.data.title}}
                         </div>
                         <div class="font-black text-xl my-6 uppercase text-primary">
-                            {{x.date}}
+                            {{x.data.publishDate | readableDate}}
                         </div>
                         <p class="text-gray-700">
-                            {{x.excerpt}}
+                            {{x.data.description}}
                         </p>
-                        <a href="{{x.link}}" class="btn-black mt-6">Read full article</a>
+                        <a href="{{x.data.permalink}}" class="btn-black mt-6">Read full article</a>
                     </div>
                     <div class="md:col-start-8 col-span-12 md:col-span-5 order-first md:order-last rounded-lg overflow-hidden h-64 lg:h-[420px]">
-                        <a href="{{x.link}}">
-                            <img class="w-full h-full object-cover" src="{{x.coverImage}}" alt="Chain4Travel Logo">
+                        <a href="{{x.data.link}}">
+                            <img class="w-full h-full object-cover" src="{{x.data.cover}}" alt="Chain4Travel Logo">
                         </a>
                     </div>
                 </div>
@@ -47,18 +47,18 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
             {% endif %}
 
             {% if loop.index0 > 0 %}
-            <a href="{{x.link}}" class="col-span-12 md:col-span-4">
+            <a href="{{x.data.permalink}}" class="col-span-12 md:col-span-4">
                 <div class="border-2 border-gray-300 hover:border-primary h-full rounded-lg overflow-hidden">
-                    <img class="w-full h-64 object-cover" src="{{x.coverImage}}" alt="Chain4Travel Logo">
+                    <img class="w-full h-64 object-cover" src="{{x.data.cover}}" alt="Chain4Travel Logo">
                     <div class="p-6">
                         <div class="text-2xl font-black">
-                            {{x.title}}
+                            {{x.data.title}}
                         </div>
                         <div class="font-black my-2 uppercase text-primary">
-                            {{x.date}}
+                            {{x.data.publishDate | readableDate }}
                         </div>
                         <p class="text-gray-700 text-sm">
-                            {{x.excerpt}}
+                            {{x.data.description}}
                         </p>
                     </div>
                 </div>
