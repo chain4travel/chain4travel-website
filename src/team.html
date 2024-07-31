@@ -73,19 +73,19 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
 
 <!-- Team Section starts -->
 <div class="py-16 md:py-32">
-    <div class="max-w-screen-xl px-8 mx-auto">
+    <div class="max-w-screen-xl mx-auto">
         <div class="text-2xl xl:text-5xl font-black text-center mb-8">
             Meet our web3 travel experts 
         </div>
 
-        <div class="bg-gray-900 md:flex justify-evenly gap-6 rounded-lg p-12">
+        <div class="bg-gray-900 grid grid-cols-2 md:grid-cols-4 gap-6 rounded-lg py-12 px-4 md:px-12">
             {% set memberData = teammembers.data %}
             {% for x in memberData %}
                 {% set member = x.attributes %}
-                {% if x.attributes.position == "CEO" or x.attributes.position == "CTO" or x.attributes.position == "COO" %}
+                {% if x.attributes.position == "Chairman of the Board of Directors" or x.attributes.position == "CEO and CTO" or x.attributes.position == "Chief Growth Officer" or x.attributes.position == "Chief Operating Officer" %}
             <!-- C-Level Team Card -->
             <div class="" x-data="{ team{{x.id}}Modal: false }">
-                <div class="rounded-xl h-full flex flex-col items-center">
+                <div class="rounded-xl h-full flex flex-col items-center text-center">
                     <img class="mx-auto rounded-lg w-32 h-32 mb-4 relative z-10" src="https://api.strapi.camino.network/{{x.attributes.image.data.attributes.url}}" alt="{{x.attributes.name}} Portrait">
                     <h2 class="font-black text-white text-2xl">{{ x.attributes.name }}</h2>
                     <div class="mt-1 text-xs uppercase font-bold text-gray-300">{{ x.attributes.position }}</div>
@@ -121,13 +121,13 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
             {% endfor %}
         </div>
 
-        <div class="flex justify-center flex-wrap rounded-lg mt-12">
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 rounded-lg mt-12">
 
             {% for x in teammembers.data | sort(attribute='attributes.Rank') %}
-            {% if x.attributes.position == "CEO" or x.attributes.position == "CTO" or x.attributes.position == "COO" %}
+            {% if x.attributes.position == "Chairman of the Board of Directors" or x.attributes.position == "CEO and CTO" or x.attributes.position == "Chief Growth Officer" or x.attributes.position == "Chief Operating Officer" %}
             {% else %}
             <!-- Team Card -->
-            <div class="w-1/2 md:w-1/3 lg:w-1/4 2xl:w-1/5 flex-shrink-0" x-data="{ team{{x.id}}Modal: false }">
+            <div class="" x-data="{ team{{x.id}}Modal: false }">
                 <div class="pb-12 rounded-xl h-full flex flex-col items-center">
                     <img class="mx-auto rounded-lg w-28 h-28 mb-4 relative z-10" src="https://api.strapi.camino.network/{{x.attributes.image.data.attributes.url}}" alt="{{x.attributes.name}} Portrait">
                     <h2 class="font-black text-xl text-center">{{ x.attributes.name }}</h2>
