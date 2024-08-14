@@ -82,7 +82,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
             {% set memberData = teammembers.data %}
             {% for x in memberData %}
                 {% set member = x.attributes %}
-                {% if x.attributes.position == "Chairman of the Board of Directors" or x.attributes.position == "CEO and CTO" or x.attributes.position == "Chief Growth Officer" or x.attributes.position == "CTO" %}
+                {% if x.attributes.position == "Chairman of the Board of Directors" or x.attributes.position == "CEO and CTO" or x.attributes.position == "Chief Growth Officer" or x.attributes.position == "COO" %}
             <!-- C-Level Team Card -->
             <div class="" x-data="{ team{{x.id}}Modal: false }">
                 <div class="rounded-xl h-full flex flex-col items-center text-center">
@@ -124,7 +124,7 @@ description: Chain4Travel is the facilitator of the Camino consortium blockchain
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 rounded-lg mt-12">
 
             {% for x in teammembers.data | sort(attribute='attributes.Rank') %}
-            {% if x.attributes.position == "Chairman of the Board of Directors" or x.attributes.position == "CEO and CTO" or x.attributes.position == "Chief Growth Officer" or x.attributes.position == "CTO" %}
+            {% if x.attributes.position == "Chairman of the Board of Directors" or x.attributes.position == "CEO and CTO" or x.attributes.position == "Chief Growth Officer" or x.attributes.position == "COO" %}
             {% else %}
             <!-- Team Card -->
             <div class="" x-data="{ team{{x.id}}Modal: false }">
