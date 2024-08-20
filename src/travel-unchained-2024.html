@@ -108,6 +108,26 @@ socialImage: social-unchained-2024.png
     </div>
 
     <div class="py-16 md:py-24">
+        <div class="text-2xl xl:text-5xl font-black text-center">
+            Speakers
+        </div>
+        <div class="max-w-screen-xl px-8 mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-2 md:gap-x-6 lg:gap-x-10 justify-center mt-8">
+        {% for speaker in unchainedspeakers2024 %}
+        <div class="p-4">
+            {% set speakerSlug = "src/img/unchained-2024/" + speaker.name | slugify + ".png" %}
+            <div class="rounded-3xl overflow-hidden aspect-square border-2 border-primary bg-gray-100 mb-2 shadow-lg">
+                {% image speakerSlug, "annet-steenbergen", "", "inline-block w-full object-contain" %}
+            </div>
+            <div class="text-center">
+                <div class="font-black mb-1 text-lg">{{speaker.name}}</div>
+                <div class="text-xs text-gray-700">{{speaker.position}}</div>
+            </div>
+        </div>
+        {% endfor %}
+        </div>
+    </div>
+
+    <div class="py-16 md:py-24">
         <div class="max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-6 items-center">
             <div class="col-span-12 md:col-span-5 rounded-lg overflow-hidden h-64 md:h-[320px]">
                 {% image "src/img/hotel-florida-ut2024.png", "Hotel from universal", "", "w-full h-full object-cover object-left-top" %}
