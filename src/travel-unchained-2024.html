@@ -72,7 +72,7 @@ socialImage: social-unchained-2024.png
         <div class="max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-6 items-center">
             <div class="col-span-12 md:col-span-6">
                 <div class="text-2xl xl:text-5xl font-black">
-                    The 3rd edition of Travel Un’chained
+                    The 3rd edition of Travel Un'chained
                 </div>
                 <p class="my-2 md:my-6">
                     The third time is a charm. Once again, we are inviting 250 web3 and travel executives to Mallorca. In addition to networking opportunities, we are putting together a one-day conference with exciting speakers showcasing real innovations in travel. Don't miss your chance to join C-level executives from around the world as they explore the latest trends in travel technology and share ideas about web3's innovations in the industry. Ready to join us?
@@ -115,7 +115,10 @@ socialImage: social-unchained-2024.png
         {% for speaker in unchainedspeakers2024 %}
         <div class="p-4">
             {% set speakerSlug = "src/img/unchained-2024/" + speaker.name | slugify + ".png" %}
-            <div class="rounded-3xl overflow-hidden aspect-square border-2 border-primary bg-gray-100 mb-2 shadow-lg">
+            <div class="rounded-xl overflow-hidden aspect-square border-2 border-primary bg-gradient-to-b from-white to-primary/20 mb-2 shadow-lg relative">
+                <a class="absolute top-0 right-0 p-2 hover:opacity-70 text-primary" href="{{speaker.linkedin}}" target="_blank" rel="noopener noreferrer">
+                    <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 11v5m8 0v-3c0-.67-.4-2-2-2s-2 1.33-2 2m0 3v-3m0 0v-2M8 8h.01M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2Z"/></svg>
+                </a>
                 {% image speakerSlug, "annet-steenbergen", "", "inline-block w-full object-contain" %}
             </div>
             <div class="text-center">
