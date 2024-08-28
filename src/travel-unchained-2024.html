@@ -112,7 +112,7 @@ socialImage: social-unchained-2024.png
             Speakers
         </div>
         <div class="max-w-screen-xl px-8 mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-2 md:gap-x-6 lg:gap-x-10 justify-center mt-8">
-        {% for speaker in unchainedspeakers2024 %}
+        {% for speaker in unchainedspeakers2024 | sort(attribute='name') %}
         <div class="p-4">
             {% set speakerSlug = "src/img/unchained-2024/" + speaker.name | slugify + ".png" %}
             <div class="rounded-xl overflow-hidden aspect-square border-2 border-primary bg-gradient-to-b from-white to-primary/20 mb-2 shadow-lg relative">
