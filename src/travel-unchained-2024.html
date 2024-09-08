@@ -107,6 +107,48 @@ socialImage: social-unchained-2024.png
         </div>
     </div>
 
+    <div class="py-16 md:py-24 bg-gray-900 text-white">
+        <div class="text-2xl xl:text-5xl font-black text-center">
+            Agenda Oct 01
+        </div>
+        <div class="max-w-screen-xl px-8 mx-auto mt-8">
+            <div class="rounded-lg overflow-hidden">
+                <table class="table-agenda text-left text-sm border-2 border-primary">
+                    <tr class="bg-primary text-white">
+                        <th>Time</th>
+                        <th>Title</th>
+                        <th>Speaker</th>
+                    </tr>
+                    {% for x in unchained24agenda %}
+                    <tr class="{% if x.speaker %} {% else %} bg-gray-700 {% endif %}">
+                        <td class="border-r border-gray-700 md:whitespace-nowrap font-mono text-xs text-center">{{ x.time }}</td>
+                        <td class="border-r border-gray-700 font-black text-sm md:text-base">{{ x.title }}</td>
+                        <td>
+                            {% if x.speaker is iterable and not x.speaker is string %}
+                                <div class="flex flex-col md:flex-row items-center gap-2 md:gap-4">
+                                    {% for z in x.speaker %}
+                                        <div class="w-full">
+                                            <div class="text-xs md:text-sm font-bold">{{ z.name }}</div>
+                                            <div class="text-gray-400 text-xs">{{ z.company }}</div>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            {% else %}
+                                {% if x.speaker %}
+                                    <div>
+                                        <div class="text-xs md:text-sm font-bold">{{ x.speaker.name }}</div>
+                                        <div class="text-gray-400 text-xs">{{ x.speaker.company }}</div>
+                                    </div>
+                                {% endif %}
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}                
+                </table>
+            </div>
+        </div>
+    </div>
+
     <div class="py-16 md:py-24">
         <div class="text-2xl xl:text-5xl font-black text-center">
             Speakers

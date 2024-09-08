@@ -1,0 +1,165 @@
+[
+  {
+    "time": "09:15 - 09:30",
+    "title": "Transfer (Hotel Florida)",
+    "speaker": ""
+  },
+  {
+    "time": "10:30 - 10:45",
+    "title": "Opening Speech: State Of The Network",
+    "speaker": {
+      "name": "Thomas Stirnimann",
+      "company": "Council Chairman Camino Network Foundation"
+    }
+  },
+  {
+    "time": "10:50 - 11:10",
+    "title": "Innovative Travel Solutions: Our Crypto-Based E-Shop On Camino Network",
+    "speaker": [
+      {
+        "name": "Yannis Dimitriadis",
+        "company": "CEO AVRA"
+      },
+      {
+        "name": "Dimitris Mylonas",
+        "company": "Software Engineer AVRA"
+      }
+    ]
+  },
+  {
+    "time": "11:15 - 11:30",
+    "title": "State Of The Web3 Travel Startup Ecosystem",
+    "speaker": {
+      "name": "Beat Blaser",
+      "company": "Co-Founder & Partner Falkensteiner Ventures, Tectris.vc"
+    }
+  },
+  {
+    "time": "11:35 - 11:45",
+    "title": "The EU Digital Identity Wallet In The Travel World",
+    "speaker": {
+      "name": "Annet Steenbergen",
+      "company": "EU Digital Wallet Consortium Advisor"
+    }
+  },
+  {
+    "time": "11:50 - 12:00",
+    "title": "BuyBack, The C2B Evolution Of The Non-Refundable Rate",
+    "speaker": {
+      "name": "Lamberto Livraghi",
+      "company": "Online Hospitality Expert BuyBack"
+    }
+  },
+  {
+    "time": "12:00 - 13:00",
+    "title": "Flying Lunch",
+    "speaker": ""
+  },
+  {
+    "time": "13:00 - 13:15",
+    "title": "TBD",
+    "speaker": [
+      {
+        "name": "Lars Schoening",
+        "company": "Channel Partner & Market Strategy Manager Swiss"
+      },
+      {
+        "name": "Suby Valluri",
+        "company": "CEO Finmont"
+      }
+    ]
+  },
+  {
+    "time": "13:20 - 13:35",
+    "title": "Digital Payments - How Will We Pay In 2030",
+    "speaker": {
+      "name": "Benjamin Usinger",
+      "company": "Camino Network Foundation"
+    }
+  },
+  {
+    "time": "13:40 - 13:50",
+    "title": "TBA",
+    "speaker": {
+      "name": "XYZ",
+      "company": "XYZ"
+    }
+  },
+  {
+    "time": "13:55 - 14:10",
+    "title": "How Falcon Star Travel Uses Web3 And Provides Its Customers With Everything From Flight Tickets To Room Door Keys Via APP",
+    "speaker": [
+      {
+        "name": "Michael Weber",
+        "company": "Founder and CEO Falcon Star Aviation Group"
+      },
+      {
+        "name": "Sebastian Beck",
+        "company": "International Sales Manager ISO Group"
+      }
+    ]
+  },
+  {
+    "time": "14:15 - 14:25",
+    "title": "TBD",
+    "speaker": {
+      "name": "Sipan Vardanyan",
+      "company": "Co-Founder & CEO hexens"
+    }
+  },
+  {
+    "time": "14:25 - 15:05",
+    "title": "Coffee Break",
+    "speaker": ""
+  },
+  {
+    "time": "15:05 - 15:15",
+    "title": "The Next Generation Of Travel Insurance",
+    "speaker": {
+      "name": "Emilie Garneau",
+      "company": "Director Avata"
+    }
+  },
+  {
+    "time": "15:10 - 15:25",
+    "title": "Beyond The Booking: How Blockchain Is Transforming B2B Travel",
+    "speaker": {
+      "name": "Nigel Horne",
+      "company": "CEO Bakuun"
+    }
+  },
+  {
+    "time": "15:40 - 15:55",
+    "title": "From Concept To Reality: Progress On Selling Excursions Via Camino Messenger",
+    "speaker": {
+      "name": "Piotr Zohnierek",
+      "company": "CTO Invia"
+    }
+  },
+  {
+    "time": "16:00 - 16:15",
+    "title": "TBD",
+    "speaker": {
+      "name": "Yessin Schiegg",
+      "company": "Camino Network Foundation"
+    }
+  },
+  {
+    "time": "16:20 - 16:45",
+    "title": "Closing Speech TBD",
+    "speaker": {
+      "name": "Pablo Castillo",
+      "company": "CEO & CTO Chain4Travel"
+    }
+  },
+  {
+    "time": "16:45 - 17:45",
+    "title": "Networking & Drinks",
+    "speaker": ""
+  },
+  {
+    "time": "17:00 - 17:45",
+    "title": "Transfer (Molí D’es Comte)",
+    "speaker": ""
+  }
+]
