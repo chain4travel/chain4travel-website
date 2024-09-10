@@ -1,11 +1,6 @@
 [
   {
-    "time": "09:15 - 09:30",
-    "title": "Transfer (Hotel Florida)",
-    "speaker": ""
-  },
-  {
-    "time": "10:30 - 10:45",
+    "time": "morning",
     "title": "Opening Speech: State Of The Network",
     "speaker": {
       "name": "Thomas Stirnimann",
@@ -13,7 +8,7 @@
     }
   },
   {
-    "time": "10:50 - 11:10",
+    "time": "morning",
     "title": "Innovative Travel Solutions: Our Crypto-Based E-Shop On Camino Network",
     "speaker": [
       {
@@ -27,7 +22,7 @@
     ]
   },
   {
-    "time": "11:15 - 11:30",
+    "time": "morning",
     "title": "State Of The Web3 Travel Startup Ecosystem",
     "speaker": {
       "name": "Beat Blaser",
@@ -35,7 +30,7 @@
     }
   },
   {
-    "time": "11:35 - 11:45",
+    "time": "morning",
     "title": "The EU Digital Identity Wallet In The Travel World",
     "speaker": {
       "name": "Annet Steenbergen",
@@ -43,7 +38,7 @@
     }
   },
   {
-    "time": "11:50 - 12:00",
+    "time": "morning",
     "title": "BuyBack, The C2B Evolution Of The Non-Refundable Rate",
     "speaker": {
       "name": "Lamberto Livraghi",
@@ -51,12 +46,7 @@
     }
   },
   {
-    "time": "12:00 - 13:00",
-    "title": "Flying Lunch",
-    "speaker": ""
-  },
-  {
-    "time": "13:00 - 13:15",
+    "time": "noon",
     "title": "TBD",
     "speaker": [
       {
@@ -70,7 +60,7 @@
     ]
   },
   {
-    "time": "13:20 - 13:35",
+    "time": "noon",
     "title": "Digital Payments - How Will We Pay In 2030",
     "speaker": {
       "name": "Benjamin Usinger",
@@ -78,7 +68,7 @@
     }
   },
   {
-    "time": "13:40 - 13:50",
+    "time": "noon",
     "title": "TBA",
     "speaker": {
       "name": "XYZ",
@@ -86,7 +76,7 @@
     }
   },
   {
-    "time": "13:55 - 14:10",
+    "time": "noon",
     "title": "How Falcon Star Travel Uses Web3 And Provides Its Customers With Everything From Flight Tickets To Room Door Keys Via APP",
     "speaker": [
       {
@@ -100,7 +90,7 @@
     ]
   },
   {
-    "time": "14:15 - 14:25",
+    "time": "noon",
     "title": "TBD",
     "speaker": {
       "name": "Sipan Vardanyan",
@@ -108,12 +98,7 @@
     }
   },
   {
-    "time": "14:25 - 15:05",
-    "title": "Coffee Break",
-    "speaker": ""
-  },
-  {
-    "time": "15:05 - 15:15",
+    "time": "afternoon",
     "title": "The Next Generation Of Travel Insurance",
     "speaker": {
       "name": "Emilie Garneau",
@@ -121,15 +106,7 @@
     }
   },
   {
-    "time": "15:10 - 15:25",
-    "title": "Beyond The Booking: How Blockchain Is Transforming B2B Travel",
-    "speaker": {
-      "name": "Nigel Horne",
-      "company": "CEO Bakuun"
-    }
-  },
-  {
-    "time": "15:40 - 15:55",
+    "time": "afternoon",
     "title": "From Concept To Reality: Progress On Selling Excursions Via Camino Messenger",
     "speaker": {
       "name": "Piotr Zohnierek",
@@ -137,7 +114,7 @@
     }
   },
   {
-    "time": "16:00 - 16:15",
+    "time": "afternoon",
     "title": "TBD",
     "speaker": {
       "name": "Yessin Schiegg",
@@ -145,21 +122,11 @@
     }
   },
   {
-    "time": "16:20 - 16:45",
+    "time": "afternoon",
     "title": "Closing Speech TBD",
     "speaker": {
       "name": "Pablo Castillo",
       "company": "CEO & CTO Chain4Travel"
     }
-  },
-  {
-    "time": "16:45 - 17:45",
-    "title": "Networking & Drinks",
-    "speaker": ""
-  },
-  {
-    "time": "17:00 - 17:45",
-    "title": "Transfer (Molí D’es Comte)",
-    "speaker": ""
   }
 ]
