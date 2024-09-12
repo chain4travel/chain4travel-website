@@ -38,20 +38,28 @@
     }
   },
   {
-    "time": "morning",
-    "title": "BuyBack, The C2B Evolution Of The Non-Refundable Rate",
+    "time": "noon",
+    "title": "🌮 Flying Lunch",
     "speaker": {
-      "name": "Lamberto Livraghi",
-      "company": "Online Hospitality Expert BuyBack"
+      "name": "Freshcells GmbH",
+      "company": "SPONSOR"
     }
   },
   {
     "time": "noon",
-    "title": "TBD",
+    "title": "Digital Payments - How Will We Pay in 2030",
+    "speaker": {
+      "name": "Benjamin Usinger",
+      "company": "Camino Network Foundation"
+    }
+  },
+  {
+    "time": "noon",
+    "title": "Stablecoins and the New Era of Cross-Border B2B Payments",
     "speaker": [
       {
         "name": "Lars Schoening",
-        "company": "Channel Partner & Market Strategy Manager Swiss"
+        "company": "Channel Partner & Market  Strategy Manager Swiss"
       },
       {
         "name": "Suby Valluri",
@@ -61,23 +69,15 @@
   },
   {
     "time": "noon",
-    "title": "Digital Payments - How Will We Pay In 2030",
+    "title": "BuyBack, The C2B Evolution Of The Non-Refundable Rate",
     "speaker": {
-      "name": "Benjamin Usinger",
-      "company": "Camino Network Foundation"
+      "name": "Lamberto Livraghi",
+      "company": "Online Hospitality Expert BuyBack"
     }
   },
   {
     "time": "noon",
-    "title": "TBA",
-    "speaker": {
-      "name": "XYZ",
-      "company": "XYZ"
-    }
-  },
-  {
-    "time": "noon",
-    "title": "How Falcon Star Travel Uses Web3 And Provides Its Customers With Everything From Flight Tickets To Room Door Keys Via APP",
+    "title": "How Falcon Star Travel leverages Web3 along the customer journey",
     "speaker": [
       {
         "name": "Michael Weber",
@@ -91,10 +91,18 @@
   },
   {
     "time": "noon",
-    "title": "TBD",
+    "title": "Put Web3 Security On the Map",
     "speaker": {
       "name": "Sipan Vardanyan",
       "company": "Co-Founder & CEO hexens"
+    }
+  },
+  {
+    "time": "afternoon",
+    "title": "☕️ Coffee Break",
+    "speaker": {
+      "name": "Hexens",
+      "company": "SPONSOR"
     }
   },
   {
@@ -107,6 +115,14 @@
   },
   {
     "time": "afternoon",
+    "title": "Beyond the Booking: How Blockchain is Transforming B2B Travel",
+    "speaker": {
+      "name": "Nigel Horne",
+      "company": "CEO Bakuun"
+    }
+  },
+  {
+    "time": "afternoon",
     "title": "From Concept To Reality: Progress On Selling Excursions Via Camino Messenger",
     "speaker": {
       "name": "Piotr Zohnierek",
@@ -115,7 +131,7 @@
   },
   {
     "time": "afternoon",
-    "title": "TBD",
+    "title": "HODL, BUIDL, TRAVLE - Get Your First Class Ticket to Crypto",
     "speaker": {
       "name": "Yessin Schiegg",
       "company": "Camino Network Foundation"
@@ -123,7 +139,7 @@
   },
   {
     "time": "afternoon",
-    "title": "Closing Speech TBD",
+    "title": "The next leap of Camino",
     "speaker": {
       "name": "Pablo Castillo",
       "company": "CEO & CTO Chain4Travel"
