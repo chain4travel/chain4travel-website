@@ -117,8 +117,8 @@ socialImage: social-unchained-2024.png
                     <div class="text-white text-xl font-black p-2 text-center">Morning</div>
                     {% for x in unchained24agenda %}
                     {% if x.time === "morning" %}
-                    <div class="p-2.5 bg-white shadow-md rounded-lg mb-1.5 text-gray-800 transition-all hover:scale-105 hover:-rotate-1 hover:shadow-xl">
-                        <div class="font-black text-lg/5 mb-2">{{x.title}}</div>
+                    <div class="p-2.5 bg-white shadow-md rounded-lg mb-1.5 text-gray-800 transition-all hover:scale-105 hover:-rotateseborder-gray-950:shadow-xl">
+                        <div class="font-black text-lg/5 mb-1">{{x.title}}</div>
                         {% if x.speaker is iterable and not x.speaker is string %}
                         <div class="flex flex-col md:flex-row items-center gap-2 md:gap-4">
                         {% for z in x.speaker %}
@@ -144,8 +144,8 @@ socialImage: social-unchained-2024.png
                     <div class="text-white text-xl font-black p-2 text-center">Noon</div>
                     {% for x in unchained24agenda %}
                     {% if x.time === "noon" %}
-                    <div class="p-2.5 bg-white shadow-md rounded-lg mb-1.5 text-gray-800 transition-all hover:scale-105 hover:-rotate-1 hover:shadow-xl">
-                        <div class="font-black text-lg/5 mb-2">{{x.title}}</div>
+                    <div class="p-2.5 bg-white shadow-md rounded-lg mb-1.5 text-gray-800 transition-all hover:scale-105 hover:-rotate-1 hover:shadow-xl {% if x.speaker.name == 'Freshcells GmbH' %}border-2 border-gray-950{% endif %}">
+                        <div class="font-black text-lg/5 mb-1">{{x.title}}</div>
                         {% if x.speaker is iterable and not x.speaker is string %}
                         <div class="flex flex-col md:flex-row items-center gap-2 md:gap-4">
                         {% for z in x.speaker %}
@@ -171,8 +171,8 @@ socialImage: social-unchained-2024.png
                     <div class="text-white text-xl font-black p-2 text-center">Afternoon</div>
                     {% for x in unchained24agenda %}
                     {% if x.time === "afternoon" %}
-                    <div class="p-2.5 bg-white shadow-md rounded-lg mb-1.5 text-gray-800 transition-all hover:scale-105 hover:-rotate-1 hover:shadow-xl">
-                        <div class="font-black text-lg/5 mb-2">{{x.title}}</div>
+                    <div class="p-2.5 bg-white shadow-md rounded-lg mb-1.5 text-gray-800 transition-all hover:scale-105 hover:-rotate-1 hover:shadow-xl {% if x.speaker.name == 'Hexens' %}border-2 border-gray-950{% endif %}">
+                        <div class="font-black text-lg/5 mb-1">{{x.title}}</div>
                         {% if x.speaker is iterable and not x.speaker is string %}
                         <div class="flex flex-col md:flex-row items-center gap-2 md:gap-4">
                         {% for z in x.speaker %}
