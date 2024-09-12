@@ -1,6 +1,12 @@
 [
   {
     "time": "morning",
+    "title": "🚀 Transfer & Warming up",
+    "speaker": {
+    }
+  },
+  {
+    "time": "morning",
     "title": "Opening Speech: State Of The Network",
     "speaker": {
       "name": "Thomas Stirnimann",
