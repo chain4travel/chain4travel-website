@@ -44,6 +44,20 @@
     }
   },
   {
+    "time": "morning",
+    "title": "Proof of Concept for flight content distribution via blockchain",
+    "speaker": [
+      {
+        "name": "Mickael Woelcke",
+        "company": "Business Analyst & Project Lead Lufthansa Group"
+      },
+      {
+        "name": "Manikandan Ramaswamy",
+        "company": "Domain Consultant Lufthansa Group"
+      }
+    ]
+  },
+  {
     "time": "noon",
     "title": "🌮 Flying Lunch",
     "speaker": {
