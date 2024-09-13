@@ -87,27 +87,31 @@ socialImage: social-unchained-2024.png
 
     <div class="text-center bg-gray-100 py-12">
         <div class="max-w-screen-xl px-8 mx-auto">
-            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-                <div class="w-full flex flex-col items-center justify-center">
+            <div class="flex flex-col md:flex-row justify-between gap-4">
+                <div class="w-full flex flex-col items-center">
                     {% image "src/img/tu24-timeline-01.png", "ut2024-timeline-01", "", "w-32 rounded-full mb-3" %}
                     <div class="text-2xl md:text-4xl font-black mb-1">Sep 30</div>
-                    Welcome Night
+                    <div class="text-lg font-black">Welcome Night</div>
+                    <div class="text-gray-700 text-sm italic mt-1">Sponsored by:</div>
+                    <img class="h-8" src="/img/logo-emind.svg" alt="">
                 </div>
-                <div class="w-full flex flex-col items-center justify-center">
+                <div class="w-full flex flex-col items-center">
                     {% image "src/img/tu24-timeline-02.png", "ut2024-timeline-02", "", "w-32 rounded-full mb-3" %}
                     <div class="text-2xl md:text-4xl font-black mb-1">Oct 01</div>
-                    Conference & Dinner
+                    <div class="text-lg font-black">Conference & Dinner</div>
                 </div>
-                <div class="w-full flex flex-col items-center justify-center">
+                <div class="w-full flex flex-col items-center">
                     {% image "src/img/tu24-timeline-03.png", "ut2024-timeline-03", "", "w-32 rounded-full mb-3" %}
                     <div class="text-2xl md:text-4xl font-black mb-1">Oct 02</div>
-                    Networking Brunch
+                    <div class="text-lg font-black">Networking Brunch</div>
+                    <div class="text-gray-700 text-sm italic mt-1">Sponsored by:</div>
+                    <img class="h-8" src="/img/logo-universal-beach.svg" alt="">
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="py-16 md:py-24 bg-gray-900 text-white">
+    <div class="py-16 md:py-24 bg-gray-900 text-white" id="agenda">
         <div class="text-2xl xl:text-5xl font-black text-center">
             Conference agenda Oct 1
         </div>
@@ -117,7 +121,7 @@ socialImage: social-unchained-2024.png
                     <div class="text-white text-xl font-black p-2 text-center">Morning</div>
                     {% for x in unchained24agenda %}
                     {% if x.time === "morning" %}
-                    <div class="p-2.5 bg-white shadow-md rounded-lg mb-1.5 text-gray-800 transition-all hover:scale-105 hover:-rotateseborder-gray-950:shadow-xl">
+                    <div class="relative p-2.5 bg-white shadow-md rounded-lg mb-1.5 text-gray-800 transition-all hover:scale-105 hover:-rotateseborder-gray-950:shadow-xl">
                         <div class="font-black text-lg/5 mb-1">{{x.title}}</div>
                         {% if x.speaker is iterable and not x.speaker is string %}
                         <div class="flex flex-col md:flex-row items-center gap-2 md:gap-4">
@@ -144,8 +148,11 @@ socialImage: social-unchained-2024.png
                     <div class="text-white text-xl font-black p-2 text-center">Noon</div>
                     {% for x in unchained24agenda %}
                     {% if x.time === "noon" %}
-                    <div class="p-2.5 bg-white shadow-md rounded-lg mb-1.5 text-gray-800 transition-all hover:scale-105 hover:-rotate-1 hover:shadow-xl {% if x.speaker.name == 'Freshcells GmbH' %}border-2 border-gray-950{% endif %}">
+                    <div class="relative p-2.5 bg-white shadow-md rounded-lg mb-1.5 text-gray-800 transition-all hover:scale-105 hover:-rotate-1 hover:shadow-xl {% if x.speaker.name == 'Freshcells GmbH' %}border-2 border-gray-950{% endif %}">
                         <div class="font-black text-lg/5 mb-1">{{x.title}}</div>
+                        {% if x.speaker.name === "Freshcells GmbH" %}
+                        <img class="absolute right-2.5 top-2.5 h-4" src="/img/logo-freshcells.svg" alt="">
+                        {% endif %}
                         {% if x.speaker is iterable and not x.speaker is string %}
                         <div class="flex flex-col md:flex-row items-center gap-2 md:gap-4">
                         {% for z in x.speaker %}
@@ -171,8 +178,11 @@ socialImage: social-unchained-2024.png
                     <div class="text-white text-xl font-black p-2 text-center">Afternoon</div>
                     {% for x in unchained24agenda %}
                     {% if x.time === "afternoon" %}
-                    <div class="p-2.5 bg-white shadow-md rounded-lg mb-1.5 text-gray-800 transition-all hover:scale-105 hover:-rotate-1 hover:shadow-xl {% if x.speaker.name == 'Hexens' %}border-2 border-gray-950{% endif %}">
+                    <div class="relative p-2.5 bg-white shadow-md rounded-lg mb-1.5 text-gray-800 transition-all hover:scale-105 hover:-rotate-1 hover:shadow-xl {% if x.speaker.name == 'Hexens' %}border-2 border-gray-950{% endif %}">
                         <div class="font-black text-lg/5 mb-1">{{x.title}}</div>
+                        {% if x.speaker.name === "Hexens" %}
+                        <img class="absolute right-2.5 top-2.5 h-4" src="/img/logo-hexens.svg" alt="">
+                        {% endif %}
                         {% if x.speaker is iterable and not x.speaker is string %}
                         <div class="flex flex-col md:flex-row items-center gap-2 md:gap-4">
                         {% for z in x.speaker %}
@@ -246,19 +256,19 @@ socialImage: social-unchained-2024.png
             </div>
             <div class="grid grid-cols-2 md:grid-cols-5 gap-4 md:gap-8 items-center justify-center my-8">
                 <a href="https://emind.de/en" target="_blank" class="bg-white border border-gray-100 hover:border-gray-400 transition-colors rounded-xl p-4 w-full flex items-center justify-center h-32 shadow-sm">
-                    <img src="/img/logo-emind.svg" alt="">                                         
+                    <img src="/img/logo-emind.svg" alt="">
                 </a>
                 <a href="https://www.involatus.com/" target="_blank" class="bg-white border border-gray-100 hover:border-gray-400 transition-colors rounded-xl p-4 w-full flex items-center justify-center h-32 shadow-sm">
-                    <img src="/img/logo-involatus.svg" alt="">                    
+                    <img src="/img/logo-involatus.svg" alt="">
                 </a>
                 <a href="https://www.universalbeachhotels.com/de/" target="_blank" class="bg-white border border-gray-100 hover:border-gray-400 transition-colors rounded-xl p-4 w-full flex items-center justify-center h-32 shadow-sm">
-                    <img src="/img/logo-universal-beach.svg" alt="">                                         
+                    <img src="/img/logo-universal-beach.svg" alt="">
                 </a>
                 <a href="https://hexens.io/" target="_blank" class="bg-white border border-gray-100 hover:border-gray-400 transition-colors rounded-xl p-4 w-full flex items-center justify-center h-32 shadow-sm">
-                    <img src="/img/logo-hexens.svg" alt="">                                                            
+                    <img src="/img/logo-hexens.svg" alt="">
                 </a>
                 <a href="https://www.freshcells.de/en/" target="_blank" class="bg-white border border-gray-100 hover:border-gray-400 transition-colors rounded-xl p-4 w-full flex items-center justify-center h-32 shadow-sm">
-                    <img src="/img/logo-freshcells.svg" alt="">                                                            
+                    <img src="/img/logo-freshcells.svg" alt="">
                 </a>
             </div>    
             <a href="mailto:hello@chain4travel.com" class="btn-primary">
