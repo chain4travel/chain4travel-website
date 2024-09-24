@@ -216,14 +216,14 @@ socialImage: social-unchained-2024.png
         {% for speaker in unchainedspeakers2024 | sort(attribute='name') %}
         <div class="p-4">
             {% set speakerSlug = "src/img/unchained-2024/" + speaker.name | slugify + ".png" %}
-            <div class="rounded-xl overflow-hidden aspect-square border-2 border-primary bg-gradient-to-b from-white to-primary/20 mb-2 shadow-lg relative">
+            <div class="rounded-xl overflow-hidden aspect-square border-2 border-primary bg-gradient-to-b from-white to-primary/20 mb-3 shadow-lg relative">
                 <a class="absolute top-0 right-0 p-2 hover:opacity-70 text-primary" href="{{speaker.linkedin}}" target="_blank" rel="noopener noreferrer">
                     <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 11v5m8 0v-3c0-.67-.4-2-2-2s-2 1.33-2 2m0 3v-3m0 0v-2M8 8h.01M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2Z"/></svg>
                 </a>
                 {% image speakerSlug, "annet-steenbergen", "", "inline-block w-full object-contain" %}
             </div>
             <div class="text-center">
-                <div class="font-black mb-1 text-lg">{{speaker.name}}</div>
+                <div class="font-black mb-1 text-lg/5">{{speaker.name}}</div>
                 <div class="text-xs text-gray-700">{{speaker.position}}</div>
             </div>
         </div>
