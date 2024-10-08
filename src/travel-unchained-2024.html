@@ -33,41 +33,6 @@ socialImage: social-unchained-2024.png
     </div>
     <!-- Hero ends -->
 
-    <!-- Countdown starts -->
-    <div class="text-center h-32 flex flex-col items-center justify-center bg-gradient-to-b from-primary to-primaryDark py-6">
-        <div id="demo" class="flex items-center gap-7 md:gap-12 text-white justify-center text-3xl md:text-5xl tracking-normal font-bold"></div>
-        <script>
-        // Set the date we're counting down to
-        var countDownDate = new Date("Sep 30, 2024 09:00:00").getTime();
-
-        // Update the count down every 1 second
-        var x = setInterval(function() {
-
-        // Get today's date and time
-        var now = new Date().getTime();
-            
-        // Find the distance between now and the count down date
-        var distance = countDownDate - now;
-            
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            
-        // Output the result in an element with id="demo"
-        document.getElementById("demo").innerHTML = "<div>" + days + " <div class='text-base mt-2 uppercase font-normal'>Days</div></div> " + "<div>" + hours + " <div class='text-base mt-2 uppercase font-normal'>Hours</div></div> " + "<div>" + minutes + " <div class='text-base mt-2 uppercase font-normal'>Minutes</div></div> " + "<div>" + seconds + " <div class='text-base mt-2 uppercase font-normal'>Seconds</div></div> ";
-            
-        // If the count down is over, write some text 
-        if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("demo").innerHTML = "EXPIRED";
-        }
-        }, 1000);
-        </script>
-    </div>
-    <!-- Countdown ends -->
-
     <div class="py-16 md:py-24">
         <div class="max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-6 items-center">
             <div class="col-span-12 md:col-span-6">
@@ -77,7 +42,6 @@ socialImage: social-unchained-2024.png
                 <p class="my-2 md:my-6">
                     The third time is a charm. Once again, we are inviting 250 web3 and travel executives to Mallorca. In addition to networking opportunities, we are putting together a one-day conference with exciting speakers showcasing real innovations in travel. Don't miss your chance to join C-level executives from around the world as they explore the latest trends in travel technology and share ideas about web3's innovations in the industry. Ready to join us?
                 </p>
-                <span @click="travelUnchainedModal = true" class="btn-primary">Confirm interest</span>
             </div>
             <div class="col-span-12 md:col-span-5 md:col-start-8 rounded-lg overflow-hidden h-64 md:h-[320px]">
                 {% image "src/img/unchained/unchained-07.png", "Unchained Event on stage", "", "w-full h-full object-cover object-left-top" %}
