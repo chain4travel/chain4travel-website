@@ -6,7 +6,7 @@ socialImage: social_traveltrends.png
 permalink: /camino-network-2025-travel-trends/
 authorslug: vladimirnovikov
 authorname: Vladimir Novikov
-publishDate: 2025-01-28
+publishDate: 2025-01-29
 cover: /img/traveltrends-article.png
 ---
 
