@@ -30,7 +30,7 @@ With the average travel booking still touching 10+ separate systems, creating nu
 
 # Live tourism becomes unstoppable
 
-Follow the example above we can see that despite the fact that literally everything can be accessed virtually, it is the in-real-life-only moments that drive people to travel a lot. From mega concerts to meteor showers, from gaming championships to cultural festivals – these events drive huge traffic around the world.
+Following the example above, we can see that despite the fact that literally everything can be accessed virtually, it is the in-real-life-only moments that drive people to travel a lot. From mega concerts to meteor showers, from gaming championships to cultural festivals – these events drive huge traffic around the world.
 
 ![Live Tourism Growth](/img/travel-trends-01.jpg)
 
@@ -205,7 +205,7 @@ Each of these innovations brings the 2025 travel trends closer to reality. More 
 
 # How can you build travel trends?
 
-If your company is interested to explore new digital ecosystem and new tools that make top travel trends tangible and scalable, here what you can do:
+If your company is interested in exploring this new digital ecosystem and new tools that make top travel trends tangible and scalable, here is what you can do:
 
 - [request a demo call](https://outlook.office365.com/book/CaminoNetworkDeepDive1hourSamAnke@chain4travel.com/) to learn more about Camino Messenger;
 - [apply for a grant](https://camino.network/grant-program/) to build web3 travel products;
