@@ -27,6 +27,8 @@ It is clear that every travel search costs money, but only a small fraction of t
 
 The Camino Messenger is the first travel distribution platform solving the high LTB ratios thanks to its architecture and digital capabilities. Designed specifically for the travel industry and built by travel tech experts, it introduces a new perspective on how searches and bookings are managed. In short, using the messenger travel suppliers and providers can align incentives and cut digital waste.
 
+![Camino Messenger Flow](/img/messenger-flow.jpg)
+
 ## How the Camino Messenger works
 
 Built on decentralized, open-source technologies, the Camino Messenger drives the travel industry participants into a community state of mind where all the participants own and govern the technology they use. Thus, there is no single entity controlling the system — all the participants have trust through its accessible and adaptable framework.
@@ -35,7 +37,7 @@ Built on decentralized, open-source technologies, the Camino Messenger drives th
 
 ## Network fees
 
-Before we get to the fees, let's define "messages" in the context of travel distribution with the Camino Messenger. "*A message*" is a unified and formalized API call with standardized structure, which makes the entire process of data exchange super efficient and clear to all the participants of the network and across verticals. We say, that all the companies connected to the Messenger "speak the same language".
+Before we get to the fees, let's define ["messages"](https://chain4travel.com/camino-messenger-when-less-is-more) in the context of travel distribution with the Camino Messenger. "*A message*" is a unified and formalized API call with standardized structure, which makes the entire process of data exchange super efficient and clear to all the participants of the network and across verticals. We say, that all the companies connected to the Messenger "speak the same language".
 
 Today, the charge per message is fixed and equals **0.00005 EURe**. EURe is the digital equivalent of a Euro (stablecoin) used to transact in the digital ecosystem. Camino Messenger provides a simplified way for companies willing to work with the Messenger to use the best of both worlds, from digital currencies to classic bank account transfers.
 
@@ -70,6 +72,6 @@ The Camino Messenger plays a transformative role in the future of travel distrib
 
 - [Schedule a call](https://outlook.office365.com/book/CaminoNetworkDeepDive1hourSamAnke@chain4travel.com/) with the team
 - Dive into the [documents](https://docs.camino.network/)
-- Reach out to Camino builders
+- [Reach out to Camino builders](https://discord.gg/camino)
 
 If you missed the early days of the Internet or Social Media to adjust your business to the changing digital landscape, it is your third chance to get onboard and preparing the team, technology and processes to thrive in the digital world of web3. 
