@@ -6,7 +6,7 @@ socialImage: social_fintechsolution.png
 permalink: /five-reasons-why-travel-needs-its-fintech-solution/
 authorslug: vladimirnovikov
 authorname: Vladimir Novikov
-publishDate: 2025-03-20
+publishDate: 2025-04-02
 cover: /img/fintechsolution-article.png
 ---
 
