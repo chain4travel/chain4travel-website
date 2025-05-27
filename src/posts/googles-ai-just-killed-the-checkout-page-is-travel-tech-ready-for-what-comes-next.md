@@ -4,7 +4,7 @@ title: "Google’s AI Just Killed the Checkout Page — Is Travel Tech Ready for
 description: "Last week, Google quietly changed everything. Tucked inside a number of AI announcements at Google I/O was something that should make every travel executive sit up."
 socialImage: social_checkout.png
 permalink: /googles-ai-just-killed-the-checkout-page-is-travel-tech-ready-for-what-comes-next/
-publishDate: 2025-05-28
+publishDate: 2025-05-27
 cover: /img/checkout-article.png
 ---
 
