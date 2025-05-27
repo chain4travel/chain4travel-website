@@ -87,10 +87,12 @@
     <section class="bg-gray-900 border-t border-gray-700">
         <div class="items-center justify-between max-w-screen-lg px-8 py-4 mx-auto md:px-4 md:flex">
             <div class="flex items-center justify-center">
+                {% if authorslug %}
                 <img alt="testimonial-photo" src="../img/{{authorslug}}.png" class="flex-shrink-0 object-cover object-center w-8 h-8 border border-gray-700 rounded-full md:w-12 md:h-12">
                 <span class="items-center pl-4 text-left text-white/75">
                     By {{authorname}}
                 </span>
+                {% endif %}
             </div>
             <div class="flex items-center justify-center mt-2 md:mt-0">
                 <span class="hidden mr-2 text-sm text-gray-400 md:inline-block">Share:</span>
