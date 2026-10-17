@@ -44,7 +44,7 @@ One of the most significant pain points in the travel experience is the notoriou
 
 <div class="max-w-screen-md mx-auto">
 <div class="video-container">
-<iframe src="https://www.youtube.com/embed/YHUwfbSBS38?si=xlUz0NA8YZvAXCuT&amp;start=1330" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/YHUwfbSBS38?start=1330" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 

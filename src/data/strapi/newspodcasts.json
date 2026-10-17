@@ -1,0 +1,773 @@
+{
+ "data": [
+  {
+   "id": 1,
+   "attributes": {
+    "Title": "Blockchain goes HIN & WEG",
+    "Date": "2022-10-06",
+    "Text": "Nun ist das Thema Blockchain und Kryptowährung mit Chain4Travel nicht nur mitten in der Touristikwelt gelandet, sondern mit Daniel Poerschke, dem Managing Director und Head of Product des Tech-Unternehmens auch im HIN & WEG Podcast. In dieser spannenden Folge erklärt Poerschke den Gastgebern Sven und Andy mit Engelsgeduld was eine Blockchain ist, warum die Chain4Travel-eigene Camino Blockchain und ihrer Camino-Token Kryptowährung einen klaren Weg in die Zukunft weist und warum gerade eine Dezentralisierung von Informationen und Werten für mehr Sicherheit und Transparenz in der Touristik sorgen kann. Wer sich also neu mit diesen Themen und ihrer Zukunft in der Touristik beschäftigen will, der sollte diesen Spagat zwischen abstrakten Tech-Konzepten und der „Sendung mit der Maus“ auf gar keinen Fall verpassen. Jetzt online! Jetzt hören!",
+    "Link": "https://www.hinundwegpodcast.de/podcast/episode/a59a834a/daniel-poerschke-managing-directorhead-of-product-chain4travel",
+    "createdAt": "2023-05-10T15:27:31.033Z",
+    "updatedAt": "2023-05-10T15:27:38.715Z",
+    "publishedAt": "2023-05-10T15:27:38.709Z",
+    "TeaserImage": {
+     "data": {
+      "id": 233,
+      "attributes": {
+       "name": "media-8.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 620,
+       "height": 349,
+       "hash": "media_8_921a859d2f",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 8.62,
+       "url": "/uploads/media_8_921a859d2f.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-05-10T15:25:54.099Z",
+       "updatedAt": "2023-05-10T15:25:54.099Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 2,
+   "attributes": {
+    "Title": "Travel Un'chained - voices from Mallorca",
+    "Date": "2022-09-16",
+    "Text": "Blockchain ist viel mehr als Bitcoin! Und Camino als Mainnet hat den Anspruch die weltweit erste touristische Blockchain zu sein.\n\nMit Ralf Usbeck und Anke Hsu habe ich im travelholics Podcast bereits über die Idee von \"Chain4Travel\" gesprochen.",
+    "Link": "https://travelholics.tourispix.de/240-unchained",
+    "createdAt": "2023-05-10T15:28:58.216Z",
+    "updatedAt": "2023-05-10T15:28:59.519Z",
+    "publishedAt": "2023-05-10T15:28:59.512Z",
+    "TeaserImage": {
+     "data": {
+      "id": 234,
+      "attributes": {
+       "name": "media-7.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 640,
+       "height": 360,
+       "hash": "media_7_118ddf549c",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 67.39,
+       "url": "/uploads/media_7_118ddf549c.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-05-10T15:28:18.239Z",
+       "updatedAt": "2023-05-10T15:28:18.239Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 3,
+   "attributes": {
+    "Title": "Ralf Usbeck und seine Blockchain-Pläne",
+    "Date": "2022-04-28",
+    "Text": "Mit der Blockchain-Lösung Chain4Travel will Travel-Tech-Pionier Ralf Usbeck die Touristik umkrempeln. Was steckt dahinter? Ein Podcast mit dem Chef des Unternehmens Peakwork.\n\nAls Gründer von Traveltainment und Peakwork hat Ralf Usbeck schon große Fußspuren in der Touristik hinterlassen. Doch müde ist der Travel-Tech-Experte offenbar noch lange nicht. Als nächstes steht der Launch des neuen Reisebüro-Systems Set an. Außerdem arbeitet Peakwork an der Lösung Chain4Travel, einer Blockchain-basierten Anwendung, mit der Usbeck die Touristik nach vorne bringen will.",
+    "Link": "https://www.fvw.de/touristik/technologie/podcast-der-woche-ralf-usbeck-und-seine-blockchain-plaene-225723",
+    "createdAt": "2023-05-10T15:29:59.840Z",
+    "updatedAt": "2023-05-10T15:30:01.319Z",
+    "publishedAt": "2023-05-10T15:30:01.316Z",
+    "TeaserImage": {
+     "data": {
+      "id": 235,
+      "attributes": {
+       "name": "media-1.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 620,
+       "height": 349,
+       "hash": "media_1_af4cd1ed0a",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 53.07,
+       "url": "/uploads/media_1_af4cd1ed0a.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-05-10T15:29:22.960Z",
+       "updatedAt": "2023-05-10T15:29:22.960Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4,
+   "attributes": {
+    "Title": "Anke Hsu - Blockchain in der Touristik",
+    "Date": "2022-06-02",
+    "Text": "Auf den VIR Online Innovationstagen haben Teilnehmer die Möglichkeit, ihre Innovation und ihr Unternehmen in einem exklusiven Format zu präsentieren: dem VIR Innovation Shortcast powered by travelholics_podcast.",
+    "Link": "https://travelholics.tourispix.de/224-vir_innovationshortcast_chain4travel",
+    "createdAt": "2023-05-10T15:31:31.487Z",
+    "updatedAt": "2023-05-10T15:31:32.126Z",
+    "publishedAt": "2023-05-10T15:31:32.123Z",
+    "TeaserImage": {
+     "data": {
+      "id": 236,
+      "attributes": {
+       "name": "media-2.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 620,
+       "height": 349,
+       "hash": "media_2_0c33ac2ed6",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 30.61,
+       "url": "/uploads/media_2_0c33ac2ed6.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-05-10T15:30:29.871Z",
+       "updatedAt": "2023-05-10T15:30:29.871Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5,
+   "attributes": {
+    "Title": "Chain4Travel sammelt 4,5 Mio. US-Dollar für seine Blockchain-Reiseplattform Camino ein (Travel Industry)",
+    "Date": "2022-06-13",
+    "Text": "In der Mittagsfolge sprechen wir heute mit Daniel Poerschke, Managing Director und Head of Product von Chain4Travel, über die erfolgreiche Seed-Finanzierungsrunde von 3,6 Millionen Pfund (4,5 Mio. US-Dollar).",
+    "Link": "https://startupinsider.podigee.io/1009-chain4travel",
+    "createdAt": "2023-05-10T15:32:47.832Z",
+    "updatedAt": "2023-05-10T15:32:49.576Z",
+    "publishedAt": "2023-05-10T15:32:49.573Z",
+    "TeaserImage": {
+     "data": {
+      "id": 237,
+      "attributes": {
+       "name": "media-3.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 620,
+       "height": 349,
+       "hash": "media_3_acb1376a62",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 28.47,
+       "url": "/uploads/media_3_acb1376a62.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-05-10T15:32:12.900Z",
+       "updatedAt": "2023-05-10T15:32:12.900Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 6,
+   "attributes": {
+    "Title": "Anke Hsu & Daniel Poerschke at HSMA Day 2022",
+    "Date": "2022-05-18",
+    "Text": "The blockchain technology experts Anke Hsu and Daniel Poerschke from chain4travel summarize the main takeaways from their session about ‘Attracting and retaining customers with blockchain: Decentralized direct sales and token-based loyalty programs’ at the HSMA Day 2022, hosted by our friends at HSMA Deutschland e.V.  ",
+    "Link": "https://www.techtalk.travel/post/anke-hsu-daniel-poerschke-chain4travel-hsma-day-2022-attracting-retaining-hotel-customers-blockchain-technology",
+    "createdAt": "2023-05-10T15:34:04.203Z",
+    "updatedAt": "2023-05-10T15:34:04.744Z",
+    "publishedAt": "2023-05-10T15:34:04.741Z",
+    "TeaserImage": {
+     "data": {
+      "id": 238,
+      "attributes": {
+       "name": "media-4.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 620,
+       "height": 349,
+       "hash": "media_4_5e7f46bd1f",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 36.24,
+       "url": "/uploads/media_4_5e7f46bd1f.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-05-10T15:33:34.833Z",
+       "updatedAt": "2023-05-10T15:33:34.833Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 7,
+   "attributes": {
+    "Title": "Interview with Chain4Travel about the Camino blockchain (Part 1)",
+    "Date": "2022-08-22",
+    "Text": "In this episode (Part 1) Luca interviews the builders at Chain4Travel, who are creating the new Camino blockchain, a travel-focused L1. This interview gives them the microphone to comment on the analysis done in the previous two episodes. https://chain4travel.com Sponsor or donate via #NFT @ https://podcast.web3intravel.com",
+    "Link": "https://open.spotify.com/episode/6slzoGy74O14al61vcB1WY",
+    "createdAt": "2023-05-10T15:35:58.565Z",
+    "updatedAt": "2023-05-10T15:35:59.435Z",
+    "publishedAt": "2023-05-10T15:35:59.432Z",
+    "TeaserImage": {
+     "data": {
+      "id": 239,
+      "attributes": {
+       "name": "media-5.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 620,
+       "height": 349,
+       "hash": "media_5_0d4346eba8",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 27.59,
+       "url": "/uploads/media_5_0d4346eba8.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-05-10T15:35:22.239Z",
+       "updatedAt": "2023-05-10T15:35:22.239Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 8,
+   "attributes": {
+    "Title": "Interview with Chain4Travel about the Camino blockchain (Part 2)",
+    "Date": "2022-08-22",
+    "Text": "In this episode (Part 2) Luca talks interviews the builders at Chain4Travel, who are creating the new Camino blockchain, a travel-focused L1. Sponsor or donate via #NFT @ https://podcast.web3intravel.com",
+    "Link": "https://open.spotify.com/episode/4bt8YmRUqgFc6rTl87hmRW",
+    "createdAt": "2023-05-10T15:37:56.008Z",
+    "updatedAt": "2023-05-10T15:37:57.286Z",
+    "publishedAt": "2023-05-10T15:37:57.282Z",
+    "TeaserImage": {
+     "data": {
+      "id": 240,
+      "attributes": {
+       "name": "media-6.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 620,
+       "height": 349,
+       "hash": "media_6_89749c92a9",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 28.07,
+       "url": "/uploads/media_6_89749c92a9.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-05-10T15:36:56.886Z",
+       "updatedAt": "2023-05-10T15:36:56.886Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 9,
+   "attributes": {
+    "Title": "Web3 im Tourismus: Red Flag or Green Light?",
+    "Date": "2023-05-16",
+    "Text": "Daniel Poerschke unterstützt als Geschäftsführer und Head of Product bei Chain4Travel die Produktentwicklung einer neuen, dezentralen Infrastruktur für die #Reisebranche. Als Tech Enthusiast mit Business Background bringt er dabei Business Nutzen und technische Innovation zusammen. Zu seinen Steckenpferden gehört die Vermittlung komplexer, verteilter Systeme und deren Nutzbarmachung durch den Enduser.",
+    "Link": "https://player.vimeo.com/video/825079642",
+    "createdAt": "2023-05-16T08:45:45.667Z",
+    "updatedAt": "2023-05-16T08:45:46.390Z",
+    "publishedAt": "2023-05-16T08:45:46.388Z",
+    "TeaserImage": {
+     "data": {
+      "id": 248,
+      "attributes": {
+       "name": "1684221557534.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 796,
+       "height": 684,
+       "hash": "1684221557534_f68dc72e73",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 50.43,
+       "url": "/uploads/1684221557534_f68dc72e73.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-05-16T08:45:03.922Z",
+       "updatedAt": "2023-05-16T08:45:26.691Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 10,
+   "attributes": {
+    "Title": "Camino Network: The Web3 Travel Ecosystem - Tomorrow Explored Podcast",
+    "Date": "2023-06-12",
+    "Text": "Tomorrow Explored Podcast ventures into the utility of Web3 with Pablo Castillo from Chain4Travel.\n\nCamino Network aims to become the definitive Web3 ecosystem for the travel industry. Pablo explains why the industry requires blockchain solutions, the use cases for Web3 in travel, and their vision of the network's future.",
+    "Link": "https://www.youtube.com/watch?v=ZZeEgFU8qFI",
+    "createdAt": "2023-06-15T12:46:25.334Z",
+    "updatedAt": "2023-06-15T12:46:50.791Z",
+    "publishedAt": "2023-06-15T12:46:50.786Z",
+    "TeaserImage": {
+     "data": {
+      "id": 495,
+      "attributes": {
+       "name": "download.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 168,
+       "hash": "download_3d628dcd64",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 7.4,
+       "url": "/uploads/download_3d628dcd64.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-06-15T12:45:56.317Z",
+       "updatedAt": "2023-06-15T12:45:56.317Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 11,
+   "attributes": {
+    "Title": "Can Blockchain Work in Travel Distribution? ",
+    "Date": "2023-07-01",
+    "Text": "Pablo was intereviewed at the HEDNA stage. Find out more about",
+    "Link": "https://www.youtube.com/watch?v=XBq_pt9n1pg",
+    "createdAt": "2023-07-07T12:26:57.592Z",
+    "updatedAt": "2023-07-10T15:59:09.835Z",
+    "publishedAt": "2023-07-10T15:59:09.822Z",
+    "TeaserImage": {
+     "data": {
+      "id": 731,
+      "attributes": {
+       "name": "Screenshot 2023-07-10 at 17.58.52.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 1169,
+       "height": 604,
+       "hash": "Screenshot_2023_07_10_at_17_58_52_fabb231447",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 143.64,
+       "url": "/uploads/Screenshot_2023_07_10_at_17_58_52_fabb231447.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-07-10T15:58:57.787Z",
+       "updatedAt": "2023-07-10T15:58:57.787Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 12,
+   "attributes": {
+    "Title": "Cryptoticker.io with Pablo Castillo",
+    "Date": "2023-11-01",
+    "Text": "Enjoy Episode 41 of Cryptoticker.io with Pablo Castillo! \nTraveling is something that most of us love and enjoy! But unfortunately oftentimes, there is a lot of hassle when it comes to planning and organizing trips. This is, in many cases, due to a fragmented software landscape used by the multitude of players in the travel industry. And this is exactly what Chain4Travel wants to challenge and improve! They are the initiator of Camino, the first web3 travel ecosystem and the are backed by a massive conglomerate of travel industry companies supporting this cause! We’ve had the chance to talk to Pablo Castillo, who is not only the CTO at Chain4Travel but also is a veteran in the travel industry! So if you like to find out how your trips will improve in the future , you shouldn’t miss out! ",
+    "Link": "https://www.youtube.com/watch?v=jxZ5qVN4UZI",
+    "createdAt": "2023-11-02T17:34:32.245Z",
+    "updatedAt": "2023-11-02T17:34:33.129Z",
+    "publishedAt": "2023-11-02T17:34:33.126Z",
+    "TeaserImage": {
+     "data": {
+      "id": 806,
+      "attributes": {
+       "name": "Screenshot 2023-11-02 at 18.22.01.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 1259,
+       "height": 654,
+       "hash": "Screenshot_2023_11_02_at_18_22_01_b724dd52e0",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 166.57,
+       "url": "/uploads/Screenshot_2023_11_02_at_18_22_01_b724dd52e0.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-11-02T17:22:24.962Z",
+       "updatedAt": "2023-11-02T17:22:24.962Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 13,
+   "attributes": {
+    "Title": "AWFT23 : Comment la blockchain peut-elle aider à rendre le tourisme plus durable ?",
+    "Date": "2023-11-02",
+    "Text": "Dans le cadre du forum A World For Travel, nous avons interrogé Pablo Castillo, CTO de Chain4Travel, afin de comprendre comment la blockchain peut jouer un rôle dans la transition durable du tourisme.\n\nSelon lui, la blockchain peut permettre d’économiser de l’énergie, du temps et de l’argent, qui peuvent être réinvestis dans des projets de durabilité dans le secteur.",
+    "Link": "https://www.tom.travel/2023/11/02/awft23-comment-la-blockchain-peut-elle-aider-a-rendre-le-tourisme-plus-durable/",
+    "createdAt": "2023-11-06T09:35:53.525Z",
+    "updatedAt": "2023-11-06T09:43:18.170Z",
+    "publishedAt": "2023-11-06T09:35:54.385Z",
+    "TeaserImage": {
+     "data": {
+      "id": 810,
+      "attributes": {
+       "name": "pablo-aft-min.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 1881,
+       "height": 820,
+       "hash": "pablo_aft_min_58e6942c4d",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 548.99,
+       "url": "/uploads/pablo_aft_min_58e6942c4d.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-11-06T09:43:14.098Z",
+       "updatedAt": "2023-11-06T09:43:14.098Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 15,
+   "attributes": {
+    "Title": "Blockchain in Travel: Cutting Costs, Boosting Loyalty, and Automating Payments",
+    "Date": "2023-12-21",
+    "Text": "Sebastian Beck, International Sales Manager at technology provider ISO Travel, takes center stage in this episode, sharing his insights into blockchain technology as an early adopter. As a consultant and solution provider within Camino Network, Sebastian discusses compelling use cases with Anke Hsu, highlighting the benefits for both businesses and customers.",
+    "Link": "https://youtu.be/IbawJc0DJYc",
+    "createdAt": "2024-01-02T09:54:14.460Z",
+    "updatedAt": "2024-01-02T09:54:15.560Z",
+    "publishedAt": "2024-01-02T09:54:15.557Z",
+    "TeaserImage": {
+     "data": {
+      "id": 865,
+      "attributes": {
+       "name": "seb.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 2560,
+       "height": 1440,
+       "hash": "seb_b2a1b038a5",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 468.45,
+       "url": "/uploads/seb_b2a1b038a5.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-01-02T09:53:23.478Z",
+       "updatedAt": "2024-01-02T09:53:23.478Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 16,
+   "attributes": {
+    "Title": "Navigating Tomorrow: Blockchain's Influence on Travel at ITB 2024",
+    "Date": "2024-03-05",
+    "Text": "In an era where digital innovation is key to competitive advantage, blockchain technology emerges as a driving force in reshaping the travel industry, bringing a new age of enhanced security, operational efficiency, and seamless customer experiences. This paradigm shift comes at a time when the integration of Central Bank Digital Currencies, the implementation of digital identities, and Generation Z demanding greater personalization and flexibility. This session aims to delve deep into the revolutionary potential of blockchain in reshaping the travel sector, with a special emphasis on the innovative strides made by Camino Network in one year.",
+    "Link": "https://youtu.be/EN0bdZDxxSw?si=1CHtc997hDN4kbfH",
+    "createdAt": "2024-03-08T09:25:37.943Z",
+    "updatedAt": "2024-03-08T09:43:04.994Z",
+    "publishedAt": "2024-03-08T09:25:38.874Z",
+    "TeaserImage": {
+     "data": {
+      "id": 908,
+      "attributes": {
+       "name": "ITB-2024-day2-3-22.jpg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 1200,
+       "height": 798,
+       "hash": "ITB_2024_day2_3_22_5bb1d257b8",
+       "ext": ".jpg",
+       "mime": "image/jpeg",
+       "size": 119.39,
+       "url": "/uploads/ITB_2024_day2_3_22_5bb1d257b8.jpg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-03-08T09:24:46.413Z",
+       "updatedAt": "2024-03-08T09:24:46.413Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 17,
+   "attributes": {
+    "Title": "Blockchain Travel Use Cases in Modern Travel Tech",
+    "Date": "2024-02-23",
+    "Text": "Roman Wetli is CIO of the Hotelplan Group, an international travel group with 1,900 employees in six business units in Europe and around the world. The travel group is active in the areas of beach holidays, individual and round trips, holiday apartments and holiday homes as well as business travel.",
+    "Link": "https://www.youtube.com/watch?v=I-rWhd4GjdE",
+    "createdAt": "2024-03-08T09:30:28.358Z",
+    "updatedAt": "2024-03-08T09:30:29.548Z",
+    "publishedAt": "2024-03-08T09:30:29.542Z",
+    "TeaserImage": {
+     "data": {
+      "id": 909,
+      "attributes": {
+       "name": "Roman.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 1920,
+       "height": 1080,
+       "hash": "Roman_fa69405f27",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 270.56,
+       "url": "/uploads/Roman_fa69405f27.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-03-08T09:30:23.624Z",
+       "updatedAt": "2024-03-08T09:30:23.624Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 18,
+   "attributes": {
+    "Title": "Travel Technology Evolution From Web1 to Web3",
+    "Date": "2024-02-15",
+    "Text": "In this episode Anke Hsu talks to Tom Dillon, CEO and Founder of A3M Global Management. ",
+    "Link": "https://www.youtube.com/watch?v=3twVRnud4hg",
+    "createdAt": "2024-03-08T09:31:45.355Z",
+    "updatedAt": "2024-03-08T09:31:47.307Z",
+    "publishedAt": "2024-03-08T09:31:47.303Z",
+    "TeaserImage": {
+     "data": {
+      "id": 910,
+      "attributes": {
+       "name": "video-tom.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 1280,
+       "height": 720,
+       "hash": "video_tom_dd319d0983",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 160.32,
+       "url": "/uploads/video_tom_dd319d0983.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-03-08T09:30:53.238Z",
+       "updatedAt": "2024-03-08T09:30:53.238Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 19,
+   "attributes": {
+    "Title": "Forum 1st Travel Tech USA & Canada 20th March 14hs EST",
+    "Date": "2024-03-20",
+    "Text": "Shaping the Future of Travel and Travelers! Travel Trends That Will Shape the Market in the Next 5 Years with Chain4Travel, Xeni, Juniper, Insured Nomads, Shiji and Mondee.\n",
+    "Link": "https://www.youtube.com/watch?v=NXNfvyq04pQ",
+    "createdAt": "2024-03-21T15:09:38.713Z",
+    "updatedAt": "2024-03-21T15:52:05.561Z",
+    "publishedAt": "2024-03-21T15:10:45.034Z",
+    "TeaserImage": {
+     "data": {
+      "id": 917,
+      "attributes": {
+       "name": "download.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 259,
+       "height": 194,
+       "hash": "download_c94b8682cc",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 10.07,
+       "url": "/uploads/download_c94b8682cc.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-03-21T15:10:37.643Z",
+       "updatedAt": "2024-03-21T15:10:37.643Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 20,
+   "attributes": {
+    "Title": "Blockchain in Travel: Pablo Castillo Unveils Future Tech Trends and Solutions",
+    "Date": "2024-06-21",
+    "Text": "Pablo shared invaluable insights on the transformative impact of blockchain technology in the travel industry, addressing some of the most pressing challenges and revealing potential solutions.",
+    "Link": "https://youtu.be/u6IiZUC2Ljw?si=CFsNUKfk4HejYvGA",
+    "createdAt": "2024-06-24T12:42:35.926Z",
+    "updatedAt": "2024-11-25T10:49:41.452Z",
+    "publishedAt": "2024-11-25T10:49:41.448Z",
+    "TeaserImage": {
+     "data": {
+      "id": 1045,
+      "attributes": {
+       "name": "Screenshot 2024-11-25 at 11.49.30.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 972,
+       "height": 486,
+       "hash": "Screenshot_2024_11_25_at_11_49_30_845d680dfb",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 136.26,
+       "url": "/uploads/Screenshot_2024_11_25_at_11_49_30_845d680dfb.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-11-25T10:49:37.787Z",
+       "updatedAt": "2024-11-25T10:49:37.787Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 21,
+   "attributes": {
+    "Title": "Taking-off With Web3 Innovation",
+    "Date": "2024-03-26",
+    "Text": "In this episode, Anke has a very interesting discussion with Lars Schöning, Channel Partner & Market Strategy Manager at Swiss International Airlines. Lars is a key figure within the Lufthansa Group, coordinating the Group's innovative blockchain initiatives.",
+    "Link": "https://youtu.be/fzfBbmCH0FA?si=ygD7rit1uuaO4Het",
+    "createdAt": "2024-06-27T11:04:43.341Z",
+    "updatedAt": "2024-06-27T11:04:44.177Z",
+    "publishedAt": "2024-06-27T11:04:44.173Z",
+    "TeaserImage": {
+     "data": {
+      "id": 986,
+      "attributes": {
+       "name": "lars.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 1280,
+       "height": 720,
+       "hash": "lars_3c1c75e357",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 160.67,
+       "url": "/uploads/lars_3c1c75e357.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-06-27T11:04:38.663Z",
+       "updatedAt": "2024-06-27T11:04:38.663Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 22,
+   "attributes": {
+    "Title": "Chain4Travel – Reinventing Travel with Web3",
+    "Date": "2024-12-01",
+    "Text": "Chain4Travel – Reinventing Travel with Web3",
+    "Link": "https://bravenewcoin.com/insights/chain4travel-reinventing-travel-with-web3",
+    "createdAt": "2024-12-02T08:57:44.929Z",
+    "updatedAt": "2024-12-02T08:57:46.401Z",
+    "publishedAt": "2024-12-02T08:57:46.397Z",
+    "TeaserImage": {
+     "data": {
+      "id": 1052,
+      "attributes": {
+       "name": "pablo-bnc.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 1200,
+       "height": 591,
+       "hash": "pablo_bnc_57e092dbe3",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 83.46,
+       "url": "/uploads/pablo_bnc_57e092dbe3.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-12-02T08:57:39.168Z",
+       "updatedAt": "2024-12-02T08:57:39.168Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 23,
+   "attributes": {
+    "Title": "Pablo Castillo: «Die Blockchain vereinfacht das Reisen»",
+    "Date": "2024-12-05",
+    "Text": "Im neuen «Travel News Talk» spricht der CEO von Chain4travel, Pablo Castillo, über die Vorteile der Blockchain, die aktuelle Entwicklung des Camino Netzwerks und er sagt, welche technologischen Veränderungen auf die Reisewelt zukommen.\n\n",
+    "Link": "https://www.travelnews.ch/future/27861-pablo-castillo-die-blockchain-vereinfacht-das-reisen.html",
+    "createdAt": "2024-12-06T10:41:20.162Z",
+    "updatedAt": "2024-12-06T10:41:21.091Z",
+    "publishedAt": "2024-12-06T10:41:21.081Z",
+    "TeaserImage": {
+     "data": {
+      "id": 1058,
+      "attributes": {
+       "name": "tnt70_4-daed414b.webp",
+       "alternativeText": null,
+       "caption": null,
+       "width": 1180,
+       "height": 590,
+       "hash": "tnt70_4_daed414b_b9057b1f0e",
+       "ext": ".webp",
+       "mime": "image/webp",
+       "size": 49.75,
+       "url": "/uploads/tnt70_4_daed414b_b9057b1f0e.webp",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-12-06T10:41:08.552Z",
+       "updatedAt": "2024-12-06T10:41:08.552Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 24,
+   "attributes": {
+    "Title": "Pablo Castillo | The New Era of Travel with Camino Network",
+    "Date": "2024-12-10",
+    "Text": "For episode 465, CEO & CTO Pablo Castillo joins Brandon Zemp to discuss the Camino Network.",
+    "Link": "https://youtu.be/4u7VgX9rfzg?si=wshW_Ry39BzvJLLP",
+    "createdAt": "2024-12-10T16:12:58.850Z",
+    "updatedAt": "2024-12-10T16:13:00.174Z",
+    "publishedAt": "2024-12-10T16:13:00.167Z",
+    "TeaserImage": {
+     "data": {
+      "id": 1061,
+      "attributes": {
+       "name": "blockhash.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 1280,
+       "height": 720,
+       "hash": "blockhash_b044eb4e33",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 110.48,
+       "url": "/uploads/blockhash_b044eb4e33.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-12-10T16:12:54.117Z",
+       "updatedAt": "2024-12-10T16:12:54.117Z"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "meta": {
+  "pagination": {
+   "page": 1,
+   "pageSize": 25,
+   "pageCount": 1,
+   "total": 23
+  },
+  "frozenFrom": "https://api.strapi.camino.network",
+  "frozenAt": "2026-10-17T11:31:56.385Z"
+ }
+}

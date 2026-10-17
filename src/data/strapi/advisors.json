@@ -1,0 +1,410 @@
+{
+ "data": [
+  {
+   "id": 1,
+   "attributes": {
+    "name": "Beat Blaser",
+    "bio": "Beat Blaser is Co-Founder and Managing Partner at Falkensteiner Ventures. He gained a comprehensive overview of travel and hospitality tech startups, managing a diverse portfolio of investments. Until 2018, Beat was MD at Thomas Cook for their City/Domestic tour operator platform, serving multiple markets in Continental Europe, the UK, and the Nordics. Currently, he is a Board Member in several startups and grownup companies in travel and hospitality across Europe.",
+    "linkedInLink": "https://www.linkedin.com/in/beat-blaser-94428a2/",
+    "createdAt": "2023-04-05T13:21:33.228Z",
+    "updatedAt": "2023-04-19T13:11:13.903Z",
+    "publishedAt": "2023-04-05T13:21:36.892Z",
+    "role": "Travel Start-ups",
+    "image": {
+     "data": {
+      "id": 151,
+      "attributes": {
+       "name": "beatblaser.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "beatblaser_e408624e93",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 34.16,
+       "url": "/uploads/beatblaser_e408624e93.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:21:17.769Z",
+       "updatedAt": "2023-04-05T13:21:17.769Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 3,
+   "attributes": {
+    "name": "Martin Kloeckner",
+    "bio": "Martin Kloeckner is Senior Technology Consultant at PricewaterhouseCoopers (Pwc) in Australia, where he advises clients on IT strategy and contributes to the blockchain/web3 practice build in the APAC region. He started his travel tech career in Germany in 2008 at TravelTainment, managing key accounts in the DACH market before he implemented strategic XML connectivity projects with international hotel channel managers and OTA's as Partnerships Manager at HRS. After his migration to Australia in 2015 Martin endeavoured on a five-year entrepreneurial journey as co-founder and managing director of BBQ Buoys, a multi-award winning leisure experience provider for local and international customers in Adelaide.",
+    "linkedInLink": "https://www.linkedin.com/in/martinkloeckner1/",
+    "createdAt": "2023-04-05T13:23:19.238Z",
+    "updatedAt": "2023-04-19T13:12:53.784Z",
+    "publishedAt": "2023-04-05T13:23:21.758Z",
+    "role": "Travel Technology",
+    "image": {
+     "data": {
+      "id": 153,
+      "attributes": {
+       "name": "martinkloeckner.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "martinkloeckner_2a7be00b8d",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 42.33,
+       "url": "/uploads/martinkloeckner_2a7be00b8d.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:23:14.313Z",
+       "updatedAt": "2023-04-05T13:23:14.313Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 7,
+   "attributes": {
+    "name": "Glenn Morgan",
+    "bio": "Glenn Morgan is a Fellow of the Chartered Institute for IT, Non-Executive Director, and Strategic Digital and Business Transformation Leader, bringing over 40 years of cumulative experience in strategy, venture building, corporate innovation & digital transformation. Glenn spent the last 25 years at British Airways & International Airlines Group creating and leading IAG's Hangar 51 multi-million ventures fund and global accelerator, working with start-ups and VCs. Glenn is the ex-Chairman of the IATA Digital Council and oneworld Digital Board. Glenn's responsibilities included being IAG's Chief Technology Officer, in charge of the group's information technology strategy. Glenn holds several technology patents and is an active angel investor and Non-Executive Director on several boards. In his spare time, Glenn participates in international motorcycle races, competing in FIA and FIM World Cup Cross Country rallies, and is a Tae Kwon Do Instructor and 2nd Dan Black Belt.",
+    "linkedInLink": "https://www.linkedin.com/in/glennmorgan/",
+    "createdAt": "2023-04-05T13:26:30.928Z",
+    "updatedAt": "2023-04-19T13:12:14.843Z",
+    "publishedAt": "2023-04-05T13:26:31.777Z",
+    "role": "Aviation",
+    "image": {
+     "data": {
+      "id": 157,
+      "attributes": {
+       "name": "glennmorgan.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "glennmorgan_90930e8b72",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 36.52,
+       "url": "/uploads/glennmorgan_90930e8b72.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:26:28.491Z",
+       "updatedAt": "2023-04-05T13:26:28.491Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 8,
+   "attributes": {
+    "name": "Andrew Owen-Jones",
+    "bio": "Andrew Owen-Jones has over 30 years of travel technology experience and knowledge in multiple key markets. He is CEO and Co founder bd4travel 2013 - now. He won the Award of ML based business serving travel and retail businesses. He was CEO Amadeus Leisure Group 2009 - 2011. Director Leisure Strategy Amadeus 2001 - 2009. Board Member Comtec, Multicom, CCO Virgin Travelstore 2000, GM IT Virgin Atlantic 1997 - 2000.",
+    "linkedInLink": "https://www.linkedin.com/in/aowenjones/",
+    "createdAt": "2023-04-05T13:27:02.361Z",
+    "updatedAt": "2023-04-19T13:10:58.411Z",
+    "publishedAt": "2023-04-05T13:27:03.024Z",
+    "role": "GDS Technology",
+    "image": {
+     "data": {
+      "id": 158,
+      "attributes": {
+       "name": "andrewowenjones.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "andrewowenjones_f69b6a6a1c",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 32.18,
+       "url": "/uploads/andrewowenjones_f69b6a6a1c.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:26:59.811Z",
+       "updatedAt": "2023-04-05T13:26:59.811Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 9,
+   "attributes": {
+    "name": "Markus Pfau",
+    "bio": "Markus Pfau is a brilliant developer. He has already developed technologies that have significantly changed distribution and production in the tourism industry. For example, Markus developed the caching technology of TravelTainment (now Amadeus). He is the inventor of the Player Hub technology and the founder of Peakwork. He has been developing successful blockchain projects for several years.",
+    "linkedInLink": "https://www.linkedin.com/in/markus-pfau-b77571100/",
+    "createdAt": "2023-04-05T13:27:28.507Z",
+    "updatedAt": "2023-04-19T13:12:39.001Z",
+    "publishedAt": "2023-04-05T13:27:29.109Z",
+    "role": "Web3 Technology",
+    "image": {
+     "data": {
+      "id": 159,
+      "attributes": {
+       "name": "markuspfau.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "markuspfau_58cb5648c0",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 21.44,
+       "url": "/uploads/markuspfau_58cb5648c0.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:27:26.826Z",
+       "updatedAt": "2023-04-05T13:27:26.826Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 12,
+   "attributes": {
+    "name": "Christian Schuhegger",
+    "bio": "After finishing his studies in mathematical physics at the Technical University in Munich, Christian started his career with a fellowship program at the European Laboratory for Particle Physics (CERN) in Geneva. He then moved to Munich and spent five years at a bank as a software engineer and later on as team leader. In 2008, Christian acted as interim head of the consumer finance department's IT division at Ukrsibbank in Kiev before joining 360T (now part of the Deutsche Börse Group as their Foreign Exchange arm) in the role of Head of Technology. The core capability of the 360T foreign exchange trading platform is low latency, high throughput geo-scale distributed computing. Christian served at 360T in the role of Head of Technology and member of the Group Executive Board for 10 years until end of 2018 and he is still an Advisor to the Group Executive Board at 360T. Since late 2020 Christian joined Arabesque S-Ray (ESG Book) as platform expert and is helping to make the platforms developed at Arabesque a success.",
+    "linkedInLink": "https://www.linkedin.com/in/christian-schuhegger/",
+    "createdAt": "2023-04-05T13:29:22.623Z",
+    "updatedAt": "2023-04-19T13:11:54.404Z",
+    "publishedAt": "2023-04-05T13:29:23.215Z",
+    "role": "Finance Technology",
+    "image": {
+     "data": {
+      "id": 162,
+      "attributes": {
+       "name": "christianschuhegger.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "christianschuhegger_2ec8366a78",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 20.15,
+       "url": "/uploads/christianschuhegger_2ec8366a78.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:29:20.541Z",
+       "updatedAt": "2023-04-05T13:29:20.541Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 13,
+   "attributes": {
+    "name": "Ulrich Sieber",
+    "bio": "Ulrich Sieber performed different leadership roles in the financial services industry. His entire professional career anchors in investment banking and functions in Human Resources. His career started at Bayerische Vereinsbank in Munich, followed by employment at Credit Suisse, JPMorgan, and Dresdner Bank. He served at the Board of Managing Directors at Commerzbank Group, focusing on integrating Dresdner Bank into Commerzbank.",
+    "linkedInLink": null,
+    "createdAt": "2023-04-05T13:29:45.271Z",
+    "updatedAt": "2023-04-19T13:13:55.828Z",
+    "publishedAt": "2023-04-05T13:29:45.850Z",
+    "role": "Banking",
+    "image": {
+     "data": {
+      "id": 163,
+      "attributes": {
+       "name": "ulrichsieber.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "ulrichsieber_9a77f5e08d",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 27.56,
+       "url": "/uploads/ulrichsieber_9a77f5e08d.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:29:42.706Z",
+       "updatedAt": "2023-04-05T13:29:42.706Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 14,
+   "attributes": {
+    "name": "Jan Stenger",
+    "bio": "Jan Stenger is a serial entrepreneur and digital business expert. He developed his first b2b platform in 2000 and has since helped scale over ten more. With his company Companion D, he is transforming traditional companies and building up new digital businesses and, above all, tech teams for owners and investors, including transatlantic. Jan is also an advisory board member of several different travel tech/cyber companies in the US and Europe.",
+    "linkedInLink": "https://www.linkedin.com/in/jan-stenger-00632b/",
+    "createdAt": "2023-04-05T13:30:14.805Z",
+    "updatedAt": "2023-04-19T13:12:27.514Z",
+    "publishedAt": "2023-04-05T13:30:16.312Z",
+    "role": "Strategy",
+    "image": {
+     "data": {
+      "id": 164,
+      "attributes": {
+       "name": "janstenger.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "janstenger_4244161a9d",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 30.56,
+       "url": "/uploads/janstenger_4244161a9d.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:30:12.242Z",
+       "updatedAt": "2023-04-05T13:30:12.242Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 15,
+   "attributes": {
+    "name": "Benjamin Usinger",
+    "bio": "Benjamin Usinger is the Chief of Staff to the CEO at BitMEX and the Lead for their token projects. In this role, he designed and launched successful Token projects. Prior to this role, Ben was an Associate Director in KPMG Hong Kong and founder of their Crypto Advisory team since 2017. For more than 8 years, he has been working with Crypto Asset Service Providers and Banks on their institutionalisation and adoption of digital assets and brings deep expertise in Tokenomics & utility development, token issuance, market mechanics, liquidity and crypto asset regulation.",
+    "linkedInLink": "https://www.linkedin.com/in/benjaminusinger/",
+    "createdAt": "2023-04-05T13:30:50.333Z",
+    "updatedAt": "2023-04-19T13:11:28.640Z",
+    "publishedAt": "2023-04-05T13:30:50.956Z",
+    "role": "Crypto",
+    "image": {
+     "data": {
+      "id": 165,
+      "attributes": {
+       "name": "benjaminusinger.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "benjaminusinger_381de31993",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 47.09,
+       "url": "/uploads/benjaminusinger_381de31993.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:30:47.940Z",
+       "updatedAt": "2023-04-05T13:30:47.940Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 17,
+   "attributes": {
+    "name": "Christian Trumm",
+    "bio": "Christian Trumm is an accomplished Fintech & Web3 Advisor with a strong track record in Payments, Stablecoins, CBDC and Trade Finance between Asia and Europe.\n\nAs a trained banker, he has been in Fintech and Web3 for the past 10 years, helping his clients define use cases, solve real world problems, and create products and solutions that are on the cutting edge of Web3 technology and digitisation.\n\nChristian also sits on the CBDC and Stablecoin committees at the Blockchain Association Singapore and at Web3 Harbour in Hong Kong, advising the central banks in both cities on the upcoming regulation for digital currencies.",
+    "linkedInLink": "https://www.linkedin.com/in/christiantrumm/",
+    "createdAt": "2024-08-04T21:37:50.427Z",
+    "updatedAt": "2024-08-04T21:51:30.437Z",
+    "publishedAt": "2024-08-04T21:44:41.208Z",
+    "role": "Fintech & Web3 Advisor",
+    "image": {
+     "data": {
+      "id": 1009,
+      "attributes": {
+       "name": "christiantrumm.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "christiantrumm_812e092e86",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 39.92,
+       "url": "/uploads/christiantrumm_812e092e86.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-08-04T21:44:35.054Z",
+       "updatedAt": "2024-08-04T21:44:35.054Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 18,
+   "attributes": {
+    "name": "Annet Steenbergen",
+    "bio": "After many years working in international border management Annet co-founded/co-initiated the Aruba Happy Flow project in 2013 that created the world’s first seamless passenger facilitation uniting the public and private stakeholder at the airport in one identity management system using a single biometric token. Ever since digital Identity and innovation for the travel eco-system have been at the centre of her work. \nShe is currently a consultant for the travel and tourism industry and works on projects with focus on implementing digital identity, the (EU eIDAS 2.0) digital wallet and digital travel credentials to create true Seamless Travel while preserving data privacy and data protection.\n\nAnnet has been actively involved in IATA OneID working groups and task forces and in 2020 she was awarded the Women in Biometrics Award.",
+    "linkedInLink": "https://www.linkedin.com/in/annet-steenbergen-150072b/",
+    "createdAt": "2024-08-04T21:38:39.671Z",
+    "updatedAt": "2024-08-04T21:44:27.414Z",
+    "publishedAt": "2024-08-04T21:44:27.411Z",
+    "role": "Web3 Advisor",
+    "image": {
+     "data": {
+      "id": 1008,
+      "attributes": {
+       "name": "annet.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "annet_de49c844ac",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 40.37,
+       "url": "/uploads/annet_de49c844ac.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-08-04T21:44:22.057Z",
+       "updatedAt": "2024-08-04T21:44:22.057Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 19,
+   "attributes": {
+    "name": "Dirk Gemke",
+    "bio": "38 years of experience with curating digital technology in the passenger and cargo businesses of KLM, Air France-KLM and SkyTeam. Early successes, in the 1980s, include Inter-Airline Through Check-In, in the 1990s cargo System Profit Management and in 2000 the first www.klm.com.\nThese and others taught Dirk Gemke that many objectives of an airline and its customers can only be achieved by cooperation between airlines, and recently, train-operators; and that no technology will be succesfully implemented without business championship from conception. From this follows another learning: there is no technology debt without business debt.\nTaking a true customer-perspective, which is not necessarily the business perspective, and an enterprise engineer’s view, were foundational between 2011 and 2017 for the design and implementation of SkyTeam’s technology hub; on the idea ‘to connect once to connect to many’ and that it is all about reimagining mobility from origin to destination.\nBefore retiring from KLM in 2023 and based on SyTeam-experiences, involvement in the creation of an aircraft MRO-consortium and underlying blockchain-technology completed the starting point for next steps: an advisory role to Chain4Travel (and a last step towards becoming Master of Wine).",
+    "linkedInLink": "https://www.linkedin.com/in/dirk-vincent-gemke-4b943ba/",
+    "createdAt": "2024-10-14T09:08:48.636Z",
+    "updatedAt": "2024-10-14T09:12:59.264Z",
+    "publishedAt": "2024-10-14T09:12:59.259Z",
+    "role": "Aviation",
+    "image": {
+     "data": {
+      "id": 1014,
+      "attributes": {
+       "name": "dirkgemke.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "dirkgemke_38dc2a9942",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 45.26,
+       "url": "/uploads/dirkgemke_38dc2a9942.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-10-14T09:12:54.529Z",
+       "updatedAt": "2024-10-14T09:12:54.529Z"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "meta": {
+  "pagination": {
+   "page": 1,
+   "pageSize": 25,
+   "pageCount": 1,
+   "total": 12
+  },
+  "frozenFrom": "https://api.strapi.camino.network",
+  "frozenAt": "2026-10-17T11:31:56.385Z"
+ }
+}

@@ -70,7 +70,6 @@ At the moment, we are actively working with companies sharing the vision of the 
 
 The Camino Messenger plays a transformative role in the future of travel distribution. By cutting costs up to 90%, monetizing searches, and aligning incentives through decentralized ownership, it creates ideal digital space for distributors and suppliers to interact and exchange data. So if you would like to test or estimate the distribution costs you will be able to cut:
 
-- [Schedule a call](https://outlook.office365.com/book/CaminoNetworkDeepDive1hourSamAnke@chain4travel.com/) with the team
 - Dive into the [documents](https://docs.camino.network/)
 - [Reach out to Camino builders](https://discord.gg/camino)
 

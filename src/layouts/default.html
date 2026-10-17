@@ -2,12 +2,12 @@
 <html lang="en" class="bg-gray-900">
 <head class="overflow-x-hidden">
 
+    <meta charset="UTF-8"/>
     <title>{{ title }} - Chain4Travel</title>
     <meta name="description" content="{{ description }}">
 
-    <link rel="canonical" href="https://chain4travel.com{{page.url}}" />
+    {% if not nocanonical %}<link rel="canonical" href="https://chain4travel.com{{page.url}}" />{% endif %}
 
-    <meta charset="UTF-8"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css?v={% version %}"/>
@@ -27,7 +27,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{title}} - Chain4Travel">
     <meta property="og:description" content="{{description}}">
-    <meta property="og:image" content="{% if socialImage %}https://chain4travel.com/img/{{socialImage}} {% else %} https://chain4travel.com/social.png {% endif %}">
+    <meta property="og:image" content="https://chain4travel.com/{% if socialImage %}img/{{socialImage}}{% else %}social.png{% endif %}">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
@@ -35,33 +35,174 @@
     <meta property="twitter:url" content="https://chain4travel.com{{page.url}}">
     <meta name="twitter:title" content="{{title}} - Chain4Travel">
     <meta name="twitter:description" content="{{description}}">
-    <meta name="twitter:image" content="{% if socialImage %}https://chain4travel.com/img/{{socialImage}} {% else %} https://chain4travel.com/social.png {% endif %}">
+    <meta name="twitter:image" content="https://chain4travel.com/{% if socialImage %}img/{{socialImage}}{% else %}social.png{% endif %}">
 
     {% if noindex %}<meta name="robots" content="noindex">{% endif %}
-    
+    {% if page.url == "/" %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://chain4travel.com/#org",
+          "name": "Chain4Travel",
+          "legalName": "Chain4Travel AG",
+          "url": "https://chain4travel.com/",
+          "logo": "https://chain4travel.com/social.png",
+          "address": { "@type": "PostalAddress", "streetAddress": "Dammstrasse 16", "postalCode": "6300", "addressLocality": "Zug", "addressCountry": "CH" },
+          "description": "Chain4Travel initiated Camino Network and built Camino Messenger, a B2B transactional distribution layer for travel. In February 2026, Travel Token Marketplace GmbH (TTM, Hamburg) acquired Chain4Travel's assets, including its technology and Camino Messenger. Chain4Travel AG wound down its operations in spring 2026. Camino Messenger continues to be developed as Travel Token Messenger.",
+          "foundingDate": "2021",
+          "founder": [
+            { "@type": "Person", "name": "Ralf Usbeck", "jobTitle": "Chairman of the Board of Directors" },
+            { "@type": "Person", "name": "Thomas Stirnimann" },
+            { "@type": "Person", "name": "Pablo Castillo", "jobTitle": "CEO and CTO" }
+          ],
+          "knowsAbout": ["Travel technology", "Travel distribution", "Blockchain", "Web3", "Camino Network", "Camino Messenger", "Payment and settlement", "Digital identity", "Hackathons"],
+          "subOrganization": { "@id": "https://chain4travel.com/decode-travel/#organization" },
+          "sameAs": ["https://www.linkedin.com/company/chain4travel/", "https://twitter.com/Chain4Travel", "https://www.youtube.com/@chain4travel"]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://chain4travel.com/#website",
+          "url": "https://chain4travel.com/",
+          "name": "Chain4Travel",
+          "inLanguage": "en",
+          "publisher": { "@id": "https://chain4travel.com/#org" }
+        }
+      ]
+    }
+    </script>
+    {% elif not noindex %}
+    {% set pageUrl = "https://chain4travel.com" + page.url %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": {{ (pageUrl + "#webpage") | dump | safe }},
+          "url": {{ pageUrl | dump | safe }},
+          "name": {{ title | dump | safe }},{% if description %}
+          "description": {{ description | dump | safe }},{% endif %}
+          "inLanguage": "en",
+          "isPartOf": { "@id": "https://chain4travel.com/#website" },
+          "publisher": { "@id": "https://chain4travel.com/#org" },
+          "breadcrumb": { "@id": {{ (pageUrl + "#breadcrumb") | dump | safe }} }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": {{ (pageUrl + "#breadcrumb") | dump | safe }},
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://chain4travel.com/" },{% if page.url.startsWith("/usecase-") %}
+            { "@type": "ListItem", "position": 2, "name": "Use cases", "item": "https://chain4travel.com/usecases/" },
+            { "@type": "ListItem", "position": 3, "name": {{ title | dump | safe }}, "item": {{ pageUrl | dump | safe }} }{% elif page.url.startsWith("/unchained") %}
+            { "@type": "ListItem", "position": 2, "name": "Events", "item": "https://chain4travel.com/events/" },
+            { "@type": "ListItem", "position": 3, "name": {{ title | dump | safe }}, "item": {{ pageUrl | dump | safe }} }{% else %}
+            { "@type": "ListItem", "position": 2, "name": {{ title | dump | safe }}, "item": {{ pageUrl | dump | safe }} }{% endif %}
+          ]
+        }
+      ]
+    }
+    </script>
+    {% endif %}
+    {% if page.url == "/events/" %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Event",
+          "@id": "https://chain4travel.com/unchained2023/#event",
+          "name": "Travel Un'chained 2023",
+          "description": "Second edition of Travel Un'chained, Chain4Travel's conference on digital transformation and web3 in travel.",
+          "startDate": "2023-10-10",
+          "endDate": "2023-10-11",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": { "@type": "Place", "name": "Palma de Mallorca", "address": { "@type": "PostalAddress", "addressLocality": "Palma de Mallorca", "addressCountry": "ES" } },
+          "organizer": { "@id": "https://chain4travel.com/#org" },
+          "url": "https://chain4travel.com/unchained2023/"
+        },
+        {
+          "@type": "Event",
+          "@id": "https://chain4travel.com/unchained2024/#event",
+          "name": "Travel Un'chained 2024",
+          "description": "Third edition of Travel Un'chained: welcome night, one-day conference and networking brunch for web3 and travel executives.",
+          "startDate": "2024-09-30",
+          "endDate": "2024-10-02",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": { "@type": "Place", "name": "Palma de Mallorca", "address": { "@type": "PostalAddress", "addressLocality": "Palma de Mallorca", "addressCountry": "ES" } },
+          "organizer": { "@id": "https://chain4travel.com/#org" },
+          "url": "https://chain4travel.com/unchained2024/"
+        },
+        {
+          "@type": "Event",
+          "@id": "https://chain4travel.com/unchained2025/#event",
+          "name": "Travel Un'chained 2025",
+          "description": "Fourth edition of Travel Un'chained: three days of talks, live demos and networking on innovation in travel with Camino Network.",
+          "startDate": "2025-09-29",
+          "endDate": "2025-10-01",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": { "@type": "Place", "name": "Knossos Royal", "address": { "@type": "PostalAddress", "addressRegion": "Crete", "addressCountry": "GR" } },
+          "organizer": { "@id": "https://chain4travel.com/#org" },
+          "url": "https://chain4travel.com/unchained2025/"
+        },
+        {
+          "@type": "Event",
+          "@id": "https://chain4travel.com/decode-travel/berlin2024/#event",
+          "name": "Decode Travel Berlin 2024",
+          "description": "First Decode Travel hackathon: 50+ tech, travel and web3 experts in 8 teams solved 4 challenges on Camino Network.",
+          "startDate": "2024-04-23",
+          "endDate": "2024-04-26",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": { "@type": "Place", "name": "w3.hub Berlin", "address": { "@type": "PostalAddress", "addressLocality": "Berlin", "addressCountry": "DE" } },
+          "organizer": { "@id": "https://chain4travel.com/#org" },
+          "url": "https://chain4travel.com/decode-travel/berlin2024/"
+        },
+        {
+          "@type": "Event",
+          "@id": "https://chain4travel.com/decode-travel/antalya2024/#event",
+          "name": "Decode Travel Antalya 2024",
+          "description": "Second Decode Travel hackathon, hosted by SAN TSG and Paximum: 30+ travel and tech specialists in 7 teams.",
+          "startDate": "2024-11-13",
+          "endDate": "2024-11-15",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": { "@type": "Place", "name": "Antalya", "address": { "@type": "PostalAddress", "addressLocality": "Antalya", "addressCountry": "TR" } },
+          "organizer": { "@id": "https://chain4travel.com/#org" },
+          "url": "https://chain4travel.com/decode-travel/antalya2024/"
+        },
+        {
+          "@type": "Event",
+          "@id": "https://chain4travel.com/decode-travel/crete2025/#event",
+          "name": "Decode Travel Crete 2025",
+          "description": "Third Decode Travel hackathon, with Avra Tours and Cyberlogic: 3 teams built 3 working prototypes in two days.",
+          "startDate": "2025-05-06",
+          "endDate": "2025-05-09",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": { "@type": "Place", "name": "Heraklion", "address": { "@type": "PostalAddress", "addressLocality": "Heraklion", "addressRegion": "Crete", "addressCountry": "GR" } },
+          "organizer": { "@id": "https://chain4travel.com/#org" },
+          "url": "https://chain4travel.com/decode-travel/crete2025/"
+        },
+        {
+          "@type": "Event",
+          "@id": "https://chain4travel.com/decode-travel/barcelona2025/#event",
+          "name": "Decode Travel Barcelona 2025",
+          "description": "Fourth Decode Travel hackathon on web3 and AI: 25 developers and industry experts, 48 hours, challenges from Vueling and Clorian Ticketing.",
+          "startDate": "2025-11-26",
+          "endDate": "2025-11-28",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": { "@type": "Place", "name": "Team Labs BCN", "address": { "@type": "PostalAddress", "addressLocality": "Barcelona", "addressCountry": "ES" } },
+          "organizer": { "@id": "https://chain4travel.com/#org" },
+          "url": "https://chain4travel.com/decode-travel/barcelona2025/"
+        }
+      ]
+    }
+    </script>
+    {% endif %}
+
 </head>
 <body class="text-gray-900 bg-white">
 
-<!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
-<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.1.0/cookie-consent.js" charset="UTF-8"></script>
-<script type="text/javascript" charset="UTF-8">
-document.addEventListener('DOMContentLoaded', function () {
-cookieconsent.run({"notice_banner_type":"headline","consent_type":"express","palette":"dark","language":"en","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false});
-});
-</script>
-
-<!-- Google Analytics -->
-<script type="text/plain" data-cookie-consent="tracking" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=G-HCFQ9121EE"></script>
-    <script type="text/plain" data-cookie-consent="tracking" cookie-consent="tracking">
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-HCFQ9121EE');
-    </script>
-<!-- end of Google Analytics-->
-
-<noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
-<!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
 
 
     {% include "header.html" %}

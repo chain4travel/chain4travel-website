@@ -15,12 +15,19 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ 'src/img/meta': '/' })
   eleventyConfig.addPassthroughCopy('src/img')
+  // Frozen Strapi media (formerly served by api.strapi.camino.network/uploads)
+  eleventyConfig.addPassthroughCopy('src/uploads')
   eleventyConfig.addPassthroughCopy('src/fonts')
   eleventyConfig.addPassthroughCopy('src/js')
   eleventyConfig.addPassthroughCopy('images')
   eleventyConfig.addPassthroughCopy('src/video/unchained-aftermovie-header.mp4')
   
   eleventyConfig.addPassthroughCopy('robots.txt')
+  eleventyConfig.addPassthroughCopy('llms.txt')
+  eleventyConfig.addPassthroughCopy('llms-full.txt')
+  // Cloudflare Pages: redirects and response headers
+  eleventyConfig.addPassthroughCopy('_redirects')
+  eleventyConfig.addPassthroughCopy('_headers')
   eleventyConfig.addPassthroughCopy('site.webmanifest')
 
   eleventyConfig.addPassthroughCopy({ 'src/Chain4Travel-Logo-Kit.zip': './Chain4Travel-Logo-Kit.zip' })
@@ -74,6 +81,11 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toFormat("LLLL dd, yyyy");
+  });
+
+  // yyyy-mm-dd for structured data and the sitemap (front matter dates are UTC)
+  eleventyConfig.addFilter("isoDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toISODate();
   });
 
   eleventyConfig.addTransform('htmlmin', function (content, outputPath) {

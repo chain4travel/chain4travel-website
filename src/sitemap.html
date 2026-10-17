@@ -1,12 +1,15 @@
 ---
 permalink: /sitemap.xml
 eleventyExcludeFromCollections: true
+decodePages: ["", "berlin2024/", "antalya2024/", "crete2025/", "barcelona2025/", "imprint/", "terms/"]
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for page in collections.all %}{% if not page.data.draft %}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{% for page in collections.all %}{% if not page.data.draft and not page.data.noindex and page.url != "/404.html" and page.url != "/cocktailbar/" %}
     <url>
-        <loc>https://chain4travel.com{{ page.url | url }}</loc>
-        <lastmod>{{ page.date.toISOString() }}</lastmod>
-        <changefreq>{{ page.data.changeFreq if page.data.changeFreq else "weekly" }}</changefreq>
-    </url>{% endif %}{% endfor %}
+        <loc>https://chain4travel.com{{ page.url | url }}</loc>{% if page.data.publishDate %}
+        <lastmod>{{ page.data.publishDate | isoDate }}</lastmod>{% endif %}
+    </url>{% endif %}{% endfor %}{% for p in decodePages %}
+    <url>
+        <loc>https://chain4travel.com/decode-travel/{{ p }}</loc>
+    </url>{% endfor %}
 </urlset>

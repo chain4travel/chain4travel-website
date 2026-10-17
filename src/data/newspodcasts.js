@@ -1,5 +1,3 @@
-const Cache = require('@11ty/eleventy-cache-assets')
-
-module.exports = async function () {
-    return Cache('https://api.strapi.camino.network/news-podcasts?populate=*', { type: 'json' })
-}
+// Frozen snapshot of the former Strapi CMS (api.strapi.camino.network).
+// No network access at build time.
+module.exports = require('./strapi/newspodcasts.json')

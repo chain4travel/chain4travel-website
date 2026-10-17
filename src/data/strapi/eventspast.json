@@ -1,0 +1,1204 @@
+{
+ "data": [
+  {
+   "id": 1,
+   "attributes": {
+    "title": "Paris Blockchain Week",
+    "date": "March 21-23, 2023",
+    "location": "Paris",
+    "description": "Greetings from @Paris Blockchain Week and a quick live update of my experience. The #ParisBlockchainWeek brought together blockchain enthusiasts from around the world to discuss the latest trends and developments in the industry.",
+    "createdAt": "2023-04-05T14:10:13.563Z",
+    "updatedAt": "2023-05-16T10:30:39.117Z",
+    "publishedAt": "2023-04-05T14:11:40.986Z",
+    "link": "https://www.linkedin.com/posts/pablo-castillo-c4t_parisblockchainweek-web3-blockchaintechnology-activity-7044715786795442176-zfME?utm_source=share&utm_medium=member_desktop",
+    "startdate": "2023-03-21",
+    "image": {
+     "data": {
+      "id": 188,
+      "attributes": {
+       "name": "prev-event-paris-blockchain-week.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_paris_blockchain_week_0d87f510a3",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 35.14,
+       "url": "/uploads/prev_event_paris_blockchain_week_0d87f510a3.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:09:46.220Z",
+       "updatedAt": "2023-04-05T14:09:46.220Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 2,
+   "attributes": {
+    "title": "ITB Berlin",
+    "date": "March 7-9, 2023",
+    "location": "Berlin",
+    "description": "ITB Berlin has been an integral authority in the global travel industry for more than 50 years. Countries, cities, regions, tour operators, booking portals, hotels, and many other service providers from numerous countries will be on site. We from Chain4Travel will also be present at our own exhibition stand. We look forward to the unique chance to meet these many travel players and present our innovative technology solution to this community.",
+    "createdAt": "2023-04-05T14:12:10.357Z",
+    "updatedAt": "2023-05-16T10:30:29.296Z",
+    "publishedAt": "2023-04-05T14:12:11.312Z",
+    "link": "https://www.linkedin.com/posts/chain4travel_camino-web3-travel-activity-7041038708120150016-rf1X/",
+    "startdate": "2023-03-07",
+    "image": {
+     "data": {
+      "id": 189,
+      "attributes": {
+       "name": "prev-event-itb-berlin.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_itb_berlin_e0569e6821",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 41.59,
+       "url": "/uploads/prev_event_itb_berlin_e0569e6821.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:12:04.270Z",
+       "updatedAt": "2023-04-05T14:12:04.270Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 3,
+   "attributes": {
+    "title": "European Blockchain Convention",
+    "date": "Feb 15-17, 2023",
+    "location": "Barcelona",
+    "description": "Deemed the most influential blockchain event in Europe, the European Blockchain Convention is an event we didn't miss in 2023. We were excited to meet 2,500+ web3 enthusiasts and talk about the latest advancements in blockchain technology and the impact it will have on different industries. As a decentralized industry approach, we were excited to introduce Camino as the L1 for the global travel industry.",
+    "createdAt": "2023-04-05T14:12:45.000Z",
+    "updatedAt": "2024-12-18T12:32:23.814Z",
+    "publishedAt": "2023-04-05T14:28:00.573Z",
+    "link": "https://www.instagram.com/eblockchainconvention/?hl=de",
+    "startdate": "2023-02-15",
+    "image": {
+     "data": {
+      "id": 190,
+      "attributes": {
+       "name": "prev-event-european-blockchain-convention.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 483,
+       "height": 258,
+       "hash": "prev_event_european_blockchain_convention_88bf1c826d",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 22.96,
+       "url": "/uploads/prev_event_european_blockchain_convention_88bf1c826d.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:12:43.089Z",
+       "updatedAt": "2023-04-05T14:12:43.089Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 4,
+   "attributes": {
+    "title": "ETH Denver",
+    "date": "Feb 24-Mar 5, 2023",
+    "location": "Denver",
+    "description": "The Community Innovation Festival ETH Denver took place from March 2-5. Our colleagues Jhon and Luca opened up the world of travel to the decentralized web3 community. They elaborated on the potential of the L1 for the travel industry as one of the latest advancements in the space.",
+    "createdAt": "2023-04-05T14:13:10.024Z",
+    "updatedAt": "2023-05-16T10:29:30.908Z",
+    "publishedAt": "2023-04-05T14:13:10.627Z",
+    "link": "https://www.ethdenver.com/",
+    "startdate": "2023-02-24",
+    "image": {
+     "data": {
+      "id": 191,
+      "attributes": {
+       "name": "prev-event-eth-denver.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_eth_denver_630c96b5de",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 59.91,
+       "url": "/uploads/prev_event_eth_denver_630c96b5de.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:13:08.160Z",
+       "updatedAt": "2023-04-05T14:13:08.160Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5,
+   "attributes": {
+    "title": "Blockchain Economy London Summit",
+    "date": "Feb 27-28, 2023",
+    "location": "London",
+    "description": "We were excited to visit UK's #1 blockchain event, the meeting place for the world's top crypto companies and blockchain entrepreneurs: Blockchain Economy London Summit 2023. It was the perfect opportunity to explore the potential of web3, NFTs, cryptocurrencies, blockchain, and much more.",
+    "createdAt": "2023-04-05T14:13:49.027Z",
+    "updatedAt": "2023-05-16T10:29:03.654Z",
+    "publishedAt": "2023-04-05T14:13:49.632Z",
+    "link": null,
+    "startdate": "2023-02-27",
+    "image": {
+     "data": {
+      "id": 192,
+      "attributes": {
+       "name": "prev-event-blockchain-economy.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_blockchain_economy_79b25f56df",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 80.82,
+       "url": "/uploads/prev_event_blockchain_economy_79b25f56df.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:13:47.449Z",
+       "updatedAt": "2023-04-05T14:13:47.449Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 6,
+   "attributes": {
+    "title": "Travolution European Summit",
+    "date": "Feb 28, 2023",
+    "location": "London",
+    "description": "Looking back at this week, the Travolution.com European Summit was the definite highlight. Many tech topics were discussed - from top tech trends, the Green gap, and AI to the blockchain-powered Web3. Watching the panel pulling apart our predictions for the future was fun! Also, I introduced the Camino Network web3 travel ecosystem we are building with many travel companies worldwide.",
+    "createdAt": "2023-04-05T14:14:19.785Z",
+    "updatedAt": "2023-05-16T10:31:46.686Z",
+    "publishedAt": "2023-04-05T14:29:22.670Z",
+    "link": "https://www.linkedin.com/posts/anke-hsu_traveltech-metatravel-web3-activity-7037327984944406528-hFAt",
+    "startdate": "2023-02-28",
+    "image": {
+     "data": {
+      "id": 193,
+      "attributes": {
+       "name": "prev-event-travolution-european-summit.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_travolution_european_summit_d1a7952da6",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 24.63,
+       "url": "/uploads/prev_event_travolution_european_summit_d1a7952da6.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:14:17.988Z",
+       "updatedAt": "2023-04-05T14:14:17.988Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 7,
+   "attributes": {
+    "title": "Fitur: International Tourism Trade Fair",
+    "date": "Jan 18-22, 2023",
+    "location": "Madrid",
+    "description": "8,000+ exhibitors & over 100,000 travel industry professionals and enthusiasts came together in Madrid for Fitur 2023. Our colleagues Jhon Ruiz and Juan Sanchez were on-site, spreading the word about #Camino, the blockchain ecosystem for the travel industry and even presented a new use case.",
+    "createdAt": "2023-04-05T14:14:46.060Z",
+    "updatedAt": "2023-05-16T10:29:51.715Z",
+    "publishedAt": "2023-04-05T14:28:20.338Z",
+    "link": "https://www.linkedin.com/posts/chain4travel_chain4travel-mit-blockchain-reiseschutz-activity-7024669405850554369-2JU3?utm_source=share&utm_medium=member_desktop",
+    "startdate": "2023-01-18",
+    "image": {
+     "data": {
+      "id": 194,
+      "attributes": {
+       "name": "prev-event-fitur.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 930,
+       "height": 523,
+       "hash": "prev_event_fitur_79c07ec023",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 79.45,
+       "url": "/uploads/prev_event_fitur_79c07ec023.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:14:43.994Z",
+       "updatedAt": "2023-04-05T14:14:43.994Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 8,
+   "attributes": {
+    "title": "WTM London",
+    "date": "November 7-9, 2022",
+    "location": "London",
+    "description": "Since 1980, World Travel Market has been an established international institution on the travel trade show landscape, attended by travel professionals from around the world. It was an honor to join the panel on the travel technology stage and discuss the topic of blockchain with other industry experts.",
+    "createdAt": "2023-04-05T14:15:11.192Z",
+    "updatedAt": "2023-05-16T10:32:23.628Z",
+    "publishedAt": "2023-04-05T14:15:12.158Z",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:6997909491673366528/",
+    "startdate": "2022-11-07",
+    "image": {
+     "data": {
+      "id": 195,
+      "attributes": {
+       "name": "prev-event-wtm.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_wtm_ac3ef8b6fa",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 31.96,
+       "url": "/uploads/prev_event_wtm_ac3ef8b6fa.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:15:09.636Z",
+       "updatedAt": "2023-04-05T14:15:09.636Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 9,
+   "attributes": {
+    "title": "Phocuswright Conference",
+    "date": "November 14-17, 2022",
+    "location": "Phoenix",
+    "description": "Phocuswright Conference is a valuable platform for innovative companies empowered to tackle our industry's challenges. We had interesting conversations about web3, blockchain technology for the travel industry, and how Camino will revolutionize the world of travel. See for yourselves.",
+    "createdAt": "2023-04-05T14:15:38.937Z",
+    "updatedAt": "2023-05-16T10:30:55.129Z",
+    "publishedAt": "2023-04-05T14:29:02.480Z",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:6998685089790337026",
+    "startdate": "2022-11-14",
+    "image": {
+     "data": {
+      "id": 196,
+      "attributes": {
+       "name": "prev-event-phocuswright-conference.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_phocuswright_conference_be7a35f5fd",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 29.44,
+       "url": "/uploads/prev_event_phocuswright_conference_be7a35f5fd.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:15:37.428Z",
+       "updatedAt": "2023-04-05T14:15:37.428Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 10,
+   "attributes": {
+    "title": "Token 2049 London",
+    "date": "November 9-10, 2022",
+    "location": "London",
+    "description": "Token2049 in London was impressive. Over 3,000 attendees ​from the global crypto industry met entrepreneurs, investors, developers, industry insiders, and global media-and we were there, too, as the only layer one for the travel industry. We look forward to next year's event.",
+    "createdAt": "2023-04-05T14:16:11.223Z",
+    "updatedAt": "2023-05-16T10:31:22.690Z",
+    "publishedAt": "2023-04-05T14:16:17.131Z",
+    "link": "https://twitter.com/Chain4Travel/status/1590758748448260096?s=20&t=tgabgvXYkT93toWVqdzM1Q",
+    "startdate": "2022-11-09",
+    "image": {
+     "data": {
+      "id": 197,
+      "attributes": {
+       "name": "prev-event-token2049-london.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_token2049_london_c0501d52fe",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 39.21,
+       "url": "/uploads/prev_event_token2049_london_c0501d52fe.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:16:09.220Z",
+       "updatedAt": "2023-04-05T14:16:09.220Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 11,
+   "attributes": {
+    "title": "Fvw Travel Talk",
+    "date": "November 2-5, 2022",
+    "location": "Antalya",
+    "description": "A key question of the Fvw I TravelTalk convention was how new technologies, such as blockchain, are emerging and shaping new ways of working in the industry. We were happy to join these discussions and share some insights about blockchain in travel and real-life use cases on the Camino Network in our keynote speeches and panel discussion.",
+    "createdAt": "2023-04-05T14:16:44.851Z",
+    "updatedAt": "2023-05-16T10:30:06.447Z",
+    "publishedAt": "2023-04-05T14:28:36.929Z",
+    "link": "https://www.linkedin.com/posts/chain4travel_blockchain-fvw-travelindustry-activity-6994262478255706112-Omto?utm_source=share&utm_medium=member_desktop",
+    "startdate": "2022-11-02",
+    "image": {
+     "data": {
+      "id": 198,
+      "attributes": {
+       "name": "prev-event-fvw-travel-talk.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_fvw_travel_talk_3e3e247d23",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 47.31,
+       "url": "/uploads/prev_event_fvw_travel_talk_3e3e247d23.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:16:42.459Z",
+       "updatedAt": "2023-04-05T14:16:42.459Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 12,
+   "attributes": {
+    "title": "Token2049 Singapore",
+    "date": "September 28-29, 2022",
+    "location": "Singapore",
+    "description": "Token2049, Asia's largest Web3 conference, comes to an end: 7000+ attendees, 2000+ global companies, and Chain4Travel as the only Layer1 provider for a global travel ecosystem. Click below to read Pablos' impressions and key learnings of Token 2049 in Singapore.",
+    "createdAt": "2023-04-05T14:17:18.206Z",
+    "updatedAt": "2023-05-16T10:31:36.498Z",
+    "publishedAt": "2023-04-05T14:17:20.269Z",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:6981196292697817089/",
+    "startdate": "2022-09-28",
+    "image": {
+     "data": {
+      "id": 199,
+      "attributes": {
+       "name": "prev-event-token2049.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_token2049_995c273199",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 55.57,
+       "url": "/uploads/prev_event_token2049_995c273199.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:17:16.279Z",
+       "updatedAt": "2023-04-05T14:17:16.279Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 13,
+   "attributes": {
+    "title": "Consensus (by CoinDesk)",
+    "date": "June 09-12, 2022",
+    "location": "Austin",
+    "description": "Consensus is much more than just another crypto festival. CoinDesk brought together roughly 17,000 crypto enthusiasts and experts discussing the regulatory landscape, web3 and the future of digital assets. Vincent Usbeck, Head of Marketing and Sales, was in Austin and looks back on interesting keynotes, inspiring discussions, and an overall extremely future-oriented environment.",
+    "createdAt": "2023-04-05T14:17:57.748Z",
+    "updatedAt": "2023-05-16T10:29:15.301Z",
+    "publishedAt": "2023-04-05T14:17:58.898Z",
+    "link": "https://www.linkedin.com/posts/vincentusbeck_consensus2022-web3-camino-activity-6942569526815297536-X_U9?utm_source=linkedin_share&utm_medium=member_desktop_web",
+    "startdate": "2022-06-09",
+    "image": {
+     "data": {
+      "id": 200,
+      "attributes": {
+       "name": "prev-event-consensus.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_consensus_62e9ce2936",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 31.47,
+       "url": "/uploads/prev_event_consensus_62e9ce2936.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:17:54.864Z",
+       "updatedAt": "2023-04-05T14:17:54.864Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 14,
+   "attributes": {
+    "title": "Phocuswright Europe",
+    "date": "June 27-29, 2022",
+    "location": "Amsterdam",
+    "description": "Under the motto “Fast Forward”, we visited this year’s Phocuswright Event in Amsterdam. True to this motto, we have seen inspiring keynotes, innovative use cases and were able to make new connections within the travel industry. Camino is something that will bring the industry fast forward. We are certain about it. Follow our journey and become part of the travel industry.",
+    "createdAt": "2023-04-05T14:18:29.384Z",
+    "updatedAt": "2023-05-16T10:31:05.759Z",
+    "publishedAt": "2023-04-05T14:18:29.943Z",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:6950028622619398145/",
+    "startdate": "2022-06-27",
+    "image": {
+     "data": {
+      "id": 201,
+      "attributes": {
+       "name": "prev-event-phocuswright-europe.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_phocuswright_europe_50b40d9050",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 32.79,
+       "url": "/uploads/prev_event_phocuswright_europe_50b40d9050.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:18:26.404Z",
+       "updatedAt": "2023-04-05T14:18:26.404Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 15,
+   "attributes": {
+    "title": "VIR Online Innovation Days",
+    "date": "June 01-02, 2022",
+    "location": "Berlin",
+    "description": "The VIR invited for this years’ Online Innovation Days under the motto “Back to the Future” (“Zurück zur Zukunft”). Even two members of the Chain4Travel team held a keynote speech on the topic of Blockchain and Chain4travels' efforts in providing this technology for the travel industry. The time for change in the travel industry is ripe and the solutions are right there.",
+    "createdAt": "2023-04-05T14:18:51.364Z",
+    "updatedAt": "2023-05-16T10:32:05.372Z",
+    "publishedAt": "2023-04-05T14:30:15.884Z",
+    "link": "https://www.youtube.com/watch?v=YGdxBfYmQSw",
+    "startdate": "2022-06-01",
+    "image": {
+     "data": {
+      "id": 202,
+      "attributes": {
+       "name": "prev-event-vir-online-innovation-days.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_vir_online_innovation_days_8d9a06c6c8",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 22.56,
+       "url": "/uploads/prev_event_vir_online_innovation_days_8d9a06c6c8.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T14:18:56.922Z",
+       "updatedAt": "2023-04-20T10:12:51.368Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 16,
+   "attributes": {
+    "title": "HSMAday",
+    "date": "May 11-12, 2022",
+    "location": "Munich",
+    "description": "The Hospitality Sales & Marketing Association Deutschland e.V. consolidates over 1,600 members of the hospitality industry and forms a network of as well as a knowledge pool on all relevant specialist areas. Our Managing Director Daniel Poerschke was there and received overwhelming feedback for his presentation of Chain4Travel’s approach to revolutionize the travel industry.",
+    "createdAt": "2023-04-05T14:19:27.587Z",
+    "updatedAt": "2023-05-16T10:30:19.723Z",
+    "publishedAt": "2023-04-20T10:10:26.052Z",
+    "link": "https://www.youtube.com/watch?v=YGdxBfYmQSw",
+    "startdate": "2022-05-11",
+    "image": {
+     "data": {
+      "id": 208,
+      "attributes": {
+       "name": "prev-event-vir-online-innovation-days.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_vir_online_innovation_days_1f2e0a9bc9",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 32.01,
+       "url": "/uploads/prev_event_vir_online_innovation_days_1f2e0a9bc9.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-20T10:09:40.391Z",
+       "updatedAt": "2023-04-20T10:09:40.391Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 17,
+   "attributes": {
+    "title": "101 Future Hospitality Days",
+    "date": "April 16-18, 2023",
+    "location": "Düsseldorf",
+    "description": "What will the future of hospitality look like? What are the latest trends and developments in this travel sector? We were inspired by the thought leaders and professionals in hospitality. Our colleague Daniel even hold a keynote speech and answered whether web3 is a red flag or green light.",
+    "createdAt": "2023-05-15T12:14:17.269Z",
+    "updatedAt": "2023-05-16T10:28:50.836Z",
+    "publishedAt": "2023-05-15T12:14:32.397Z",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7054765017056845824",
+    "startdate": "2023-04-16",
+    "image": {
+     "data": {
+      "id": 245,
+      "attributes": {
+       "name": "prev-event-hospitality-days.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 648,
+       "height": 360,
+       "hash": "prev_event_hospitality_days_0488341876",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 30.02,
+       "url": "/uploads/prev_event_hospitality_days_0488341876.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-05-15T12:14:28.312Z",
+       "updatedAt": "2023-05-15T12:14:28.312Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 18,
+   "attributes": {
+    "title": "Arabian Travel Market",
+    "date": "May 6-9, 2023",
+    "location": "Dubai",
+    "description": "Our CEO, Ralf Usbeck, participated in a panel discussion about the future of travel technology and how web3 and blockchain will revolutionize the industry. He shared the stage with tech pioneers and web3 experts, including Arul Prakash, Founder & CEO of Buk Technology, Ajay Ponna Venkatesh, Senior VP of Polygon Labs, & Maurício Marques, Founder & CEO of Yacooba Labs. It was an insightful conversation proving that web3 is not a passing \"fad\" but the future of traveltech.",
+    "createdAt": "2023-05-17T12:25:04.377Z",
+    "updatedAt": "2023-12-06T08:58:32.846Z",
+    "publishedAt": "2023-05-17T12:28:50.683Z",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7057377712134307840",
+    "startdate": "2023-05-06",
+    "image": {
+     "data": {
+      "id": 259,
+      "attributes": {
+       "name": "Frame 1856-min.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 935,
+       "height": 513,
+       "hash": "Frame_1856_min_507ec6cccb",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 201.01,
+       "url": "/uploads/Frame_1856_min_507ec6cccb.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-05-17T12:28:44.022Z",
+       "updatedAt": "2023-05-17T12:28:44.022Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 19,
+   "attributes": {
+    "title": "Avalanche Summit II",
+    "date": "May 3-5, 2023",
+    "location": "Barcelona",
+    "description": "Our CTO Pablo and Head of Standards Sam attended Avalanche Summit II in Barcelona, Spain, this year. At Chain4Travel, we're always looking to stay up-to-date with the latest developments in the industry, especially with the progress of Avalanche's ecosystem.",
+    "createdAt": "2023-05-17T12:28:36.073Z",
+    "updatedAt": "2023-05-17T12:35:05.648Z",
+    "publishedAt": "2023-05-17T12:35:05.645Z",
+    "link": "https://www.avalanchesummit.com/",
+    "startdate": "2023-05-03",
+    "image": {
+     "data": {
+      "id": 258,
+      "attributes": {
+       "name": "IMG20230503102247 1.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 934,
+       "height": 527,
+       "hash": "IMG_20230503102247_1_190007a01d",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 239.35,
+       "url": "/uploads/IMG_20230503102247_1_190007a01d.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-05-17T12:28:33.672Z",
+       "updatedAt": "2023-05-17T12:28:33.672Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 20,
+   "attributes": {
+    "title": "Websummit Rio",
+    "date": "May 1-4, 2023",
+    "location": "Rio de Janeiro",
+    "description": "Rio de Janeiro is one of Latin America’s most vibrant startup ecosystems. Our Product Manager Luca attended this year's Web Summit in Rio, the largest technology and innovation event in the world according to Globo.",
+    "createdAt": "2023-05-17T12:29:09.985Z",
+    "updatedAt": "2023-05-17T13:11:51.128Z",
+    "publishedAt": "2023-05-17T13:11:51.125Z",
+    "link": "https://rio.websummit.com/",
+    "startdate": "2023-05-01",
+    "image": {
+     "data": {
+      "id": 260,
+      "attributes": {
+       "name": "Frame 1857-min.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 935,
+       "height": 513,
+       "hash": "Frame_1857_min_d746baff86",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 222.65,
+       "url": "/uploads/Frame_1857_min_d746baff86.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-05-17T12:29:01.060Z",
+       "updatedAt": "2023-05-17T12:29:01.060Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 21,
+   "attributes": {
+    "title": "HEDNA",
+    "date": "June 6-8, 2023",
+    "location": "Milan",
+    "description": "HEDNA has become the leading voice in advancing the use of technology in the hospitality industry. We had a great time meeting industry leaders, technology providers, and hoteliers from around the world. Our CTO Pablo even took the stage and held an inspiring keynote speech. ",
+    "createdAt": "2023-06-09T11:21:49.452Z",
+    "updatedAt": "2023-06-09T11:21:50.582Z",
+    "publishedAt": "2023-06-09T11:21:50.579Z",
+    "link": "https://www.hedna.org/",
+    "startdate": "2023-06-06",
+    "image": {
+     "data": {
+      "id": 478,
+      "attributes": {
+       "name": "Frame 2159.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 749,
+       "height": 289,
+       "hash": "Frame_2159_0b603db804",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 114.39,
+       "url": "/uploads/Frame_2159_0b603db804.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-06-09T11:21:43.863Z",
+       "updatedAt": "2023-06-09T11:21:43.863Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 22,
+   "attributes": {
+    "title": "Phocuswright Europe",
+    "date": "June 12-14, 2023",
+    "location": "Barcelona",
+    "description": "One of our highlights at Phocuswright Europe was hosting the Travel Tech Night in partnership with Phocuswright. The setting was perfect for networking and discussing the promising new business models web3 & Camino Network are bringing to the travel industry.",
+    "createdAt": "2023-06-15T12:09:56.204Z",
+    "updatedAt": "2023-06-15T12:42:26.953Z",
+    "publishedAt": "2023-06-15T12:42:26.949Z",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7075085643130757120",
+    "startdate": "2023-06-12",
+    "image": {
+     "data": {
+      "id": 494,
+      "attributes": {
+       "name": "IMG-20230614-WA0011.jpg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 1500,
+       "height": 1001,
+       "hash": "IMG_20230614_WA_0011_71ee3ccbe5",
+       "ext": ".jpg",
+       "mime": "image/jpeg",
+       "size": 146.25,
+       "url": "/uploads/IMG_20230614_WA_0011_71ee3ccbe5.jpg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-06-15T12:08:42.917Z",
+       "updatedAt": "2023-06-15T12:08:42.917Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 23,
+   "attributes": {
+    "title": "DZT Knowledge Days ",
+    "date": "June 12, 2023",
+    "location": "Frankfurt ",
+    "description": "Daniel shared his insights on blockchain technology and the Camino Network at the Knowledge Days of the German National Tourist Board. He talked about dispelling crypto myths that are no longer true, and also presented a concept of a local ecosystem managed by a local tourism council and powered by blockchain technology. Great opportunities for destinations to engage with blockchain. ",
+    "createdAt": "2023-06-15T14:36:09.970Z",
+    "updatedAt": "2023-06-15T14:36:11.089Z",
+    "publishedAt": "2023-06-15T14:36:11.085Z",
+    "link": "https://www.linkedin.com/posts/daniel-poerschke-30a84652_blockchain-dztkd2023-camino-activity-7074709742530506753-J_kV?utm_source=share&utm_medium=member_desktop",
+    "startdate": "2023-06-12",
+    "image": {
+     "data": {
+      "id": 496,
+      "attributes": {
+       "name": "Screenshot_2023-06-14_at_10.07.44 Small.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 320,
+       "height": 178,
+       "hash": "Screenshot_2023_06_14_at_10_07_44_Small_7e8e4f0253",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 12.48,
+       "url": "/uploads/Screenshot_2023_06_14_at_10_07_44_Small_7e8e4f0253.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-06-15T14:29:34.082Z",
+       "updatedAt": "2023-06-15T14:29:34.082Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 24,
+   "attributes": {
+    "title": "Blockchance",
+    "date": "June 28-30, 2023",
+    "location": "Hamburg ",
+    "description": "We heard lots of interesting talks about the opportunities of blockchain and gained insights on: MiCA regulation, navigating crypto asset regulation in the EU, the importance of improved user experience for mass adoption, the opportunities for NFTs to reimagine loyalty systems. The highlight, however, was Ralf Usbeck on stage with Sophia Rödiger & Harry Behrens from bloXmove and Jonathan K. from peaq discussing decentralized mobility. \n",
+    "createdAt": "2023-07-04T08:06:21.270Z",
+    "updatedAt": "2023-07-04T08:10:14.517Z",
+    "publishedAt": "2023-07-04T08:10:14.514Z",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7080485034561806336",
+    "startdate": "2023-06-28",
+    "image": {
+     "data": {
+      "id": 715,
+      "attributes": {
+       "name": "1688119177819.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 2048,
+       "height": 1152,
+       "hash": "1688119177819_ea73bb22ed",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 242.96,
+       "url": "/uploads/1688119177819_ea73bb22ed.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-07-04T08:10:09.884Z",
+       "updatedAt": "2023-07-04T08:10:09.884Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 25,
+   "attributes": {
+    "title": "World Aviation Festival",
+    "date": "Sep 26-28, 2023",
+    "location": "Lisbon",
+    "description": "What an amazing time we had in Lisbon, forging new connections with Airlines and tech providers. \n3 takeaways from Anke's presentation \"Future-Proof Direct Distribution\": (1) Today's direct distribution is on the verge of transformation towards tomorrow's web3 network distribution. (2) Minimized costs and reduced time-to-market through connecting to the network. (3) Camino Network bridges web2 to web3 and fosters the approach: \"Connect once, connect to all.\"\n",
+    "createdAt": "2023-10-16T08:50:38.382Z",
+    "updatedAt": "2023-12-06T10:15:18.775Z",
+    "publishedAt": "2023-10-16T08:50:39.540Z",
+    "link": "https://www.linkedin.com/posts/anke-hsu_wrapping-up-the-world-aviation-festival-activity-7113529411382988802-315K?utm_source=share&utm_medium=member_desktop",
+    "startdate": "2023-09-26",
+    "image": {
+     "data": {
+      "id": 788,
+      "attributes": {
+       "name": "ankehelena.jpg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 1288,
+       "height": 870,
+       "hash": "ankehelena_77b57ab391",
+       "ext": ".jpg",
+       "mime": "image/jpeg",
+       "size": 142.6,
+       "url": "/uploads/ankehelena_77b57ab391.jpg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-10-16T08:50:30.874Z",
+       "updatedAt": "2023-10-16T08:50:30.874Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 26,
+   "attributes": {
+    "title": "FVW Congress",
+    "date": "Sep 20-23, 2023",
+    "location": "Valencia",
+    "description": "At the FVW Congress in Valencia, Anke reflected on the convergence of AI and blockchain. She used the Camino Network builder Sleap.io as a perfect example of the new possibilities that web3 technologies bring to travel.",
+    "createdAt": "2023-10-16T08:54:03.710Z",
+    "updatedAt": "2023-10-16T08:54:04.512Z",
+    "publishedAt": "2023-10-16T08:54:04.509Z",
+    "link": "https://www.linkedin.com/posts/anke-hsu_traveltech-camino-collaboration-activity-7112346503796379648-BarJ?utm_source=share&utm_medium=member_desktop",
+    "startdate": "2023-09-20",
+    "image": {
+     "data": {
+      "id": 789,
+      "attributes": {
+       "name": "1695715542371.jpeg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 2048,
+       "height": 1075,
+       "hash": "1695715542371_32a0eb4e86",
+       "ext": ".jpeg",
+       "mime": "image/jpeg",
+       "size": 184.42,
+       "url": "/uploads/1695715542371_32a0eb4e86.jpeg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-10-16T08:52:14.360Z",
+       "updatedAt": "2023-10-16T08:52:14.360Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 27,
+   "attributes": {
+    "title": "A World for Travel",
+    "date": "Oct 17-19, 2023",
+    "location": "Seville",
+    "description": "Pablo Castillo attended this year's A World for Travel event in Seville as a speaker. It is the 1st international event dedicated to the sustainable transformation and development of travel and tourism activities. Tune in to see his interview with Julia, Editor-in-Chief of TOM.travel, to understand how blockchain can play a role in the sustainable transition of tourism.",
+    "createdAt": "2023-11-13T14:50:53.920Z",
+    "updatedAt": "2023-11-13T14:54:18.907Z",
+    "publishedAt": "2023-11-13T14:54:18.903Z",
+    "link": "https://www.tom.travel/2023/11/02/awft23-comment-la-blockchain-peut-elle-aider-a-rendre-le-tourisme-plus-durable/",
+    "startdate": "2023-10-17",
+    "image": {
+     "data": {
+      "id": 810,
+      "attributes": {
+       "name": "pablo-aft-min.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 1881,
+       "height": 820,
+       "hash": "pablo_aft_min_58e6942c4d",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 548.99,
+       "url": "/uploads/pablo_aft_min_58e6942c4d.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-11-06T09:43:14.098Z",
+       "updatedAt": "2023-11-06T09:43:14.098Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 28,
+   "attributes": {
+    "title": "Phocuswright Conference",
+    "date": "Nov 13-16, 2023",
+    "location": "Ft. Lauderdale",
+    "description": "Anke had engaging discussions about the challenges of data sharing in travel, and the promise of blockchain-based self-sovereign identity. It's not just a vision, it's already a reality in Aruba. At Chain4Travel, we're closely monitoring various SSI solutions to ensure interoperability, especially with the rapidly approaching EU eID regulations.",
+    "createdAt": "2023-12-06T08:58:03.272Z",
+    "updatedAt": "2023-12-06T09:34:46.688Z",
+    "publishedAt": "2023-12-06T09:34:46.684Z",
+    "link": "https://www.linkedin.com/posts/anke-hsu_phocuswright2023-ssi-phocuswright-activity-7132305704966578176-s4PH?utm_source=share&utm_medium=member_desktop",
+    "startdate": "2023-11-13",
+    "image": {
+     "data": {
+      "id": 849,
+      "attributes": {
+       "name": "Picture 1.jpg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 904,
+       "height": 602,
+       "hash": "Picture_1_10749c78f5",
+       "ext": ".jpg",
+       "mime": "image/jpeg",
+       "size": 91.98,
+       "url": "/uploads/Picture_1_10749c78f5.jpg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-12-06T09:32:38.974Z",
+       "updatedAt": "2023-12-06T09:32:38.974Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 29,
+   "attributes": {
+    "title": "Fitur 2024",
+    "date": "Jan 24-28, 2024",
+    "location": "Madrid",
+    "description": "Pablo, Juan and Sam attended FITUR Madrid, one of the largest travel trade shows in Europe. \nThe trio engaged in productive discussions with prominent companies, building connections and partnerships that promise to reshape the landscape of the travel industry. The Chain4Travel team's visit to Fitur helped bridge the gap between modern technology and traditional travel practices on a global scale.",
+    "createdAt": "2024-02-05T16:48:15.422Z",
+    "updatedAt": "2024-02-07T13:53:27.514Z",
+    "publishedAt": "2024-02-07T13:53:27.510Z",
+    "link": "https://www.ifema.es/en/fitur",
+    "startdate": "2024-01-24",
+    "image": {
+     "data": {
+      "id": 888,
+      "attributes": {
+       "name": "fituer.jpg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 4000,
+       "height": 3000,
+       "hash": "fituer_8dbfb979b7",
+       "ext": ".jpg",
+       "mime": "image/jpeg",
+       "size": 789.23,
+       "url": "/uploads/fituer_8dbfb979b7.jpg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-02-07T13:53:22.001Z",
+       "updatedAt": "2024-02-07T13:53:22.001Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 30,
+   "attributes": {
+    "title": "Dev Weekend",
+    "date": "Jan 26-28, 2024",
+    "location": "Munich",
+    "description": "In cooperation with FTI GROUP, Verband Internet Reisevertrieb e.V. (VIR) and ISO-Gruppe, we organized a weekend hackathon in Munich that brought together 40 participants from 20 travel & tech companies.\nAll teams were introduced to the tech stacks of Camino Network and Polygon ID, who joined as technology partners. In just 2 days, each team presented compelling solutions to the judges.\n",
+    "createdAt": "2024-02-05T16:53:53.098Z",
+    "updatedAt": "2024-05-23T15:09:39.712Z",
+    "publishedAt": "2024-02-05T16:53:54.008Z",
+    "link": "https://v-i-r.de/2024/01/31/rueckblick-devweekend-muenchen/",
+    "startdate": "2024-01-26",
+    "image": {
+     "data": {
+      "id": 887,
+      "attributes": {
+       "name": "DevWeekend.low.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 900,
+       "height": 507,
+       "hash": "Dev_Weekend_low_74ed373694",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 185.88,
+       "url": "/uploads/Dev_Weekend_low_74ed373694.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-02-05T16:52:05.013Z",
+       "updatedAt": "2024-02-05T16:52:05.013Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 31,
+   "attributes": {
+    "title": "ITB 2024",
+    "date": "March 5-7, 2024",
+    "location": "Berlin",
+    "description": "We had exciting 3 days at ITB Berlin as we mark our second year as a traveltech startup. Our highlight: Presenting the powerful distribution tool Camino Messenger to the global travel industry.",
+    "createdAt": "2024-03-15T09:17:29.955Z",
+    "updatedAt": "2024-03-15T09:17:39.804Z",
+    "publishedAt": "2024-03-15T09:17:39.787Z",
+    "link": "https://youtu.be/EN0bdZDxxSw?si=ZS44aCPI7fG1Scen",
+    "startdate": "2024-03-05",
+    "image": {
+     "data": {
+      "id": 911,
+      "attributes": {
+       "name": "ITB-1.jpg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 1200,
+       "height": 798,
+       "hash": "ITB_1_b39611d5ea",
+       "ext": ".jpg",
+       "mime": "image/jpeg",
+       "size": 176.42,
+       "url": "/uploads/ITB_1_b39611d5ea.jpg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-03-15T09:14:27.077Z",
+       "updatedAt": "2024-03-15T09:14:27.077Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 32,
+   "attributes": {
+    "title": "Web in Travel",
+    "date": "May 3, 2024",
+    "location": "Dubai",
+    "description": "Our CTO Pablo attended the 2024 Web in Travel event in Dubai. He gave a keynote on the next steps in the evolution of the Camino Network, after having built the Camino blockchain and the Camino Messenger.",
+    "createdAt": "2024-05-23T15:27:00.509Z",
+    "updatedAt": "2024-05-23T15:27:01.323Z",
+    "publishedAt": "2024-05-23T15:27:01.317Z",
+    "link": "https://www.webintravel.com/",
+    "startdate": "2024-05-03",
+    "image": {
+     "data": {
+      "id": 960,
+      "attributes": {
+       "name": "IMG20240503085248.jpg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 4096,
+       "height": 3072,
+       "hash": "IMG_20240503085248_f5d4ac8219",
+       "ext": ".jpg",
+       "mime": "image/jpeg",
+       "size": 411.58,
+       "url": "/uploads/IMG_20240503085248_f5d4ac8219.jpg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-05-23T15:26:57.906Z",
+       "updatedAt": "2024-05-23T15:26:57.906Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 33,
+   "attributes": {
+    "title": "Arabian Travel Market",
+    "date": "May 6-9, 2024",
+    "location": "Dubai",
+    "description": "Over the last three decades, Arabian Travel Market has become a leading global event that enables the growth of the travel and tourism industry. Our CTO Pablo attended ATM24 to talk about the latest developments in the web3 travel ecosystem Camino Network. ",
+    "createdAt": "2024-05-24T09:24:49.600Z",
+    "updatedAt": "2024-05-24T09:26:57.599Z",
+    "publishedAt": "2024-05-24T09:26:57.595Z",
+    "link": "https://www.wtm.com/atm/en-gb.html",
+    "startdate": "2024-05-06",
+    "image": {
+     "data": {
+      "id": 961,
+      "attributes": {
+       "name": "IMG20240506180739.jpg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 4096,
+       "height": 3072,
+       "hash": "IMG_20240506180739_b43251eff6",
+       "ext": ".jpg",
+       "mime": "image/jpeg",
+       "size": 862.9,
+       "url": "/uploads/IMG_20240506180739_b43251eff6.jpg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-05-23T15:27:13.665Z",
+       "updatedAt": "2024-05-23T15:27:13.665Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 34,
+   "attributes": {
+    "title": "VIR Online Innovation Days",
+    "date": "June 18-19, 2024",
+    "location": "Berlin",
+    "description": "We attended the Online Innovation Days 2024 organized by VIR in Berlin. Our very own Vincent Usbeck moderated the blockchain panel with Andreas Wulfes from team neusta Unternehmensgruppe, Tom Dillon from A3M Global Monitoring GmbH, and Helge Moser from ISO-Gruppe, all representing validators of Camino Network.",
+    "createdAt": "2024-07-23T15:03:01.395Z",
+    "updatedAt": "2024-07-23T15:03:03.196Z",
+    "publishedAt": "2024-07-23T15:03:03.189Z",
+    "link": "https://v-i-r.de/events/vir-online-innovationstage/",
+    "startdate": "2024-06-18",
+    "image": {
+     "data": {
+      "id": 1007,
+      "attributes": {
+       "name": "IMG_2325.jpg",
+       "alternativeText": null,
+       "caption": null,
+       "width": 640,
+       "height": 480,
+       "hash": "IMG_2325_687c90d221",
+       "ext": ".jpg",
+       "mime": "image/jpeg",
+       "size": 68.46,
+       "url": "/uploads/IMG_2325_687c90d221.jpg",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-07-23T14:54:48.705Z",
+       "updatedAt": "2024-07-23T14:54:48.705Z"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "meta": {
+  "pagination": {
+   "page": 1,
+   "pageSize": 100,
+   "pageCount": 1,
+   "total": 34
+  },
+  "frozenFrom": "https://api.strapi.camino.network",
+  "frozenAt": "2026-10-17T11:31:56.385Z"
+ }
+}

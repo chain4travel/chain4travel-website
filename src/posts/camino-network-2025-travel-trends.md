@@ -207,6 +207,4 @@ Each of these innovations brings the 2025 travel trends closer to reality. More 
 
 If your company is interested in exploring this new digital ecosystem and new tools that make top travel trends tangible and scalable, here is what you can do:
 
-- [request a demo call](https://outlook.office365.com/book/CaminoNetworkDeepDive1hourSamAnke@chain4travel.com/) to learn more about Camino Messenger;
-- [apply for a grant](https://camino.network/grant-program/) to build web3 travel products;
-- [participate](https://decode.travel/) in Decode Travel hackathons.
+- [participate](/decode-travel/) in Decode Travel hackathons.

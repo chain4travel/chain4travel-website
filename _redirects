@@ -1,0 +1,18 @@
+# Archive: contact and newsletter pages were removed (no forms in the archive).
+# Cloudflare Pages syntax (also valid on Netlify): static paths, 301, no placeholders.
+# Pages already redirects /path to /path/ when /path/index.html exists, and
+# serves /404.html with status 404 for anything unmatched.
+/contact                /  301
+/contact/               /  301
+/contact-success        /  301
+/contact-success/       /  301
+/newsletter             /news/  301
+/newsletter/            /news/  301
+/newsletter-success     /news/  301
+/newsletter-success/    /news/  301
+
+# Decode Travel: old URL of the Crete 2025 page.
+# On Cloudflare Pages a redirect wins over the existing file
+# (decode-travel/greece2025/index.html stays as a meta-refresh fallback).
+/decode-travel/greece2025    /decode-travel/crete2025/  301
+/decode-travel/greece2025/   /decode-travel/crete2025/  301

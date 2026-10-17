@@ -122,7 +122,7 @@
     {
         "name": "Cena pro",
         "slug": "cenapro",
-        "url": "mailto:hello@cena.pro"
+        "url": null
     },
     {
         "name": "CFM_media GmbH",
@@ -232,7 +232,7 @@
     {
         "name": "Enwoke",
         "slug": "enwoke",
-        "url": "mailto:gerrit@enwoke.com"
+        "url": null
     },
     {
         "name": "Eurowings",
@@ -617,7 +617,7 @@
     {
         "name": "Triend",
         "slug": "triend",
-        "url": "https://triend.io/"
+        "url": null
     },
     {
         "name": "TUI",

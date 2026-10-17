@@ -1,0 +1,106 @@
+[
+  {
+    "id": "der-lufthansa-2023",
+    "title": "DER Touristik Online, Lufthansa Group & Chain4Travel hackathon: sustainable aviation on Camino Network",
+    "date": "September 11-14, 2023",
+    "location": "DER Touristik Online, Frankfurt",
+    "image": "/img/archive-events/der-lufthansa-hackathon-2023.jpg",
+    "text": [
+      "DER Touristik Online and Lufthansa Group joined forces with Chain4Travel to organize the very first web3 & travel hackathon, hosted by DER Touristik Online in Frankfurt. Teams of DER Touristik Online developers with no prior web3 experience competed to build a tokenization platform for the consumption of Sustainable Aviation Fuel (SAF) on Camino Network and, with tech support from BytePitch, presented working prototypes on the Camino Columbus testnet in less than four days.",
+      "The winning team built a proof of concept for a loyalty program and a mechanism to track interactions and settlements between travelers, DER Touristik, Lufthansa Group and other partners with “Dertorium”, a green token meant to integrate with existing loyalty schemes."
+    ],
+    "jury": "Ingo Burmester (CEO, DER Touristik Central Europe), Jan Lieske (Director Leisure Sales Germany, Lufthansa Group), Ralf Usbeck (CEO, Chain4Travel)",
+    "quotes": [
+      {
+        "text": "At Chain4Travel, we loved the approach as it zeroes on what makes a use case compelling on blockchain, and on Camino Network especially.",
+        "by": "Ralf Usbeck, CEO of Chain4Travel"
+      }
+    ],
+    "links": [],
+    "gallery": {
+      "credit": "Photos: Chain4Travel",
+      "images": [
+        {
+          "src": "/img/archive-events/der-lufthansa-2023-opening.jpg",
+          "alt": "Hackathon opening session"
+        },
+        {
+          "src": "/img/archive-events/der-lufthansa-2023-atrium.jpg",
+          "alt": "DER Touristik atrium"
+        },
+        {
+          "src": "/img/archive-events/der-lufthansa-2023-room.jpg",
+          "alt": "Hackathon room"
+        },
+        {
+          "src": "/img/archive-events/der-lufthansa-2023-whiteboard.jpg",
+          "alt": "Whiteboard: SAF and DERCOIN, We love blockchain"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fti-devweekend-2024",
+    "title": "DevWeekend: TravelTech Hackathon in Munich",
+    "date": "January 26-28, 2024",
+    "location": "FTI Group headquarters, Munich",
+    "image": "/img/archive-events/fti-devweekend-2024.jpg",
+    "imageCredit": "Photo: VIR",
+    "text": [
+      "Chain4Travel, ISO-Gruppe, FTI Group and the Verband Internet Reisevertrieb (VIR) brought almost 40 people from more than 20 companies of the European travel technology industry to the FTI headquarters in Munich. Under the motto “Learn, Build, Deploy, Repeat”, mixed teams of developers and business managers built blockchain applications for tourism: digital customer IDs, bookable products on the blockchain, sustainability gamification, ancillary services and bonus systems."
+    ],
+    "winners": [
+      "1st place: Team Invia",
+      "2nd place: Team Private Voyager Pass",
+      "3rd place: Team Elysian Star"
+    ],
+    "jury": "Silvia Aran (Technical Sales Director, PolygonID), Pablo Castillo (CTO, Chain4Travel), Johannes Reichel (Managing Director, ISO), Michael Buller (Vorstand, VIR), Lars Ziegler (Deputy CIO, FTI)",
+    "quotes": [
+      {
+        "text": "An diesem Wochenende ist mehr Innovation in der Traveltech-Branche entstanden als über die vergangenen Jahre hinweg.",
+        "by": "Michael Buller, VIR-Vorstand"
+      },
+      {
+        "text": "Camino Network hat erneut ihr beeindruckendes Innovationspotenzial für die Branche unter Beweis gestellt.",
+        "by": "Pablo Castillo, CTO von Chain4Travel"
+      },
+      {
+        "text": "Als zukunftsorientiertes Unternehmen und als Gastgeber sowie Mitinitiator der Veranstaltung können wir mit den Ergebnissen mehr als zufrieden sein.",
+        "by": "Karl Markgraf, CEO der FTI GROUP"
+      },
+      {
+        "text": "Beim DevWeekend in München entfaltete die deutsche TravelTech-Branche ein beeindruckendes Innovationspotenzial.",
+        "by": "Sebastian Beck, International Sales Manager der ISO-Gruppe"
+      }
+    ],
+    "links": []
+  },
+  {
+    "id": "lufthansa-systems-swiss-2025",
+    "title": "Web3 Hackathon by Lufthansa Systems and SWISS with the Camino Network Foundation",
+    "date": "March 24-27, 2025",
+    "location": "Frankfurt",
+    "image": "/img/archive-events/lufthansa-systems-swiss-hackathon-2025.jpg",
+    "text": [
+      "Teams from 13 travel and tech companies integrated Lufthansa Group flight content through Camino Network in 48 hours, building blockchain and AI solutions for new payment methods, CO₂ offsetting, access to emerging sales markets and group travel."
+    ],
+    "winners": [
+      "Winner: Unimoni Travel",
+      "Also selected by the jury: SWISS and Digital Hangar, Hotelplan",
+      "“Winner of the Hearts”: Carbify"
+    ],
+    "jury": "Ana Jaime Agramon (Head of Digital Products & IT Portfolio, SWISS), Ignatz Hannak (Head of Digital Ecosystem Steering & Innovation, Lufthansa Airlines), Jochen Göttelmann (VP IT Lufthansa Airlines and Operations IT Lufthansa Group), Sebastian Riedle (CPO and Managing Director Product, Digital Hangar), Tim Fischbach (Head of Touristic Sales Home Markets, Lufthansa Airlines)",
+    "quotes": [
+      {
+        "text": "The hackathon clearly showed how connections that used to take months can now be established within days.",
+        "by": "Pablo Castillo, CEO of Chain4Travel"
+      }
+    ],
+    "links": [
+      {
+        "label": "Event video",
+        "url": "https://www.youtube.com/watch?v=n3D9-WJcgis"
+      }
+    ]
+  }
+]

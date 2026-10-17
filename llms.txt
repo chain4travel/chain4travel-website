@@ -1,0 +1,137 @@
+# Chain4Travel
+
+> Chain4Travel AG (Zug, Switzerland) was the travel-tech company that initiated Camino Network, the blockchain built for the travel industry, and built Camino Messenger, a B2B transactional distribution layer for travel. This site is an archive of the Chain4Travel website.
+
+Chain4Travel was founded in 2021 by Ralf Usbeck, Thomas Stirnimann and Pablo Castillo, travel-tech founders and executives. It initiated Camino and built its features and infrastructure, without owning the network. Its work had three strands: educating the travel industry about web3, building use cases and solutions with travel companies, and consulting. It also ran the Travel Un'chained conference (2022–2025) and the Decode Travel hackathon series (2024–2025). Everything below is taken from the archived pages. A longer version with more detail is at [llms-full.txt](https://chain4travel.com/llms-full.txt).
+
+## What happened in 2026
+
+In February 2026, Travel Token Marketplace GmbH (TTM, Hamburg) acquired Chain4Travel's assets, including its technology and Camino Messenger. Chain4Travel AG wound down its operations in spring 2026. Camino Messenger continues to be developed as Travel Token Messenger.
+
+Chain4Travel published Camino Messenger under the Camino Messenger License, for use within the Camino ecosystem. It has since been released under LGPLv3 and is no longer tied to a single blockchain.
+
+A note from Chain4Travel: between 2021 and 2025 Chain4Travel built Camino together with travel companies, validators, developers and more than 200 supporters, and brought them together at four Travel Un'chained conferences and the Decode Travel hackathons. This site stays online as a record of what Chain4Travel built.
+
+## Camino Messenger
+
+Camino Messenger connects travel suppliers and distributors so they can search, book and pay through one connection ("Connect Once, Book Everywhere"). Hotels, airlines, car rentals and other suppliers map their systems once and reach every distributor on the network.
+
+- [Camino Messenger](https://camino.network/messenger/): product page
+- [Travel Token Messenger](https://travel-token.net/en/products/travel-token-messenger): continued development at TTM
+- [Original source code](https://github.com/chain4travel): Chain4Travel repositories on GitHub
+- [Current source code](https://github.com/TravelTokenMarketplace): TTM repositories on GitHub
+- [Documentation](https://docs.camino.network/camino-messenger): technical documentation of Camino Messenger
+
+## History
+
+- [About](https://chain4travel.com/about/): the company, the Camino vision and the milestones below
+- Q4 2021: Chain4Travel AG founded in Zug; team formation and start of development.
+- Q2 2022: seed investment of CHF 4.3M closed.
+- Q3 2022: private pre-sale of the Camino token (CAM) closed with CHF 4.6M from more than 300 entities. In September 2022 the first Travel Un'chained took place in Palma de Mallorca.
+- Q1 2023: the cybersecurity firm Hexens was engaged to audit the Camino source code before the network went live.
+- Q2 2023: soft launch of the Camino Network mainnet in several stages; the first dApps were deployed.
+- Q3 2023: the Camino Network Foundation was set up to lead the further development of the network; Thomas Stirnimann became President of its Council. In September, DER Touristik Online, Lufthansa Group and Chain4Travel held the first web3 and travel hackathon.
+- Q3 2024: Camino Messenger, with standardized message types across all travel verticals. It had been presented at Travel Un'chained 2023 and ITB Berlin 2024. In August 2024 Ralf Usbeck stepped back from day-to-day operations to chair the board, and Pablo Castillo led the company as CEO and CTO.
+- Late 2024 to early 2025: FinMont announced a payments partnership with Lufthansa Group and Camino Network (November 2024); Monerium and Camino announced the integration of Monerium's EURe, an on-chain euro, into Camino Network (December 2024); CAM was listed on the Gate and MEXC exchanges (January 2025).
+
+## Camino Network
+
+- [Camino Network](https://camino.network/): a Layer 1 blockchain for the global travel industry, based on Avalanche technology, with low and predictable transaction costs and support for common development tools
+- [Camino 101](https://chain4travel.com/camino-101-what-you-should-know-about-camino-network/): plain-language guide to the network, its terms and its first projects
+- Consortium model: every validator is a travel-related company that passes KYC/KYB checks and bonds 100,000 CAM; consensus is Proof-of-Stake and Authority (PoSA); travel companies govern the network with equal voting power.
+- Components described on the site: the CAM utility token, self-custodial and multisignature wallets, KYC/KYB verification and the application suite that Chain4Travel provided for the mainnet, smart contracts and dApps, the Columbus testnet, and Camino Messenger.
+- [Whitepaper](https://camino.network/static/docs/Camino_Network_Whitepaper.pdf): Camino Network whitepaper (PDF)
+
+## Use cases
+
+The site counted 200+ web3 use cases in travel, grouped by theme on the About page (trading, loyalty, token rewards, identity, payment and settlement, token-gated access, tracking, sustainability, API substitution, room type mapping) and by vertical:
+
+- [Use cases overview](https://chain4travel.com/usecases/): all travel verticals
+- [Hospitality](https://chain4travel.com/usecase-hospitality/): hotels and gastronomy; direct sales, tradable rates, transferable bookings, loyalty, guest wallets
+- [Transportation](https://chain4travel.com/usecase-transportation/): airlines, rail, airports, rental companies, cruise and mobility; secure data exchange, identity verification, fraud reduction
+- [Travel agencies](https://chain4travel.com/usecase-travelagencies/): up-to-date content, loyal customers, new revenue from travel expertise
+- [Tour operators](https://chain4travel.com/usecase-touroperators/): distribution, personalization and loyalty
+- [GDS](https://chain4travel.com/usecase-gds/): GDS and consolidators; automated partner collaboration, payment and settlement, new distribution models
+- [Metasearch](https://chain4travel.com/usecase-metasearch/): metasearch and travel media in web3
+- [Payment services](https://chain4travel.com/usecase-payment-services/): peer-to-peer payments and instant settlement for B2B and B2C
+- [Information & marketing services](https://chain4travel.com/usecase-information-and-marketing/): destinations, DMOs and travel insurance; a single source of truth for real-time information
+
+## People
+
+- [Team](https://chain4travel.com/team/): team and advisors as listed on the site
+- Founders: Ralf Usbeck (Chairman of the Board; founder of TravelTainment and Peakwork), Thomas Stirnimann, Pablo Castillo (CEO and CTO; previously CIO of Hotelplan Group).
+- Team: Anke Hsu (Chief Growth Officer), Vincent Usbeck (COO), Alexander Koch (VP Technology), Michele Ruberl (VP Product), Helena Vossen (VP Marketing), Sam Jaarsma (VP Standards), Ekrem Seren (Documentation Lead), Cristina Pardo Requena (Legal Corporate Affairs), Juan B Sanchez (Community Manager), Illa Eggers (PR Manager).
+- Advisors: Andrew Owen-Jones, Annet Steenbergen, Beat Blaser, Benjamin Usinger, Christian Schuhegger, Christian Trumm, Dirk Gemke, Glenn Morgan, Jan Stenger, Markus Pfau, Martin Kloeckner, Ulrich Sieber.
+
+## Travel Un'chained
+
+Chain4Travel's yearly conference for travel decision-makers, web3 builders and investors.
+
+- [Events](https://chain4travel.com/events/): all editions, hackathons and conference appearances
+- [Travel Un'chained 2022](https://chain4travel.com/unchained2022/): Palma de Mallorca, September 2022; first edition, 24 hours in three locations around Palma; 230 participants, 150 companies, 30 countries
+- [Travel Un'chained 2023](https://chain4travel.com/unchained2023/): Palma de Mallorca, October 10-11, 2023; second edition, where Chain4Travel presented Camino Messenger
+- [Travel Un'chained 2024](https://chain4travel.com/unchained2024/): Palma de Mallorca, September 30 - October 2, 2024; third edition with a one-day conference, including Lufthansa Group's proof of concept for flight content distribution via blockchain
+- [Travel Un'chained 2025](https://chain4travel.com/unchained2025/): Knossos Royal, Crete, September 29 - October 1, 2025; fourth edition, on stablecoins, loyalty, sustainability and AI with Camino Network
+- [Photo gallery](https://chain4travel.com/unchained-gallery/): photos from the Travel Un'chained venues around Palma
+
+## Hackathons
+
+- [DER Touristik Online, Lufthansa Group & Chain4Travel](https://chain4travel.com/events/): Frankfurt, September 11-14, 2023; first web3 and travel hackathon; tokenization of Sustainable Aviation Fuel on the Camino Columbus testnet; winner "Dertorium", a green loyalty token
+- [DevWeekend Munich](https://chain4travel.com/events/): FTI Group headquarters, January 26-28, 2024, with ISO-Gruppe, FTI Group and VIR; almost 40 people from more than 20 companies; winners Team Invia, Private Voyager Pass, Elysian Star
+- [Lufthansa Systems and SWISS hackathon](https://chain4travel.com/events/): Frankfurt, March 24-27, 2025, with the Camino Network Foundation; teams from 13 companies integrated Lufthansa Group flight content through Camino Network in 48 hours; winner Unimoni Travel
+
+## Decode Travel
+
+Decode Travel was Chain4Travel's open-source hackathon series for travel tech (2024–2025), formerly at decode.travel and now archived on this site. Developers, travel companies and web3 experts built working prototypes on Camino Network and Camino Messenger against challenges set by travel companies. Four editions in four host countries brought together 130+ participants in 24 teams.
+
+- [Decode Travel](https://chain4travel.com/decode-travel/): archive home with all editions
+- [Berlin 2024](https://chain4travel.com/decode-travel/berlin2024/): w3.hub Berlin, April 23-26, 2024; 50+ experts from 10+ countries, 8 teams, 4 challenges from Alpitour World Group (crypto payments for local guides), Polygon ID (self-sovereign identity), Universal Mallorca Travel (marine restoration) and HolidayCheck (proof-of-stay reviews), plus a Camino Messenger bonus challenge from the Camino Network Foundation; winners CEEBF, 0xDone, Has Left the Building, Leaving Early and Byte Me Blockheads
+- [Antalya 2024](https://chain4travel.com/decode-travel/antalya2024/): Antalya, November 13-15, 2024, hosted by SAN TSG & Paximum; 30+ specialists from 6 countries, 7 teams; challenges on micropayments, personalization, Messenger, partner networking and a dream trip campaign; with SunExpress, A3M, Technoly/Petour (AERTiCKET Group), Juice, TripX and TraSo; winner My Friend (TripX Travel), 10,000 CAM, for AI dynamic packaging through Camino Messenger
+- [Crete 2025](https://chain4travel.com/decode-travel/crete2025/): Heraklion, May 6-9, 2025, with Avra Tours and Cyberlogic; 25+ builders, 3 teams, 3 working prototypes in two days; challenges on micropayments, Camino Messenger and airline refunds; Hermes won Innovation & Blockchain and Market Viability, BlockBuster won Technical Excellence
+- [Barcelona 2025](https://chain4travel.com/decode-travel/barcelona2025/): Team Labs BCN, November 26-28, 2025, with Hospitalidad Emprendedora, Tech Tourism Cluster and ACCIÓ; 25 developers and experts, 48 hours; challenges from Vueling and Clorian Ticketing plus open challenges; 1st place Cabin Crew Prepare for Landing (turnaround checklist on blockchain), "Heart" award to VAN by Neobookings (AI agents booking through Camino Messenger)
+- [Decode Travel on GitHub](https://github.com/DecodeTravel): code repositories of the teams and resource hubs
+
+## Supporters and partners
+
+- [Supporters](https://chain4travel.com/supporter/): 200+ supporters, among them airlines (Eurowings, Hahn Air Lines, Lufthansa Group), tour operators and travel groups (TUI Group, DER Touristik, Alpitour, Hotelplan), hotels, travel technology providers (Peakwork, HolidayCheck, GIATA), Fraport, industry associations (Deutscher Reiseverband, Verband Internet Reisevertrieb, ASTM) and web3 security and payment companies (Hexens, Fireblocks, Dfns, Monerium, FinMont)
+- [Testimonials](https://chain4travel.com/testimonials/): statements from travel executives, among them the CEOs of TUI Group, Eurowings and A3M Global Monitoring
+- Chain4Travel was a member of Aptitude, as shown on the home and team pages.
+
+## Blog
+
+- [All blog posts](https://chain4travel.com/blog/): 20 articles, November 2022 to July 2025
+- [The Emergence of Web 3.0 in Travel](https://chain4travel.com/the-emergence-of-web-3-in-travel-what-it-means-for-the-industry/): Vincent Usbeck, November 2022
+- [Decentralization in Travel](https://chain4travel.com/decentralization-in-travel-back-to-the-basics/): Helena Vossen, December 2022
+- [A Layer 1 blockchain for the travel industry - Why (not)?](https://chain4travel.com/a-layer-1-blockchain-for-the-travel-industry-why-not/): Anke Hsu, February 2023
+- [The Advantages of Crypto Wallets for the Travel Industry](https://chain4travel.com/safe-secure-and-seamless-the-advantages-of-crypto-wallets-for-the-travel-industry/): Tabea Arnold, April 2023
+- [NFTs aren't just digital monkeys](https://chain4travel.com/nfts-arent-just-digital-monkeys-heres-what-they-can-do-for-travel/): Daniel Poerschke, May 2023
+- [Smart contracts: The key to trust and efficiency in travel](https://chain4travel.com/smart-contracts-the-key-to-trust-and-efficiency-in-travel/): Cristina Pardo Requena, October 2023
+- [Camino 101](https://chain4travel.com/camino-101-what-you-should-know-about-camino-network/): Pablo Castillo, January 2024
+- [Camino Messenger: when less is more](https://chain4travel.com/camino-messenger-when-less-is-more/): Vladimir Novikov, March 2024; wallet-to-wallet messages between providers and distributors
+- [EU Digital Wallets are coming](https://chain4travel.com/eu-digital-wallets-are-coming-and-they-will-change-the-travel-game/): Anke Hsu, June 2024; eIDAS 2.0 and the EUDI Wallet in travel
+- [Camino Network and 2025's biggest travel trends](https://chain4travel.com/camino-network-2025-travel-trends/): Vladimir Novikov, January 2025
+- [Camino Messenger: transforming travel queries into revenue streams](https://chain4travel.com/camino-messenger-transforming-travel-queries-into-revenue-streams/): Vladimir Novikov, March 2025; look-to-book ratios, message fees and booking tokens
+- [Five reasons why travel needs its fintech solution](https://chain4travel.com/five-reasons-why-travel-needs-its-fintech-solution/): Vladimir Novikov, April 2025
+- [What Makes Camino Messenger AI-Ready by Design?](https://chain4travel.com/what-makes-camino-messenger-ai-ready-by-design/): July 2025
+- [Why Camino Messenger is the Infrastructure AI Agents Have Been Waiting For](https://chain4travel.com/why-camino-messenger-is-the-infrastructure-ai-agents-have-been-waiting-for/): July 2025
+
+## Press
+
+- [News](https://chain4travel.com/news/): 50 press entries from 2022 to 2026, including the February 2026 announcement
+- [Chain4Travel, founded by three travel veterans raises SFR 4.3M](https://www.webintravel.com/chain4travel-founded-by-three-veterans-raises-sfr4-3m-to-build-blockchain-platform/): Web in Travel, May 2022
+- [Camino Network, The Web3 Travel Ecosystem Blockchain, Launches Its Mainnet](https://decrypt.co/138870/camino-network-the-web3-travel-ecosystem-blockchain-launches-its-mainnet): Decrypt, May 2023
+- [Introducing the Camino Network Foundation](https://www.traveldailynews.com/technology/introducing-the-camino-network-foundation-revolutionizing-the-travel-industry-with-blockchain-innovation/): Travel Daily News, July 2023
+- DER Touristik Online, Lufthansa Group & Chain4Travel power sustainable aviation on Camino Network: Cointelegraph, September 2023 (no longer online)
+- [Travel Un'chained 2023: Chain4Travel presents Camino Messenger](https://www.travolution.com/news/in-depth/conferences-and-events/travel-unchained-2023-chain4travel-presents-camino-messenger/): Travolution, October 2023
+- [Innovationen beim "Decode Travel"-Hackathon](https://www.fvw.de/touristik/technologie/camino-blockchain-innovationen-beim-decode-travel-hackathon-242766): fvw, May 2024
+- [Chain4Travel Shakes Up Its Leadership Team With New CEO](https://www.travolution.com/news/people/chain4travel-shakes-up-its-leadership-team-with-new-ceo/): Travolution, August 2024
+- [Lufthansa Group partners with FinMont for payments on Chain4Travel's Camino Network](https://www.travolution.com/news/travel-sectors/air/lufthansa-group-partners-with-finmont-for-payments-on-chain4travels-camino-network/): Travolution, November 2024
+- [Monerium und Camino wollen Sepa-Zahlungen revolutionieren](https://www.reisevor9.de/marketing-digitales/monerium-und-camino-wollen-sepa-zahlungen-revolutionieren): Reisevor9, December 2024
+- [Camino Network's CAM Token lists on two major crypto exchanges](https://www.travolution.com/news/technology/camino-networks-cam-token-lists-on-two-major-crypto-exchanges/): Travolution, January 2025
+
+## Optional
+
+- [Home](https://chain4travel.com/): what Chain4Travel built
+- [Branding](https://chain4travel.com/branding/): logo kit and brand guidelines
+- [Imprint](https://chain4travel.com/imprint/): Chain4Travel AG, Dammstrasse 16, 6300 Zug, Switzerland
+- [llms-full.txt](https://chain4travel.com/llms-full.txt): extended version of this file

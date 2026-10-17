@@ -1,3 +1,10 @@
+<div class="bg-gray-900 border-b border-white/15 text-gray-200 text-sm" role="note" aria-label="Archive notice">
+    <div class="px-4 py-2.5 text-center leading-snug">
+        <strong class="font-semibold text-primary">Archive</strong>
+        <span aria-hidden="true"> · </span>
+        Chain4Travel AG wound down its operations in spring 2026.
+    </div>
+</div>
 <header class="bg-gray-900 border-b border-gray-800 text-white z-50 sticky top-0">    
     <div class="max-w-screen-xl px-8 mx-auto p-4 flex flex-wrap items-center justify-between">
         <a href="/" class="flex font-medium items-center text-gray-900 transition-all hover:brightness-125">
@@ -28,18 +35,17 @@
                 </div>
 
                 <nav class="flex flex-col w-full mt-4">
-                    <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/about' in page.url }}" href="/about">About</a>
-                    <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/team' in page.url }}" href="/team">Team</a>
-                    <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/supporter' in page.url }}" href="/supporter">Supporter</a>
-                    <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/blog' in page.url }}" href="/blog">Blog</a>
-                    <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/news' in page.url }}" href="/news">News</a>
-                    <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 mb-4 {{ 'text-primary font-bold' if '/events' in page.url }}" href="/events">Events</a>
+                    <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/about' in page.url }}" href="/about/">About</a>
+                    <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/team' in page.url }}" href="/team/">Team</a>
+                    <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/supporter' in page.url }}" href="/supporter/">Supporter</a>
+                    <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/blog' in page.url }}" href="/blog/">Blog</a>
+                    <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 border-b border-gray-700 {{ 'text-primary font-bold' if '/news' in page.url }}" href="/news/">News</a>
+                    <a @click="menuOpen = !menuOpen" class="py-3 px-2 hover:bg-gray-800 mb-4 {{ 'text-primary font-bold' if '/events' in page.url }}" href="/events/">Events</a>
                     <div class="flex gap-2">
                         <a @click="menuOpen = !menuOpen" class="w-full btn-white-outline flex items-center" aria-label="Chain4Travel Linkedin" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/company/chain4travel/">
                             <svg class="w-6 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 11v5m8 0v-3c0-.67-.4-2-2-2s-2 1.33-2 2m0 3v-3m0 0v-2M8 8h.01M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2Z"/></svg>
                             Linkedin
                         </a>
-                        <a @click="menuOpen = !menuOpen" class="w-full btn-white" href="/contact">Contact us</a>
                     </div>
                 </nav>
             </div>
@@ -47,19 +53,18 @@
         </div>
 
         <nav class="absolute left-1/2 -translate-x-1/2 hidden lg:flex flex-wrap items-center justify-center text-gray-200">
-            <a class="p-2 hover:underline tracking-tight {{ 'text-primary font-bold' if '/about' in page.url }}" href="/about">About</a>
-            <a class="p-2 hover:underline tracking-tight {{ 'text-primary font-bold' if '/team' in page.url }}" href="/team">Team</a>
-            <a class="p-2 hover:underline tracking-tight {{ 'text-primary font-bold' if '/supporter' in page.url }}" href="/supporter">Supporter</a>
-            <a class="p-2 hover:underline tracking-tight {{ 'text-primary font-bold' if '/blog' in page.url }}" href="/blog">Blog</a>
-            <a class="p-2 hover:underline tracking-tight {{ 'text-primary font-bold' if '/news' in page.url }}" href="/news">News</a>
-            <a class="p-2 hover:underline tracking-tight {{ 'text-primary font-bold' if '/events' in page.url }}" href="/events">Events</a>
+            <a class="p-2 hover:underline tracking-tight {{ 'text-primary font-bold' if '/about' in page.url }}" href="/about/">About</a>
+            <a class="p-2 hover:underline tracking-tight {{ 'text-primary font-bold' if '/team' in page.url }}" href="/team/">Team</a>
+            <a class="p-2 hover:underline tracking-tight {{ 'text-primary font-bold' if '/supporter' in page.url }}" href="/supporter/">Supporter</a>
+            <a class="p-2 hover:underline tracking-tight {{ 'text-primary font-bold' if '/blog' in page.url }}" href="/blog/">Blog</a>
+            <a class="p-2 hover:underline tracking-tight {{ 'text-primary font-bold' if '/news' in page.url }}" href="/news/">News</a>
+            <a class="p-2 hover:underline tracking-tight {{ 'text-primary font-bold' if '/events' in page.url }}" href="/events/">Events</a>
         </nav>
 
         <nav class="hidden lg:flex flex-wrap items-center text-base justify-center">
             <a class="btn-white-ghost ml-2" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/company/chain4travel/" style="padding-left: .5rem;padding-right: .5rem;">
                 <svg class="w-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 11v5m8 0v-3c0-.67-.4-2-2-2s-2 1.33-2 2m0 3v-3m0 0v-2M8 8h.01M5 21h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2Z"/></svg>
             </a>
-            <a class="btn-white ml-2" href="/contact">Contact us</a>
         </nav>
     </div>
 </header>

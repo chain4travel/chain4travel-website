@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve & npx tailwindcss -i styles/tailwind.css -c styles/tailwind.config.js -o _site/style.css --watch",
-    "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production npx tailwindcss -i styles/tailwind.css -c styles/tailwind.config.js -o _site/style.css --minify"
+    "build": "ELEVENTY_PRODUCTION=true eleventy && NODE_ENV=production npx tailwindcss -i styles/tailwind.css -c styles/tailwind.config.js -o _site/style.css --minify",
+    "build:offline": "NODE_OPTIONS='--require ./scripts/no-network.cjs' npm run build",
+    "build:archive": "bash scripts/build-archive.sh"
   },
   "repository": {
     "type": "git",
@@ -25,8 +27,6 @@
     "tailwindcss": "^3.3.1"
   },
   "dependencies": {
-    "@11ty/eleventy-cache-assets": "^2.3.0",
-    "axios": "^1.7.2",
     "luxon": "^3.4.4"
   }
 }

@@ -1,0 +1,422 @@
+{
+ "data": [
+  {
+   "id": 1,
+   "attributes": {
+    "name": "Helena Vossen",
+    "position": "VP Marketing",
+    "linkedInLink": "https://www.linkedin.com/in/helena-vossen-6b2343131/",
+    "bio": "Helena is a marketing professional who discovered her passion for blockchain while writing her thesis on its potential in the travel industry in 2018. She gained experience leading cross-media campaigns at the German National Tourist Office in London. Since joining Chain4Travel 2 years ago, Helena uses her skills to build an engaged community in the growing web3 travel network of Camino.",
+    "createdAt": "2023-04-05T13:05:59.420Z",
+    "updatedAt": "2024-09-17T10:27:26.755Z",
+    "publishedAt": "2023-04-05T13:06:00.084Z",
+    "Rank": 7,
+    "image": {
+     "data": {
+      "id": 134,
+      "attributes": {
+       "name": "helenavossen.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "helenavossen_db581135b7",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 38.29,
+       "url": "/uploads/helenavossen_db581135b7.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:05:54.421Z",
+       "updatedAt": "2023-04-05T13:05:54.421Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 5,
+   "attributes": {
+    "name": "Sam Jaarsma",
+    "position": "VP Standards",
+    "linkedInLink": "https://www.linkedin.com/in/samjaarsma/",
+    "bio": "Before moving to Mallorca in 2001, Sam was active in programming, testing, and IT project management in the finance sector in Holland. He started his journey in tourism with the accommodation integration of easyJet for Hotelbeds. From 2007 at MTS Globe, he was responsible for the development of provider and distribution integrations. At Chain4Travel, Sam’s focus is the implementation of open-source data standards for an easy transition to web3 for the travel industry.",
+    "createdAt": "2023-04-05T13:09:43.551Z",
+    "updatedAt": "2023-09-06T13:45:41.453Z",
+    "publishedAt": "2023-04-05T13:09:44.164Z",
+    "Rank": 7,
+    "image": {
+     "data": {
+      "id": 138,
+      "attributes": {
+       "name": "samjaarsma.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 600,
+       "height": 600,
+       "hash": "samjaarsma_e7dd27337b",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 119.11,
+       "url": "/uploads/samjaarsma_e7dd27337b.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:09:38.942Z",
+       "updatedAt": "2023-04-05T13:09:38.942Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 6,
+   "attributes": {
+    "name": "Illa Eggers",
+    "position": "PR Manager",
+    "linkedInLink": "https://www.linkedin.com/in/illa-eggers/",
+    "bio": "Illa Eggers is our contact for global public relations. With more than 20 years of experience in the travel industry and especially in travel technology, since the year 2000 she has been the communication specialist behind all major external communication of TravelTainment and Peakwork. Next to PR Illa knows all the marketing related challenges of a travel tech company - from corporate communication via social media, on- and offline channels to developing customer relations and event communication.",
+    "createdAt": "2023-04-05T13:10:23.632Z",
+    "updatedAt": "2023-09-06T13:47:30.774Z",
+    "publishedAt": "2023-04-05T13:10:24.824Z",
+    "Rank": 13,
+    "image": {
+     "data": {
+      "id": 139,
+      "attributes": {
+       "name": "illaeggers.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "illaeggers_95faafe563",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 23.57,
+       "url": "/uploads/illaeggers_95faafe563.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:10:18.316Z",
+       "updatedAt": "2023-04-05T13:10:18.316Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 7,
+   "attributes": {
+    "name": "Juan B Sanchez",
+    "position": "Community Manager",
+    "linkedInLink": "https://www.linkedin.com/in/juan-b-s%C3%A1nchez-8ab64744/",
+    "bio": "Juan B Sanchez has lived in Cordoba, Madrid, Rabat, Milan, Manchester, and Valencia coast. He started in 2002 in the travel business, becoming a sport & culture group travel specialist. So far, Juan has organized over 200 tours and events and founded his own company: Odisea Tours. Due to the covid pause, he had to reinvent himself and found on blockchain online communities an exciting opportunity to evolve professionally. He now mixes his two passions: blockchain & people, and helps the Chain4Travel team to develop and grow the Camino Network community.",
+    "createdAt": "2023-04-05T13:11:01.906Z",
+    "updatedAt": "2023-09-06T13:47:16.996Z",
+    "publishedAt": "2023-04-05T13:11:02.581Z",
+    "Rank": 12,
+    "image": {
+     "data": {
+      "id": 140,
+      "attributes": {
+       "name": "juanbsanchez.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "juanbsanchez_7b8e189146",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 34.12,
+       "url": "/uploads/juanbsanchez_7b8e189146.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:10:59.337Z",
+       "updatedAt": "2023-04-05T13:10:59.337Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 10,
+   "attributes": {
+    "name": "Ralf Usbeck",
+    "position": "Chairman of the Board of Directors",
+    "linkedInLink": "https://www.linkedin.com/in/ralf-usbeck-650646235/",
+    "bio": "Ralf Usbeck is the widely respected German entrepreneur, founder, and chief\nexecutive of Chain4Travel, his latest venture in shaping the global travel industry with innovative travel technology. As founder of Peakwork, TravelTainment (sold to Amadeus in 2006), Vtours, and Weekend.com, he has already successfully built and exited companies in a 3-digit million volume. In 2013, Ralf Usbeck received an international award as 'Serial Innovator of Travel Technology' at the World Travel Market in London. ",
+    "createdAt": "2023-04-05T13:13:54.748Z",
+    "updatedAt": "2024-07-31T14:30:49.816Z",
+    "publishedAt": "2023-04-05T13:13:55.658Z",
+    "Rank": 1,
+    "image": {
+     "data": {
+      "id": 143,
+      "attributes": {
+       "name": "ralfusbeck.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "ralfusbeck_c122f586ab",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 31.21,
+       "url": "/uploads/ralfusbeck_c122f586ab.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:13:48.548Z",
+       "updatedAt": "2023-04-05T13:13:48.548Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 12,
+   "attributes": {
+    "name": "Pablo Castillo",
+    "position": "CEO and CTO",
+    "linkedInLink": "https://www.linkedin.com/in/pablo-castillo-2942206/",
+    "bio": "Pablo Castillo, CIO and Executive Board member of Hotelplan Group from 2014 to 2021, has vast and proven experience delivering complex projects across all European markets with a strong business focus. \nHe started his career in tourism over 20 years ago, selling trips for Kuoni, and has held various positions within Tour Operating, Data & Content Management, eCommerce, and international Project & Innovation Program Management for various international travel companies. \nHe co-founded Chain4Travel in 2021, delivering the first layer 1 blockchain for the global travel industry, \"Camino,\" ready to take advantage of the next iteration of technology and the web3 age.",
+    "createdAt": "2023-04-05T13:15:42.445Z",
+    "updatedAt": "2024-07-31T14:31:08.430Z",
+    "publishedAt": "2023-04-05T13:15:43.634Z",
+    "Rank": 2,
+    "image": {
+     "data": {
+      "id": 145,
+      "attributes": {
+       "name": "pablocastillo.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "pablocastillo_bffc13fcce",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 32.58,
+       "url": "/uploads/pablocastillo_bffc13fcce.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:15:32.997Z",
+       "updatedAt": "2023-04-05T13:15:32.997Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 13,
+   "attributes": {
+    "name": "Anke Hsu",
+    "position": "Chief Growth Officer",
+    "linkedInLink": "https://www.linkedin.com/in/anke-hsu/",
+    "bio": "With more than 25 years of experience in the travel industry, Anke Hsu has worked in various leadership positions for the Lufthansa Group, flights.com, Sabre Corporation, FTI Group, and InteRES GmbH (a subsidiary of TUI). Her professional journey has taken her across the globe, with roles in Germany, France, Switzerland, the USA, and Brazil. She also worked as an external doctoral blockchain researcher at the University of Zurich, recognized globally as one of the leading institutions for blockchain research, underscoring the significance of Anke's contributions to the field.",
+    "createdAt": "2023-04-05T13:16:34.433Z",
+    "updatedAt": "2024-07-31T14:31:23.875Z",
+    "publishedAt": "2023-04-05T13:16:35.042Z",
+    "Rank": 3,
+    "image": {
+     "data": {
+      "id": 146,
+      "attributes": {
+       "name": "ankehsu.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "ankehsu_4b1bc87a89",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 38.62,
+       "url": "/uploads/ankehsu_4b1bc87a89.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:16:29.802Z",
+       "updatedAt": "2023-04-05T13:16:29.802Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 14,
+   "attributes": {
+    "name": "Alexander Koch",
+    "position": "VP Technology",
+    "linkedInLink": "https://www.linkedin.com/in/alexander-koch-tech-enthusiast/",
+    "bio": "Alexander Koch is a technology enthusiast and expert in high-performance computing. After studying and working at the Computing Center of RWTH Aachen University, he started his career in the travel industry in 2010 as a software engineer at Peakwork, where he was instrumental in driving player technology together with Markus Pfau. Striving to broaden and deepen his knowledge, Alex is a key driver for strategic projects, innovations and new technologies.",
+    "createdAt": "2023-04-05T13:17:12.037Z",
+    "updatedAt": "2023-09-06T13:45:08.737Z",
+    "publishedAt": "2023-04-05T13:17:12.679Z",
+    "Rank": 4,
+    "image": {
+     "data": {
+      "id": 147,
+      "attributes": {
+       "name": "alexanderkoch.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "alexanderkoch_b9f610324f",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 42.87,
+       "url": "/uploads/alexanderkoch_b9f610324f.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:17:08.972Z",
+       "updatedAt": "2023-04-05T13:17:08.972Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 16,
+   "attributes": {
+    "name": "Vincent Usbeck",
+    "position": "COO",
+    "linkedInLink": "https://www.linkedin.com/in/vincentusbeck",
+    "bio": "Vincent Usbeck is COO at Chain4Travel. During his studies with a focus on management, philosophy and economics, Vincent founded a start-up in the travel sector and was able to gather various expertise and establish relationships in the industry. After his studies, he worked in South America. He is passionate about making innovative technologies such as blockchain accessible to new markets, which determines his daily work at Chain4Travel.",
+    "createdAt": "2023-04-05T13:18:53.831Z",
+    "updatedAt": "2024-08-15T11:46:32.981Z",
+    "publishedAt": "2023-04-05T13:18:55.830Z",
+    "Rank": 5,
+    "image": {
+     "data": {
+      "id": 149,
+      "attributes": {
+       "name": "vincentusbeck.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 300,
+       "height": 300,
+       "hash": "vincentusbeck_435c0674f4",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 29.83,
+       "url": "/uploads/vincentusbeck_435c0674f4.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-04-05T13:18:45.810Z",
+       "updatedAt": "2023-04-05T13:18:45.810Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 19,
+   "attributes": {
+    "name": "Cristina Pardo Requena",
+    "position": "Legal Corporate Affairs",
+    "linkedInLink": "https://www.linkedin.com/in/cristina-pardo-requena-75005984/",
+    "bio": "Cristina is an international lawyer with more than 15 years of experience in corporate, M&A and restructuring transactions, national and international contract practice and general corporate and commercial law.\nShe has advised several technology companies on their structuring, fundraising, M&A transactions and regulatory issues.\nShe has also advised companies on the implementation of strategic contracts required for their digital asset activities.  \nCristina is a web3 and technology enthusiast, passionate about the vision of Chain4Travel and eager to use her vast professional experience to ensure that the project complies with all legal requirements.",
+    "createdAt": "2023-08-14T09:15:32.000Z",
+    "updatedAt": "2023-09-06T13:46:34.111Z",
+    "publishedAt": "2023-08-14T10:09:28.870Z",
+    "Rank": 10,
+    "image": {
+     "data": {
+      "id": 774,
+      "attributes": {
+       "name": "Photo C4T 1.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 128,
+       "height": 128,
+       "hash": "Photo_C4_T_1_0b6ed78d20",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 11.82,
+       "url": "/uploads/Photo_C4_T_1_0b6ed78d20.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-08-14T10:09:23.437Z",
+       "updatedAt": "2023-08-14T10:09:23.437Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 20,
+   "attributes": {
+    "name": "Ekrem Seren",
+    "position": "Documentation Lead",
+    "linkedInLink": "https://www.linkedin.com/in/ekremseren/",
+    "bio": "Ekrem Seren, Chief Architect at CompecTA for over a decade, is an expert in the field of high performance computing clusters and Linux systems. Having studied Naval Architecture at Istanbul Technical University, Ekrem used his technical skills to move into the High Performance Computing field. He has vast experience in building and maintaining robust computing clusters, setting new standards in the travel industry. His deep knowledge, strategic insights and commitment to innovation perfectly prepare him for his role as Docu Lead at Chain4Travel.",
+    "createdAt": "2023-08-14T10:10:53.003Z",
+    "updatedAt": "2023-09-07T09:56:09.810Z",
+    "publishedAt": "2023-09-04T17:58:30.328Z",
+    "Rank": 9,
+    "image": {
+     "data": {
+      "id": 782,
+      "attributes": {
+       "name": "ekrem 1.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 128,
+       "height": 128,
+       "hash": "ekrem_1_924e10cf57",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 12.54,
+       "url": "/uploads/ekrem_1_924e10cf57.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2023-09-04T17:58:22.725Z",
+       "updatedAt": "2023-09-04T17:58:22.725Z"
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": 22,
+   "attributes": {
+    "name": "Michele Ruberl",
+    "position": "VP Product",
+    "linkedInLink": "https://www.linkedin.com/in/mikrub/",
+    "bio": "Michele “Mik” Ruberl is a seasoned, business-minded technologist with over two decades of experience delivering software solutions across four continents. Since 2017, he has specialized in innovative technologies within the travel sector, holding leadership roles including CTO at Sandos Hotels & Resorts, Head of Architecture & Integration at Alpitour, and Director of Blockchain & Web3 Solutions at Peakwork.\nUnder his leadership, initiatives such as a decentralized travel loyalty federation and multiple blockchain-based innovations have been implemented to enhance the tourism ecosystem—including the world’s first hotel night auctioned as an NFT. Currently, as VP of Product at Chain4Travel, Mik works closely with partners to shape the features of the Camino Network and its integration with corporate systems, with a particular focus on digital payments and identity solutions.",
+    "createdAt": "2023-11-07T16:55:17.353Z",
+    "updatedAt": "2025-04-14T13:15:17.507Z",
+    "publishedAt": "2023-11-07T17:01:57.287Z",
+    "Rank": 6,
+    "image": {
+     "data": {
+      "id": 1078,
+      "attributes": {
+       "name": "mik-head.png",
+       "alternativeText": null,
+       "caption": null,
+       "width": 320,
+       "height": 320,
+       "hash": "mik_head_3a50575520",
+       "ext": ".png",
+       "mime": "image/png",
+       "size": 32.24,
+       "url": "/uploads/mik_head_3a50575520.png",
+       "previewUrl": null,
+       "provider": "local",
+       "createdAt": "2024-12-30T08:03:56.723Z",
+       "updatedAt": "2024-12-30T08:03:56.723Z"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "meta": {
+  "pagination": {
+   "page": 1,
+   "pageSize": 25,
+   "pageCount": 1,
+   "total": 12
+  },
+  "frozenFrom": "https://api.strapi.camino.network",
+  "frozenAt": "2026-10-17T11:31:56.385Z"
+ }
+}

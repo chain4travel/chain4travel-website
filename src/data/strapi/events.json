@@ -1,0 +1,13 @@
+{
+ "data": [],
+ "meta": {
+  "pagination": {
+   "page": 1,
+   "pageSize": 25,
+   "pageCount": 0,
+   "total": 0
+  },
+  "frozenFrom": "https://api.strapi.camino.network",
+  "frozenAt": "2026-10-17T11:31:56.385Z"
+ }
+}

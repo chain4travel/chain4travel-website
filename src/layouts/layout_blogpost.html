@@ -2,12 +2,12 @@
 <html lang="en" class="bg-gray-900">
 <head class="overflow-x-hidden">
 
+    <meta charset="UTF-8"/>
     <title>{{ title }} - Chain4Travel</title>
     <meta name="description" content="{{ description }}">
 
     <link rel="canonical" href="https://chain4travel.com{{page.url}}" />
 
-    <meta charset="UTF-8"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css?v={% version %}"/>
@@ -38,30 +38,40 @@
     <meta name="twitter:image" content="https://chain4travel.com/img/{{socialImage}}">
 
     {% if noindex %}<meta name="robots" content="noindex">{% endif %}
+    {% set pageUrl = "https://chain4travel.com" + page.url %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "@id": {{ (pageUrl + "#article") | dump | safe }},
+          "headline": {{ title | dump | safe }},{% if description %}
+          "description": {{ description | dump | safe }},{% endif %}{% if publishDate %}
+          "datePublished": {{ publishDate | isoDate | dump | safe }},{% endif %}{% if authorname %}
+          "author": { "@type": "Person", "name": {{ authorname | dump | safe }} },{% else %}
+          "author": { "@id": "https://chain4travel.com/#org" },{% endif %}{% if socialImage %}
+          "image": {{ ("https://chain4travel.com/img/" + socialImage) | dump | safe }},{% endif %}
+          "inLanguage": "en",
+          "mainEntityOfPage": {{ pageUrl | dump | safe }},
+          "isPartOf": { "@id": "https://chain4travel.com/#website" },
+          "publisher": { "@id": "https://chain4travel.com/#org" }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://chain4travel.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://chain4travel.com/blog/" },
+            { "@type": "ListItem", "position": 3, "name": {{ title | dump | safe }}, "item": {{ pageUrl | dump | safe }} }
+          ]
+        }
+      ]
+    }
+    </script>
     
 </head>
 <body class="text-gray-900 bg-white">
 
-    <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
-    <script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.1.0/cookie-consent.js" charset="UTF-8"></script>
-    <script type="text/javascript" charset="UTF-8">
-    document.addEventListener('DOMContentLoaded', function () {
-    cookieconsent.run({"notice_banner_type":"headline","consent_type":"express","palette":"dark","language":"en","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false});
-    });
-    </script>
-
-<!-- Google Analytics -->
-<script type="text/plain" data-cookie-consent="tracking" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=G-HCFQ9121EE"></script>
-    <script type="text/plain" data-cookie-consent="tracking" cookie-consent="tracking">
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-HCFQ9121EE');
-    </script>
-<!-- end of Google Analytics-->
-
-<noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
-<!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
 
     {% include "header.html" %}
 

@@ -1,0 +1,48 @@
+# Cloudflare Pages response headers (ignored by other hosts).
+# Static archive: no forms, no cookies, no third-party scripts.
+# The only third-party content is YouTube embeds from youtube-nocookie.com.
+# Alpine.js evaluates x-data expressions, hence 'unsafe-eval'; several pages
+# use inline scripts and style attributes, hence 'unsafe-inline'.
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; media-src 'self'; frame-src https://www.youtube-nocookie.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'self'; upgrade-insecure-requests
+
+# Plain text and XML in UTF-8 (llms files contain non-ASCII characters)
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+/llms-full.txt
+  Content-Type: text/plain; charset=utf-8
+/sitemap.xml
+  Content-Type: application/xml; charset=utf-8
+
+# Hashed build assets (Decode/Astro): safe to cache forever
+/decode-travel/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Unhashed static assets: one week. HTML keeps the Pages default (revalidate).
+/img/*
+  Cache-Control: public, max-age=604800
+/uploads/*
+  Cache-Control: public, max-age=604800
+/fonts/*
+  Cache-Control: public, max-age=604800
+/video/*
+  Cache-Control: public, max-age=604800
+/js/*
+  Cache-Control: public, max-age=604800
+/style.css
+  Cache-Control: public, max-age=604800
+/decode-travel/vendor/*
+  Cache-Control: public, max-age=604800
+
+# The *.pages.dev hostnames must not compete with chain4travel.com in search
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+https://:version.:project.pages.dev/*
+  X-Robots-Tag: noindex
