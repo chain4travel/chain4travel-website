@@ -207,4 +207,4 @@ Each of these innovations brings the 2025 travel trends closer to reality. More 
 
 If your company is interested in exploring this new digital ecosystem and new tools that make top travel trends tangible and scalable, here is what you can do:
 
-- [participate](/decode-travel/) in Decode Travel hackathons.
+- <a href="/decode-travel/" target="_blank" rel="noopener noreferrer">participate</a> in Decode Travel hackathons.
