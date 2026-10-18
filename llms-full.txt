@@ -52,7 +52,7 @@ The About page states that Chain4Travel initiated Camino in 2021 and built the f
 
 The home page gives these figures: 50+ advised web3 projects, 200+ web3 use cases in travel, 200+ supporters globally. Chain4Travel was a member of Aptitude, as shown on the home and team pages.
 
-Imprint: Chain4Travel AG, Dammstrasse 16, 6300 Zug, Switzerland; represented by Pablo Castillo; UID CHE-364.921.803.
+Imprint: Chain4Travel AG, Dammstrasse 16, 6300 Zug, Switzerland; UID CHE-364.921.803.
 
 ## Timeline
 
